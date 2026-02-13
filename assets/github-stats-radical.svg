@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Festo Wampamba's GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 3, Total Commits  : 1156, Total PRs: 16, Total Issues: 4, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 3, Total Commits  : 1185, Total PRs: 17, Total Issues: 7, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 197.82651112844906;
+        stroke-dashoffset: 195.26337520554534;
       }
     }
   
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >16</text>
+      >17</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -207,7 +207,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >4</text>
+      >7</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
