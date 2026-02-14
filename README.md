@@ -9,7 +9,7 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 
 <p align="left">
       <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ?sub_confirmation=1">
-          <img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://custom-icon-badges.demolab.com/youtube/channel/subscribers/UCSiPOa3Vowwi42t1BysexmQ?color=%23E05D44&label=SUBSCRIBE&logo=video&logoColor=white&style=for-          the-badge&labelColor=CE4630&cacheSeconds=3600"/></a> &nbsp;
+   <img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://custom-icon-badges.demolab.com/youtube/channel/subscribers/UCSiPOa3Vowwi42t1BysexmQ?color=%23E05D44&label=SUBSCRIBE&logo=video&logoColor=white&style=for-the-        badge&labelColor=CE4630&cacheSeconds=3600"/></a> &nbsp;
       <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ">
          <img alt="youtube views" title="YouTube views" src="https://custom-icon-badges.demolab.com/youtube/channel/views/UCSiPOa3Vowwi42t1BysexmQ?color=%23E1AD0E&logo=eye&logoColor=white&style=for-the-badge&labelColor=C79600"/></a> &nbsp;
       <a href="https://github.com/Festo-Wampamba?tab=followers">
