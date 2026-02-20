@@ -54,7 +54,7 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
         <img src="https://img.shields.io/badge/View_Repo-000000?style=for-the-badge&logo=github&logoColor=white" />
       </a>
       <br/>
-      <sub>Tags: Next.js, Postgres, AI</sub>
+      <sub>Next.js, Postgres, AI</sub>
     </td>
     <td align="center" width="50%">
       <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ">
@@ -70,7 +70,7 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
         <img src="https://img.shields.io/badge/Watch_Now-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
       </a>
       <br/>
-      <sub>Tags: Education, DevOps, Content</sub>
+      <sub>Education, DevOps, Content</sub>
     </td>
   </tr>
 </table>
