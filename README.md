@@ -119,7 +119,7 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 
 ---
 
-## 🧰 My Tool Boxes
+## 🧰 My Tool Box
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=nextjs,ts,react,tailwind,nodejs,postgres,docker,linux,nginx,git,github,azure,mysql,vscode,vercel&theme=dark" height="150" alt="My Tool Box" />
 </a>
