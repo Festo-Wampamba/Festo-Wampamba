@@ -47,7 +47,7 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
       </a>
       <br/>
       <h3>Kore Standard</h3>
-      <sub>The core infrastructure project building industry-standard software solutions for Uganda and beyond.</sub><br/>
+      <sub>Advanced AI Powered Agentic Job Matching System.</sub><br/>
       <br/>
       <a href="https://github.com/Festo-Wampamba/kore-standards">
         <img src="https://img.shields.io/badge/View_Repo-000000?style=for-the-badge&logo=github&logoColor=white" />
