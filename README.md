@@ -76,8 +76,6 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 
 ---
 
-#
-
 ### 📺 Featured YouTube Videos
 
 <!-- BEGIN YOUTUBE-CARDS -->
