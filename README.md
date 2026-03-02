@@ -76,7 +76,7 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 
 ---
 
-### 📺 Featured YouTube Videos
+### 📺 Featured YouTube Video
 
 <!-- BEGIN YOUTUBE-CARDS -->
 [![Introducing Enterprise IT Mastery (Formerly PureCodeTech)](https://ytcards.demolab.com/?id=d04UUrTTXbc&title=Introducing+Enterprise+IT+Mastery+%28Formerly+PureCodeTech%29&lang=en&timestamp=1769000473&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=5&duration=13 "Introducing Enterprise IT Mastery (Formerly PureCodeTech)")](https://www.youtube.com/watch?v=d04UUrTTXbc)
