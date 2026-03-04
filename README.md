@@ -106,7 +106,7 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 #### Backend & API's
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=flat&logo=npm&logoColor=white)
 
-#### Database & Storage
+#### Database & Storages
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=fff) ![MariaDB](https://img.shields.io/badge/MariaDB-003545.svg?style=flat&logo=mariadb&logoColor=white)
 
 #### Hosting & Servers
