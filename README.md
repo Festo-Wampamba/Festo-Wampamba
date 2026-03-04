@@ -122,7 +122,7 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
   <img src="https://skillicons.dev/icons?i=nextjs,ts,react,tailwind,nodejs,postgres,docker,linux,nginx,git,github,azure,mysql,vscode,vercel&theme=dark" height="150" alt="My Tool Box" />
 </a>
 
-<h3 align="left">Support:</h3>
+<h3 align="left">Support</h3>
 <a href="https://www.buymeacoffee.com/festoug" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
 </a>
