@@ -24,7 +24,7 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 - 🎓 **Student of BBC at Makerere University Business School**
 - 🛠️ **Lead Developer of [kore-standards](https://github.com/Festo-Wampamba/kore-standards)** Building innovative, industry-standard software solution
 - 📺 **Enterprise IT Mastery:** I create content on DevOps, Networking, and System Administration
-- 💬 Ask me about **System Infrastructure, Networking, and Web development**c
+- 💬 Ask me about **System Infrastructure, Networking, and Web development**
 - 📫 Reach me at: **festotechug@gmail.com**
 
 ### 🤝 Connect with me
