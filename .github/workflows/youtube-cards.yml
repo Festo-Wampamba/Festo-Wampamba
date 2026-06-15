@@ -33,13 +33,13 @@ jobs:
       # STEP 1: CHECKOUT REPOSITORY
       # =======================================================================
       - name: Checkout Repository
-        uses: actions/checkout@v6   # was @v4 — v6 runs on Node 24
+        uses: actions/checkout@v4   # restored v4 — v6 conflicts with the inner v3 in DenverCoder1
 
       # =======================================================================
       # STEP 2: FETCH LATEST YOUTUBE VIDEOS
       # =======================================================================
       - name: Fetch YouTube Videos
-        uses: DenverCoder1/github-readme-youtube-cards@main
+        uses: DenverCoder1/github-readme-youtube-cards@1.8.0
         with:
           channel_id: UCSiPOa3Vowwi42t1BysexmQ
           comment_tag_name: YOUTUBE-CARDS
