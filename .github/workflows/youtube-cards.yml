@@ -39,8 +39,7 @@ jobs:
       # STEP 2: FETCH LATEST YOUTUBE VIDEOS
       # =======================================================================
       - name: Fetch YouTube Videos
-        # uses: DenverCoder1/github-readme-youtube-cards@main
-        uses: DenverCoder1/github-readme-youtube-cards@1.8.0
+        uses: DenverCoder1/github-readme-youtube-cards@main
         with:
           channel_id: UCSiPOa3Vowwi42t1BysexmQ
           comment_tag_name: YOUTUBE-CARDS
