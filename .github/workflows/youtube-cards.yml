@@ -19,6 +19,10 @@ on:
 permissions:
   contents: write
 
+  # Force any internal Node 20 actions inside third-party actions to use Node 24
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update-youtube:
     name: Update YouTube Videos
@@ -29,13 +33,14 @@ jobs:
       # STEP 1: CHECKOUT REPOSITORY
       # =======================================================================
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6   # was @v4 — v6 runs on Node 24
 
       # =======================================================================
       # STEP 2: FETCH LATEST YOUTUBE VIDEOS
       # =======================================================================
       - name: Fetch YouTube Videos
-        uses: DenverCoder1/github-readme-youtube-cards@main
+        # uses: DenverCoder1/github-readme-youtube-cards@main
+        uses: DenverCoder1/github-readme-youtube-cards@v1.8.0
         with:
           channel_id: UCSiPOa3Vowwi42t1BysexmQ
           comment_tag_name: YOUTUBE-CARDS
