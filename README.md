@@ -127,10 +127,10 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 
 | My Stats | Streak |
 | :---: | :---: |
-| ![Stats](./assets/github-stats-radical.svg) | ![Streak](./assets/github-streak-radical.svg) |
+| ![Stats](https://github-readme-stats-three-azure-32.vercel.app/api?username=Festo-Wampamba&show_icons=true&hide_border=false&title_color=FFD700&icon_color=FFD700&text_color=C9D1D9&bg_color=0D1117&ring_color=FFD700) | ![Streak](https://streak-stats.demolab.com?user=Festo-Wampamba&hide_border=false&background=0D1117&border=FFD700&stroke=FFD700&ring=FFD700&fire=FFD700&currStreakNum=FFD700&currStreakLabel=FFD700&sideNums=C9D1D9&sideLabels=C9D1D9&dates=8B949E) |
 
 <p align="center">
-  <img src="./assets/top-languages-radical.svg" alt="Languages" />
+  <img src="https://github-readme-stats-three-azure-32.vercel.app/api/top-langs/?username=Festo-Wampamba&layout=compact&title_color=FFD700&text_color=C9D1D9&bg_color=0D1117" alt="Languages" />
 </p>
 
 ---
@@ -162,4 +162,4 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 
   ## 💰 Support me by sponsoring my projects
  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/festo12) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/festo) 
- [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/SoftwareEngineer960) 
+ [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/SoftwareEngineer960)
