@@ -124,30 +124,6 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 
 
 
-=====================================================================
-  GITHUB STATS — colour status system
-  ---------------------------------------------------------------------
-  Current accent: FFD700 (GOLD)  = "Ready / B-"  (work in progress)
-  When you reach grade A: find-and-replace  FFD700 -> 3FB950  (GREEN)
-  Stats + Top Languages are served from YOUR self-hosted instance:
-    github-readme-stats-three-azure-32.vercel.app
-  Streak comes from the separate streak-stats.demolab.com service.
-=====================================================================
--->
-
-
-<p align="center">
-  <img src="https://github-readme-stats-three-azure-32.vercel.app/api/top-langs/?username=Festo-Wampamba&layout=compact&title_color=FFD700&text_color=C9D1D9&bg_color=0D1117" alt="Languages" />
-</p>
-
-📈 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Festo-Wampamba&theme=react-dark&hide_border=false&area=true" alt="Contribution Graph" />
-</div>
-
-
-
 # 📊 GitHub Stats
 
 | My Stats | Streak |
