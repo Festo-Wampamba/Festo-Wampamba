@@ -135,7 +135,7 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 | ![Stats](https://github-readme-stats-three-azure-32.vercel.app/api?username=Festo-Wampamba&show_icons=true&hide_border=false&title_color=FFD700&icon_color=FFD700&text_color=C9D1D9&bg_color=0D1117&ring_color=FFD700) | ![Streak](https://streak-stats.demolab.com?user=Festo-Wampamba&hide_border=false&background=0D1117&border=FFD700&stroke=FFD700&ring=FFD700&fire=FFD700&currStreakNum=FFD700&currStreakLabel=FFD700&sideNums=C9D1D9&sideLabels=C9D1D9&dates=8B949E&cache_seconds=3600) |
 
 <p align="center">
-  <img src="https://github-readme-stats-three-azure-32.vercel.app/api/top-langs/?username=Festo-Wampamba&layout=compact&title_color=FFD700&text_color=C9D1D9&bg_color=0D1117" alt="Languages" />
+  <img src="https://github-readme-stats-three-azure-32.vercel.app/api/top-langs/?username=Festo-Wampamba&layout=compact&langs_count=10&card_width=450&title_color=FFD700&text_color=C9D1D9&bg_color=0D1117&hide_border=false&border_color=FFD700" alt="Top Languages" />
 </p>
 
 ---
