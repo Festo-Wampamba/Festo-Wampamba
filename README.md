@@ -28,11 +28,13 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 - 📫 Reach me at: **festotechug@gmail.com**
 
 ### 🤝 Connect with me
-<p align="left">
-  <a href="https://twitter.com/festo_techug" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/festoug/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
-</p>
+<a href="https://twitter.com/festo_techug" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/%40festo_techug-000000.svg?logo=x&variant=branded&mode=dark"><img alt="X" src="https://shieldcn.dev/badge/%40festo_techug-000000.svg?logo=x&variant=branded&mode=light"></picture></a>
+<a href="https://www.linkedin.com/in/festoug/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/LinkedIn-festoug-0077B5.svg?logo=linkedin&variant=branded&mode=dark"><img alt="LinkedIn" src="https://shieldcn.dev/badge/LinkedIn-festoug-0077B5.svg?logo=linkedin&variant=branded&mode=light"></picture></a> 
+<a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/YouTube-Enterprise%20IT%20Mastery-FF0000.svg?logo=youtube&variant=branded&mode=dark"><img alt="YouTube" src="https://shieldcn.dev/badge/YouTube-Enterprise%20IT%20Mastery-FF0000.svg?logo=youtube&variant=branded&mode=light"></picture></a>
+
+
+
+
 
 ---
 
@@ -109,6 +111,11 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 
 #### OS & Tools
 ![LINUX](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/-Git-000?style=flat&logo=git) ![GitHub](https://img.shields.io/badge/-GitHub-000?style=flat&logo=github)
+
+
+### 📦 Top Repositories
+
+<a href="https://github.com/Festo-Wampamba/kore-standards"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/stars/Festo-Wampamba/kore-standards.svg?variant=secondary&amp;mode=dark"><img alt="kore-standards ⭐ 3" src="https://www.shieldcn.dev/github/stars/Festo-Wampamba/kore-standards.svg?variant=secondary&amp;mode=light"></picture></a>
 
 ---
 
