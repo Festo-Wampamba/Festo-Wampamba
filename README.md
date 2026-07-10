@@ -28,8 +28,9 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 - 📫 Reach me at: **festotechug@gmail.com**
 
 ### 🤝 Connect with me
-<a href="https://twitter.com/festo_techug" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/%40festo_techug-000000.svg?logo=x&variant=branded&mode=dark"><img alt="X" src="https://shieldcn.dev/badge/%40festo_techug-000000.svg?logo=x&variant=branded&mode=light"></picture></a>
-<a href="https://www.linkedin.com/in/festoug/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/LinkedIn-festoug-0077B5.svg?logo=linkedin&variant=branded&mode=dark"><img alt="LinkedIn" src="https://shieldcn.dev/badge/LinkedIn-festoug-0077B5.svg?logo=linkedin&variant=branded&mode=light"></picture></a> 
+<a href="https://twitter.com/festo_techug" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/Follow-000000.svg?logo=x&variant=branded&mode=dark"><img alt="Follow on X" src="https://shieldcn.dev/badge/Follow-000000.svg?logo=x&variant=branded&mode=light"></picture></a> 
+<a href="https://www.linkedin.com/in/festoug/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/LinkedIn-0077B5.svg?logo=linkedin&logoColor=white&variant=branded&mode=dark"><img alt="LinkedIn" src="https://shieldcn.dev/badge/LinkedIn-0077B5.svg?logo=linkedin&logoColor=white&variant=branded&mode=light"></picture></a>
+<a href="https://festoug.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/Website-181717.svg?logo=ri%3ALuLink&variant=branded&mode=dark"><img alt="Website" src="https://shieldcn.dev/badge/Website-181717.svg?logo=ri%3ALuLink&variant=branded&mode=light"></picture></a> 
 <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/YouTube-Enterprise%20IT%20Mastery-FF0000.svg?logo=youtube&variant=branded&mode=dark"><img alt="YouTube" src="https://shieldcn.dev/badge/YouTube-Enterprise%20IT%20Mastery-FF0000.svg?logo=youtube&variant=branded&mode=light"></picture></a>
 
 
