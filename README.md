@@ -3,7 +3,7 @@
 </h1>
 
 <!-- QUOTE:START -->
-> 💡 Documentation is the only backup that survives when the engineer who understood the system leaves.
+> 💡 A backup you have never restored is just an unverified assumption with a timestamp.
 <!-- QUOTE:END -->
 
 # Festo Wampamba
