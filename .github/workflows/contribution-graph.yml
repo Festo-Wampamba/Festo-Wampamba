@@ -1,0 +1,88 @@
+name: Refresh contribution graph
+
+on:
+  schedule:
+    - cron: '17 23 * * *' # 02:17 Africa/Kampala; schedules can be delayed by GitHub
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'graph/**'
+      - 'package.json'
+      - 'vercel.json'
+      - '.github/workflows/contribution-graph.yml'
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'graph/**'
+      - 'package.json'
+      - 'vercel.json'
+      - '.github/workflows/contribution-graph.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: contribution-graph-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      # No install needed: this project has no dependencies.
+      - run: node --check scripts/graph.mjs && node --check scripts/calendar.mjs && node --check scripts/palette.mjs && node --check scripts/generate-graph.mjs && node --check scripts/build.mjs && node --check graph/app.js && node --check graph/theme.js && node --check tests/graph.test.mjs
+      - run: node --test
+      - run: node scripts/build.mjs
+
+  refresh:
+    if: github.event_name != 'pull_request'
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Generate SVG from GitHub contributions
+        env:
+          # Optional PAT only if you want counts from private repositories.
+          GH_TOKEN: ${{ secrets.CONTRIBUTIONS_TOKEN || github.token }}
+        run: node scripts/generate-graph.mjs
+      - name: Save successful refresh
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/contribution-graph.svg assets/contribution-graph-light.svg assets/contribution-graph-dark.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'chore: refresh contribution graph'
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          exit 1
+      - name: Request optional Vercel rebuild
+        env:
+          DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$DEPLOY_HOOK" ]; then
+            curl --fail --silent --show-error --max-time 30 --request POST "$DEPLOY_HOOK" --output /dev/null
+          fi
