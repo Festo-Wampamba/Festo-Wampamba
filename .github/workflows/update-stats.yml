@@ -32,7 +32,7 @@ jobs:
       - run: node --test
       - name: Refresh saved profile snapshot
         env:
-          GH_TOKEN: ${{ secrets.CONTRIBUTIONS_TOKEN || github.token }}
+          GH_TOKEN: ${{ secrets.CONTRIBUTIONS_TOKEN || secrets.METRICS_TOKEN || github.token }}
         run: node scripts/generate-stats.mjs
       - run: node scripts/build.mjs
       - name: Save successful refresh
