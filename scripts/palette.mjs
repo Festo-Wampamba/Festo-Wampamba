@@ -21,5 +21,5 @@ export function themeCss(selector, lightSelector, darkSelector) {
 
 export function themedSvg(svg, theme) {
   if (!['light', 'dark'].includes(theme)) throw new Error('Invalid graph theme');
-  return svg.replace('class="calendar"', `class="calendar" data-theme="${theme}"`);
+  return svg.replace(/class="(calendar|profile-stats)"/, (_, name) => `class="${name}" data-theme="${theme}"`);
 }

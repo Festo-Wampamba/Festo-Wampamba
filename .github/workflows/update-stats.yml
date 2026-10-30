@@ -1,150 +1,60 @@
-# ============================================================================
-# GITHUB STATS AUTO-UPDATE WORKFLOW (SELF-HOSTED VERCEL)
-# ============================================================================
-# Purpose: Downloads stats from your own Vercel deployment
-# Author: Festo Wampamba
-# Deployment: github-readme-stats-three-azure-32.vercel.app
-# Timezone: EAT
-# ============================================================================
-
-name: Update GitHub Stats
-
+name: Refresh GitHub overview
 on:
   schedule:
-    - cron: '0 23 * * *'  # Daily at 2 AM EAT
+    - cron: '0 23 * * *' # Around 02:00 Africa/Kampala
   workflow_dispatch:
   push:
-    branches: [ main ]
-    paths: [ '.github/workflows/update-stats.yml' ]
-
+    branches: [main]
+    paths:
+      - 'scripts/stats-*.mjs'
+      - 'scripts/generate-stats.mjs'
+      - 'scripts/palette.mjs'
+      - '.github/workflows/update-stats.yml'
 permissions:
-  contents: write
-
-# ============================================================================
-# ENVIRONMENT VARIABLES
-# ============================================================================
-env:
-  # 🚀 YOUR VERCEL DEPLOYMENT URL
-  STATS_API: "https://github-readme-stats-three-azure-32.vercel.app"
-  GITHUB_USER: "Festo-Wampamba"
-  THEME: "radical"
-
-# ============================================================================
-# JOBS
-# ============================================================================
+  contents: read
+concurrency:
+  group: profile-stats-refresh
+  cancel-in-progress: false
 jobs:
   update-stats:
-    name: Generate GitHub Statistics from Self-Hosted Instance
     runs-on: ubuntu-latest
-    
+    timeout-minutes: 5
+    permissions:
+      contents: write
     steps:
-      # =======================================================================
-      # CHECKOUT REPOSITORY
-      # =======================================================================
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
+          ref: main
           fetch-depth: 0
-
-      # =======================================================================
-      # CREATE ASSETS DIRECTORY
-      # =======================================================================
-      - name: Create Assets Directory
-        run: mkdir -p assets
-
-      # =======================================================================
-      # DOWNLOAD STATS CARD FROM YOUR VERCEL INSTANCE
-      # =======================================================================
-      - name: Download GitHub Stats Card
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - run: node --test
+      - name: Refresh saved profile snapshot
+        env:
+          GH_TOKEN: ${{ secrets.CONTRIBUTIONS_TOKEN || github.token }}
+        run: node scripts/generate-stats.mjs
+      - run: node scripts/build.mjs
+      - name: Save successful refresh
         run: |
-          echo "📊 Downloading GitHub Stats from self-hosted instance..."
-          echo "URL: ${{ env.STATS_API }}/api"
-          
-          curl -L -f \
-            --retry 3 \
-            --retry-delay 2 \
-            --max-time 30 \
-            -H "Accept: image/svg+xml" \
-            -o assets/github-stats-radical.svg \
-            "${{ env.STATS_API }}/api?username=${{ env.GITHUB_USER }}&show_icons=true&theme=${{ env.THEME }}&hide_border=false&include_all_commits=true&count_private=true" \
-            && echo "✅ Stats card downloaded!" \
-            || { echo "❌ Failed to download stats card"; exit 1; }
-
-      # =======================================================================
-      # DOWNLOAD STREAK CARD (EXTERNAL SERVICE)
-      # =======================================================================
-      - name: Download GitHub Streak Card
-        run: |
-          echo "🔥 Downloading GitHub Streak card..."
-          
-          curl -L -f \
-            --retry 3 \
-            --retry-delay 2 \
-            --max-time 30 \
-            -H "Accept: image/svg+xml" \
-            -o assets/github-streak-radical.svg \
-            "https://github-readme-streak-stats.herokuapp.com/?user=${{ env.GITHUB_USER }}&theme=${{ env.THEME }}&hide_border=false" \
-            && echo "✅ Streak card downloaded!" \
-            || { echo "❌ Failed to download streak card"; exit 1; }
-
-      # =======================================================================
-      # DOWNLOAD TOP LANGUAGES FROM YOUR VERCEL INSTANCE
-      # =======================================================================
-      - name: Download Top Languages Card
-        run: |
-          echo "💻 Downloading Top Languages from self-hosted instance..."
-          
-          curl -L -f \
-            --retry 3 \
-            --retry-delay 2 \
-            --max-time 30 \
-            -H "Accept: image/svg+xml" \
-            -o assets/top-languages-radical.svg \
-            "${{ env.STATS_API }}/api/top-langs/?username=${{ env.GITHUB_USER }}&theme=${{ env.THEME }}&hide_border=false&layout=compact&langs_count=10&hide=html,css&card_width=445" \
-            && echo "✅ Languages card downloaded!" \
-            || { echo "❌ Failed to download languages card"; exit 1; }
-
-      # =======================================================================
-      # VERIFY ALL FILES DOWNLOADED SUCCESSFULLY
-      # =======================================================================
-      - name: Verify Downloaded Files
-        run: |
-          echo "🔍 Verifying downloaded SVG files..."
-          
-          for file in assets/github-stats-radical.svg assets/github-streak-radical.svg assets/top-languages-radical.svg; do
-            if [ -f "$file" ]; then
-              size=$(stat -c%s "$file" 2>/dev/null || stat -f%z "$file")
-              if [ "$size" -gt 1000 ]; then
-                echo "  ✅ $file (${size} bytes)"
-              else
-                echo "  ⚠️  $file is too small (${size} bytes)"
-              fi
-            else
-              echo "  ❌ $file not found"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/profile-stats.json assets/profile-stats.svg assets/profile-stats-light.svg assets/profile-stats-dark.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'chore: refresh profile statistics'
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
             fi
           done
-
-      # =======================================================================
-      # COMMIT AND PUSH TO REPOSITORY
-      # =======================================================================
-      - name: Commit and Push Stats
+          exit 1
+      - name: Request Vercel rebuild
+        env:
+          DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         run: |
-          echo "💾 Committing changes..."
-          
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
-          git add assets/*.svg
-          
-          if git diff --staged --quiet; then
-            echo "📭 No changes to commit - stats are up to date"
-          else
-            git commit -m "Auto-update: GitHub stats (Self-hosted Vercel) [skip ci]" \
-                       -m "📅 Updated: $(date '+%Y-%m-%d %H:%M:%S EAT')" \
-                       -m "🚀 Source: github-readme-stats-three-azure-32.vercel.app" \
-                       -m "🎨 Theme: Radical"
-            
-            git push
-            
-            echo "✅ Successfully updated GitHub stats!"
+          if [ -n "$DEPLOY_HOOK" ]; then
+            curl --fail --silent --show-error --max-time 30 --request POST "$DEPLOY_HOOK" --output /dev/null
           fi

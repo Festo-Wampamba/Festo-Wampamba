@@ -8,7 +8,8 @@
   "scripts": {
     "generate": "node scripts/generate-graph.mjs",
     "build": "node scripts/build.mjs",
-    "lint": "node --check scripts/graph.mjs && node --check scripts/calendar.mjs && node --check scripts/palette.mjs && node --check scripts/generate-graph.mjs && node --check scripts/build.mjs && node --check graph/app.js && node --check graph/theme.js && node --check tests/graph.test.mjs && node --check tests/palette.test.mjs",
-    "test": "node --test"
+    "lint": "node --check scripts/graph.mjs && node --check scripts/calendar.mjs && node --check scripts/palette.mjs && node --check scripts/generate-graph.mjs && node --check scripts/build.mjs && node --check graph/app.js && node --check graph/theme.js && node --check tests/graph.test.mjs && node --check tests/palette.test.mjs && node --check scripts/stats-data.mjs && node --check scripts/stats-render.mjs && node --check scripts/generate-stats.mjs && node --check tests/stats.test.mjs && node --check graph/stats.js",
+    "test": "node --test",
+    "generate:stats": "node scripts/generate-stats.mjs"
   }
 }
