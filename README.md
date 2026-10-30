@@ -140,7 +140,7 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-graph-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/contribution-graph-light.svg" />
-    <img src="./assets/contribution-graph.svg" width="900" alt="Festo Wampamba's contribution activity over the last 90 days" />
+    <img src="./assets/contribution-graph.svg" width="900" alt="Festo Wampamba's contribution activity for the current and previous month" />
   </picture>
   <p><a href="https://festo-contribution-journal.vercel.app">Explore the interactive contribution journal ↗</a></p>
 </div>

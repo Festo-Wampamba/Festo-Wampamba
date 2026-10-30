@@ -1,13 +1,14 @@
 import { renderCalendar } from './calendar.mjs';
 export const USERNAME = 'Festo-Wampamba';
-export const WINDOW_DAYS = 90;
+export const WINDOW_MONTHS = 2;
 const DAY_MS = 86_400_000;
 
 export function dateRange(now = new Date()) {
   const end = new Date(now);
   const start = new Date(end);
   start.setUTCHours(0, 0, 0, 0);
-  start.setUTCDate(start.getUTCDate() - WINDOW_DAYS + 1);
+  start.setUTCDate(1);
+  start.setUTCMonth(start.getUTCMonth() - WINDOW_MONTHS + 1);
   return { from: start.toISOString(), to: end.toISOString() };
 }
 
@@ -40,7 +41,8 @@ export function normalizeDays(days, now = new Date()) {
   const start = from.slice(0, 10);
   const end = to.slice(0, 10);
   const selected = days.filter((day) => day?.date >= start && day.date <= end).sort((a, b) => a.date.localeCompare(b.date));
-  if (selected.length !== WINDOW_DAYS) throw new Error('Incomplete contribution calendar; keeping the saved graph.');
+  const expectedDays = Math.floor((Date.parse(`${end}T00:00:00Z`) - Date.parse(from)) / DAY_MS) + 1;
+  if (selected.length !== expectedDays) throw new Error('Incomplete contribution calendar; keeping the saved graph.');
   selected.forEach((day, index) => {
     const expected = new Date(Date.parse(from) + index * DAY_MS).toISOString().slice(0, 10);
     if (day.date !== expected || !Number.isSafeInteger(day.contributionCount) || day.contributionCount < 0) {

@@ -8,24 +8,24 @@ import { dateRange, fetchDays, normalizeDays, renderGraph } from '../scripts/gra
 import { calendarStats } from '../scripts/calendar.mjs';
 
 const now = new Date('2026-10-29T20:00:00Z');
-const days = Array.from({ length: 90 }, (_, index) => ({
-  date: new Date(Date.UTC(2026, 7, 1 + index)).toISOString().slice(0, 10),
-  contributionCount: index === 0 ? 4 : index === 89 ? 7 : 0,
+const days = Array.from({ length: 59 }, (_, index) => ({
+  date: new Date(Date.UTC(2026, 8, 1 + index)).toISOString().slice(0, 10),
+  contributionCount: index === 0 ? 4 : index === 58 ? 7 : 0,
 }));
 
-test('90 UTC dates cross month and leap-year boundaries correctly', () => {
-  assert.deepEqual(dateRange(now), { from: '2026-08-01T00:00:00.000Z', to: now.toISOString() });
-  assert.equal(dateRange(new Date('2024-03-01T01:00:00Z')).from, '2023-12-03T00:00:00.000Z');
+test('two calendar months handle UTC, leap years, and year boundaries correctly', () => {
+  assert.deepEqual(dateRange(now), { from: '2026-09-01T00:00:00.000Z', to: now.toISOString() });
+  assert.equal(dateRange(new Date('2024-03-01T01:00:00Z')).from, '2024-02-01T00:00:00.000Z');
   assert.deepEqual(normalizeDays([...days].reverse(), now), days);
 });
 
 test('SVG reports independent totals and valid coordinates, including all-zero data', () => {
   const svg = renderGraph(days, now);
   assert.match(svg, /11 contributions across 2 active days; best day 7/);
-  assert.match(svg, /2026-08-01: 4 contributions/);
+  assert.match(svg, /2026-09-01: 4 contributions/);
   assert.match(svg, /2026-10-29: 7 contributions/);
-  assert.equal((svg.match(/class="day"/g) ?? []).length, 90);
-  assert.equal((svg.match(/class="month"/g) ?? []).length, 3);
+  assert.equal((svg.match(/class="day"/g) ?? []).length, 59);
+  assert.equal((svg.match(/class="month"/g) ?? []).length, 2);
   assert.match(svg, /Every calendar cell shows its date/);
   for (const day of days) {
     assert.ok(svg.includes(`data-date="${day.date}" data-count="${day.contributionCount}"`));
@@ -40,15 +40,18 @@ test('streak metrics count consecutive active days within the visible window', (
   assert.deepEqual(calendarStats(fixture), { total: 14, active: 5, peak: 5, longest: 3 });
 });
 
-test('a 90-day window spanning four months retains every day in a two-row layout', () => {
+test('only the current and previous month are rendered, with totals for those dates', () => {
   const end = new Date('2026-11-28T12:00:00Z');
   const start = Date.parse(dateRange(end).from);
-  const input = Array.from({ length: 90 }, (_, index) => ({ date: new Date(start + index * 86400000).toISOString().slice(0, 10), contributionCount: 1 }));
+  assert.equal(dateRange(end).from, '2026-10-01T00:00:00.000Z');
+  const input = Array.from({ length: 59 }, (_, index) => ({ date: new Date(start + index * 86400000).toISOString().slice(0, 10), contributionCount: 1 }));
   const svg = renderGraph(input, end);
-  assert.equal((svg.match(/class="month"/g) ?? []).length, 4);
-  assert.equal((svg.match(/class="day"/g) ?? []).length, 90);
-  assert.match(svg, /viewBox="0 0 1200 1016"/);
-  assert.match(svg, /90 contributions across 90 active days/);
+  assert.equal((svg.match(/class="month"/g) ?? []).length, 2);
+  assert.equal((svg.match(/class="day"/g) ?? []).length, 59);
+  assert.match(svg, /viewBox="0 0 1200 724"/);
+  assert.match(svg, /59 contributions across 59 active days/);
+  assert.doesNotMatch(svg, /data-month="2026-09"/);
+  assert.equal(dateRange(new Date('2026-01-31T12:00:00Z')).from, '2025-12-01T00:00:00.000Z');
 });
 
 test('partial, duplicate, negative, and fractional data cannot replace a graph', () => {
@@ -65,7 +68,7 @@ test('GitHub query uses a bounded range, credentials stay in the header, and API
     assert.equal(options.headers.Authorization, `Bearer ${token}`);
     const body = JSON.parse(options.body);
     assert.equal(body.variables.login, 'Festo-Wampamba');
-    assert.equal(body.variables.from, '2026-08-01T00:00:00.000Z');
+    assert.equal(body.variables.from, '2026-09-01T00:00:00.000Z');
     assert.ok(!options.body.includes(token));
     return { ok: true, json: async () => ({ data: { user: { contributionsCollection: { contributionCalendar: { weeks: [{ contributionDays: days }] } } } } }) };
   } });
