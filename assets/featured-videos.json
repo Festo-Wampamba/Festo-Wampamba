@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "channelId": "UCSiPOa3Vowwi42t1BysexmQ",
+  "updatedAt": "2026-10-31T20:12:49.412Z",
+  "videos": [
+    {
+      "id": "cWG3g2gUlvg",
+      "title": "Discussion for Apache WebServer",
+      "views": 196,
+      "publishedAt": "2026-03-26T04:08:18Z",
+      "durationSeconds": 4451
+    },
+    {
+      "id": "9eBj_4fwLOg",
+      "title": "Configure Linux Mint Perfectly for VMware (Web Server Setup)",
+      "views": 86,
+      "publishedAt": "2026-03-18T14:00:15Z",
+      "durationSeconds": 591
+    },
+    {
+      "id": "r95-iuuPgTY",
+      "title": "VMware Workstation Pro 25H2u1: New Broadcom Download Process (Step-by-Step)",
+      "views": 801,
+      "publishedAt": "2026-03-16T13:01:27Z",
+      "durationSeconds": 661
+    },
+    {
+      "id": "3rWZCgPHOyI",
+      "title": "FREE $100 Azure Credit in 2025 (No Credit Card Required)",
+      "views": 2077,
+      "publishedAt": "2025-10-17T15:00:07Z",
+      "durationSeconds": 1087
+    },
+    {
+      "id": "y0WUqvRaO-g",
+      "title": "Docker Tutorial Containerizing a Flask API & PostgreSQL Full Assignment Walkthrough @Enterprise-IT-Mastery",
+      "views": 421,
+      "publishedAt": "2025-10-03T11:00:06Z",
+      "durationSeconds": 4187
+    },
+    {
+      "id": "rrucKl2Df8c",
+      "title": "The Right Way to Install Docker & WSL on Windows (2025)@Enterprise-IT-Mastery",
+      "views": 2370,
+      "publishedAt": "2025-10-02T04:50:00Z",
+      "durationSeconds": 1163
+    }
+  ]
+}
