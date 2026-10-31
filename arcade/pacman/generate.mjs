@@ -47,6 +47,6 @@ for(const mode of ['dark','light']){
 }
 await writeFile(new URL('theme.css',root),themeCss(':root',':root[data-theme="light"]',':root[data-theme="dark"]'));
 const template=await readFile(new URL('template.html',root),'utf8');
-const replacements={TOTAL:meta.total.toLocaleString('en-US'),ACTIVE:String(meta.active),FROM:meta.from,TO:meta.to,DURATION:String(meta.duration),UPDATED:new Date(meta.updatedAt).toLocaleString('en-GB',{day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Africa/Kampala'})+' EAT'};
+const replacements={REPLAY:Date.parse(meta.updatedAt),TOTAL:meta.total.toLocaleString('en-US'),ACTIVE:String(meta.active),FROM:meta.from,TO:meta.to,DURATION:String(meta.duration),UPDATED:new Date(meta.updatedAt).toLocaleString('en-GB',{day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Africa/Kampala'})+' EAT'};
 await writeFile(new URL('index.html',root),template.replace(/<!-- (\w+) -->/g,(match,key)=>xml(replacements[key]??key)));
 console.log(`Pac-Man generated: ${meta.total} real contributions; ${meta.frames} animation frames; ${Math.round(meta.duration)} seconds.`);

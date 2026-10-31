@@ -20,6 +20,7 @@ test('Pac-Man replay publishes a complete calendar with independently verified t
   const html = await read('index.html');
   assert.ok(html.includes(snapshot.total.toLocaleString('en-US')));
   assert.ok(html.includes(`max="${snapshot.duration}"`));
+  assert.ok(html.includes(`data-replay="${Date.parse(snapshot.updatedAt)}"`));
   assert.doesNotMatch(html, /Local preview|unpublished|live snake|<!-- \w+ -->/);
 });
 
