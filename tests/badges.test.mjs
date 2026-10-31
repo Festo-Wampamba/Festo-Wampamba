@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { fetchBadges, renderBadge, badgeDefinitions, renderBadgeReadme, CHANNEL, USER } from '../scripts/badges.mjs';
+import { fetchBadges, renderBadge, badgeDefinitions, renderBadgeReadme, updateBadgeReadme, CHANNEL, USER } from '../scripts/badges.mjs';
 const now = new Date('2026-10-31T00:00:00Z');
 const makeFetcher = (hidden = false) => async url => ({ ok: true, json: async () => url.includes('googleapis.com') ? { items: [{ id: CHANNEL, statistics: { viewCount: '123456', subscriberCount: '188', hiddenSubscriberCount: hidden } }] } : url.includes('/repos?') ? [{ id: 1, owner: { login: USER }, private: false, fork: false, stargazers_count: 3 }, { id: 2, owner: { login: USER }, private: false, fork: true, stargazers_count: 5 }] : { followers: 17, public_repos: 2 } });
 test('badge counts use official totals, include public forks in repo count, and exclude fork stars', async () => {
@@ -34,4 +34,11 @@ test('badges show full comma-separated numbers, clear labels, escaped text and r
   assert.equal((html.match(/<picture>/g) ?? []).length, 6);
   assert.equal((html.match(/<source /g) ?? []).length, 12);
   assert.doesNotMatch(html, /retired|shieldcn|img.shields/);
+  const before = 'Before\n<!-- PROFILE-BADGES:START -->\nold\n<!-- PROFILE-BADGES:END -->\nAfter';
+  const updated = updateBadgeReadme(before, data);
+  assert.ok(updated.startsWith('Before\n') && updated.endsWith('\nAfter'));
+  assert.ok(updated.includes('YouTube views: 123,456'));
+  assert.ok(updated.includes('?v=' + Date.parse(data.updatedAt)));
+  assert.equal(updateBadgeReadme('No badges configured yet', data), 'No badges configured yet');
+  assert.throws(() => updateBadgeReadme('<!-- PROFILE-BADGES:START -->', data), /markers/);
 });

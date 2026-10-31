@@ -20,8 +20,54 @@
 
 Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup dedicated to engineering ground-up solutions for the African tech ecosystem. While a seasoned Full-Stack Developer, his core expertise lies in Systems Administration and Networking, ensuring that the innovations built at Lupora Tech are backed by robust, high-performance infrastructure 
 
-<a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ?sub_confirmation=1"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/youtube/subscribers/UCSiPOa3Vowwi42t1BysexmQ.svg?variant=branded&mode=dark"><img alt="YouTube Subscribers" src="https://shieldcn.dev/youtube/subscribers/UCSiPOa3Vowwi42t1BysexmQ.svg?variant=branded&mode=light"></picture></a> <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/dynamic/json.svg?url=https%3A%2F%2Fimg.shields.io%2Fyoutube%2Fchannel%2Fviews%2FUCSiPOa3Vowwi42t1BysexmQ.json&query=%24.message&label=Views&logo=youtube&variant=destructive&mode=dark"><img alt="YouTube Views" src="https://shieldcn.dev/badge/dynamic/json.svg?url=https%3A%2F%2Fimg.shields.io%2Fyoutube%2Fchannel%2Fviews%2FUCSiPOa3Vowwi42t1BysexmQ.json&query=%24.message&label=Views&logo=youtube&variant=destructive&mode=light"></picture></a> <a href="https://github.com/Festo-Wampamba?tab=followers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/github/followers/Festo-Wampamba.svg?variant=secondary&mode=dark"><img alt="GitHub Followers" src="https://shieldcn.dev/github/followers/Festo-Wampamba.svg?variant=secondary&mode=light"></picture></a> <a href="https://github.com/Festo-Wampamba?tab=repositories&sort=stargazers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/github/user-stars/Festo-Wampamba.svg?variant=secondary&mode=dark"><img alt="Total GitHub Stars" src="https://shieldcn.dev/github/user-stars/Festo-Wampamba.svg?variant=secondary&mode=light"></picture></a> <a href="https://github.com/Festo-Wampamba?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/Repos-31-2563eb.svg?logo=github&variant=secondary&mode=dark"><img alt="Public Repos" src="https://shieldcn.dev/badge/Repos-31-2563eb.svg?logo=github&variant=secondary&mode=light"></picture></a> 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/Company-Lupora%20Tech-1f2937.svg?logo=building&variant=secondary&mode=dark"><img alt="Company" src="https://shieldcn.dev/badge/Company-Lupora%20Tech-1f2937.svg?logo=building&variant=secondary&mode=light"></picture>
+<!-- PROFILE-BADGES:START -->
+<div>
+<p>
+  <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ?sub_confirmation=1">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/youtube-subscribers-dark.svg?v=1793467741313" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/youtube-subscribers-light.svg?v=1793467741313" />
+      <img src="./assets/badges/youtube-subscribers-dark.svg?v=1793467741313" alt="YouTube subscribers: 188" height="36" />
+    </picture>
+  </a>
+  <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/youtube-views-dark.svg?v=1793467741313" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/youtube-views-light.svg?v=1793467741313" />
+      <img src="./assets/badges/youtube-views-dark.svg?v=1793467741313" alt="YouTube views: 8,157" height="36" />
+    </picture>
+  </a>
+</p>
+<p>
+  <a href="https://github.com/Festo-Wampamba?tab=followers">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/github-followers-dark.svg?v=1793467741313" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/github-followers-light.svg?v=1793467741313" />
+      <img src="./assets/badges/github-followers-dark.svg?v=1793467741313" alt="Followers: 17" height="36" />
+    </picture>
+  </a>
+  <a href="https://github.com/Festo-Wampamba?tab=repositories&amp;sort=stargazers">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/github-stars-dark.svg?v=1793467741313" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/github-stars-light.svg?v=1793467741313" />
+      <img src="./assets/badges/github-stars-dark.svg?v=1793467741313" alt="Repo stars: 3" height="36" />
+    </picture>
+  </a>
+  <a href="https://github.com/Festo-Wampamba?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/github-repos-dark.svg?v=1793467741313" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/github-repos-light.svg?v=1793467741313" />
+      <img src="./assets/badges/github-repos-dark.svg?v=1793467741313" alt="Public repos: 35" height="36" />
+    </picture>
+  </a>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/company-dark.svg?v=1793467741313" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/company-light.svg?v=1793467741313" />
+      <img src="./assets/badges/company-dark.svg?v=1793467741313" alt="Company: Lupora Tech" height="36" />
+    </picture>
+</p>
+</div>
+<!-- PROFILE-BADGES:END -->
 
 ---
 
