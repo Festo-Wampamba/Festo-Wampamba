@@ -132,6 +132,11 @@
     {
       "source": "/pacman",
       "destination": "/pacman/index.html"
+    },
+    {
+      "source": "/quotes",
+      "destination": "/quotes/index.html"
     }
-  ]
+  ],
+  "ignoreCommand": "node scripts/ignore-build.mjs"
 }

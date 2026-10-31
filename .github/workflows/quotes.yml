@@ -1,0 +1,57 @@
+name: Publish a fresh reflection
+on:
+  schedule:
+    - cron: '17 */3 * * *' # Three-hour cadence; GitHub may delay scheduled jobs.
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'quotes/**'
+      - 'scripts/publish-quote.mjs'
+      - 'scripts/import-quotes.mjs'
+      - 'tests/quotes.test.mjs'
+      - '.github/workflows/quotes.yml'
+permissions:
+  contents: read
+concurrency:
+  group: motivation-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Verify rotation and fallback
+        run: node --test tests/quotes.test.mjs
+      - name: Publish once for this three-hour window
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          gh auth setup-git
+          git remote set-url origin https://github.com/Festo-Wampamba/Festo-Wampamba.git
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            node scripts/publish-quote.mjs
+            git add README.md assets/quote-state.json
+            if git diff --cached --quiet; then
+              exit 0
+            fi
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit --author='Festo Wampamba <festotechug@gmail.com>' -m 'chore: publish an automated three-hour reflection'
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          exit 1

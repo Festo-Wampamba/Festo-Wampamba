@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-31T16:03:00.376Z",
+  "lastRefillAt": "2026-10-31T16:03:00.205Z",
+  "current": {
+    "text": "You do not need to solve the whole journey today. Give the next honest step the attention it deserves.",
+    "fingerprint": "c826e99a4738177b068bb13b1b3cdb7caaf8688f36b5c97195b6009a97cb4a1a",
+    "source": "ai",
+    "slot": 166061,
+    "at": "2026-10-31T16:03:00.376Z"
+  },
+  "pending": [
+    {
+      "text": "An honest hour spent learning can be more valuable than a busy day spent pretending to know.",
+      "fingerprint": "3ab55c8af62b62176438abc3b5db3a27e18e8bf57060d42f9f924e2f9467e2b5",
+      "source": "ai"
+    },
+    {
+      "text": "Learning to finish small things is a practical way to trust yourself with bigger ones.",
+      "fingerprint": "834a8c077ebdc3a649399ca7fe2652c5695da6277b2f8f3a20757e0364f24880",
+      "source": "ai"
+    },
+    {
+      "text": "A good question is a door you can open even when you do not yet have the answer.",
+      "fingerprint": "255dd91e0e4e2fbebe14f553be169a58f159d57c595034216f36937160428283",
+      "source": "ai"
+    },
+    {
+      "text": "Leave enough quiet in your day to notice whether the ladder is leaning toward a life you want.",
+      "fingerprint": "9aa0c3729f161c33a13d1cdbe335ee8943d23c4a3a2dba0264f691bc49586840",
+      "source": "ai"
+    },
+    {
+      "text": "Your first answer can be incomplete and your next question can still be excellent.",
+      "fingerprint": "aab77a82d841dd99da8ea8cc16da0413a731f35b23515e014a3faaaefbfdbf69",
+      "source": "ai"
+    },
+    {
+      "text": "Do not confuse a slow season with a closed door. Roots have work to do before branches have news.",
+      "fingerprint": "77064c96da2a8b51bbfd8b6da3e4e42e6c8d6e58f22c79deaa45792f7df3f906",
+      "source": "ai"
+    },
+    {
+      "text": "Your progress does not become less real because someone else cannot see it yet.",
+      "fingerprint": "3bf5b0b7e5412b4ee5467e3e37067dcd13a2502e13be914f3779aecc9ca872ac",
+      "source": "ai"
+    },
+    {
+      "text": "A clear purpose can guide you even when the next few steps are still unfamiliar.",
+      "fingerprint": "3af4532f8ee63b13f2a4f346f51cad4538666bf5a9b00281a16c4210c72a9798",
+      "source": "ai"
+    },
+    {
+      "text": "A useful habit is a bridge you build for the days when motivation cannot reach you.",
+      "fingerprint": "408f344d7488941671c0401a57632cb752d17aa2f6c9482deda1ea0431ee5bf2",
+      "source": "ai"
+    },
+    {
+      "text": "Let the next chapter be shaped by what you learned, not only by what you lost.",
+      "fingerprint": "f428e7622c5d7da4aa46bc3c621a43e7cc1672aedff2232c431685867296107c",
+      "source": "ai"
+    },
+    {
+      "text": "You can aim high and still take the stairs one deliberate step at a time.",
+      "fingerprint": "939ab3c67b8e2114a7edbbf497aae1349e60bf706716d8d0244841c74e04793c",
+      "source": "ai"
+    },
+    {
+      "text": "You can be grateful for how far you have come and still be curious about what comes next.",
+      "fingerprint": "adba0d5f25c6beac934faeae097ac3aef965bec2ac0298b30b013ce0c86a388d",
+      "source": "ai"
+    },
+    {
+      "text": "Let the mistake become information before you let it become a story about your worth.",
+      "fingerprint": "fdf498d5dfead15dc161952170182541c1eb02430b1d17417f1083604d08a13f",
+      "source": "ai"
+    },
+    {
+      "text": "Be willing to revise the plan when new understanding makes a better route possible.",
+      "fingerprint": "c44fbc90b5c1577da6a8e79fb289c5464bf43024cda4a86553a03b823c9e71d2",
+      "source": "ai"
+    },
+    {
+      "text": "The lesson becomes useful when you carry it into the next attempt, not when you keep replaying the last one.",
+      "fingerprint": "97a7582c742c7e5d0caa369fbbc88b39e5d2434d761761eb7430a68b9531b1e9",
+      "source": "ai"
+    },
+    {
+      "text": "Your direction matters, but so does the way you treat yourself and others along the road.",
+      "fingerprint": "baf7b0ab27fc4ed9c08f8551ed992684dbf200be8c1a60c0c46ad205c37540eb",
+      "source": "ai"
+    },
+    {
+      "text": "A small improvement repeated with care can quietly change the standard you live by.",
+      "fingerprint": "24cc9bb87d7edfc4cdea12b51421c577ec446041f9f463195da7e0d7304dd6be",
+      "source": "ai"
+    },
+    {
+      "text": "The ability to return is a strength. Practice it whenever your rhythm gets interrupted.",
+      "fingerprint": "a0433973788976ecd18060f6d541374b95f62f9954f557317dd7154bcbb5751b",
+      "source": "ai"
+    },
+    {
+      "text": "Noticing that something needs to change is already a useful kind of honesty.",
+      "fingerprint": "925861a97bde8032071d05e68f887ad2e6439b46009bb94b572398b580afcb77",
+      "source": "ai"
+    },
+    {
+      "text": "The confidence you are waiting for may be hiding inside the practice you keep postponing.",
+      "fingerprint": "84167d85466979e983b55a035fdc9ddc7cb9e70ce901971a8ab7578cdd15cf22",
+      "source": "ai"
+    },
+    {
+      "text": "You can start before you feel impressive. Useful work rarely asks for an impressive beginning.",
+      "fingerprint": "e5b8954bf0862e123dcf111c1c972ef5b5c585ef4554e0459635389c63faa8fc",
+      "source": "ai"
+    },
+    {
+      "text": "When everything feels urgent, choose the action that will make tomorrow a little clearer.",
+      "fingerprint": "df238176c5c20883022e8555ecfbc318668a717e1d150d5b3cd127712f4acb7c",
+      "source": "ai"
+    },
+    {
+      "text": "A day of steady practice can outlast a week of waiting for the perfect mood.",
+      "fingerprint": "b97885871f5299478a41af440ea15cf2060926725c05de90d224df2be38ad191",
+      "source": "ai"
+    },
+    {
+      "text": "Some days the brave thing is to begin. Some days it is to ask for help and continue differently.",
+      "fingerprint": "4028ab3bfb29b755031c32eb5d55e0fda47376d535aaea0ad473a11e7fc643a4",
+      "source": "ai"
+    },
+    {
+      "text": "The version of you who keeps practicing deserves more patience than the version you imagined would never struggle.",
+      "fingerprint": "6cdafea99e1a02d526a35aaea99d2be8a1345330816867818af8517c116b73a4",
+      "source": "ai"
+    },
+    {
+      "text": "An imperfect beginning gives improvement a place to stand.",
+      "fingerprint": "48ab01713519337a406a064d05eca0a85d873b1a2c7b44e0231871dfd51baf7d",
+      "source": "ai"
+    },
+    {
+      "text": "A setback is easier to carry when you separate what happened from what you can do next.",
+      "fingerprint": "28d773832e4dca779dee12e4ad2558655782ce557c980e6558b4057b6f4a5ad2",
+      "source": "ai"
+    },
+    {
+      "text": "One careful decision can interrupt a pattern that has been running on habit for years.",
+      "fingerprint": "02216d86a26b44ad0f300cc23cdc1d1240ae760ecfe6ed738e2149149158dc5f",
+      "source": "ai"
+    },
+    {
+      "text": "If yesterday felt scattered, let one clear intention give today a different shape.",
+      "fingerprint": "f0eb21c055ac9798b5e18a4540883956fe27a2a9f7d181b6d11764efffc9125c",
+      "source": "ai"
+    },
+    {
+      "text": "Choose a challenge that stretches your skills without making kindness toward yourself a casualty.",
+      "fingerprint": "8c3ff8b3dcd337849b13daceecae8ad3b3dc06c8cf330711e112e1f79f99f4c4",
+      "source": "ai"
+    },
+    {
+      "text": "Give your curiosity a little more room than your fear expects.",
+      "fingerprint": "aa71ee181ef75817d64a657264966b015ec76ed4289415598d01506913d9b333",
+      "source": "ai"
+    },
+    {
+      "text": "You can build something worthwhile without making every part of your life a competition.",
+      "fingerprint": "a5dfb85143f6cea0747dd4b2cb502a97e15d1af58e93c20e0b75e201375708f0",
+      "source": "ai"
+    },
+    {
+      "text": "Give your future fewer promises and more small pieces of evidence.",
+      "fingerprint": "ca8423eb99f9d19cdeb94a565ec905f983852227e352cf812463c16a869b6b98",
+      "source": "ai"
+    },
+    {
+      "text": "Make something small enough to finish and meaningful enough to teach you.",
+      "fingerprint": "53b3aed530c3fc05093ded927ff85ddf9f31017c4c1fcef6ff8a9a288b9db80a",
+      "source": "ai"
+    },
+    {
+      "text": "A thoughtful pause can protect the direction that a rushed decision would undo.",
+      "fingerprint": "046055caccf78017ab7fe1dad697e6d23e97eb3a8bfce6d721451f88c0cace75",
+      "source": "ai"
+    },
+    {
+      "text": "Build a life that has room for both meaningful effort and unmeasured joy.",
+      "fingerprint": "74fd584e4155260cd96a003984c5e02f75b1341a32c93480723a3666102378f3",
+      "source": "ai"
+    },
+    {
+      "text": "An unfinished attempt is not wasted effort when it leaves you with a clearer question.",
+      "fingerprint": "16558fd13b5a8de7d2efb38b2496267f3e5fc5096410dc5ed8f7e1464520a0d7",
+      "source": "ai"
+    },
+    {
+      "text": "Your attention gives ordinary actions the chance to become excellent work.",
+      "fingerprint": "b72d834bee2dca7051b390a38299710a1a6b28f9578638de56cc91cd0e29b652",
+      "source": "ai"
+    },
+    {
+      "text": "A little courage used today can make tomorrow's unfamiliar task feel more approachable.",
+      "fingerprint": "941033b1192927423b8da23ca4e93d87317dc8fd95d8fc18f21f2042e3decec0",
+      "source": "ai"
+    },
+    {
+      "text": "Good work grows where curiosity is allowed to stay longer than embarrassment.",
+      "fingerprint": "c25999fa6750bd48ae3c36761d68ef4bb41db2f6b56b94d89f49826e6f691c2b",
+      "source": "ai"
+    },
+    {
+      "text": "The work becomes lighter when the next action is clearer than the whole mountain.",
+      "fingerprint": "dac7afb6f37f254d2d9c47533b0f56c7de87226ecb97b44a018c0375a075a0a1",
+      "source": "ai"
+    },
+    {
+      "text": "A season of rebuilding can still be a season of growth.",
+      "fingerprint": "ff28f8dda1072b059e3f123e562821d8306af0fa9d2b0142fe5a17bb1e777df3",
+      "source": "ai"
+    },
+    {
+      "text": "You are allowed to change the method without giving up on the reason you started.",
+      "fingerprint": "92f453af1c7dd406348cc3dcb88854b9834fbf0e458d24d670197c087bd83669",
+      "source": "ai"
+    },
+    {
+      "text": "When the plan feels too heavy, reduce the step before you reduce the dream.",
+      "fingerprint": "13708c1925798f74645be6b5023f766366f69b05e382b3c5bb5b3208dcacc54c",
+      "source": "ai"
+    },
+    {
+      "text": "Your ambition deserves a routine gentle enough to survive your difficult days.",
+      "fingerprint": "854ba648c36031c712dbbaea39631c0333c2e87244a12aaf543bf3245c2d1174",
+      "source": "ai"
+    },
+    {
+      "text": "The courage to be a beginner is renewable. You can choose it each time you learn something new.",
+      "fingerprint": "977a471cc354a4a7bd1daa958c55e1394a917ce409e8d555efebb1da90ba6ae9",
+      "source": "ai"
+    },
+    {
+      "text": "The smallest useful action is often more powerful than the largest untested intention.",
+      "fingerprint": "c0e159933d87b73a429eade4b18b5fb5b7084f8f4cd2139c4415635ce90e1f6e",
+      "source": "ai"
+    },
+    {
+      "text": "A better system can do more for your consistency than another argument with yourself.",
+      "fingerprint": "e2e7c66ac0e6b9948c118b9008e1d17f8d682eb067468ca9710f529a46a94d0e",
+      "source": "ai"
+    },
+    {
+      "text": "Protect the habits that help you return to yourself, not only the habits that help you produce.",
+      "fingerprint": "40b0340c7ae8d227c555f4d879bf96458d47b6091b314d3e8d625125731613dd",
+      "source": "ai"
+    },
+    {
+      "text": "Do the work that helps, ask the question that clarifies, and let recognition arrive in its own time.",
+      "fingerprint": "66f3339509cef5a3d1131898114a24899a613a0e6dcf4227e94fa92a95737d3d",
+      "source": "ai"
+    },
+    {
+      "text": "There is dignity in the quiet work of becoming more capable, even when there is nothing to announce.",
+      "fingerprint": "fed29983a8c3df7889b8cf5e7a0e7b081ce3674871d34a7960b6478eb1c4fca2",
+      "source": "ai"
+    },
+    {
+      "text": "Your effort is allowed to be quiet. Its meaning does not depend on an audience.",
+      "fingerprint": "14f78cbf9c66e5f780ab805120ce858aaaf68f10c75156b10eba8571d0b9e067",
+      "source": "ai"
+    },
+    {
+      "text": "Let your goals give you direction without turning every ordinary day into a judgment.",
+      "fingerprint": "836ebe4418b0b555c0616f3673c1040fa0aee70bf6ad13ac93f9b90933218f0d",
+      "source": "ai"
+    },
+    {
+      "text": "Let today contain one action that agrees with the future you keep imagining.",
+      "fingerprint": "e60699b3d533bfd072da8b189bad06c64aedde923a73b6c078bf5d99ceb7d8c2",
+      "source": "ai"
+    },
+    {
+      "text": "You do not have to earn rest by reaching exhaustion. Protect the person doing the work.",
+      "fingerprint": "3a9fd1622ed24443add7d90e48e8d2a949e881b962dccd3dc8bc4b8de5456c98",
+      "source": "ai"
+    }
+  ],
+  "recent": [
+    {
+      "text": "You do not need to solve the whole journey today. Give the next honest step the attention it deserves.",
+      "fingerprint": "c826e99a4738177b068bb13b1b3cdb7caaf8688f36b5c97195b6009a97cb4a1a",
+      "source": "ai",
+      "slot": 166061,
+      "at": "2026-10-31T16:03:00.376Z"
+    }
+  ],
+  "used": [
+    {
+      "fingerprint": "c826e99a4738177b068bb13b1b3cdb7caaf8688f36b5c97195b6009a97cb4a1a",
+      "at": "2026-10-31T16:03:00.376Z"
+    }
+  ]
+}

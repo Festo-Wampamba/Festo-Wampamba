@@ -3,7 +3,11 @@
 </h1>
 
 <!-- QUOTE:START -->
-> 💡 A backup you have never restored is just an unverified assumption with a timestamp.
+<a href="https://festo-contribution-journal.vercel.app/quotes/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;v=166061">
+  <source media="(prefers-color-scheme: light)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=light&amp;v=166061">
+  <img src="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;v=166061" alt="You do not need to solve the whole journey today. Give the next honest step the attention it deserves." width="100%">
+</picture></a>
 <!-- QUOTE:END -->
 
 # Festo Wampamba

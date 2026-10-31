@@ -29,4 +29,8 @@ await mkdir(new URL('pacman/', output), { recursive: true });
 for (const file of ['index.html', 'app.js', 'style.css', 'theme.css', 'pacman-dark.svg', 'pacman-light.svg']) {
   await copyFile(new URL(`../arcade/pacman/${file}`, import.meta.url), new URL(`pacman/${file}`, output));
 }
+await mkdir(new URL('quotes/', output), { recursive: true });
+for (const file of ['index.html', 'styles.css', 'app.js']) {
+  await copyFile(new URL(`../quotes/${file}`, import.meta.url), new URL(`quotes/${file}`, output));
+}
 console.log('Built dist/ from saved snapshots; no API request or token needed.');
