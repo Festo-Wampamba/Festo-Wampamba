@@ -33,45 +33,45 @@ export function renderStatsSvg(snapshot) {
   let cursor = 56;
   const bar = languages.map((language) => {
     const width = language.share * 1088;
-    const result = `<rect x="${cursor}" y="531" width="${width}" height="15" fill="${escape(language.color)}"><title>${escape(language.name)}: ${percent(language.share)}</title></rect>`;
+    const result = `<rect x="${cursor}" y="571" width="${width}" height="15" fill="${escape(language.color)}"><title>${escape(language.name)}: ${percent(language.share)}</title></rect>`;
     cursor += width;
     return result;
   }).join('');
   const legend = languages.map((language, index) => {
-    const x = 56 + index % 2 * 560, y = 584 + Math.floor(index / 2) * 32;
-    return `<circle cx="${x+5}" cy="${y-4}" r="5" fill="${escape(language.color)}"/><text x="${x+22}" y="${y}" fill="var(--text)" font-size="16">${escape(language.name)}</text><text x="${x+502}" y="${y}" text-anchor="end" fill="var(--muted)" font-size="16">${percent(language.share)}</text>`;
+    const x = 56 + index % 2 * 560, y = 624 + Math.floor(index / 2) * 40;
+    return `<circle cx="${x+5}" cy="${y-4}" r="5" fill="${escape(language.color)}"/><text x="${x+22}" y="${y}" fill="var(--text)" font-size="22">${escape(language.name)}</text><text x="${x+502}" y="${y}" text-anchor="end" fill="var(--muted)" font-size="22">${percent(language.share)}</text>`;
   }).join('');
   const rows = metrics(snapshot).map(([name, label, value, scope], index) => {
-    const y = 151 + index * 46;
-    return `<g class="stat-row" style="animation-delay:${index*80}ms"><svg x="56" y="${y-15}" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--signal)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${icons[name]}</svg><text x="86" y="${y}" fill="var(--text)" font-size="14">${label}</text><text x="86" y="${y+16}" class="tiny">${scope}</text><text x="365" y="${y+4}" text-anchor="end" fill="var(--text)" font-size="22" font-weight="600">${number(value)}</text>${index<4?`<path d="M56 ${y+26}H380" stroke="var(--border)" opacity=".7"/>`:''}</g>`;
+    const y = 151 + index * 56;
+    return `<g class="stat-row" style="animation-delay:${index*80}ms"><svg x="56" y="${y-18}" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--signal)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${icons[name]}</svg><text x="86" y="${y}" fill="var(--text)" font-size="22">${label}</text><text x="86" y="${y+24}" class="tiny">${scope}</text><text x="365" y="${y+4}" text-anchor="end" fill="var(--text)" font-size="32" font-weight="600">${number(value)}</text>${index<4?`<path d="M56 ${y+32}H380" stroke="var(--border)" opacity=".7"/>`:''}</g>`;
   }).join('');
-  return `<svg xmlns="http://www.w3.org/2000/svg" class="profile-stats" data-grade="${grade.achievedA?'a':'gold'}" viewBox="0 0 1200 808" width="1200" height="808" role="img" aria-labelledby="stats-title stats-description">
+  return `<svg xmlns="http://www.w3.org/2000/svg" class="profile-stats" data-grade="${grade.achievedA?'a':'gold'}" viewBox="0 0 1200 848" width="1200" height="848" role="img" aria-labelledby="stats-title stats-description">
 <title id="stats-title">${escape(snapshot.username)} — GitHub stats and streak</title><desc id="stats-description">Grade ${grade.level}, a community calculation. ${metrics(snapshot).map(([,label,value,scope])=>`${label}: ${number(value)} (${scope})`).join('. ')}. ${number(h.contributions)} contributions since ${date(h.from)}. Current streak ${h.current} days (${range(h.currentFrom,h.currentTo)}). Longest streak ${h.longest} days (${range(h.longestFrom,h.longestTo)}). Language usage measures code bytes across original public repositories. Updated ${date(snapshot.updatedAt)} UTC.</desc>
 <defs><linearGradient id="glass" x2=".7" y2="1"><stop stop-color="var(--surface)"/><stop offset="1" stop-color="var(--canvas)"/></linearGradient><linearGradient id="rim"><stop stop-color="var(--signal)" stop-opacity=".55"/><stop offset=".5" stop-color="var(--border)"/><stop offset="1" stop-color="var(--signal)" stop-opacity=".18"/></linearGradient><radialGradient id="sheen" cx=".9" cy="0" r="1"><stop stop-color="var(--signal)" stop-opacity=".09"/><stop offset="1" stop-color="var(--signal)" stop-opacity="0"/></radialGradient></defs>
 <style>${themeCss('.profile-stats', 'html[data-theme="light"] .profile-stats,.profile-stats[data-theme="light"]', 'html[data-theme="dark"] .profile-stats,.profile-stats[data-theme="dark"]')}
-.profile-stats{--earned:#187343;--signal:var(--accent)}.profile-stats[data-grade=a]{--signal:var(--earned)}.profile-stats text{font-family:'Geist',system-ui,sans-serif}.profile-stats .tiny{fill:var(--muted);font-size:11px}.signal{--signal:var(--accent)}.signal.is-a{--signal:var(--earned)}.stat-row{animation:reveal .7s both}.rank-ring{animation:reveal 1.2s both}@keyframes reveal{from{opacity:.2}to{opacity:1}}@media(prefers-color-scheme:dark){.profile-stats{--earned:#67dba0}}.profile-stats[data-theme="light"]{--earned:#187343}.profile-stats[data-theme="dark"]{--earned:#67dba0}@media(prefers-reduced-motion:reduce){.stat-row,.rank-ring{animation:none}}</style>
-<rect width="1200" height="808" rx="16" fill="var(--canvas)"/>
-<text x="32" y="35" fill="var(--muted)" font-size="11" letter-spacing="2">${escape(snapshot.username.toUpperCase())} / GITHUB OVERVIEW</text><text x="1168" y="35" text-anchor="end" class="tiny">Updated ${date(snapshot.updatedAt)} UTC</text>
+.profile-stats{--earned:#187343;--signal:var(--accent)}.profile-stats[data-grade=a]{--signal:var(--earned)}.profile-stats text{font-family:'Geist',system-ui,sans-serif}.profile-stats .tiny{fill:var(--muted);font-size:18px}.signal{--signal:var(--accent)}.signal.is-a{--signal:var(--earned)}.stat-row{animation:reveal .7s both}.rank-ring{animation:reveal 1.2s both}@keyframes reveal{from{opacity:.2}to{opacity:1}}@media(prefers-color-scheme:dark){.profile-stats{--earned:#67dba0}}.profile-stats[data-theme="light"]{--earned:#187343}.profile-stats[data-theme="dark"]{--earned:#67dba0}@media(prefers-reduced-motion:reduce){.stat-row,.rank-ring{animation:none}}</style>
+<rect width="1200" height="848" rx="16" fill="var(--canvas)"/>
+<text x="32" y="35" fill="var(--muted)" font-size="16" letter-spacing="2">${escape(snapshot.username.toUpperCase())} / GITHUB OVERVIEW</text><text x="1168" y="35" text-anchor="end" class="tiny">Updated ${date(snapshot.updatedAt)} UTC</text>
 <g class="signal${grade.achievedA?' is-a':''}">
-<rect x="32" y="68" width="570" height="346" rx="16" fill="url(#glass)" stroke="url(#rim)"/><rect x="32" y="68" width="570" height="346" rx="16" fill="url(#sheen)"/>
-<text x="56" y="106" fill="var(--text)" font-size="21" font-weight="600">My stats</text><text x="578" y="104" text-anchor="end" class="tiny">Festo Wampamba</text>
+<rect x="32" y="68" width="570" height="386" rx="16" fill="url(#glass)" stroke="url(#rim)"/><rect x="32" y="68" width="570" height="386" rx="16" fill="url(#sheen)"/>
+<text x="56" y="106" fill="var(--text)" font-size="28" font-weight="600">My stats</text><text x="578" y="104" text-anchor="end" class="tiny">Festo Wampamba</text>
 ${rows}
-<path d="M407 132v234" stroke="var(--border)"/>
-<g class="rank-ring"><circle cx="501" cy="220" r="61" fill="none" stroke="var(--border)" stroke-width="6"/><circle cx="501" cy="220" r="61" fill="none" stroke="var(--signal)" stroke-width="6" stroke-linecap="round" stroke-dasharray="${gradeProgress(grade)*383.27} 383.27" transform="rotate(-90 501 220)"/><text x="501" y="232" text-anchor="middle" fill="var(--signal)" font-size="37" font-weight="600">${grade.level}</text></g>
-<text x="501" y="313" text-anchor="middle" class="tiny" letter-spacing="1">COMMUNITY GRADE</text><text x="501" y="336" text-anchor="middle" class="tiny">${grade.achievedA?'A milestone reached':`A at score 75 · ${(100-grade.percentile).toFixed(1)} now`}</text>
-<text x="56" y="391" class="tiny">${p.repositories} original public repos<tspan dx="22">${p.followers} followers</tspan></text>
-<rect x="626" y="68" width="542" height="346" rx="16" fill="url(#glass)" stroke="url(#rim)"/><rect x="626" y="68" width="542" height="346" rx="16" fill="url(#sheen)"/>
-<text x="650" y="106" fill="var(--text)" font-size="21" font-weight="600">Streak</text><text x="1144" y="104" text-anchor="end" class="tiny">Every day counts</text>
+<path d="M407 132v274" stroke="var(--border)"/>
+<g class="rank-ring"><circle cx="501" cy="220" r="61" fill="none" stroke="var(--border)" stroke-width="6"/><circle cx="501" cy="220" r="61" fill="none" stroke="var(--signal)" stroke-width="6" stroke-linecap="round" stroke-dasharray="${gradeProgress(grade)*383.27} 383.27" transform="rotate(-90 501 220)"/><text x="501" y="232" text-anchor="middle" fill="var(--signal)" font-size="46" font-weight="600">${grade.level}</text></g>
+<text x="501" y="313" text-anchor="middle" class="tiny" letter-spacing=".2">Community grade</text><text x="501" y="336" text-anchor="middle" class="tiny">${grade.achievedA?'A milestone reached':`${(100-grade.percentile).toFixed(1)} / 75 for A`}</text>
+<text x="56" y="431" class="tiny">${p.repositories} original public repos<tspan dx="22">${p.followers} followers</tspan></text>
+<rect x="626" y="68" width="542" height="386" rx="16" fill="url(#glass)" stroke="url(#rim)"/><rect x="626" y="68" width="542" height="386" rx="16" fill="url(#sheen)"/>
+<text x="650" y="106" fill="var(--text)" font-size="28" font-weight="600">Streak</text><text x="1144" y="104" text-anchor="end" class="tiny">Every day counts</text>
 <path d="M850 142v225M878 266h266" stroke="var(--border)"/>
 <circle cx="750" cy="214" r="62" fill="none" stroke="var(--border)" stroke-width="5"/><path d="M750 152a62 62 0 1 1-1 .01" fill="none" stroke="var(--signal)" stroke-width="5" stroke-linecap="round" stroke-dasharray="315 390" transform="rotate(30 750 214)"/>
-<svg x="740" y="130" width="20" height="25" viewBox="0 0 24 24" fill="var(--signal)">${icons.flame}</svg><text x="750" y="228" text-anchor="middle" fill="var(--signal)" font-size="42" font-weight="600">${h.current}</text>
-<text x="750" y="307" text-anchor="middle" fill="var(--signal)" font-size="14" font-weight="600">Current streak · days</text><text x="750" y="332" text-anchor="middle" class="tiny">${h.currentFrom?date(h.currentFrom):'Start today'}</text><text x="750" y="350" text-anchor="middle" class="tiny">${h.currentTo?`– ${date(h.currentTo)}`:''}</text>
-<text x="878" y="162" class="tiny" letter-spacing="1">TOTAL CONTRIBUTIONS</text><text x="878" y="205" fill="var(--text)" font-size="34" font-weight="600">${number(h.contributions)}</text><text x="878" y="236" class="tiny">${date(h.from)} – Present</text>
-<text x="878" y="295" class="tiny" letter-spacing="1">LONGEST STREAK</text><text x="878" y="333" fill="var(--text)" font-size="30" font-weight="600">${h.longest}<tspan dx="8" class="tiny">days</tspan></text><text x="878" y="358" class="tiny">${h.longestFrom?range(h.longestFrom,h.longestTo):'No streak yet'}</text>
-<text x="650" y="391" class="tiny">Account history · UTC · today may be incomplete</text></g>
-<rect x="32" y="438" width="1136" height="306" rx="14" fill="var(--surface)" stroke="var(--border)"/><text x="56" y="480" fill="var(--text)" font-size="23" font-weight="600">Code footprint</text><text x="56" y="506" class="tiny">Share of code bytes across original public repositories · forks excluded</text>
-${bar}${legend}${languages.length?'':'<text x="56" y="584" class="tiny">No language data available.</text>'}
-<text x="32" y="780" class="tiny">Direct from GitHub · dated snapshot · community grade uses the github-readme-stats formula</text></svg>\n`;
+<svg x="740" y="130" width="20" height="25" viewBox="0 0 24 24" fill="var(--signal)">${icons.flame}</svg><text x="750" y="228" text-anchor="middle" fill="var(--signal)" font-size="52" font-weight="600">${h.current}</text><text x="750" y="255" text-anchor="middle" class="tiny">days</text>
+<text x="750" y="307" text-anchor="middle" fill="var(--signal)" font-size="22" font-weight="600">Current streak</text><text x="750" y="332" text-anchor="middle" class="tiny">${h.currentFrom?date(h.currentFrom):'Start today'}</text><text x="750" y="357" text-anchor="middle" class="tiny">${h.currentTo?`– ${date(h.currentTo)}`:''}</text>
+<text x="878" y="162" class="tiny" letter-spacing="1">TOTAL CONTRIBUTIONS</text><text x="878" y="205" fill="var(--text)" font-size="44" font-weight="600">${number(h.contributions)}</text><text x="878" y="236" class="tiny">${date(h.from)} – Present</text>
+<text x="878" y="295" class="tiny" letter-spacing="1">LONGEST STREAK</text><text x="878" y="333" fill="var(--text)" font-size="40" font-weight="600">${h.longest}<tspan dx="8" class="tiny">days</tspan></text><text x="878" y="358" class="tiny">${h.longestFrom?range(h.longestFrom,h.longestTo):'No streak yet'}</text>
+<text x="650" y="431" class="tiny">Account history · UTC · today may be incomplete</text></g>
+<rect x="32" y="478" width="1136" height="306" rx="14" fill="var(--surface)" stroke="var(--border)"/><text x="56" y="520" fill="var(--text)" font-size="30" font-weight="600">Code footprint</text><text x="56" y="546" class="tiny">Share of code bytes across original public repositories · forks excluded</text>
+${bar}${legend}${languages.length?'':'<text x="56" y="624" class="tiny">No language data available.</text>'}
+<text x="32" y="820" class="tiny">Direct from GitHub · dated snapshot · community grade uses the github-readme-stats formula</text></svg>\n`;
 }
 
 export function renderStatsHtml(snapshot) {
