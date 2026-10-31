@@ -42,7 +42,6 @@ const format = value => value === null ? 'Hidden' : value.toLocaleString('en-US'
 export const badgeDefinitions = data => [
   { id: 'youtube-subscribers', label: 'Subscribers', value: format(data.youtube.subscribers), icon: 'youtube', href: `https://www.youtube.com/channel/${CHANNEL}?sub_confirmation=1` },
   { id: 'youtube-views', label: 'Views', value: format(data.youtube.views), icon: 'youtube', href: `https://www.youtube.com/channel/${CHANNEL}` },
-  { id: 'github-followers', label: 'Followers', value: format(data.github.followers), icon: 'github', href: `https://github.com/${USER}?tab=followers` },
   { id: 'github-repos', label: 'Public repos', value: format(data.github.publicRepos), icon: 'github', href: `https://github.com/${USER}?tab=repositories` },
   { id: 'company', label: 'Company', value: data.company, icon: 'company', href: null },
 ];
@@ -66,7 +65,7 @@ export function renderBadgeReadme(data) {
     return entry.href ? `<a href="${escape(entry.href)}">${picture}</a>` : picture;
   };
   const entries = badgeDefinitions(data);
-  return `<div>\n<p>\n${entries.slice(0, 2).map(badge).join(' ')}\n</p>\n<p>\n${entries.slice(2).map(badge).join(' ')}\n</p>\n</div>`;
+  return `<div>\n<p>\n${entries.map(badge).join(' ')}\n</p>\n</div>`;
 }
 export function updateBadgeReadme(readme, data) {
   const start = '<!-- PROFILE-BADGES:START -->', end = '<!-- PROFILE-BADGES:END -->';

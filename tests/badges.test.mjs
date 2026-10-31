@@ -31,8 +31,8 @@ test('badges show full comma-separated numbers, clear labels, escaped text and r
   }
   assert.match(renderBadge({ label: 'Company', value: 'A & B <Tech>', icon: 'company' }, 'light'), /A &amp; B &lt;Tech&gt;/);
   const html = renderBadgeReadme(data);
-  assert.equal((html.match(/<picture>/g) ?? []).length, 5);
-  assert.equal((html.match(/<source /g) ?? []).length, 10);
+  assert.equal((html.match(/<picture>/g) ?? []).length, 4);
+  assert.equal((html.match(/<source /g) ?? []).length, 8);
   assert.doesNotMatch(html, /retired|shieldcn|img.shields/);
   const before = 'Before\n<!-- PROFILE-BADGES:START -->\nold\n<!-- PROFILE-BADGES:END -->\nAfter';
   const updated = updateBadgeReadme(before, data);
