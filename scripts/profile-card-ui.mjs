@@ -23,9 +23,9 @@ export function cardFrame(width, height, theme) {
   const p = palettes[theme];
   return `<defs><linearGradient id="glass" x2="1" y2="1"><stop stop-color="#fff" stop-opacity="${theme === 'dark' ? '.10' : '.95'}"/><stop offset=".5" stop-color="#fff" stop-opacity=".015"/><stop offset="1" stop-color="${p.accent}" stop-opacity=".055"/></linearGradient></defs><rect x=".5" y=".5" width="${width - 1}" height="${height - 1}" rx="14" fill="${p.surface}"/><rect x=".5" y=".5" width="${width - 1}" height="${height - 1}" rx="14" fill="url(#glass)" stroke="${p.border}"/>`;
 }
-export function picture(directory, id, alt, revision = '') {
+export function picture(directory, id, alt, revision = '', width = 400) {
   const src = (theme, compact = false) => `./assets/${directory}/${id}-${theme}${compact ? '-compact' : ''}.svg${revision ? '?v=' + revision : ''}`;
-  return `<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="${src('dark', true)}" /><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="${src('light', true)}" /><source media="(prefers-color-scheme: dark)" srcset="${src('dark')}" /><source media="(prefers-color-scheme: light)" srcset="${src('light')}" /><img src="${src('dark')}" alt="${escape(alt)}" width="400" /></picture>`;
+  return `<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="${src('dark', true)}" /><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="${src('light', true)}" /><source media="(prefers-color-scheme: dark)" srcset="${src('dark')}" /><source media="(prefers-color-scheme: light)" srcset="${src('light')}" /><img src="${src('dark')}" alt="${escape(alt)}" width="${width}" /></picture>`;
 }
 export function replaceBlock(readme, start, end, body) {
   if (readme.split(start).length !== 2 || readme.split(end).length !== 2 || readme.indexOf(start) >= readme.indexOf(end)) throw new Error('Invalid README section markers.');

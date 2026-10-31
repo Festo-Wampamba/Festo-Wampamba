@@ -42,6 +42,13 @@ test('cards retain full counts, dates, duration, escaped titles and accessible t
   assert(next.includes('https://www.youtube.com/watch?v=abcdefghijk'));
   assert(next.includes('(max-width: 600px)'));
   assert.equal((next.match(/<picture>/g) || []).length, 1);
+  const six = { ...snapshot(), videos: Array.from({ length: 6 }, (_, index) => ({ ...video, id: `abcdefghij${index}` })) };
+  const rows = [...updateVideosReadme(readme, six).matchAll(/<p>(.*?)<\/p>/g)];
+  assert.equal(rows.length, 2);
+  for (const row of rows) {
+    assert.equal((row[1].match(/<picture>/g) || []).length, 3);
+    assert.equal((row[1].match(/width="264"/g) || []).length, 3);
+  }
   assert.throws(() => updateVideosReadme('missing markers', snapshot()), /markers/);
   assert.throws(() => updateVideosReadme(readme + '<!-- BEGIN YOUTUBE-CARDS -->', snapshot()), /markers/);
 });
