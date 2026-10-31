@@ -40,10 +40,9 @@ export async function fetchBadges({ token, youtubeKey, fetcher = fetch, now = ne
 const escape = text => String(text).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' })[char]);
 const format = value => value === null ? 'Hidden' : value.toLocaleString('en-US');
 export const badgeDefinitions = data => [
-  { id: 'youtube-subscribers', label: 'YouTube subscribers', value: format(data.youtube.subscribers), icon: 'youtube', href: `https://www.youtube.com/channel/${CHANNEL}?sub_confirmation=1` },
-  { id: 'youtube-views', label: 'YouTube views', value: format(data.youtube.views), icon: 'youtube', href: `https://www.youtube.com/channel/${CHANNEL}` },
+  { id: 'youtube-subscribers', label: 'Subscribers', value: format(data.youtube.subscribers), icon: 'youtube', href: `https://www.youtube.com/channel/${CHANNEL}?sub_confirmation=1` },
+  { id: 'youtube-views', label: 'Views', value: format(data.youtube.views), icon: 'youtube', href: `https://www.youtube.com/channel/${CHANNEL}` },
   { id: 'github-followers', label: 'Followers', value: format(data.github.followers), icon: 'github', href: `https://github.com/${USER}?tab=followers` },
-  { id: 'github-stars', label: 'Repo stars', value: format(data.github.stars), icon: 'github', href: `https://github.com/${USER}?tab=repositories&sort=stargazers` },
   { id: 'github-repos', label: 'Public repos', value: format(data.github.publicRepos), icon: 'github', href: `https://github.com/${USER}?tab=repositories` },
   { id: 'company', label: 'Company', value: data.company, icon: 'company', href: null },
 ];

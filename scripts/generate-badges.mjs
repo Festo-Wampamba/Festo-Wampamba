@@ -11,6 +11,6 @@ try {
   if (readme !== nextReadme) files.set('../README.md', nextReadme);
   for (const [name, body] of files) { const temporary = new URL(name + `.${process.pid}.tmp`, assets); pending.push(temporary); await writeFile(temporary, body); }
   let index = 0; for (const name of files.keys()) await rename(pending[index++], new URL(name, assets));
-  console.log(`Saved six profile badges from official statistics: ${data.github.publicRepos} public repositories, ${data.youtube.views.toLocaleString('en-US')} YouTube views.`);
+  console.log(`Saved ${badgeDefinitions(data).length} profile badges from official statistics: ${data.github.publicRepos} public repositories, ${data.youtube.views.toLocaleString('en-US')} YouTube views.`);
 } catch (error) { console.error(error.message); process.exitCode = 1; }
 finally { await Promise.all(pending.map(path => rm(path, { force: true }))); }
