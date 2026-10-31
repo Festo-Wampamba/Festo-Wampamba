@@ -8,10 +8,11 @@
   "scripts": {
     "generate": "node scripts/generate-graph.mjs",
     "build": "node scripts/build.mjs",
-    "lint": "node --check scripts/graph.mjs && node --check scripts/calendar.mjs && node --check scripts/palette.mjs && node --check scripts/generate-graph.mjs && node --check scripts/build.mjs && node --check graph/app.js && node --check graph/theme.js && node --check tests/graph.test.mjs && node --check tests/palette.test.mjs && node --check scripts/stats-data.mjs && node --check scripts/stats-render.mjs && node --check scripts/generate-stats.mjs && node --check tests/stats.test.mjs && node --check graph/stats.js && node --check arcade/pacman/app.js && node --check arcade/pacman/generate.mjs && node --check tests/pacman.test.mjs && node --check quotes/engine.mjs && node --check quotes/reserve.mjs && node --check quotes/app.js && node --check api/quote.js && node --check scripts/publish-quote.mjs && node --check scripts/import-quotes.mjs && node --check scripts/submit-quote-batch.mjs && node --check scripts/ignore-build.mjs && node --check scripts/serve.mjs && node --check tests/quotes.test.mjs && node --check tests/quote-publication.test.mjs",
+    "lint": "node --check scripts/graph.mjs && node --check scripts/calendar.mjs && node --check scripts/palette.mjs && node --check scripts/generate-graph.mjs && node --check scripts/build.mjs && node --check graph/app.js && node --check graph/theme.js && node --check tests/graph.test.mjs && node --check tests/palette.test.mjs && node --check scripts/stats-data.mjs && node --check scripts/stats-render.mjs && node --check scripts/generate-stats.mjs && node --check tests/stats.test.mjs && node --check graph/stats.js && node --check arcade/pacman/app.js && node --check arcade/pacman/generate.mjs && node --check tests/pacman.test.mjs && node --check quotes/engine.mjs && node --check quotes/reserve.mjs && node --check quotes/app.js && node --check api/quote.js && node --check scripts/publish-quote.mjs && node --check scripts/import-quotes.mjs && node --check scripts/submit-quote-batch.mjs && node --check scripts/ignore-build.mjs && node --check scripts/serve.mjs && node --check tests/quotes.test.mjs && node --check tests/quote-publication.test.mjs && node --check scripts/badges.mjs && node --check scripts/generate-badges.mjs && node --check tests/badges.test.mjs",
     "test": "node --test",
     "generate:stats": "node scripts/generate-stats.mjs",
     "publish:quote": "node scripts/publish-quote.mjs",
-    "preview": "node scripts/serve.mjs"
+    "preview": "node scripts/serve.mjs",
+    "generate:badges": "node scripts/generate-badges.mjs"
   }
 }

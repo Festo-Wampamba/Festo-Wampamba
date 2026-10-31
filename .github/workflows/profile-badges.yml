@@ -1,0 +1,59 @@
+name: Refresh profile badges
+on:
+  schedule:
+    - cron: '47 22 * * *' # Around 01:47 Africa/Kampala
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/badges.mjs'
+      - 'scripts/generate-badges.mjs'
+      - 'scripts/palette.mjs'
+      - 'tests/badges.test.mjs'
+      - '.github/workflows/profile-badges.yml'
+permissions:
+  contents: read
+concurrency:
+  group: profile-badges-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - run: node --test tests/badges.test.mjs
+      - name: Fetch official GitHub and YouTube statistics
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/generate-badges.mjs
+      - name: Save successful badges
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          gh auth setup-git
+          git remote set-url origin https://github.com/Festo-Wampamba/Festo-Wampamba.git
+          git add assets/profile-badges.json assets/badges
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'chore: refresh profile badge statistics'
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          exit 1
