@@ -63,11 +63,11 @@ export function renderBadgeReadme(data) {
   validateBadges(data);
   const revision = Date.parse(data.updatedAt);
   const badge = entry => {
-    const picture = `    <picture>\n      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/${entry.id}-dark.svg?v=${revision}" />\n      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/${entry.id}-light.svg?v=${revision}" />\n      <img src="./assets/badges/${entry.id}-dark.svg?v=${revision}" alt="${escape(entry.label + ': ' + entry.value)}" height="36" />\n    </picture>`;
-    return entry.href ? `  <a href="${escape(entry.href)}">\n${picture}\n  </a>` : picture;
+    const picture = `<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badges/${entry.id}-dark.svg?v=${revision}" /><source media="(prefers-color-scheme: light)" srcset="./assets/badges/${entry.id}-light.svg?v=${revision}" /><img src="./assets/badges/${entry.id}-dark.svg?v=${revision}" alt="${escape(entry.label + ': ' + entry.value)}" height="36" /></picture>`;
+    return entry.href ? `<a href="${escape(entry.href)}">${picture}</a>` : picture;
   };
   const entries = badgeDefinitions(data);
-  return `<div>\n<p>\n${entries.slice(0, 2).map(badge).join('\n')}\n</p>\n<p>\n${entries.slice(2).map(badge).join('\n')}\n</p>\n</div>`;
+  return `<div>\n<p>\n${entries.slice(0, 2).map(badge).join(' ')}\n</p>\n<p>\n${entries.slice(2).map(badge).join(' ')}\n</p>\n</div>`;
 }
 export function updateBadgeReadme(readme, data) {
   const start = '<!-- PROFILE-BADGES:START -->', end = '<!-- PROFILE-BADGES:END -->';
