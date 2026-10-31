@@ -25,45 +25,45 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 <p>
   <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ?sub_confirmation=1">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/youtube-subscribers-dark.svg?v=1793467741313" />
-      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/youtube-subscribers-light.svg?v=1793467741313" />
-      <img src="./assets/badges/youtube-subscribers-dark.svg?v=1793467741313" alt="YouTube subscribers: 188" height="36" />
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/youtube-subscribers-dark.svg?v=1793467933811" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/youtube-subscribers-light.svg?v=1793467933811" />
+      <img src="./assets/badges/youtube-subscribers-dark.svg?v=1793467933811" alt="YouTube subscribers: 188" height="36" />
     </picture>
   </a>
   <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/youtube-views-dark.svg?v=1793467741313" />
-      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/youtube-views-light.svg?v=1793467741313" />
-      <img src="./assets/badges/youtube-views-dark.svg?v=1793467741313" alt="YouTube views: 8,157" height="36" />
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/youtube-views-dark.svg?v=1793467933811" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/youtube-views-light.svg?v=1793467933811" />
+      <img src="./assets/badges/youtube-views-dark.svg?v=1793467933811" alt="YouTube views: 8,157" height="36" />
     </picture>
   </a>
 </p>
 <p>
   <a href="https://github.com/Festo-Wampamba?tab=followers">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/github-followers-dark.svg?v=1793467741313" />
-      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/github-followers-light.svg?v=1793467741313" />
-      <img src="./assets/badges/github-followers-dark.svg?v=1793467741313" alt="Followers: 17" height="36" />
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/github-followers-dark.svg?v=1793467933811" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/github-followers-light.svg?v=1793467933811" />
+      <img src="./assets/badges/github-followers-dark.svg?v=1793467933811" alt="Followers: 17" height="36" />
     </picture>
   </a>
   <a href="https://github.com/Festo-Wampamba?tab=repositories&amp;sort=stargazers">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/github-stars-dark.svg?v=1793467741313" />
-      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/github-stars-light.svg?v=1793467741313" />
-      <img src="./assets/badges/github-stars-dark.svg?v=1793467741313" alt="Repo stars: 3" height="36" />
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/github-stars-dark.svg?v=1793467933811" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/github-stars-light.svg?v=1793467933811" />
+      <img src="./assets/badges/github-stars-dark.svg?v=1793467933811" alt="Repo stars: 3" height="36" />
     </picture>
   </a>
   <a href="https://github.com/Festo-Wampamba?tab=repositories">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/github-repos-dark.svg?v=1793467741313" />
-      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/github-repos-light.svg?v=1793467741313" />
-      <img src="./assets/badges/github-repos-dark.svg?v=1793467741313" alt="Public repos: 35" height="36" />
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/github-repos-dark.svg?v=1793467933811" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/github-repos-light.svg?v=1793467933811" />
+      <img src="./assets/badges/github-repos-dark.svg?v=1793467933811" alt="Public repos: 35" height="36" />
     </picture>
   </a>
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/company-dark.svg?v=1793467741313" />
-      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/company-light.svg?v=1793467741313" />
-      <img src="./assets/badges/company-dark.svg?v=1793467741313" alt="Company: Lupora Tech" height="36" />
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/company-dark.svg?v=1793467933811" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/badges/company-light.svg?v=1793467933811" />
+      <img src="./assets/badges/company-dark.svg?v=1793467933811" alt="Company: Lupora Tech" height="36" />
     </picture>
 </p>
 </div>
