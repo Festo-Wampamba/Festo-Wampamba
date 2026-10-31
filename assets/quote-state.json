@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updatedAt": "2026-10-31T16:03:00.376Z",
-  "lastRefillAt": "2026-10-31T16:20:17.853Z",
+  "lastRefillAt": "2026-10-31T16:28:51.535Z",
   "current": {
     "text": "You do not need to solve the whole journey today. Give the next honest step the attention it deserves.",
     "fingerprint": "c826e99a4738177b068bb13b1b3cdb7caaf8688f36b5c97195b6009a97cb4a1a",
@@ -288,6 +288,11 @@
     {
       "text": "Keep one small promise to your future self today, and let that quiet follow-through become tomorrow's confidence.",
       "fingerprint": "884b4f962ab8e1f2b6e7b3e8510bfc6d4f1e54d180fa54e58d3dbde4eb0e6802",
+      "source": "ai"
+    },
+    {
+      "text": "A little patience with today's practice can protect a tomorrow you are still learning how to build.",
+      "fingerprint": "aaef60f93ee722e38debae3056e95b0bbcc07933d136a7024e2c20a7a31f6787",
       "source": "ai"
     }
   ],
