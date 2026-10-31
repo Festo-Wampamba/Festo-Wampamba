@@ -83,6 +83,9 @@ test('failed CLI refresh preserves the previous SVG; deployment build works with
   const root = await mkdtemp(join(tmpdir(), 'festo-graph-test-'));
   try {
     await Promise.all(['scripts', 'assets', 'graph'].map((directory) => mkdir(join(root, directory))));
+    await mkdir(join(root, 'arcade/pacman'), { recursive: true });
+    const pacmanFiles = ['index.html', 'app.js', 'style.css', 'theme.css', 'pacman-dark.svg', 'pacman-light.svg'];
+    for (const file of pacmanFiles) await copyFile(new URL(`../arcade/pacman/${file}`, import.meta.url), join(root, 'arcade/pacman', file));
     for (const file of ['scripts/graph.mjs', 'scripts/calendar.mjs', 'scripts/palette.mjs', 'scripts/generate-graph.mjs', 'scripts/build.mjs', 'graph/index.html', 'graph/app.js', 'graph/styles.css', 'graph/theme.js', 'scripts/stats-render.mjs', 'graph/stats.html', 'graph/stats.css', 'graph/stats.js', 'assets/profile-stats.json']) {
       await copyFile(new URL(`../${file}`, import.meta.url), join(root, file));
     }
@@ -94,7 +97,8 @@ test('failed CLI refresh preserves the previous SVG; deployment build works with
     assert.equal(await readFile(join(root, 'assets/contribution-graph.svg'), 'utf8'), svg);
     const build = spawnSync(process.execPath, ['scripts/build.mjs'], { cwd: root, env, encoding: 'utf8' });
     assert.equal(build.status, 0, build.stderr);
-    assert.deepEqual((await readdir(join(root, 'dist'))).sort(), ['app.js', 'contribution-graph.svg', 'contribution-graph-light.svg', 'contribution-graph-dark.svg', 'index.html', 'styles.css', 'theme.css', 'theme.js', 'profile-stats.svg', 'profile-stats-light.svg', 'profile-stats-dark.svg', 'profile-stats.json', 'stats', 'stats.css', 'stats.js'].sort());
+    assert.deepEqual((await readdir(join(root, 'dist'))).sort(), ['app.js', 'contribution-graph.svg', 'contribution-graph-light.svg', 'contribution-graph-dark.svg', 'index.html', 'styles.css', 'theme.css', 'theme.js', 'profile-stats.svg', 'profile-stats-light.svg', 'profile-stats-dark.svg', 'profile-stats.json', 'stats', 'stats.css', 'stats.js', 'pacman'].sort());
+    for (const file of pacmanFiles) assert.equal(await readFile(join(root, 'dist/pacman', file), 'utf8'), await readFile(new URL(`../arcade/pacman/${file}`, import.meta.url), 'utf8'));
     assert.equal(await readFile(join(root, 'dist/contribution-graph.svg'), 'utf8'), svg);
     const page = await readFile(join(root, 'dist/index.html'), 'utf8');
     assert.ok(page.includes(svg));

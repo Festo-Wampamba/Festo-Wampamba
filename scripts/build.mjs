@@ -25,4 +25,8 @@ await mkdir(new URL('stats/', output), { recursive: true });
 const statsTemplate = await readFile(new URL('../graph/stats.html', import.meta.url), 'utf8');
 const updated = new Date(snapshot.updatedAt).toLocaleString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'UTC' });
 await writeFile(new URL('stats/index.html', output), statsTemplate.replace('<!-- PROFILE_STATS -->', renderStatsHtml(snapshot)).replace('<!-- STATS_UPDATED -->', `Updated ${escape(updated)} UTC`));
-console.log('Built dist/ using the saved graph; no API request or token needed.');
+await mkdir(new URL('pacman/', output), { recursive: true });
+for (const file of ['index.html', 'app.js', 'style.css', 'theme.css', 'pacman-dark.svg', 'pacman-light.svg']) {
+  await copyFile(new URL(`../arcade/pacman/${file}`, import.meta.url), new URL(`pacman/${file}`, output));
+}
+console.log('Built dist/ from saved snapshots; no API request or token needed.');

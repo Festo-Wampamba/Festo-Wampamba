@@ -1,0 +1,73 @@
+name: Refresh Pac-Man contributions
+
+on:
+  schedule:
+    - cron: '43 23 * * *' # Around 02:43 Africa/Kampala
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'arcade/pacman/**'
+      - 'scripts/palette.mjs'
+      - '.github/workflows/pacman.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-pacman-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - uses: pnpm/action-setup@f40ffcd9367d9f12939873eb1018b921a783ffaa # v4
+        with:
+          version: '10.11.0'
+          run_install: false
+      - run: pnpm --dir arcade/pacman install --frozen-lockfile --ignore-scripts
+      - name: Generate recorded replay from GitHub contributions
+        env:
+          GH_TOKEN: ${{ secrets.CONTRIBUTIONS_TOKEN || github.token }}
+        run: node arcade/pacman/generate.mjs
+      - run: node --test
+      - run: node scripts/build.mjs
+      - name: Save successful replay
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          gh auth setup-git
+          git remote set-url origin https://github.com/Festo-Wampamba/Festo-Wampamba.git
+          git add arcade/pacman/raw.svg arcade/pacman/data.json arcade/pacman/index.html arcade/pacman/theme.css arcade/pacman/pacman-dark.svg arcade/pacman/pacman-light.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'chore: refresh Pac-Man replay'
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          exit 1
+      - name: Request optional Vercel rebuild
+        env:
+          DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$DEPLOY_HOOK" ]; then
+            curl --fail --silent --show-error --max-time 30 --request POST "$DEPLOY_HOOK" --output /dev/null
+          fi

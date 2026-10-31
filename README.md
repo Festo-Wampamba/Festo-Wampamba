@@ -159,7 +159,15 @@ Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup d
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/Festo-Wampamba/Festo-Wampamba/output/snake.svg" alt="Snake animation"/>
+<a href="https://festo-contribution-journal.vercel.app/pacman/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://festo-contribution-journal.vercel.app/pacman/pacman-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://festo-contribution-journal.vercel.app/pacman/pacman-light.svg">
+    <img src="https://festo-contribution-journal.vercel.app/pacman/pacman-dark.svg" alt="Pac-Man and ghosts playing through my GitHub contributions" width="100%">
+  </picture>
+</a>
+
+<p align="center"><a href="https://festo-contribution-journal.vercel.app/pacman/">Explore the Pac-Man replay · pause, restart and change theme ↗</a></p>
 
 ###
 
