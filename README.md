@@ -38,21 +38,21 @@
 
 ---
 
+<!-- PROFILE-ABOUT:START -->
 ## 👨‍💻 About Me
-- 🎓 **Student of BBC at Makerere University Business School**
-- 🛠️ **Lead Developer of [kore-standards](https://github.com/Festo-Wampamba/kore-standards)** Building innovative, industry-standard software solution
-- 📺 **Enterprise IT Mastery:** I create content on DevOps, Networking, and System Administration 
-- 💬 Ask me about **System Infrastructure, Networking, and Web development**
-- 📫 Reach me at: **festotechug@gmail.com**
+
+<div>
+<p><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/about/education-dark-compact.svg" /><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/about/education-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/about/education-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/about/education-light.svg" /><img src="./assets/about/education-dark.svg" alt="EDUCATION: Business Computing. BBC student at Makerere University Business School" width="400" /></picture> <a href="https://github.com/Festo-Wampamba/kore-standards"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/about/building-dark-compact.svg" /><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/about/building-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/about/building-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/about/building-light.svg" /><img src="./assets/about/building-dark.svg" alt="BUILDING: Kore Standards. Lead Developer. Building innovative, industry-standard software." width="400" /></picture></a></p>
+<p><a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/about/creating-dark-compact.svg" /><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/about/creating-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/about/creating-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/about/creating-light.svg" /><img src="./assets/about/creating-dark.svg" alt="CREATING: Enterprise IT Mastery. Content on DevOps, networking and system administration." width="400" /></picture></a> <picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/about/expertise-dark-compact.svg" /><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/about/expertise-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/about/expertise-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/about/expertise-light.svg" /><img src="./assets/about/expertise-dark.svg" alt="EXPERTISE: Infrastructure &amp; Web. Ask me about system infrastructure, networking and web development." width="400" /></picture></p>
+<p><a href="mailto:festotechug@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/about/email-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/about/email-light.svg" /><img src="./assets/about/email-dark.svg" alt="Email: festotechug@gmail.com" width="280" /></picture></a></p>
+</div>
 
 ### 🤝 Connect with me
-<a href="https://twitter.com/festo_techug" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/Follow-000000.svg?logo=x&variant=branded&mode=dark"><img alt="Follow on X" src="https://shieldcn.dev/badge/Follow-000000.svg?logo=x&variant=branded&mode=light"></picture></a> 
-<a href="https://www.linkedin.com/in/festoug/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/LinkedIn-0077B5.svg?logo=linkedin&logoColor=white&variant=branded&mode=dark"><img alt="LinkedIn" src="https://shieldcn.dev/badge/LinkedIn-0077B5.svg?logo=linkedin&logoColor=white&variant=branded&mode=light"></picture></a>
-<a href="https://festoug.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/Website-181717.svg?logo=ri%3ALuLink&variant=branded&mode=dark"><img alt="Website" src="https://shieldcn.dev/badge/Website-181717.svg?logo=ri%3ALuLink&variant=branded&mode=light"></picture></a> 
-<a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/YouTube-Enterprise%20IT%20Mastery-FF0000.svg?logo=youtube&variant=branded&mode=dark"><img alt="YouTube" src="https://shieldcn.dev/badge/YouTube-Enterprise%20IT%20Mastery-FF0000.svg?logo=youtube&variant=branded&mode=light"></picture></a>
 
-
-
+<div>
+<p><a href="https://twitter.com/festo_techug"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/about/x-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/about/x-light.svg" /><img src="./assets/about/x-dark.svg" alt="X" width="82" /></picture></a> <a href="https://www.linkedin.com/in/festoug/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/about/linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/about/linkedin-light.svg" /><img src="./assets/about/linkedin-dark.svg" alt="LinkedIn" width="132" /></picture></a> <a href="https://festoug.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/about/website-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/about/website-light.svg" /><img src="./assets/about/website-dark.svg" alt="Website" width="128" /></picture></a> <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/about/youtube-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/about/youtube-light.svg" /><img src="./assets/about/youtube-dark.svg" alt="YouTube" width="132" /></picture></a></p>
+</div>
+<!-- PROFILE-ABOUT:END -->
 
 
 ---
