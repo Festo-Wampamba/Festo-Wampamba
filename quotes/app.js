@@ -1,4 +1,4 @@
-const text = document.querySelector('#quote-text'), edition = document.querySelector('#edition'), countdown = document.querySelector('#countdown'), notice = document.querySelector('#notice'), copy = document.querySelector('#copy');
+const text = document.querySelector('#quote-text'), notice = document.querySelector('#notice'), copy = document.querySelector('#copy');
 let quote = null, timer = null, controller = null, retryAt = 0;
 async function refresh() {
   if (controller || document.hidden) return;
@@ -9,19 +9,13 @@ async function refresh() {
     const value = await response.json();
     if (typeof value.text !== 'string' || value.text.length > 230 || !Number.isFinite(Date.parse(value.nextChangeAt)) || Date.parse(value.nextChangeAt) <= Date.now()) throw new Error('Invalid reflection');
     quote = value; text.textContent = quote.text;
-    edition.textContent = new Date(quote.startsAt).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'Africa/Kampala' }) + ' EAT edition';
     notice.textContent = ''; retryAt = 0;
   } catch (error) {
     if (error.name !== 'AbortError') { notice.textContent = 'Keeping this reflection while the next one reconnects.'; retryAt = Date.now() + 30000; }
   } finally { controller = null; tick(); }
 }
 function tick() {
-  if (!quote) { countdown.textContent = 'Reconnecting'; return; }
-  const left = Math.max(0, Date.parse(quote.nextChangeAt) - Date.now());
-  const seconds = Math.ceil(left / 1000);
-  countdown.textContent = `${String(Math.floor(seconds / 3600)).padStart(2, '0')}:${String(Math.floor(seconds % 3600 / 60)).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`;
-  countdown.dateTime = quote.nextChangeAt;
-  if (!left && Date.now() >= retryAt) void refresh();
+  if (quote && Date.now() >= Date.parse(quote.nextChangeAt) && Date.now() >= retryAt) void refresh();
 }
 function activity() {
   clearInterval(timer); timer = null;

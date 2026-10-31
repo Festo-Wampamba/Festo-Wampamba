@@ -3,7 +3,7 @@
 Live page: https://festo-contribution-journal.vercel.app/quotes/
 Public JSON: `/api/quote`; SVG: `/api/quote?format=svg&theme=dark` (or `light`).
 
-The Node endpoint reads the bounded snapshot on GitHub main and renders the current three-hour slot. The page refreshes automatically at the next slot. No OpenAI API key, database account, paid provider, or Vercel cron job is required. Uganda time is used for the displayed edition. The publisher's GitHub schedule runs at 17 minutes past each three-hour boundary and may be delayed; the endpoint projects queued quotes forward in the meantime, then serves the deterministic reserve when the queue is exhausted. Delayed publication records the same planned slots, so it cannot unexpectedly change the current quote.
+The Node endpoint reads the bounded snapshot on GitHub main and renders the current three-hour slot. The page refreshes automatically at the next slot. No OpenAI API key, database account, paid provider, or Vercel cron job is required. The publisher's GitHub schedule runs at 17 minutes past each three-hour boundary and may be delayed; the endpoint projects queued quotes forward in the meantime, then serves the deterministic reserve when the queue is exhausted. Delayed publication records the same planned slots, so it cannot unexpectedly change the current quote.
 
 ## Storage and repeat policy
 
