@@ -16,9 +16,17 @@
 <!-- QUOTE:END -->
 
 # Festo Wampamba
-**`Founder of Lupora Tech | System Administrator | Full-Stack Developer | Tech Educator`**
-
-Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup dedicated to engineering ground-up solutions for the African tech ecosystem. While a seasoned Full-Stack Developer, his core expertise lies in Systems Administration and Networking, ensuring that the innovations built at Lupora Tech are backed by robust, high-performance infrastructure 
+<!-- PROFILE-INTRO:START -->
+<div>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/profile-intro-dark-compact.svg" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/profile-intro-light-compact.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-intro-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-intro-light.svg" />
+  <img src="./assets/profile-intro-dark.svg" alt="Founder of Lupora Tech | System Administrator | Full-Stack Developer | Tech Educator. Festo Wampamba is a Systems Engineer and the founder of Lupora Tech, a startup dedicated to engineering ground-up solutions for the African tech ecosystem. While a seasoned Full-Stack Developer, his core expertise lies in Systems Administration and Networking, ensuring that the innovations built at Lupora Tech are backed by robust, high-performance infrastructure" width="900" />
+</picture>
+</div>
+<!-- PROFILE-INTRO:END -->
 
 <!-- PROFILE-BADGES:START -->
 <div>
