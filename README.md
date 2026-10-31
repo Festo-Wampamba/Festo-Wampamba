@@ -57,43 +57,13 @@
 
 ---
 
+<!-- PROFILE-SHOWCASE:START -->
 ## 📂 Project Showcase
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/Festo-Wampamba/kore-standards">
-        <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=1000&auto=format&fit=crop" 
-             alt="kore-standards" 
-             style="width:100%; height:200px; object-fit:cover; border-radius: 10px;"/>
-      </a>
-      <br/>
-      <h3>Kore Standards</h3>
-      <sub>Kore is an Advanced AI Powered Agentic Job Matching System, that efficiently matches talent to right sources.</sub><br/>
-      <br/>
-      <a href="https://github.com/Festo-Wampamba/kore-standards">
-        <img src="https://img.shields.io/badge/View_Repo-000000?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
-      <br/>
-      <sub>Next.js, Postgres, AI</sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ">
-        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000&auto=format&fit=crop" 
-             alt="Enterprise IT Mastery" 
-             style="width:100%; height:200px; object-fit:cover; border-radius: 10px;"/>
-      </a>
-      <br/>
-      <h3>📺 Enterprise IT Mastery</h3>
-      <sub>My educational platform focusing on DevOps, Networking, and System Administration tutorials.</sub><br/>
-      <br/>
-      <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ">
-        <img src="https://img.shields.io/badge/Watch_Now-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
-      </a>
-      <br/>
-      <sub>Education, DevOps, Content</sub>
-    </td>
-  </tr>
-</table>
+
+<div>
+<p><a href="https://github.com/Festo-Wampamba/kore-standards"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/showcase/kore-dark-compact.svg" /><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/showcase/kore-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/showcase/kore-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/showcase/kore-light.svg" /><img src="./assets/showcase/kore-dark.svg" alt="Kore Standards: An AI-powered agentic job matching system connecting talent to the right opportunities. Next.js, Postgres, AI. View repository" width="400" /></picture></a> <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/showcase/mastery-dark-compact.svg" /><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/showcase/mastery-light-compact.svg" /><source media="(prefers-color-scheme: dark)" srcset="./assets/showcase/mastery-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/showcase/mastery-light.svg" /><img src="./assets/showcase/mastery-dark.svg" alt="Enterprise IT Mastery: Practical tutorials on DevOps, networking and system administration. Learn, build and put your skills to work. Education, DevOps, Content. Explore the channel" width="400" /></picture></a></p>
+</div>
+<!-- PROFILE-SHOWCASE:END -->
 
 ---
 
@@ -103,11 +73,7 @@
 
 <!-- END YOUTUBE-CARDS -->
 
-<p align="center">
-  <a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ?sub_confirmation=1">
-    <img src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20For%20More-red?style=for-the-badge&logo=video&logoColor=white" alt="Subscribe"/>
-  </a>
-</p>
+<p><a href="https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ?sub_confirmation=1">Subscribe to Enterprise IT Mastery ↗</a></p>
 
 ---
 

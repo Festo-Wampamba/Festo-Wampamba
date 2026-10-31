@@ -1,74 +1,61 @@
-# ============================================================================
-# YOUTUBE VIDEOS AUTO-UPDATE WORKFLOW
-# ============================================================================
-# Purpose: Automatically fetches latest YouTube videos from your channel
-# Updates: README.md with current views, dates, and thumbnails
-# Schedule: Daily at 3 AM EAT
-# ============================================================================
-
 name: Update YouTube Cards
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at 3 AM EAT
+    - cron: '0 0 * * *' # Around 03:00 Africa/Kampala; GitHub can delay schedules.
   workflow_dispatch:
   push:
-    branches: [ main ]
-    paths: [ '.github/workflows/youtube-cards.yml' ]
+    branches: [main]
+    paths:
+      - 'scripts/videos.mjs'
+      - 'scripts/generate-videos.mjs'
+      - 'scripts/profile-card-ui.mjs'
+      - 'tests/videos.test.mjs'
+      - '.github/workflows/youtube-cards.yml'
 
 permissions:
-  contents: write
-
-  # Force any internal Node 20 actions inside third-party actions to use Node 24
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  contents: read
+concurrency:
+  group: youtube-cards-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   update-youtube:
-    name: Update YouTube Videos
     runs-on: ubuntu-latest
-    
+    timeout-minutes: 5
+    permissions:
+      contents: write
     steps:
-      # =======================================================================
-      # STEP 1: CHECKOUT REPOSITORY
-      # =======================================================================
-      - name: Checkout Repository
-        uses: actions/checkout@v4   # restored v4 — v6 conflicts with the inner v3 in DenverCoder1
-
-      # =======================================================================
-      # STEP 2: FETCH LATEST YOUTUBE VIDEOS
-      # =======================================================================
-      - name: Fetch YouTube Videos
-        uses: DenverCoder1/github-readme-youtube-cards@1.8.0
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
-          channel_id: UCSiPOa3Vowwi42t1BysexmQ
-          comment_tag_name: YOUTUBE-CARDS
-          youtube_api_key: ${{ secrets.YOUTUBE_API_KEY }}
-          max_videos: 6
-          card_width: 250
-          border_radius: 5
-          background_color: "#0d1117"
-          title_color: "#ffffff"
-          stats_color: "#dedede"
-          max_title_lines: 2
-          show_duration: true
-
-      # =======================================================================
-      # STEP 3: COMMIT AND PUSH CHANGES
-      # =======================================================================
-      - name: Commit Updated README
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - run: node --test tests/videos.test.mjs
+      - name: Refresh official video statistics and saved thumbnails
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/generate-videos.mjs
+      - name: Save successful cards
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
-          git add README.md
-          
-          if git diff --staged --quiet; then
-            echo "📭 No new YouTube videos to update"
-          else
-            git commit -m "Auto-update: YouTube videos [skip ci]" \
-                       -m "Updated: $(date '+%Y-%m-%d %H:%M:%S EAT')" \
-                       -m "Latest 6 videos from channel"
-            git push
-            echo "✅ YouTube videos updated successfully!"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          gh auth setup-git
+          git remote set-url origin https://github.com/Festo-Wampamba/Festo-Wampamba.git
+          git add assets/featured-videos.json assets/videos README.md
+          if git diff --cached --quiet; then
+            exit 0
           fi
+          git commit -m 'chore: refresh featured YouTube videos'
+          for attempt in 1 2 3; do
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            if git push origin "HEAD:$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+          done
+          exit 1
