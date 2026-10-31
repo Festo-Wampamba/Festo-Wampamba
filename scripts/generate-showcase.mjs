@@ -4,7 +4,7 @@ import { escape, wrap, textLines, cardFrame, picture, replaceBlock } from './pro
 
 const projects = [
   { id: 'kore', category: '01 / SOFTWARE', title: 'Kore Standards', description: 'An AI-powered agentic job matching system connecting talent to the right opportunities.', tags: ['Next.js', 'Postgres', 'AI'], action: 'View repository', href: 'https://github.com/Festo-Wampamba/kore-standards', icon: '<path d="m9 7-5 5 5 5m6-10 5 5-5 5M14 4l-4 16"/>' },
-  { id: 'mastery', category: '02 / EDUCATION', title: 'Enterprise IT Mastery', description: 'Practical tutorials on DevOps, networking and system administration. Learn, build and put your skills to work.', tags: ['Education', 'DevOps', 'Content'], action: 'Explore the channel', href: 'https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ', icon: '<rect x="2" y="4" width="20" height="16" rx="4"/><path d="m10 8 6 4-6 4z"/>' },
+  { id: 'mastery', category: '02 / EDUCATION', title: 'Enterprise IT Mastery', description: 'Practical tutorials on DevOps, networking and system administration. Learn, build and put your skills to work.', tags: ['Education', 'DevOps', 'Content'], action: 'Subscribe to channel', revision: 'eim-monitor-v1', href: 'https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ?sub_confirmation=1', icon: '<rect x="2" y="4" width="20" height="16" rx="4"/><path d="m10 8 6 4-6 4z"/>' },
 ];
 function render(project, theme, compact) {
   const p = palettes[theme], width = compact ? 320 : 400, panel = compact ? 320 : 388, height = compact ? 370 : 330, imageHeight = compact ? 160 : 190, totalHeight = height + imageHeight;
@@ -24,7 +24,7 @@ for (const project of projects) {
   project.photo = photo.toString('base64');
   for (const theme of ['light', 'dark']) for (const compact of [false, true]) await writeFile(new URL(`${project.id}-${theme}${compact ? '-compact' : ''}.svg`, output), render(project, theme, compact));
 }
-const content = `## 📂 Project Showcase\n\n<div>\n<p>${projects.map(project => `<a href="${project.href}">${picture('showcase', project.id, `${project.title}: ${project.description} ${project.tags.join(', ')}. ${project.action}`, 'photos-v2')}</a>`).join(' ')}</p>\n</div>`;
+const content = `## 📂 Project Showcase\n\n<div>\n<p>${projects.map(project => `<a href="${project.href}">${picture('showcase', project.id, `${project.title}: ${project.description} ${project.tags.join(', ')}. ${project.action}`, project.revision || 'photos-v2')}</a>`).join(' ')}</p>\n</div>`;
 const path = new URL('README.md', root), readme = await readFile(path, 'utf8');
 const start = '<!-- PROFILE-SHOWCASE:START -->', end = '<!-- PROFILE-SHOWCASE:END -->';
 let next;
