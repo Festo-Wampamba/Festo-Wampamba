@@ -28,5 +28,5 @@ export default async function handler(request, response) {
   response.setHeader('Content-Security-Policy', "default-src 'none'; style-src 'unsafe-inline'; sandbox");
   response.status(200);
   if (request.method === 'HEAD') return response.end();
-  response.send(svg ? renderQuoteSvg(quote, url.searchParams.get('theme')) : JSON.stringify(quote));
+  response.send(svg ? renderQuoteSvg(quote, url.searchParams.get('theme'), url.searchParams.get('layout') === 'compact') : JSON.stringify(quote));
 }

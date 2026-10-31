@@ -60,6 +60,8 @@ test('README card stays scoped, versioned and safely rendered in both themes', (
     assert.match(svg, /Trust your pace &amp; keep learning/);
     assert.doesNotMatch(svg, /<script|foreignObject|href=/);
     assert.match(svg, /font-size="30"/);
+    const compact = renderQuoteSvg(quote, mode, true);
+    assert.match(compact, /width="480"/); assert.match(compact, /font-size="26"/);
   }
 });
 
