@@ -128,10 +128,14 @@
 
 ---
 
-<h3 align="left">Support:</h3>
-<a href="https://www.buymeacoffee.com/festoug" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
-</a>
+<!-- PROFILE-COFFEE:START -->
+### ☕ Support my work
+
+<div>
+<p><a href="https://www.buymeacoffee.com/festoug"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/support/coffee-dark-compact.svg?v=glass-v1" /><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/support/coffee-light-compact.svg?v=glass-v1" /><source media="(prefers-color-scheme: dark)" srcset="./assets/support/coffee-dark.svg?v=glass-v1" /><source media="(prefers-color-scheme: light)" srcset="./assets/support/coffee-light.svg?v=glass-v1" /><img src="./assets/support/coffee-dark.svg?v=glass-v1" alt="Buy me a coffee: support my tutorials and projects" width="400" /></picture></a></p>
+</div>
+<!-- PROFILE-COFFEE:END -->
+
 
 
 # 📊 GitHub Stats
@@ -181,10 +185,14 @@
 
 <p align="center"><a href="https://festo-contribution-journal.vercel.app/pacman/">Explore the Pac-Man replay · pause, restart and change theme ↗</a></p>
 
-###
+<!-- PROFILE-SUPPORT:START -->
+<div>
+<p><a href="https://github.com/Festo-Wampamba?tab=repositories"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/support/star-dark-compact.svg?v=glass-v1" /><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/support/star-light-compact.svg?v=glass-v1" /><source media="(prefers-color-scheme: dark)" srcset="./assets/support/star-dark.svg?v=glass-v1" /><source media="(prefers-color-scheme: light)" srcset="./assets/support/star-light.svg?v=glass-v1" /><img src="./assets/support/star-dark.svg?v=glass-v1" alt="Show some love by starring my repositories" width="400" /></picture></a></p>
+</div>
 
- ### Show some love by starring some repositories
+## 💰 Support me by sponsoring my projects
 
-  ## 💰 Support me by sponsoring my projects
- [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/festo12) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/festo) 
- [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/SoftwareEngineer960)
+<div>
+<p><a href="https://paypal.me/festo12"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/support/paypal-dark-compact.svg?v=glass-v1" /><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/support/paypal-light-compact.svg?v=glass-v1" /><source media="(prefers-color-scheme: dark)" srcset="./assets/support/paypal-dark.svg?v=glass-v1" /><source media="(prefers-color-scheme: light)" srcset="./assets/support/paypal-light.svg?v=glass-v1" /><img src="./assets/support/paypal-dark.svg?v=glass-v1" alt="Support my projects with PayPal" width="264" /></picture></a> <a href="https://ko-fi.com/festo"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/support/kofi-dark-compact.svg?v=glass-v1" /><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/support/kofi-light-compact.svg?v=glass-v1" /><source media="(prefers-color-scheme: dark)" srcset="./assets/support/kofi-dark.svg?v=glass-v1" /><source media="(prefers-color-scheme: light)" srcset="./assets/support/kofi-light.svg?v=glass-v1" /><img src="./assets/support/kofi-dark.svg?v=glass-v1" alt="Support my projects with Ko-fi" width="264" /></picture></a> <a href="https://patreon.com/SoftwareEngineer960"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/support/patreon-dark-compact.svg?v=glass-v1" /><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/support/patreon-light-compact.svg?v=glass-v1" /><source media="(prefers-color-scheme: dark)" srcset="./assets/support/patreon-dark.svg?v=glass-v1" /><source media="(prefers-color-scheme: light)" srcset="./assets/support/patreon-light.svg?v=glass-v1" /><img src="./assets/support/patreon-dark.svg?v=glass-v1" alt="Support my projects with Patreon" width="264" /></picture></a></p>
+</div>
+<!-- PROFILE-SUPPORT:END -->
