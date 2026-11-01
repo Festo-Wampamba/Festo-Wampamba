@@ -1,12 +1,12 @@
 {
   "version": 1,
   "channelId": "UCSiPOa3Vowwi42t1BysexmQ",
-  "updatedAt": "2026-10-31T21:39:53.442Z",
+  "updatedAt": "2026-11-01T05:07:42.174Z",
   "videos": [
     {
       "id": "cWG3g2gUlvg",
       "title": "Discussion for Apache WebServer",
-      "views": 196,
+      "views": 197,
       "publishedAt": "2026-03-26T04:08:18Z",
       "durationSeconds": 4451
     },
@@ -20,7 +20,7 @@
     {
       "id": "r95-iuuPgTY",
       "title": "VMware Workstation Pro 25H2u1: New Broadcom Download Process (Step-by-Step)",
-      "views": 801,
+      "views": 805,
       "publishedAt": "2026-03-16T13:01:27Z",
       "durationSeconds": 661
     },
