@@ -3,7 +3,7 @@ import { palettes } from './palette.mjs';
 import { escape, wrap, textLines, cardFrame, picture, replaceBlock } from './profile-card-ui.mjs';
 
 const projects = [
-  { id: 'kore', category: '01 / SOFTWARE', title: 'Kore Standards', description: 'An AI-powered agentic job matching system connecting talent to the right opportunities.', tags: ['Next.js', 'Postgres', 'AI'], action: 'View repository', href: 'https://github.com/Festo-Wampamba/kore-standards', icon: '<path d="m9 7-5 5 5 5m6-10 5 5-5 5M14 4l-4 16"/>' },
+  { id: 'kore', category: '01 / SOFTWARE', title: 'Kore Standards', description: 'An AI-powered agentic job matching system connecting talent to the right opportunities.', tags: ['Next.js', 'Postgres', 'AI'], action: 'View repository', revision: 'kore-logo-v1', href: 'https://github.com/Festo-Wampamba/kore-standards', icon: '<path d="m9 7-5 5 5 5m6-10 5 5-5 5M14 4l-4 16"/>' },
   { id: 'mastery', category: '02 / EDUCATION', title: 'Enterprise IT Mastery', description: 'Practical tutorials on DevOps, networking and system administration. Learn, build and put your skills to work.', tags: ['Education', 'DevOps', 'Content'], action: 'Subscribe to channel', revision: 'eim-logo-v4', logoFile: 'images/mastery-logo.svg', href: 'https://www.youtube.com/channel/UCSiPOa3Vowwi42t1BysexmQ?sub_confirmation=1', icon: '<rect x="2" y="4" width="20" height="16" rx="4"/><path d="m10 8 6 4-6 4z"/>' },
 ];
 function render(project, theme, compact) {
