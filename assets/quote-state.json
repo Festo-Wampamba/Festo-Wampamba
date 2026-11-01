@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T13:25:56.680Z",
+  "updatedAt": "2026-11-01T19:41:55.224Z",
   "lastRefillAt": "2026-10-31T16:28:51.535Z",
   "current": {
-    "text": "Your progress does not become less real because someone else cannot see it yet.",
-    "fingerprint": "3bf5b0b7e5412b4ee5467e3e37067dcd13a2502e13be914f3779aecc9ca872ac",
+    "text": "A useful habit is a bridge you build for the days when motivation cannot reach you.",
+    "fingerprint": "408f344d7488941671c0401a57632cb752d17aa2f6c9482deda1ea0431ee5bf2",
     "source": "ai",
-    "slot": 166068,
-    "at": "2026-11-01T13:25:56.680Z"
+    "slot": 166070,
+    "at": "2026-11-01T19:41:55.224Z"
   },
   "pending": [
-    {
-      "text": "A clear purpose can guide you even when the next few steps are still unfamiliar.",
-      "fingerprint": "3af4532f8ee63b13f2a4f346f51cad4538666bf5a9b00281a16c4210c72a9798",
-      "source": "ai"
-    },
-    {
-      "text": "A useful habit is a bridge you build for the days when motivation cannot reach you.",
-      "fingerprint": "408f344d7488941671c0401a57632cb752d17aa2f6c9482deda1ea0431ee5bf2",
-      "source": "ai"
-    },
     {
       "text": "Let the next chapter be shaped by what you learned, not only by what you lost.",
       "fingerprint": "f428e7622c5d7da4aa46bc3c621a43e7cc1672aedff2232c431685867296107c",
@@ -317,6 +307,20 @@
       "source": "ai",
       "slot": 166068,
       "at": "2026-11-01T13:25:56.680Z"
+    },
+    {
+      "text": "A clear purpose can guide you even when the next few steps are still unfamiliar.",
+      "fingerprint": "3af4532f8ee63b13f2a4f346f51cad4538666bf5a9b00281a16c4210c72a9798",
+      "source": "ai",
+      "slot": 166069,
+      "at": "2026-11-01T15:00:00.000Z"
+    },
+    {
+      "text": "A useful habit is a bridge you build for the days when motivation cannot reach you.",
+      "fingerprint": "408f344d7488941671c0401a57632cb752d17aa2f6c9482deda1ea0431ee5bf2",
+      "source": "ai",
+      "slot": 166070,
+      "at": "2026-11-01T19:41:55.224Z"
     }
   ],
   "used": [
@@ -351,6 +355,14 @@
     {
       "fingerprint": "3bf5b0b7e5412b4ee5467e3e37067dcd13a2502e13be914f3779aecc9ca872ac",
       "at": "2026-11-01T13:25:56.680Z"
+    },
+    {
+      "fingerprint": "3af4532f8ee63b13f2a4f346f51cad4538666bf5a9b00281a16c4210c72a9798",
+      "at": "2026-11-01T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "408f344d7488941671c0401a57632cb752d17aa2f6c9482deda1ea0431ee5bf2",
+      "at": "2026-11-01T19:41:55.224Z"
     }
   ]
 }
