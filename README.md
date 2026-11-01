@@ -164,9 +164,15 @@
 
 ---
 
-### ✍️  Festo's Random Quotes
+### ✍️ Festo's Random Quotes
 <div align="left">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=vertical&amp;theme=dark&amp;quoteColor=e6edf3&amp;authorColor=e5c565&amp;backgroundColor=161b22&amp;symbolColor=30363d&amp;border=true" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://quotes-github-readme.vercel.app/api?type=vertical&amp;theme=light&amp;quoteColor=252821&amp;authorColor=8a5e00&amp;backgroundColor=fffefa&amp;symbolColor=deded4&amp;border=true" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=dark&amp;quoteColor=e6edf3&amp;authorColor=e5c565&amp;backgroundColor=161b22&amp;symbolColor=30363d&amp;border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=light&amp;quoteColor=252821&amp;authorColor=8a5e00&amp;backgroundColor=fffefa&amp;symbolColor=deded4&amp;border=true" />
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=dark&amp;quoteColor=e6edf3&amp;authorColor=e5c565&amp;backgroundColor=161b22&amp;symbolColor=30363d&amp;border=true" alt="Random developer quote and its author" />
+  </picture>
 </div>
 
 ---
