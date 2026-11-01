@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<circle cx="400" cy="400" r="400" fill="#071B35"/>
+<g id="eim-monogram" aria-label="EIM">
+<path id="letter-e" fill="#F8FBFF" d="M116 272 H294 V324 H152 V374 H270 V426 H152 V476 H294 V528 H116 L100 512 V288 Z"/>
+<path id="letter-i" fill="#16C8EB" d="M320 272 H432 V324 H402 V476 H432 V528 H320 V476 H350 V324 H320 Z"/>
+<path id="letter-m" fill="#F8FBFF" d="M458 528 V272 H510 L579 370 L648 272 H684 L700 288 V512 L684 528 H648 V371 L579 465 L510 371 V528 Z"/>
+</g>
+</svg>
