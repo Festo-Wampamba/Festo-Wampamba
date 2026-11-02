@@ -1,35 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T10:29:59.217Z",
+  "updatedAt": "2026-11-02T21:43:17.023Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "Be willing to revise the plan when new understanding makes a better route possible.",
-    "fingerprint": "c44fbc90b5c1577da6a8e79fb289c5464bf43024cda4a86553a03b823c9e71d2",
+    "text": "The ability to return is a strength. Practice it whenever your rhythm gets interrupted.",
+    "fingerprint": "a0433973788976ecd18060f6d541374b95f62f9954f557317dd7154bcbb5751b",
     "source": "ai",
-    "slot": 166075,
-    "at": "2026-11-02T10:29:59.217Z"
+    "slot": 166079,
+    "at": "2026-11-02T21:43:17.023Z"
   },
   "pending": [
-    {
-      "text": "The lesson becomes useful when you carry it into the next attempt, not when you keep replaying the last one.",
-      "fingerprint": "97a7582c742c7e5d0caa369fbbc88b39e5d2434d761761eb7430a68b9531b1e9",
-      "source": "ai"
-    },
-    {
-      "text": "Your direction matters, but so does the way you treat yourself and others along the road.",
-      "fingerprint": "baf7b0ab27fc4ed9c08f8551ed992684dbf200be8c1a60c0c46ad205c37540eb",
-      "source": "ai"
-    },
-    {
-      "text": "A small improvement repeated with care can quietly change the standard you live by.",
-      "fingerprint": "24cc9bb87d7edfc4cdea12b51421c577ec446041f9f463195da7e0d7304dd6be",
-      "source": "ai"
-    },
-    {
-      "text": "The ability to return is a strength. Practice it whenever your rhythm gets interrupted.",
-      "fingerprint": "a0433973788976ecd18060f6d541374b95f62f9954f557317dd7154bcbb5751b",
-      "source": "ai"
-    },
     {
       "text": "Noticing that something needs to change is already a useful kind of honesty.",
       "fingerprint": "925861a97bde8032071d05e68f887ad2e6439b46009bb94b572398b580afcb77",
@@ -611,6 +591,34 @@
       "source": "ai",
       "slot": 166075,
       "at": "2026-11-02T10:29:59.217Z"
+    },
+    {
+      "text": "The lesson becomes useful when you carry it into the next attempt, not when you keep replaying the last one.",
+      "fingerprint": "97a7582c742c7e5d0caa369fbbc88b39e5d2434d761761eb7430a68b9531b1e9",
+      "source": "ai",
+      "slot": 166076,
+      "at": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "text": "Your direction matters, but so does the way you treat yourself and others along the road.",
+      "fingerprint": "baf7b0ab27fc4ed9c08f8551ed992684dbf200be8c1a60c0c46ad205c37540eb",
+      "source": "ai",
+      "slot": 166077,
+      "at": "2026-11-02T15:00:00.000Z"
+    },
+    {
+      "text": "A small improvement repeated with care can quietly change the standard you live by.",
+      "fingerprint": "24cc9bb87d7edfc4cdea12b51421c577ec446041f9f463195da7e0d7304dd6be",
+      "source": "ai",
+      "slot": 166078,
+      "at": "2026-11-02T18:00:00.000Z"
+    },
+    {
+      "text": "The ability to return is a strength. Practice it whenever your rhythm gets interrupted.",
+      "fingerprint": "a0433973788976ecd18060f6d541374b95f62f9954f557317dd7154bcbb5751b",
+      "source": "ai",
+      "slot": 166079,
+      "at": "2026-11-02T21:43:17.023Z"
     }
   ],
   "used": [
@@ -673,6 +681,22 @@
     {
       "fingerprint": "c44fbc90b5c1577da6a8e79fb289c5464bf43024cda4a86553a03b823c9e71d2",
       "at": "2026-11-02T10:29:59.217Z"
+    },
+    {
+      "fingerprint": "97a7582c742c7e5d0caa369fbbc88b39e5d2434d761761eb7430a68b9531b1e9",
+      "at": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "baf7b0ab27fc4ed9c08f8551ed992684dbf200be8c1a60c0c46ad205c37540eb",
+      "at": "2026-11-02T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "24cc9bb87d7edfc4cdea12b51421c577ec446041f9f463195da7e0d7304dd6be",
+      "at": "2026-11-02T18:00:00.000Z"
+    },
+    {
+      "fingerprint": "a0433973788976ecd18060f6d541374b95f62f9954f557317dd7154bcbb5751b",
+      "at": "2026-11-02T21:43:17.023Z"
     }
   ]
 }
