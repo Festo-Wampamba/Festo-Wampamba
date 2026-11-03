@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T06:49:09.443Z",
+  "updatedAt": "2026-11-03T17:04:12.028Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "You can start before you feel impressive. Useful work rarely asks for an impressive beginning.",
-    "fingerprint": "e5b8954bf0862e123dcf111c1c972ef5b5c585ef4554e0459635389c63faa8fc",
+    "text": "Some days the brave thing is to begin. Some days it is to ask for help and continue differently.",
+    "fingerprint": "4028ab3bfb29b755031c32eb5d55e0fda47376d535aaea0ad473a11e7fc643a4",
     "source": "ai",
-    "slot": 166082,
-    "at": "2026-11-03T06:49:09.443Z"
+    "slot": 166085,
+    "at": "2026-11-03T17:04:12.028Z"
   },
   "pending": [
-    {
-      "text": "When everything feels urgent, choose the action that will make tomorrow a little clearer.",
-      "fingerprint": "df238176c5c20883022e8555ecfbc318668a717e1d150d5b3cd127712f4acb7c",
-      "source": "ai"
-    },
-    {
-      "text": "A day of steady practice can outlast a week of waiting for the perfect mood.",
-      "fingerprint": "b97885871f5299478a41af440ea15cf2060926725c05de90d224df2be38ad191",
-      "source": "ai"
-    },
-    {
-      "text": "Some days the brave thing is to begin. Some days it is to ask for help and continue differently.",
-      "fingerprint": "4028ab3bfb29b755031c32eb5d55e0fda47376d535aaea0ad473a11e7fc643a4",
-      "source": "ai"
-    },
     {
       "text": "The version of you who keeps practicing deserves more patience than the version you imagined would never struggle.",
       "fingerprint": "6cdafea99e1a02d526a35aaea99d2be8a1345330816867818af8517c116b73a4",
@@ -625,6 +610,27 @@
       "source": "ai",
       "slot": 166082,
       "at": "2026-11-03T06:49:09.443Z"
+    },
+    {
+      "text": "When everything feels urgent, choose the action that will make tomorrow a little clearer.",
+      "fingerprint": "df238176c5c20883022e8555ecfbc318668a717e1d150d5b3cd127712f4acb7c",
+      "source": "ai",
+      "slot": 166083,
+      "at": "2026-11-03T09:00:00.000Z"
+    },
+    {
+      "text": "A day of steady practice can outlast a week of waiting for the perfect mood.",
+      "fingerprint": "b97885871f5299478a41af440ea15cf2060926725c05de90d224df2be38ad191",
+      "source": "ai",
+      "slot": 166084,
+      "at": "2026-11-03T12:00:00.000Z"
+    },
+    {
+      "text": "Some days the brave thing is to begin. Some days it is to ask for help and continue differently.",
+      "fingerprint": "4028ab3bfb29b755031c32eb5d55e0fda47376d535aaea0ad473a11e7fc643a4",
+      "source": "ai",
+      "slot": 166085,
+      "at": "2026-11-03T17:04:12.028Z"
     }
   ],
   "used": [
@@ -715,6 +721,18 @@
     {
       "fingerprint": "e5b8954bf0862e123dcf111c1c972ef5b5c585ef4554e0459635389c63faa8fc",
       "at": "2026-11-03T06:49:09.443Z"
+    },
+    {
+      "fingerprint": "df238176c5c20883022e8555ecfbc318668a717e1d150d5b3cd127712f4acb7c",
+      "at": "2026-11-03T09:00:00.000Z"
+    },
+    {
+      "fingerprint": "b97885871f5299478a41af440ea15cf2060926725c05de90d224df2be38ad191",
+      "at": "2026-11-03T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "4028ab3bfb29b755031c32eb5d55e0fda47376d535aaea0ad473a11e7fc643a4",
+      "at": "2026-11-03T17:04:12.028Z"
     }
   ]
 }
