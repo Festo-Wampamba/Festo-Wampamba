@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T21:43:17.023Z",
+  "updatedAt": "2026-11-03T06:49:09.443Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "The ability to return is a strength. Practice it whenever your rhythm gets interrupted.",
-    "fingerprint": "a0433973788976ecd18060f6d541374b95f62f9954f557317dd7154bcbb5751b",
+    "text": "You can start before you feel impressive. Useful work rarely asks for an impressive beginning.",
+    "fingerprint": "e5b8954bf0862e123dcf111c1c972ef5b5c585ef4554e0459635389c63faa8fc",
     "source": "ai",
-    "slot": 166079,
-    "at": "2026-11-02T21:43:17.023Z"
+    "slot": 166082,
+    "at": "2026-11-03T06:49:09.443Z"
   },
   "pending": [
-    {
-      "text": "Noticing that something needs to change is already a useful kind of honesty.",
-      "fingerprint": "925861a97bde8032071d05e68f887ad2e6439b46009bb94b572398b580afcb77",
-      "source": "ai"
-    },
-    {
-      "text": "The confidence you are waiting for may be hiding inside the practice you keep postponing.",
-      "fingerprint": "84167d85466979e983b55a035fdc9ddc7cb9e70ce901971a8ab7578cdd15cf22",
-      "source": "ai"
-    },
-    {
-      "text": "You can start before you feel impressive. Useful work rarely asks for an impressive beginning.",
-      "fingerprint": "e5b8954bf0862e123dcf111c1c972ef5b5c585ef4554e0459635389c63faa8fc",
-      "source": "ai"
-    },
     {
       "text": "When everything feels urgent, choose the action that will make tomorrow a little clearer.",
       "fingerprint": "df238176c5c20883022e8555ecfbc318668a717e1d150d5b3cd127712f4acb7c",
@@ -619,6 +604,27 @@
       "source": "ai",
       "slot": 166079,
       "at": "2026-11-02T21:43:17.023Z"
+    },
+    {
+      "text": "Noticing that something needs to change is already a useful kind of honesty.",
+      "fingerprint": "925861a97bde8032071d05e68f887ad2e6439b46009bb94b572398b580afcb77",
+      "source": "ai",
+      "slot": 166080,
+      "at": "2026-11-03T00:00:00.000Z"
+    },
+    {
+      "text": "The confidence you are waiting for may be hiding inside the practice you keep postponing.",
+      "fingerprint": "84167d85466979e983b55a035fdc9ddc7cb9e70ce901971a8ab7578cdd15cf22",
+      "source": "ai",
+      "slot": 166081,
+      "at": "2026-11-03T03:00:00.000Z"
+    },
+    {
+      "text": "You can start before you feel impressive. Useful work rarely asks for an impressive beginning.",
+      "fingerprint": "e5b8954bf0862e123dcf111c1c972ef5b5c585ef4554e0459635389c63faa8fc",
+      "source": "ai",
+      "slot": 166082,
+      "at": "2026-11-03T06:49:09.443Z"
     }
   ],
   "used": [
@@ -697,6 +703,18 @@
     {
       "fingerprint": "a0433973788976ecd18060f6d541374b95f62f9954f557317dd7154bcbb5751b",
       "at": "2026-11-02T21:43:17.023Z"
+    },
+    {
+      "fingerprint": "925861a97bde8032071d05e68f887ad2e6439b46009bb94b572398b580afcb77",
+      "at": "2026-11-03T00:00:00.000Z"
+    },
+    {
+      "fingerprint": "84167d85466979e983b55a035fdc9ddc7cb9e70ce901971a8ab7578cdd15cf22",
+      "at": "2026-11-03T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "e5b8954bf0862e123dcf111c1c972ef5b5c585ef4554e0459635389c63faa8fc",
+      "at": "2026-11-03T06:49:09.443Z"
     }
   ]
 }
