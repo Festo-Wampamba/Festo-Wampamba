@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T17:04:12.028Z",
+  "updatedAt": "2026-11-03T23:24:08.940Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "Some days the brave thing is to begin. Some days it is to ask for help and continue differently.",
-    "fingerprint": "4028ab3bfb29b755031c32eb5d55e0fda47376d535aaea0ad473a11e7fc643a4",
+    "text": "An imperfect beginning gives improvement a place to stand.",
+    "fingerprint": "48ab01713519337a406a064d05eca0a85d873b1a2c7b44e0231871dfd51baf7d",
     "source": "ai",
-    "slot": 166085,
-    "at": "2026-11-03T17:04:12.028Z"
+    "slot": 166087,
+    "at": "2026-11-03T23:24:08.940Z"
   },
   "pending": [
-    {
-      "text": "The version of you who keeps practicing deserves more patience than the version you imagined would never struggle.",
-      "fingerprint": "6cdafea99e1a02d526a35aaea99d2be8a1345330816867818af8517c116b73a4",
-      "source": "ai"
-    },
-    {
-      "text": "An imperfect beginning gives improvement a place to stand.",
-      "fingerprint": "48ab01713519337a406a064d05eca0a85d873b1a2c7b44e0231871dfd51baf7d",
-      "source": "ai"
-    },
     {
       "text": "A setback is easier to carry when you separate what happened from what you can do next.",
       "fingerprint": "28d773832e4dca779dee12e4ad2558655782ce557c980e6558b4057b6f4a5ad2",
@@ -631,6 +621,20 @@
       "source": "ai",
       "slot": 166085,
       "at": "2026-11-03T17:04:12.028Z"
+    },
+    {
+      "text": "The version of you who keeps practicing deserves more patience than the version you imagined would never struggle.",
+      "fingerprint": "6cdafea99e1a02d526a35aaea99d2be8a1345330816867818af8517c116b73a4",
+      "source": "ai",
+      "slot": 166086,
+      "at": "2026-11-03T18:00:00.000Z"
+    },
+    {
+      "text": "An imperfect beginning gives improvement a place to stand.",
+      "fingerprint": "48ab01713519337a406a064d05eca0a85d873b1a2c7b44e0231871dfd51baf7d",
+      "source": "ai",
+      "slot": 166087,
+      "at": "2026-11-03T23:24:08.940Z"
     }
   ],
   "used": [
@@ -733,6 +737,14 @@
     {
       "fingerprint": "4028ab3bfb29b755031c32eb5d55e0fda47376d535aaea0ad473a11e7fc643a4",
       "at": "2026-11-03T17:04:12.028Z"
+    },
+    {
+      "fingerprint": "6cdafea99e1a02d526a35aaea99d2be8a1345330816867818af8517c116b73a4",
+      "at": "2026-11-03T18:00:00.000Z"
+    },
+    {
+      "fingerprint": "48ab01713519337a406a064d05eca0a85d873b1a2c7b44e0231871dfd51baf7d",
+      "at": "2026-11-03T23:24:08.940Z"
     }
   ]
 }
