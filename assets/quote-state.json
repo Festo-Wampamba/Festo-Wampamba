@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T23:24:08.940Z",
+  "updatedAt": "2026-11-04T06:24:07.523Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "An imperfect beginning gives improvement a place to stand.",
-    "fingerprint": "48ab01713519337a406a064d05eca0a85d873b1a2c7b44e0231871dfd51baf7d",
+    "text": "If yesterday felt scattered, let one clear intention give today a different shape.",
+    "fingerprint": "f0eb21c055ac9798b5e18a4540883956fe27a2a9f7d181b6d11764efffc9125c",
     "source": "ai",
-    "slot": 166087,
-    "at": "2026-11-03T23:24:08.940Z"
+    "slot": 166090,
+    "at": "2026-11-04T06:24:07.523Z"
   },
   "pending": [
-    {
-      "text": "A setback is easier to carry when you separate what happened from what you can do next.",
-      "fingerprint": "28d773832e4dca779dee12e4ad2558655782ce557c980e6558b4057b6f4a5ad2",
-      "source": "ai"
-    },
-    {
-      "text": "One careful decision can interrupt a pattern that has been running on habit for years.",
-      "fingerprint": "02216d86a26b44ad0f300cc23cdc1d1240ae760ecfe6ed738e2149149158dc5f",
-      "source": "ai"
-    },
-    {
-      "text": "If yesterday felt scattered, let one clear intention give today a different shape.",
-      "fingerprint": "f0eb21c055ac9798b5e18a4540883956fe27a2a9f7d181b6d11764efffc9125c",
-      "source": "ai"
-    },
     {
       "text": "Choose a challenge that stretches your skills without making kindness toward yourself a casualty.",
       "fingerprint": "8c3ff8b3dcd337849b13daceecae8ad3b3dc06c8cf330711e112e1f79f99f4c4",
@@ -635,6 +620,27 @@
       "source": "ai",
       "slot": 166087,
       "at": "2026-11-03T23:24:08.940Z"
+    },
+    {
+      "text": "A setback is easier to carry when you separate what happened from what you can do next.",
+      "fingerprint": "28d773832e4dca779dee12e4ad2558655782ce557c980e6558b4057b6f4a5ad2",
+      "source": "ai",
+      "slot": 166088,
+      "at": "2026-11-04T00:00:00.000Z"
+    },
+    {
+      "text": "One careful decision can interrupt a pattern that has been running on habit for years.",
+      "fingerprint": "02216d86a26b44ad0f300cc23cdc1d1240ae760ecfe6ed738e2149149158dc5f",
+      "source": "ai",
+      "slot": 166089,
+      "at": "2026-11-04T03:00:00.000Z"
+    },
+    {
+      "text": "If yesterday felt scattered, let one clear intention give today a different shape.",
+      "fingerprint": "f0eb21c055ac9798b5e18a4540883956fe27a2a9f7d181b6d11764efffc9125c",
+      "source": "ai",
+      "slot": 166090,
+      "at": "2026-11-04T06:24:07.523Z"
     }
   ],
   "used": [
@@ -745,6 +751,18 @@
     {
       "fingerprint": "48ab01713519337a406a064d05eca0a85d873b1a2c7b44e0231871dfd51baf7d",
       "at": "2026-11-03T23:24:08.940Z"
+    },
+    {
+      "fingerprint": "28d773832e4dca779dee12e4ad2558655782ce557c980e6558b4057b6f4a5ad2",
+      "at": "2026-11-04T00:00:00.000Z"
+    },
+    {
+      "fingerprint": "02216d86a26b44ad0f300cc23cdc1d1240ae760ecfe6ed738e2149149158dc5f",
+      "at": "2026-11-04T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "f0eb21c055ac9798b5e18a4540883956fe27a2a9f7d181b6d11764efffc9125c",
+      "at": "2026-11-04T06:24:07.523Z"
     }
   ]
 }
