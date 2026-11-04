@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T06:24:07.523Z",
+  "updatedAt": "2026-11-04T17:15:26.127Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "If yesterday felt scattered, let one clear intention give today a different shape.",
-    "fingerprint": "f0eb21c055ac9798b5e18a4540883956fe27a2a9f7d181b6d11764efffc9125c",
+    "text": "You can build something worthwhile without making every part of your life a competition.",
+    "fingerprint": "a5dfb85143f6cea0747dd4b2cb502a97e15d1af58e93c20e0b75e201375708f0",
     "source": "ai",
-    "slot": 166090,
-    "at": "2026-11-04T06:24:07.523Z"
+    "slot": 166093,
+    "at": "2026-11-04T17:15:26.127Z"
   },
   "pending": [
-    {
-      "text": "Choose a challenge that stretches your skills without making kindness toward yourself a casualty.",
-      "fingerprint": "8c3ff8b3dcd337849b13daceecae8ad3b3dc06c8cf330711e112e1f79f99f4c4",
-      "source": "ai"
-    },
-    {
-      "text": "Give your curiosity a little more room than your fear expects.",
-      "fingerprint": "aa71ee181ef75817d64a657264966b015ec76ed4289415598d01506913d9b333",
-      "source": "ai"
-    },
-    {
-      "text": "You can build something worthwhile without making every part of your life a competition.",
-      "fingerprint": "a5dfb85143f6cea0747dd4b2cb502a97e15d1af58e93c20e0b75e201375708f0",
-      "source": "ai"
-    },
     {
       "text": "Give your future fewer promises and more small pieces of evidence.",
       "fingerprint": "ca8423eb99f9d19cdeb94a565ec905f983852227e352cf812463c16a869b6b98",
@@ -641,6 +626,27 @@
       "source": "ai",
       "slot": 166090,
       "at": "2026-11-04T06:24:07.523Z"
+    },
+    {
+      "text": "Choose a challenge that stretches your skills without making kindness toward yourself a casualty.",
+      "fingerprint": "8c3ff8b3dcd337849b13daceecae8ad3b3dc06c8cf330711e112e1f79f99f4c4",
+      "source": "ai",
+      "slot": 166091,
+      "at": "2026-11-04T09:00:00.000Z"
+    },
+    {
+      "text": "Give your curiosity a little more room than your fear expects.",
+      "fingerprint": "aa71ee181ef75817d64a657264966b015ec76ed4289415598d01506913d9b333",
+      "source": "ai",
+      "slot": 166092,
+      "at": "2026-11-04T12:00:00.000Z"
+    },
+    {
+      "text": "You can build something worthwhile without making every part of your life a competition.",
+      "fingerprint": "a5dfb85143f6cea0747dd4b2cb502a97e15d1af58e93c20e0b75e201375708f0",
+      "source": "ai",
+      "slot": 166093,
+      "at": "2026-11-04T17:15:26.127Z"
     }
   ],
   "used": [
@@ -763,6 +769,18 @@
     {
       "fingerprint": "f0eb21c055ac9798b5e18a4540883956fe27a2a9f7d181b6d11764efffc9125c",
       "at": "2026-11-04T06:24:07.523Z"
+    },
+    {
+      "fingerprint": "8c3ff8b3dcd337849b13daceecae8ad3b3dc06c8cf330711e112e1f79f99f4c4",
+      "at": "2026-11-04T09:00:00.000Z"
+    },
+    {
+      "fingerprint": "aa71ee181ef75817d64a657264966b015ec76ed4289415598d01506913d9b333",
+      "at": "2026-11-04T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "a5dfb85143f6cea0747dd4b2cb502a97e15d1af58e93c20e0b75e201375708f0",
+      "at": "2026-11-04T17:15:26.127Z"
     }
   ]
 }
