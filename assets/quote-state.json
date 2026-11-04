@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T17:15:26.127Z",
+  "updatedAt": "2026-11-04T23:40:13.003Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "You can build something worthwhile without making every part of your life a competition.",
-    "fingerprint": "a5dfb85143f6cea0747dd4b2cb502a97e15d1af58e93c20e0b75e201375708f0",
+    "text": "Make something small enough to finish and meaningful enough to teach you.",
+    "fingerprint": "53b3aed530c3fc05093ded927ff85ddf9f31017c4c1fcef6ff8a9a288b9db80a",
     "source": "ai",
-    "slot": 166093,
-    "at": "2026-11-04T17:15:26.127Z"
+    "slot": 166095,
+    "at": "2026-11-04T23:40:13.003Z"
   },
   "pending": [
-    {
-      "text": "Give your future fewer promises and more small pieces of evidence.",
-      "fingerprint": "ca8423eb99f9d19cdeb94a565ec905f983852227e352cf812463c16a869b6b98",
-      "source": "ai"
-    },
-    {
-      "text": "Make something small enough to finish and meaningful enough to teach you.",
-      "fingerprint": "53b3aed530c3fc05093ded927ff85ddf9f31017c4c1fcef6ff8a9a288b9db80a",
-      "source": "ai"
-    },
     {
       "text": "A thoughtful pause can protect the direction that a rushed decision would undo.",
       "fingerprint": "046055caccf78017ab7fe1dad697e6d23e97eb3a8bfce6d721451f88c0cace75",
@@ -647,6 +637,20 @@
       "source": "ai",
       "slot": 166093,
       "at": "2026-11-04T17:15:26.127Z"
+    },
+    {
+      "text": "Give your future fewer promises and more small pieces of evidence.",
+      "fingerprint": "ca8423eb99f9d19cdeb94a565ec905f983852227e352cf812463c16a869b6b98",
+      "source": "ai",
+      "slot": 166094,
+      "at": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "text": "Make something small enough to finish and meaningful enough to teach you.",
+      "fingerprint": "53b3aed530c3fc05093ded927ff85ddf9f31017c4c1fcef6ff8a9a288b9db80a",
+      "source": "ai",
+      "slot": 166095,
+      "at": "2026-11-04T23:40:13.003Z"
     }
   ],
   "used": [
@@ -781,6 +785,14 @@
     {
       "fingerprint": "a5dfb85143f6cea0747dd4b2cb502a97e15d1af58e93c20e0b75e201375708f0",
       "at": "2026-11-04T17:15:26.127Z"
+    },
+    {
+      "fingerprint": "ca8423eb99f9d19cdeb94a565ec905f983852227e352cf812463c16a869b6b98",
+      "at": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "fingerprint": "53b3aed530c3fc05093ded927ff85ddf9f31017c4c1fcef6ff8a9a288b9db80a",
+      "at": "2026-11-04T23:40:13.003Z"
     }
   ]
 }
