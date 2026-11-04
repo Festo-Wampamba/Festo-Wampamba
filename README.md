@@ -88,7 +88,7 @@
 #### Languages
 
 <div>
-<p><img src="./assets/tech/python.svg?v=rounded-v1" alt="Python" width="94" height="36" /> <img src="./assets/tech/typescript.svg?v=rounded-v1" alt="TypeScript" width="120" height="36" /> <img src="./assets/tech/javascript.svg?v=rounded-v1" alt="JavaScript" width="118" height="36" /> <img src="./assets/tech/shell-script.svg?v=rounded-v1" alt="Shell Script" width="122" height="36" /> <img src="./assets/tech/php.svg?v=rounded-v1" alt="PHP" width="75" height="36" /> <img src="./assets/tech/cplusplus.svg?v=rounded-v1" alt="C++" width="75" height="36" /></p>
+<p><img src="./assets/tech/python.svg?v=rounded-v1" alt="Python" width="94" height="36" /> <img src="./assets/tech/typescript.svg?v=rounded-v1" alt="TypeScript" width="120" height="36" /> <img src="./assets/tech/javascript.svg?v=rounded-v1" alt="JavaScript" width="118" height="36" /> <img src="./assets/tech/shell-script.svg?v=rounded-v1" alt="Shell Script" width="122" height="36" /> <img src="./assets/tech/cplusplus.svg?v=rounded-v1" alt="C++" width="75" height="36" /></p>
 </div>
 
 #### Frameworks & Libraries
