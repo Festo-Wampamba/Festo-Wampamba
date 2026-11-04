@@ -106,7 +106,7 @@
 #### Database & Storage
 
 <div>
-<p><img src="./assets/tech/mysql.svg?v=rounded-v1" alt="MySQL" width="95" height="36" /> <img src="./assets/tech/postgresql.svg?v=rounded-v1" alt="PostgreSQL" width="126" height="36" /> <img src="./assets/tech/neon.svg?v=rounded-v1" alt="Neon" width="82" height="36" /> <img src="./assets/tech/mariadb.svg?v=rounded-v1" alt="MariaDB" width="103" height="36" /> <img src="./assets/tech/drizzle-orm.svg?v=rounded-v1" alt="Drizzle ORM" width="93" height="36" /></p>
+<p><img src="./assets/tech/mysql.svg?v=rounded-v1" alt="MySQL" width="95" height="36" /> <img src="./assets/tech/postgresql.svg?v=rounded-v1" alt="PostgreSQL" width="126" height="36" /> <img src="./assets/tech/neon.svg?v=rounded-v1" alt="Neon" width="82" height="36" /> <img src="./assets/tech/drizzle-orm.svg?v=rounded-v1" alt="Drizzle ORM" width="93" height="36" /></p>
 </div>
 
 #### Hosting & Servers
