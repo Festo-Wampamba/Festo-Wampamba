@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05T17:25:07.823Z",
+  "updatedAt": "2026-11-05T23:39:18.751Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "Good work grows where curiosity is allowed to stay longer than embarrassment.",
-    "fingerprint": "c25999fa6750bd48ae3c36761d68ef4bb41db2f6b56b94d89f49826e6f691c2b",
+    "text": "A season of rebuilding can still be a season of growth.",
+    "fingerprint": "ff28f8dda1072b059e3f123e562821d8306af0fa9d2b0142fe5a17bb1e777df3",
     "source": "ai",
-    "slot": 166101,
-    "at": "2026-11-05T17:25:07.823Z"
+    "slot": 166103,
+    "at": "2026-11-05T23:39:18.751Z"
   },
   "pending": [
-    {
-      "text": "The work becomes lighter when the next action is clearer than the whole mountain.",
-      "fingerprint": "dac7afb6f37f254d2d9c47533b0f56c7de87226ecb97b44a018c0375a075a0a1",
-      "source": "ai"
-    },
-    {
-      "text": "A season of rebuilding can still be a season of growth.",
-      "fingerprint": "ff28f8dda1072b059e3f123e562821d8306af0fa9d2b0142fe5a17bb1e777df3",
-      "source": "ai"
-    },
     {
       "text": "You are allowed to change the method without giving up on the reason you started.",
       "fingerprint": "92f453af1c7dd406348cc3dcb88854b9834fbf0e458d24d670197c087bd83669",
@@ -663,6 +653,20 @@
       "source": "ai",
       "slot": 166101,
       "at": "2026-11-05T17:25:07.823Z"
+    },
+    {
+      "text": "The work becomes lighter when the next action is clearer than the whole mountain.",
+      "fingerprint": "dac7afb6f37f254d2d9c47533b0f56c7de87226ecb97b44a018c0375a075a0a1",
+      "source": "ai",
+      "slot": 166102,
+      "at": "2026-11-05T18:00:00.000Z"
+    },
+    {
+      "text": "A season of rebuilding can still be a season of growth.",
+      "fingerprint": "ff28f8dda1072b059e3f123e562821d8306af0fa9d2b0142fe5a17bb1e777df3",
+      "source": "ai",
+      "slot": 166103,
+      "at": "2026-11-05T23:39:18.751Z"
     }
   ],
   "used": [
@@ -829,6 +833,14 @@
     {
       "fingerprint": "c25999fa6750bd48ae3c36761d68ef4bb41db2f6b56b94d89f49826e6f691c2b",
       "at": "2026-11-05T17:25:07.823Z"
+    },
+    {
+      "fingerprint": "dac7afb6f37f254d2d9c47533b0f56c7de87226ecb97b44a018c0375a075a0a1",
+      "at": "2026-11-05T18:00:00.000Z"
+    },
+    {
+      "fingerprint": "ff28f8dda1072b059e3f123e562821d8306af0fa9d2b0142fe5a17bb1e777df3",
+      "at": "2026-11-05T23:39:18.751Z"
     }
   ]
 }
