@@ -5,11 +5,11 @@
 <!-- QUOTE:START -->
 <div align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=166103&amp;layout=compact" />
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=light&amp;style=quiet&amp;v=166103&amp;layout=compact" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=166103" />
-    <source media="(prefers-color-scheme: light)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=light&amp;style=quiet&amp;v=166103" />
-    <img src="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=166103" alt="A season of rebuilding can still be a season of growth." width="100%" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=166106&amp;layout=compact" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=light&amp;style=quiet&amp;v=166106&amp;layout=compact" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=166106" />
+    <source media="(prefers-color-scheme: light)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=light&amp;style=quiet&amp;v=166106" />
+    <img src="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=166106" alt="Your ambition deserves a routine gentle enough to survive your difficult days." width="100%" />
   </picture>
   <p><a href="https://festo-contribution-journal.vercel.app/quotes/">Explore more inspiration ↗</a></p>
 </div>

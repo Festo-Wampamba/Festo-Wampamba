@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05T23:39:18.751Z",
+  "updatedAt": "2026-11-06T06:47:04.310Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "A season of rebuilding can still be a season of growth.",
-    "fingerprint": "ff28f8dda1072b059e3f123e562821d8306af0fa9d2b0142fe5a17bb1e777df3",
+    "text": "Your ambition deserves a routine gentle enough to survive your difficult days.",
+    "fingerprint": "854ba648c36031c712dbbaea39631c0333c2e87244a12aaf543bf3245c2d1174",
     "source": "ai",
-    "slot": 166103,
-    "at": "2026-11-05T23:39:18.751Z"
+    "slot": 166106,
+    "at": "2026-11-06T06:47:04.310Z"
   },
   "pending": [
-    {
-      "text": "You are allowed to change the method without giving up on the reason you started.",
-      "fingerprint": "92f453af1c7dd406348cc3dcb88854b9834fbf0e458d24d670197c087bd83669",
-      "source": "ai"
-    },
-    {
-      "text": "When the plan feels too heavy, reduce the step before you reduce the dream.",
-      "fingerprint": "13708c1925798f74645be6b5023f766366f69b05e382b3c5bb5b3208dcacc54c",
-      "source": "ai"
-    },
-    {
-      "text": "Your ambition deserves a routine gentle enough to survive your difficult days.",
-      "fingerprint": "854ba648c36031c712dbbaea39631c0333c2e87244a12aaf543bf3245c2d1174",
-      "source": "ai"
-    },
     {
       "text": "The courage to be a beginner is renewable. You can choose it each time you learn something new.",
       "fingerprint": "977a471cc354a4a7bd1daa958c55e1394a917ce409e8d555efebb1da90ba6ae9",
@@ -667,6 +652,27 @@
       "source": "ai",
       "slot": 166103,
       "at": "2026-11-05T23:39:18.751Z"
+    },
+    {
+      "text": "You are allowed to change the method without giving up on the reason you started.",
+      "fingerprint": "92f453af1c7dd406348cc3dcb88854b9834fbf0e458d24d670197c087bd83669",
+      "source": "ai",
+      "slot": 166104,
+      "at": "2026-11-06T00:00:00.000Z"
+    },
+    {
+      "text": "When the plan feels too heavy, reduce the step before you reduce the dream.",
+      "fingerprint": "13708c1925798f74645be6b5023f766366f69b05e382b3c5bb5b3208dcacc54c",
+      "source": "ai",
+      "slot": 166105,
+      "at": "2026-11-06T03:00:00.000Z"
+    },
+    {
+      "text": "Your ambition deserves a routine gentle enough to survive your difficult days.",
+      "fingerprint": "854ba648c36031c712dbbaea39631c0333c2e87244a12aaf543bf3245c2d1174",
+      "source": "ai",
+      "slot": 166106,
+      "at": "2026-11-06T06:47:04.310Z"
     }
   ],
   "used": [
@@ -841,6 +847,18 @@
     {
       "fingerprint": "ff28f8dda1072b059e3f123e562821d8306af0fa9d2b0142fe5a17bb1e777df3",
       "at": "2026-11-05T23:39:18.751Z"
+    },
+    {
+      "fingerprint": "92f453af1c7dd406348cc3dcb88854b9834fbf0e458d24d670197c087bd83669",
+      "at": "2026-11-06T00:00:00.000Z"
+    },
+    {
+      "fingerprint": "13708c1925798f74645be6b5023f766366f69b05e382b3c5bb5b3208dcacc54c",
+      "at": "2026-11-06T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "854ba648c36031c712dbbaea39631c0333c2e87244a12aaf543bf3245c2d1174",
+      "at": "2026-11-06T06:47:04.310Z"
     }
   ]
 }
