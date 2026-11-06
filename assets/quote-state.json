@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-06T06:47:04.310Z",
+  "updatedAt": "2026-11-06T16:46:48.721Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "Your ambition deserves a routine gentle enough to survive your difficult days.",
-    "fingerprint": "854ba648c36031c712dbbaea39631c0333c2e87244a12aaf543bf3245c2d1174",
+    "text": "A better system can do more for your consistency than another argument with yourself.",
+    "fingerprint": "e2e7c66ac0e6b9948c118b9008e1d17f8d682eb067468ca9710f529a46a94d0e",
     "source": "ai",
-    "slot": 166106,
-    "at": "2026-11-06T06:47:04.310Z"
+    "slot": 166109,
+    "at": "2026-11-06T16:46:48.721Z"
   },
   "pending": [
-    {
-      "text": "The courage to be a beginner is renewable. You can choose it each time you learn something new.",
-      "fingerprint": "977a471cc354a4a7bd1daa958c55e1394a917ce409e8d555efebb1da90ba6ae9",
-      "source": "ai"
-    },
-    {
-      "text": "The smallest useful action is often more powerful than the largest untested intention.",
-      "fingerprint": "c0e159933d87b73a429eade4b18b5fb5b7084f8f4cd2139c4415635ce90e1f6e",
-      "source": "ai"
-    },
-    {
-      "text": "A better system can do more for your consistency than another argument with yourself.",
-      "fingerprint": "e2e7c66ac0e6b9948c118b9008e1d17f8d682eb067468ca9710f529a46a94d0e",
-      "source": "ai"
-    },
     {
       "text": "Protect the habits that help you return to yourself, not only the habits that help you produce.",
       "fingerprint": "40b0340c7ae8d227c555f4d879bf96458d47b6091b314d3e8d625125731613dd",
@@ -673,6 +658,27 @@
       "source": "ai",
       "slot": 166106,
       "at": "2026-11-06T06:47:04.310Z"
+    },
+    {
+      "text": "The courage to be a beginner is renewable. You can choose it each time you learn something new.",
+      "fingerprint": "977a471cc354a4a7bd1daa958c55e1394a917ce409e8d555efebb1da90ba6ae9",
+      "source": "ai",
+      "slot": 166107,
+      "at": "2026-11-06T09:00:00.000Z"
+    },
+    {
+      "text": "The smallest useful action is often more powerful than the largest untested intention.",
+      "fingerprint": "c0e159933d87b73a429eade4b18b5fb5b7084f8f4cd2139c4415635ce90e1f6e",
+      "source": "ai",
+      "slot": 166108,
+      "at": "2026-11-06T12:00:00.000Z"
+    },
+    {
+      "text": "A better system can do more for your consistency than another argument with yourself.",
+      "fingerprint": "e2e7c66ac0e6b9948c118b9008e1d17f8d682eb067468ca9710f529a46a94d0e",
+      "source": "ai",
+      "slot": 166109,
+      "at": "2026-11-06T16:46:48.721Z"
     }
   ],
   "used": [
@@ -859,6 +865,18 @@
     {
       "fingerprint": "854ba648c36031c712dbbaea39631c0333c2e87244a12aaf543bf3245c2d1174",
       "at": "2026-11-06T06:47:04.310Z"
+    },
+    {
+      "fingerprint": "977a471cc354a4a7bd1daa958c55e1394a917ce409e8d555efebb1da90ba6ae9",
+      "at": "2026-11-06T09:00:00.000Z"
+    },
+    {
+      "fingerprint": "c0e159933d87b73a429eade4b18b5fb5b7084f8f4cd2139c4415635ce90e1f6e",
+      "at": "2026-11-06T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "e2e7c66ac0e6b9948c118b9008e1d17f8d682eb067468ca9710f529a46a94d0e",
+      "at": "2026-11-06T16:46:48.721Z"
     }
   ]
 }
