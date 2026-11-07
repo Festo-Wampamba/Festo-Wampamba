@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T13:02:08.468Z",
+  "updatedAt": "2026-11-07T19:26:22.481Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "You do not have to earn rest by reaching exhaustion. Protect the person doing the work.",
-    "fingerprint": "3a9fd1622ed24443add7d90e48e8d2a949e881b962dccd3dc8bc4b8de5456c98",
+    "text": "A little patience with today's practice can protect a tomorrow you are still learning how to build.",
+    "fingerprint": "aaef60f93ee722e38debae3056e95b0bbcc07933d136a7024e2c20a7a31f6787",
     "source": "ai",
-    "slot": 166116,
-    "at": "2026-11-07T13:02:08.468Z"
+    "slot": 166118,
+    "at": "2026-11-07T19:26:22.481Z"
   },
   "pending": [
-    {
-      "text": "Keep one small promise to your future self today, and let that quiet follow-through become tomorrow's confidence.",
-      "fingerprint": "884b4f962ab8e1f2b6e7b3e8510bfc6d4f1e54d180fa54e58d3dbde4eb0e6802",
-      "source": "ai"
-    },
-    {
-      "text": "A little patience with today's practice can protect a tomorrow you are still learning how to build.",
-      "fingerprint": "aaef60f93ee722e38debae3056e95b0bbcc07933d136a7024e2c20a7a31f6787",
-      "source": "ai"
-    },
     {
       "text": "The work you leave easier for the next person is a contribution, even when your name is nowhere on it.",
       "fingerprint": "467266f3081503161edf85fbea3cf39308a3564873b20e1e22b9979f25950351",
@@ -302,20 +292,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "You do not need to solve the whole journey today. Give the next honest step the attention it deserves.",
-      "fingerprint": "c826e99a4738177b068bb13b1b3cdb7caaf8688f36b5c97195b6009a97cb4a1a",
-      "source": "ai",
-      "slot": 166061,
-      "at": "2026-10-31T16:03:00.376Z"
-    },
-    {
-      "text": "An honest hour spent learning can be more valuable than a busy day spent pretending to know.",
-      "fingerprint": "3ab55c8af62b62176438abc3b5db3a27e18e8bf57060d42f9f924e2f9467e2b5",
-      "source": "ai",
-      "slot": 166062,
-      "at": "2026-10-31T18:00:00.000Z"
-    },
     {
       "text": "Learning to finish small things is a practical way to trust yourself with bigger ones.",
       "fingerprint": "834a8c077ebdc3a649399ca7fe2652c5695da6277b2f8f3a20757e0364f24880",
@@ -693,6 +669,20 @@
       "source": "ai",
       "slot": 166116,
       "at": "2026-11-07T13:02:08.468Z"
+    },
+    {
+      "text": "Keep one small promise to your future self today, and let that quiet follow-through become tomorrow's confidence.",
+      "fingerprint": "884b4f962ab8e1f2b6e7b3e8510bfc6d4f1e54d180fa54e58d3dbde4eb0e6802",
+      "source": "ai",
+      "slot": 166117,
+      "at": "2026-11-07T15:00:00.000Z"
+    },
+    {
+      "text": "A little patience with today's practice can protect a tomorrow you are still learning how to build.",
+      "fingerprint": "aaef60f93ee722e38debae3056e95b0bbcc07933d136a7024e2c20a7a31f6787",
+      "source": "ai",
+      "slot": 166118,
+      "at": "2026-11-07T19:26:22.481Z"
     }
   ],
   "used": [
@@ -919,6 +909,14 @@
     {
       "fingerprint": "3a9fd1622ed24443add7d90e48e8d2a949e881b962dccd3dc8bc4b8de5456c98",
       "at": "2026-11-07T13:02:08.468Z"
+    },
+    {
+      "fingerprint": "884b4f962ab8e1f2b6e7b3e8510bfc6d4f1e54d180fa54e58d3dbde4eb0e6802",
+      "at": "2026-11-07T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "aaef60f93ee722e38debae3056e95b0bbcc07933d136a7024e2c20a7a31f6787",
+      "at": "2026-11-07T19:26:22.481Z"
     }
   ]
 }
