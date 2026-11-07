@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T05:58:51.107Z",
+  "updatedAt": "2026-11-07T13:02:08.468Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "Your effort is allowed to be quiet. Its meaning does not depend on an audience.",
-    "fingerprint": "14f78cbf9c66e5f780ab805120ce858aaaf68f10c75156b10eba8571d0b9e067",
+    "text": "You do not have to earn rest by reaching exhaustion. Protect the person doing the work.",
+    "fingerprint": "3a9fd1622ed24443add7d90e48e8d2a949e881b962dccd3dc8bc4b8de5456c98",
     "source": "ai",
-    "slot": 166113,
-    "at": "2026-11-07T05:58:51.107Z"
+    "slot": 166116,
+    "at": "2026-11-07T13:02:08.468Z"
   },
   "pending": [
-    {
-      "text": "Let your goals give you direction without turning every ordinary day into a judgment.",
-      "fingerprint": "836ebe4418b0b555c0616f3673c1040fa0aee70bf6ad13ac93f9b90933218f0d",
-      "source": "ai"
-    },
-    {
-      "text": "Let today contain one action that agrees with the future you keep imagining.",
-      "fingerprint": "e60699b3d533bfd072da8b189bad06c64aedde923a73b6c078bf5d99ceb7d8c2",
-      "source": "ai"
-    },
-    {
-      "text": "You do not have to earn rest by reaching exhaustion. Protect the person doing the work.",
-      "fingerprint": "3a9fd1622ed24443add7d90e48e8d2a949e881b962dccd3dc8bc4b8de5456c98",
-      "source": "ai"
-    },
     {
       "text": "Keep one small promise to your future self today, and let that quiet follow-through become tomorrow's confidence.",
       "fingerprint": "884b4f962ab8e1f2b6e7b3e8510bfc6d4f1e54d180fa54e58d3dbde4eb0e6802",
@@ -687,6 +672,27 @@
       "source": "ai",
       "slot": 166113,
       "at": "2026-11-07T05:58:51.107Z"
+    },
+    {
+      "text": "Let your goals give you direction without turning every ordinary day into a judgment.",
+      "fingerprint": "836ebe4418b0b555c0616f3673c1040fa0aee70bf6ad13ac93f9b90933218f0d",
+      "source": "ai",
+      "slot": 166114,
+      "at": "2026-11-07T06:00:00.000Z"
+    },
+    {
+      "text": "Let today contain one action that agrees with the future you keep imagining.",
+      "fingerprint": "e60699b3d533bfd072da8b189bad06c64aedde923a73b6c078bf5d99ceb7d8c2",
+      "source": "ai",
+      "slot": 166115,
+      "at": "2026-11-07T09:00:00.000Z"
+    },
+    {
+      "text": "You do not have to earn rest by reaching exhaustion. Protect the person doing the work.",
+      "fingerprint": "3a9fd1622ed24443add7d90e48e8d2a949e881b962dccd3dc8bc4b8de5456c98",
+      "source": "ai",
+      "slot": 166116,
+      "at": "2026-11-07T13:02:08.468Z"
     }
   ],
   "used": [
@@ -901,6 +907,18 @@
     {
       "fingerprint": "14f78cbf9c66e5f780ab805120ce858aaaf68f10c75156b10eba8571d0b9e067",
       "at": "2026-11-07T05:58:51.107Z"
+    },
+    {
+      "fingerprint": "836ebe4418b0b555c0616f3673c1040fa0aee70bf6ad13ac93f9b90933218f0d",
+      "at": "2026-11-07T06:00:00.000Z"
+    },
+    {
+      "fingerprint": "e60699b3d533bfd072da8b189bad06c64aedde923a73b6c078bf5d99ceb7d8c2",
+      "at": "2026-11-07T09:00:00.000Z"
+    },
+    {
+      "fingerprint": "3a9fd1622ed24443add7d90e48e8d2a949e881b962dccd3dc8bc4b8de5456c98",
+      "at": "2026-11-07T13:02:08.468Z"
     }
   ]
 }
