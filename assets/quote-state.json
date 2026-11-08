@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T10:23:56.725Z",
+  "updatedAt": "2026-11-08T17:56:51.764Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "A reliable promise starts with an honest look at your time, your limits, and the help you may need.",
-    "fingerprint": "db5b45893d3d5b9fba6aee80f6ad0fef63c4e6ce789f3465dd724f3cf38ef09e",
+    "text": "Keeping a record of what helped can spare your next attempt from having to discover everything again.",
+    "fingerprint": "9feae3626923dea8cc0b849e7b6b5d4fcd9264a4ad3419fe9fbdd28f7f472168",
     "source": "ai",
-    "slot": 166123,
-    "at": "2026-11-08T10:23:56.725Z"
+    "slot": 166125,
+    "at": "2026-11-08T17:56:51.764Z"
   },
   "pending": [
-    {
-      "text": "Give a new routine a place in your real surroundings: a visible notebook, a prepared tool, or a time that already exists.",
-      "fingerprint": "59fad7ed8031d8776fc828e8d49f8971efd6ad5f106db3015bd82b0fc14ebffd",
-      "source": "ai"
-    },
-    {
-      "text": "Keeping a record of what helped can spare your next attempt from having to discover everything again.",
-      "fingerprint": "9feae3626923dea8cc0b849e7b6b5d4fcd9264a4ad3419fe9fbdd28f7f472168",
-      "source": "ai"
-    },
     {
       "text": "A clear request gives other people a fairer chance to help than hoping they will guess what you need.",
       "fingerprint": "8c54afb56beb07b976e3b03927cef2b9112399ad10c6fae01d8a7d797ae46ec9",
@@ -267,20 +257,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "Your progress does not become less real because someone else cannot see it yet.",
-      "fingerprint": "3bf5b0b7e5412b4ee5467e3e37067dcd13a2502e13be914f3779aecc9ca872ac",
-      "source": "ai",
-      "slot": 166068,
-      "at": "2026-11-01T13:25:56.680Z"
-    },
-    {
-      "text": "A clear purpose can guide you even when the next few steps are still unfamiliar.",
-      "fingerprint": "3af4532f8ee63b13f2a4f346f51cad4538666bf5a9b00281a16c4210c72a9798",
-      "source": "ai",
-      "slot": 166069,
-      "at": "2026-11-01T15:00:00.000Z"
-    },
     {
       "text": "A useful habit is a bridge you build for the days when motivation cannot reach you.",
       "fingerprint": "408f344d7488941671c0401a57632cb752d17aa2f6c9482deda1ea0431ee5bf2",
@@ -658,6 +634,20 @@
       "source": "ai",
       "slot": 166123,
       "at": "2026-11-08T10:23:56.725Z"
+    },
+    {
+      "text": "Give a new routine a place in your real surroundings: a visible notebook, a prepared tool, or a time that already exists.",
+      "fingerprint": "59fad7ed8031d8776fc828e8d49f8971efd6ad5f106db3015bd82b0fc14ebffd",
+      "source": "ai",
+      "slot": 166124,
+      "at": "2026-11-08T12:00:00.000Z"
+    },
+    {
+      "text": "Keeping a record of what helped can spare your next attempt from having to discover everything again.",
+      "fingerprint": "9feae3626923dea8cc0b849e7b6b5d4fcd9264a4ad3419fe9fbdd28f7f472168",
+      "source": "ai",
+      "slot": 166125,
+      "at": "2026-11-08T17:56:51.764Z"
     }
   ],
   "used": [
@@ -912,6 +902,14 @@
     {
       "fingerprint": "db5b45893d3d5b9fba6aee80f6ad0fef63c4e6ce789f3465dd724f3cf38ef09e",
       "at": "2026-11-08T10:23:56.725Z"
+    },
+    {
+      "fingerprint": "59fad7ed8031d8776fc828e8d49f8971efd6ad5f106db3015bd82b0fc14ebffd",
+      "at": "2026-11-08T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "9feae3626923dea8cc0b849e7b6b5d4fcd9264a4ad3419fe9fbdd28f7f472168",
+      "at": "2026-11-08T17:56:51.764Z"
     }
   ]
 }
