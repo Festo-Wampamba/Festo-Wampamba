@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T19:26:22.481Z",
+  "updatedAt": "2026-11-08T00:37:12.414Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "A little patience with today's practice can protect a tomorrow you are still learning how to build.",
-    "fingerprint": "aaef60f93ee722e38debae3056e95b0bbcc07933d136a7024e2c20a7a31f6787",
+    "text": "Some courage looks like telling a trusted person that you are unsure and would value their perspective.",
+    "fingerprint": "8cdf9193da3cdf3ca462c78761ad2d62c657fe965fdbcde102529d67f91a4aac",
     "source": "ai",
-    "slot": 166118,
-    "at": "2026-11-07T19:26:22.481Z"
+    "slot": 166120,
+    "at": "2026-11-08T00:37:12.414Z"
   },
   "pending": [
-    {
-      "text": "The work you leave easier for the next person is a contribution, even when your name is nowhere on it.",
-      "fingerprint": "467266f3081503161edf85fbea3cf39308a3564873b20e1e22b9979f25950351",
-      "source": "ai"
-    },
-    {
-      "text": "Some courage looks like telling a trusted person that you are unsure and would value their perspective.",
-      "fingerprint": "8cdf9193da3cdf3ca462c78761ad2d62c657fe965fdbcde102529d67f91a4aac",
-      "source": "ai"
-    },
     {
       "text": "A demanding week does not need a grand ending. Finishing one loose task and putting the rest in order can be enough.",
       "fingerprint": "f6af8a866e51d613feab343b21cb3218ff3f354226607cf13754df6164a8fa0c",
@@ -292,20 +282,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "Learning to finish small things is a practical way to trust yourself with bigger ones.",
-      "fingerprint": "834a8c077ebdc3a649399ca7fe2652c5695da6277b2f8f3a20757e0364f24880",
-      "source": "ai",
-      "slot": 166063,
-      "at": "2026-10-31T21:35:44.271Z"
-    },
-    {
-      "text": "A good question is a door you can open even when you do not yet have the answer.",
-      "fingerprint": "255dd91e0e4e2fbebe14f553be169a58f159d57c595034216f36937160428283",
-      "source": "ai",
-      "slot": 166064,
-      "at": "2026-11-01T00:00:00.000Z"
-    },
     {
       "text": "Leave enough quiet in your day to notice whether the ladder is leaning toward a life you want.",
       "fingerprint": "9aa0c3729f161c33a13d1cdbe335ee8943d23c4a3a2dba0264f691bc49586840",
@@ -683,6 +659,20 @@
       "source": "ai",
       "slot": 166118,
       "at": "2026-11-07T19:26:22.481Z"
+    },
+    {
+      "text": "The work you leave easier for the next person is a contribution, even when your name is nowhere on it.",
+      "fingerprint": "467266f3081503161edf85fbea3cf39308a3564873b20e1e22b9979f25950351",
+      "source": "ai",
+      "slot": 166119,
+      "at": "2026-11-07T21:00:00.000Z"
+    },
+    {
+      "text": "Some courage looks like telling a trusted person that you are unsure and would value their perspective.",
+      "fingerprint": "8cdf9193da3cdf3ca462c78761ad2d62c657fe965fdbcde102529d67f91a4aac",
+      "source": "ai",
+      "slot": 166120,
+      "at": "2026-11-08T00:37:12.414Z"
     }
   ],
   "used": [
@@ -917,6 +907,14 @@
     {
       "fingerprint": "aaef60f93ee722e38debae3056e95b0bbcc07933d136a7024e2c20a7a31f6787",
       "at": "2026-11-07T19:26:22.481Z"
+    },
+    {
+      "fingerprint": "467266f3081503161edf85fbea3cf39308a3564873b20e1e22b9979f25950351",
+      "at": "2026-11-07T21:00:00.000Z"
+    },
+    {
+      "fingerprint": "8cdf9193da3cdf3ca462c78761ad2d62c657fe965fdbcde102529d67f91a4aac",
+      "at": "2026-11-08T00:37:12.414Z"
     }
   ]
 }
