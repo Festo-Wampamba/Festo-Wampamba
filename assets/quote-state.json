@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T17:56:51.764Z",
+  "updatedAt": "2026-11-08T22:06:09.795Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "Keeping a record of what helped can spare your next attempt from having to discover everything again.",
-    "fingerprint": "9feae3626923dea8cc0b849e7b6b5d4fcd9264a4ad3419fe9fbdd28f7f472168",
+    "text": "A thoughtful ending matters too: save your notes, thank the people involved, and let the task be complete.",
+    "fingerprint": "d3e1f24d0360c87c16c4258da5d24951448e5b5ce15ea4d149a92cab03cce408",
     "source": "ai",
-    "slot": 166125,
-    "at": "2026-11-08T17:56:51.764Z"
+    "slot": 166127,
+    "at": "2026-11-08T22:06:09.795Z"
   },
   "pending": [
-    {
-      "text": "A clear request gives other people a fairer chance to help than hoping they will guess what you need.",
-      "fingerprint": "8c54afb56beb07b976e3b03927cef2b9112399ad10c6fae01d8a7d797ae46ec9",
-      "source": "ai"
-    },
-    {
-      "text": "A thoughtful ending matters too: save your notes, thank the people involved, and let the task be complete.",
-      "fingerprint": "d3e1f24d0360c87c16c4258da5d24951448e5b5ce15ea4d149a92cab03cce408",
-      "source": "ai"
-    },
     {
       "text": "When you return to a neglected skill, begin with the parts that feel familiar and let them welcome you back.",
       "fingerprint": "499a5fd75dace164ad19ad8570c58c3b3a476a8a33a4a15ff07126555351b1eb",
@@ -257,20 +247,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "A useful habit is a bridge you build for the days when motivation cannot reach you.",
-      "fingerprint": "408f344d7488941671c0401a57632cb752d17aa2f6c9482deda1ea0431ee5bf2",
-      "source": "ai",
-      "slot": 166070,
-      "at": "2026-11-01T19:41:55.224Z"
-    },
-    {
-      "text": "Let the next chapter be shaped by what you learned, not only by what you lost.",
-      "fingerprint": "f428e7622c5d7da4aa46bc3c621a43e7cc1672aedff2232c431685867296107c",
-      "source": "ai",
-      "slot": 166071,
-      "at": "2026-11-01T21:00:00.000Z"
-    },
     {
       "text": "You can aim high and still take the stairs one deliberate step at a time.",
       "fingerprint": "939ab3c67b8e2114a7edbbf497aae1349e60bf706716d8d0244841c74e04793c",
@@ -648,6 +624,20 @@
       "source": "ai",
       "slot": 166125,
       "at": "2026-11-08T17:56:51.764Z"
+    },
+    {
+      "text": "A clear request gives other people a fairer chance to help than hoping they will guess what you need.",
+      "fingerprint": "8c54afb56beb07b976e3b03927cef2b9112399ad10c6fae01d8a7d797ae46ec9",
+      "source": "ai",
+      "slot": 166126,
+      "at": "2026-11-08T18:00:00.000Z"
+    },
+    {
+      "text": "A thoughtful ending matters too: save your notes, thank the people involved, and let the task be complete.",
+      "fingerprint": "d3e1f24d0360c87c16c4258da5d24951448e5b5ce15ea4d149a92cab03cce408",
+      "source": "ai",
+      "slot": 166127,
+      "at": "2026-11-08T22:06:09.795Z"
     }
   ],
   "used": [
@@ -910,6 +900,14 @@
     {
       "fingerprint": "9feae3626923dea8cc0b849e7b6b5d4fcd9264a4ad3419fe9fbdd28f7f472168",
       "at": "2026-11-08T17:56:51.764Z"
+    },
+    {
+      "fingerprint": "8c54afb56beb07b976e3b03927cef2b9112399ad10c6fae01d8a7d797ae46ec9",
+      "at": "2026-11-08T18:00:00.000Z"
+    },
+    {
+      "fingerprint": "d3e1f24d0360c87c16c4258da5d24951448e5b5ce15ea4d149a92cab03cce408",
+      "at": "2026-11-08T22:06:09.795Z"
     }
   ]
 }
