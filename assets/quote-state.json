@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T00:37:12.414Z",
+  "updatedAt": "2026-11-08T10:23:56.725Z",
   "lastRefillAt": "2026-11-02T10:29:59.217Z",
   "current": {
-    "text": "Some courage looks like telling a trusted person that you are unsure and would value their perspective.",
-    "fingerprint": "8cdf9193da3cdf3ca462c78761ad2d62c657fe965fdbcde102529d67f91a4aac",
+    "text": "A reliable promise starts with an honest look at your time, your limits, and the help you may need.",
+    "fingerprint": "db5b45893d3d5b9fba6aee80f6ad0fef63c4e6ce789f3465dd724f3cf38ef09e",
     "source": "ai",
-    "slot": 166120,
-    "at": "2026-11-08T00:37:12.414Z"
+    "slot": 166123,
+    "at": "2026-11-08T10:23:56.725Z"
   },
   "pending": [
-    {
-      "text": "A demanding week does not need a grand ending. Finishing one loose task and putting the rest in order can be enough.",
-      "fingerprint": "f6af8a866e51d613feab343b21cb3218ff3f354226607cf13754df6164a8fa0c",
-      "source": "ai"
-    },
-    {
-      "text": "Practice explaining a difficult idea in your own words. The places where you hesitate can show you what to explore next.",
-      "fingerprint": "999b63d2f4072d04e54d5b762d3186607d0e5e433b2bc42a53da05823ddd106a",
-      "source": "ai"
-    },
-    {
-      "text": "A reliable promise starts with an honest look at your time, your limits, and the help you may need.",
-      "fingerprint": "db5b45893d3d5b9fba6aee80f6ad0fef63c4e6ce789f3465dd724f3cf38ef09e",
-      "source": "ai"
-    },
     {
       "text": "Give a new routine a place in your real surroundings: a visible notebook, a prepared tool, or a time that already exists.",
       "fingerprint": "59fad7ed8031d8776fc828e8d49f8971efd6ad5f106db3015bd82b0fc14ebffd",
@@ -282,27 +267,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "Leave enough quiet in your day to notice whether the ladder is leaning toward a life you want.",
-      "fingerprint": "9aa0c3729f161c33a13d1cdbe335ee8943d23c4a3a2dba0264f691bc49586840",
-      "source": "ai",
-      "slot": 166065,
-      "at": "2026-11-01T03:00:00.000Z"
-    },
-    {
-      "text": "Your first answer can be incomplete and your next question can still be excellent.",
-      "fingerprint": "aab77a82d841dd99da8ea8cc16da0413a731f35b23515e014a3faaaefbfdbf69",
-      "source": "ai",
-      "slot": 166066,
-      "at": "2026-11-01T06:06:34.178Z"
-    },
-    {
-      "text": "Do not confuse a slow season with a closed door. Roots have work to do before branches have news.",
-      "fingerprint": "77064c96da2a8b51bbfd8b6da3e4e42e6c8d6e58f22c79deaa45792f7df3f906",
-      "source": "ai",
-      "slot": 166067,
-      "at": "2026-11-01T09:00:00.000Z"
-    },
     {
       "text": "Your progress does not become less real because someone else cannot see it yet.",
       "fingerprint": "3bf5b0b7e5412b4ee5467e3e37067dcd13a2502e13be914f3779aecc9ca872ac",
@@ -673,6 +637,27 @@
       "source": "ai",
       "slot": 166120,
       "at": "2026-11-08T00:37:12.414Z"
+    },
+    {
+      "text": "A demanding week does not need a grand ending. Finishing one loose task and putting the rest in order can be enough.",
+      "fingerprint": "f6af8a866e51d613feab343b21cb3218ff3f354226607cf13754df6164a8fa0c",
+      "source": "ai",
+      "slot": 166121,
+      "at": "2026-11-08T03:00:00.000Z"
+    },
+    {
+      "text": "Practice explaining a difficult idea in your own words. The places where you hesitate can show you what to explore next.",
+      "fingerprint": "999b63d2f4072d04e54d5b762d3186607d0e5e433b2bc42a53da05823ddd106a",
+      "source": "ai",
+      "slot": 166122,
+      "at": "2026-11-08T06:00:00.000Z"
+    },
+    {
+      "text": "A reliable promise starts with an honest look at your time, your limits, and the help you may need.",
+      "fingerprint": "db5b45893d3d5b9fba6aee80f6ad0fef63c4e6ce789f3465dd724f3cf38ef09e",
+      "source": "ai",
+      "slot": 166123,
+      "at": "2026-11-08T10:23:56.725Z"
     }
   ],
   "used": [
@@ -915,6 +900,18 @@
     {
       "fingerprint": "8cdf9193da3cdf3ca462c78761ad2d62c657fe965fdbcde102529d67f91a4aac",
       "at": "2026-11-08T00:37:12.414Z"
+    },
+    {
+      "fingerprint": "f6af8a866e51d613feab343b21cb3218ff3f354226607cf13754df6164a8fa0c",
+      "at": "2026-11-08T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "999b63d2f4072d04e54d5b762d3186607d0e5e433b2bc42a53da05823ddd106a",
+      "at": "2026-11-08T06:00:00.000Z"
+    },
+    {
+      "fingerprint": "db5b45893d3d5b9fba6aee80f6ad0fef63c4e6ce789f3465dd724f3cf38ef09e",
+      "at": "2026-11-08T10:23:56.725Z"
     }
   ]
 }
