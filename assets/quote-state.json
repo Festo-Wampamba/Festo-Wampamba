@@ -1,35 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T06:30:49.599Z",
+  "updatedAt": "2026-11-09T19:50:05.346Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "A useful conversation often begins when someone is willing to ask for a concrete example.",
-    "fingerprint": "d1dd0c386ebad128e89eb5e96041b82f846f9d342caf4594a5666ccb4e333c85",
+    "text": "Consider the pace you could keep on a tired Wednesday, not only the pace you can manage when everything goes well.",
+    "fingerprint": "6a4fda4be02c376fb3d87fb85f5f09746cd6aa150a68f0ef2df323089ffa242f",
     "source": "ai",
-    "slot": 166130,
-    "at": "2026-11-09T06:30:49.599Z"
+    "slot": 166134,
+    "at": "2026-11-09T19:50:05.346Z"
   },
   "pending": [
-    {
-      "text": "You may not enjoy every stage of a worthwhile task. Make room to notice the parts that still hold your interest.",
-      "fingerprint": "9ee9b8de95f54fb2ae15dcbafe9921e82bf885531ffd96a92559acb24cabf6b0",
-      "source": "ai"
-    },
-    {
-      "text": "When an attempt falls short, describe what happened plainly. A clear description gives revision somewhere to begin.",
-      "fingerprint": "0ac868785634d99e2e9d5dc49c70c24a9bfd52c862c7c4d7c0f50fb28d626857",
-      "source": "ai"
-    },
-    {
-      "text": "An ordinary afternoon can hold a useful turning point: the call you make, the page you read, or the task you finally name.",
-      "fingerprint": "60b981e02d82d2664dd28b13ef80bfe43b1bb4096d651fc5e42167ad7db008da",
-      "source": "ai"
-    },
-    {
-      "text": "Consider the pace you could keep on a tired Wednesday, not only the pace you can manage when everything goes well.",
-      "fingerprint": "6a4fda4be02c376fb3d87fb85f5f09746cd6aa150a68f0ef2df323089ffa242f",
-      "source": "ai"
-    },
     {
       "text": "Look at what the last week actually required of you before judging it by a plan made under easier conditions.",
       "fingerprint": "4c069782b8cb36b89c6d1a00104f3d8a66096561f6e2ae7bb51921408547530c",
@@ -513,34 +493,6 @@
   ],
   "recent": [
     {
-      "text": "Be willing to revise the plan when new understanding makes a better route possible.",
-      "fingerprint": "c44fbc90b5c1577da6a8e79fb289c5464bf43024cda4a86553a03b823c9e71d2",
-      "source": "ai",
-      "slot": 166075,
-      "at": "2026-11-02T10:29:59.217Z"
-    },
-    {
-      "text": "The lesson becomes useful when you carry it into the next attempt, not when you keep replaying the last one.",
-      "fingerprint": "97a7582c742c7e5d0caa369fbbc88b39e5d2434d761761eb7430a68b9531b1e9",
-      "source": "ai",
-      "slot": 166076,
-      "at": "2026-11-02T12:00:00.000Z"
-    },
-    {
-      "text": "Your direction matters, but so does the way you treat yourself and others along the road.",
-      "fingerprint": "baf7b0ab27fc4ed9c08f8551ed992684dbf200be8c1a60c0c46ad205c37540eb",
-      "source": "ai",
-      "slot": 166077,
-      "at": "2026-11-02T15:00:00.000Z"
-    },
-    {
-      "text": "A small improvement repeated with care can quietly change the standard you live by.",
-      "fingerprint": "24cc9bb87d7edfc4cdea12b51421c577ec446041f9f463195da7e0d7304dd6be",
-      "source": "ai",
-      "slot": 166078,
-      "at": "2026-11-02T18:00:00.000Z"
-    },
-    {
       "text": "The ability to return is a strength. Practice it whenever your rhythm gets interrupted.",
       "fingerprint": "a0433973788976ecd18060f6d541374b95f62f9954f557317dd7154bcbb5751b",
       "source": "ai",
@@ -903,6 +855,34 @@
       "source": "ai",
       "slot": 166130,
       "at": "2026-11-09T06:30:49.599Z"
+    },
+    {
+      "text": "You may not enjoy every stage of a worthwhile task. Make room to notice the parts that still hold your interest.",
+      "fingerprint": "9ee9b8de95f54fb2ae15dcbafe9921e82bf885531ffd96a92559acb24cabf6b0",
+      "source": "ai",
+      "slot": 166131,
+      "at": "2026-11-09T09:00:00.000Z"
+    },
+    {
+      "text": "When an attempt falls short, describe what happened plainly. A clear description gives revision somewhere to begin.",
+      "fingerprint": "0ac868785634d99e2e9d5dc49c70c24a9bfd52c862c7c4d7c0f50fb28d626857",
+      "source": "ai",
+      "slot": 166132,
+      "at": "2026-11-09T12:00:00.000Z"
+    },
+    {
+      "text": "An ordinary afternoon can hold a useful turning point: the call you make, the page you read, or the task you finally name.",
+      "fingerprint": "60b981e02d82d2664dd28b13ef80bfe43b1bb4096d651fc5e42167ad7db008da",
+      "source": "ai",
+      "slot": 166133,
+      "at": "2026-11-09T15:00:00.000Z"
+    },
+    {
+      "text": "Consider the pace you could keep on a tired Wednesday, not only the pace you can manage when everything goes well.",
+      "fingerprint": "6a4fda4be02c376fb3d87fb85f5f09746cd6aa150a68f0ef2df323089ffa242f",
+      "source": "ai",
+      "slot": 166134,
+      "at": "2026-11-09T19:50:05.346Z"
     }
   ],
   "used": [
@@ -1185,6 +1165,22 @@
     {
       "fingerprint": "d1dd0c386ebad128e89eb5e96041b82f846f9d342caf4594a5666ccb4e333c85",
       "at": "2026-11-09T06:30:49.599Z"
+    },
+    {
+      "fingerprint": "9ee9b8de95f54fb2ae15dcbafe9921e82bf885531ffd96a92559acb24cabf6b0",
+      "at": "2026-11-09T09:00:00.000Z"
+    },
+    {
+      "fingerprint": "0ac868785634d99e2e9d5dc49c70c24a9bfd52c862c7c4d7c0f50fb28d626857",
+      "at": "2026-11-09T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "60b981e02d82d2664dd28b13ef80bfe43b1bb4096d651fc5e42167ad7db008da",
+      "at": "2026-11-09T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "6a4fda4be02c376fb3d87fb85f5f09746cd6aa150a68f0ef2df323089ffa242f",
+      "at": "2026-11-09T19:50:05.346Z"
     }
   ]
 }
