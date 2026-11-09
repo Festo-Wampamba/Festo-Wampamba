@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T22:06:09.795Z",
-  "lastRefillAt": "2026-11-02T10:29:59.217Z",
+  "updatedAt": "2026-11-09T04:28:24.814Z",
+  "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "A thoughtful ending matters too: save your notes, thank the people involved, and let the task be complete.",
-    "fingerprint": "d3e1f24d0360c87c16c4258da5d24951448e5b5ce15ea4d149a92cab03cce408",
+    "text": "A quiet hour with something you enjoy can be worth protecting even when it produces nothing to share.",
+    "fingerprint": "ebae662a32541d89430a7cac3af78ad65fe118fb1eaba1909e36d3160b0998e0",
     "source": "ai",
-    "slot": 166127,
-    "at": "2026-11-08T22:06:09.795Z"
+    "slot": 166129,
+    "at": "2026-11-09T04:28:24.814Z"
   },
   "pending": [
-    {
-      "text": "When you return to a neglected skill, begin with the parts that feel familiar and let them welcome you back.",
-      "fingerprint": "499a5fd75dace164ad19ad8570c58c3b3a476a8a33a4a15ff07126555351b1eb",
-      "source": "ai"
-    },
-    {
-      "text": "A quiet hour with something you enjoy can be worth protecting even when it produces nothing to share.",
-      "fingerprint": "ebae662a32541d89430a7cac3af78ad65fe118fb1eaba1909e36d3160b0998e0",
-      "source": "ai"
-    },
     {
       "text": "A useful conversation often begins when someone is willing to ask for a concrete example.",
       "fingerprint": "d1dd0c386ebad128e89eb5e96041b82f846f9d342caf4594a5666ccb4e333c85",
@@ -244,23 +234,289 @@
       "text": "A boundary can make a good commitment more honest by giving it the time and attention you can actually offer.",
       "fingerprint": "ffaadcee3f797333235aecb88100b4115001d40945e0e09db3259d9d855a2225",
       "source": "ai"
+    },
+    {
+      "text": "You can name a disappointment without adding a prediction about every attempt that follows.",
+      "fingerprint": "88b09cd8752c6c5da5a6ada5c18c506f5dc5e8e50c5577fcba05a7293a8b77fe",
+      "source": "ai"
+    },
+    {
+      "text": "An ordinary week can hold work you respect, company you enjoy, and room to be a person between tasks.",
+      "fingerprint": "d0edf1421e6972bea247292d96dca32c1daecf90df9b9cacaf10a85b00fb0275",
+      "source": "ai"
+    },
+    {
+      "text": "Before calling yourself stuck, check whether the next task is really several tasks wearing one name.",
+      "fingerprint": "3d5086d5f3608639ea408ac4fe4e7194962c0965ad57e359e41fd53a1ede1729",
+      "source": "ai"
+    },
+    {
+      "text": "You are permitted to enjoy a day that does not become a story worth telling.",
+      "fingerprint": "58ee9a0e56cb93f985c46023456f297b3db96f2792b076eddc3ae9c8f8e3c899",
+      "source": "ai"
+    },
+    {
+      "text": "A fresh start can be as plain as opening the file and reading the last note you left.",
+      "fingerprint": "079021fc1168205053f77873430435948a40c318551d879e49ebcd6c3c703a61",
+      "source": "ai"
+    },
+    {
+      "text": "A useful goal can tell you where to place your attention without deciding how much you are worth.",
+      "fingerprint": "d8b9e4fcff8faafcf9ab172abc8c5e906ea3e053b5b69a7714231c58b6cfe141",
+      "source": "ai"
+    },
+    {
+      "text": "You can honor an earlier version of yourself without keeping every choice that version made.",
+      "fingerprint": "acef77cd10333ee24da0d6680694a9160296a3ad43bb81545c17934872a548b4",
+      "source": "ai"
+    },
+    {
+      "text": "A difficult reply can wait long enough for you to choose words that serve the conversation.",
+      "fingerprint": "21020cfdff8dc9493ace2efb3088796521eab9de0a84e9aa0f72185ada26c566",
+      "source": "ai"
+    },
+    {
+      "text": "It takes care to say that a task needs more time. Clear notice can serve others better than a rushed promise.",
+      "fingerprint": "e5273d095f5d6589ba5662a4bb0151ec5b201db3c3ca47526cf89ae4c4428b4b",
+      "source": "ai"
+    },
+    {
+      "text": "Try thanking yourself for the care taken in a difficult attempt, even while deciding what you would change.",
+      "fingerprint": "99ff5b398cb04fcbe0b149981fa1c3a6eab29245e00d6fee966550f82a9bfaa0",
+      "source": "ai"
+    },
+    {
+      "text": "Keep some questions open while you gather experience. Not every uncertainty requires an immediate opinion.",
+      "fingerprint": "b65a50c533758dcf4f37c48069df61ee94ffa52af1088ceab5252b0526e65e17",
+      "source": "ai"
+    },
+    {
+      "text": "There is no need to hide the simple method that helped you. Someone else may be looking for an accessible beginning.",
+      "fingerprint": "daa2973c02018923360c5356d244a8f7deefdcbbe5b3b413256914688a787ddc",
+      "source": "ai"
+    },
+    {
+      "text": "Leave a margin in the plan for the tasks you cannot predict and the person you cannot schedule perfectly.",
+      "fingerprint": "e40cc54b94fd12fe69509953e665a7d7b843b9299030a79210a1a05f8d9b8836",
+      "source": "ai"
+    },
+    {
+      "text": "If you are waiting to feel fully ready, identify one part you could safely rehearse instead.",
+      "fingerprint": "65cf90cc5080e81639688ca6aab51cf0f0ae65bac28a4ad1ef31da6e8ea58b63",
+      "source": "ai"
+    },
+    {
+      "text": "A reason to continue can be modest: a detail worth understanding, a person worth helping, or a task worth completing.",
+      "fingerprint": "bb2d844a7392a78d2509dc06121a187f6343c0ab058a39535e20854f89131d3a",
+      "source": "ai"
+    },
+    {
+      "text": "When a new responsibility feels large, ask which decisions are yours and which ones can be made together.",
+      "fingerprint": "4ef2e6cc214417c1edfd39d23ba221b6435ee770c78605e004c494c908c8c65e",
+      "source": "ai"
+    },
+    {
+      "text": "Spend a few minutes with the question before reaching for the answer you usually give.",
+      "fingerprint": "2f4372b13ccf74088d3a2b4a953364fa4800381eaf21d1dd95089c697e97efe4",
+      "source": "ai"
+    },
+    {
+      "text": "An idea that survives a gentle test is more useful than an idea you have had to protect from every question.",
+      "fingerprint": "84005ca103302b2549016467d25eac6f77bc6a0803c345f522d52e3a16b1f641",
+      "source": "ai"
+    },
+    {
+      "text": "A skill learned for one purpose may quietly become useful in a place you did not expect.",
+      "fingerprint": "8f1b95b54a634a572224e59b641dc1016e434138be161b3c779ebd5bebb1208d",
+      "source": "ai"
+    },
+    {
+      "text": "There is room in a serious effort for an afternoon that is mostly practice and correction.",
+      "fingerprint": "67194ce01d361db915639ca5b69d428c89b757790da20acbfc2c1e590f618daf",
+      "source": "ai"
+    },
+    {
+      "text": "You can respect the effort a plan took and still admit that it no longer fits the situation.",
+      "fingerprint": "5ba2fcf889b89d650a35672818f5d121f6ec3bc9f6273d07a8e04d9f19841af9",
+      "source": "ai"
+    },
+    {
+      "text": "A break from measuring can help you remember what you liked about the activity before it became a goal.",
+      "fingerprint": "8b1f1a6f09e6edf930a647647c945b516aefffaa905d58be277829bc52d0e0e0",
+      "source": "ai"
+    },
+    {
+      "text": "Good company can make a hard learning season less lonely, even when each person has different work to do.",
+      "fingerprint": "8c9dd5d318156efbed6bdab2252cd8f628adfd3c1cb8ac721c8a3c7f4aebbe80",
+      "source": "ai"
+    },
+    {
+      "text": "Make a place for the things that interest you even when you cannot yet explain their practical value.",
+      "fingerprint": "c2abac98e89602a7a7f0c8e598a263f513b311e9454b97f1eb33eb7cb47dc608",
+      "source": "ai"
+    },
+    {
+      "text": "The courage to disagree can be quiet and precise. You can explain a concern without turning it into a contest.",
+      "fingerprint": "3814628debd50b7131a07793538a447b5bd99c864eb898cb35d4493a8c14dfeb",
+      "source": "ai"
+    },
+    {
+      "text": "Choose a task you can describe in one clear sentence. Give that sentence a chance to guide the next hour.",
+      "fingerprint": "ab8aeac69edd7b560aafc0c08468280c15f862a85f05c6235f52f4a79bda82b3",
+      "source": "ai"
+    },
+    {
+      "text": "A fair review of your work should notice the care you took as well as the detail you missed.",
+      "fingerprint": "4fab478e18fb9f68a158be9794a729fa91c90d2ef1fc0bf8bce4c3f5c2e7aa66",
+      "source": "ai"
+    },
+    {
+      "text": "When your standards rise, remember that noticing finer details is itself a result of learning.",
+      "fingerprint": "cce0f60bad599bc63ef499d4b4212016f04c88269c4232df58f44cc1ecc70fb0",
+      "source": "ai"
+    },
+    {
+      "text": "Remember to ask what went well while you are tracing what went wrong. Both belong in a useful account.",
+      "fingerprint": "9ed28ec1aa22e7e93b53c286f4a582654ecee00efa7616b7f36054159babd4a8",
+      "source": "ai"
+    },
+    {
+      "text": "You do not have to answer every request at once to be a thoughtful person to work with.",
+      "fingerprint": "bb90a0d18c110a0baa84e26a5ddaa4f703068db78132493327561eb885f5b60f",
+      "source": "ai"
+    },
+    {
+      "text": "When the room feels rushed, one calm question about what matters most may be a useful contribution.",
+      "fingerprint": "13042edd677047f015f6cc52222808002a2c6de40e7328ac97c356205afa5024",
+      "source": "ai"
+    },
+    {
+      "text": "Repetition can teach you to hear differences that were invisible when everything was new.",
+      "fingerprint": "82ac3c5439e1ebf71d3076659cf2843bc97ee87c255f0c9ab5200b815e62ba6f",
+      "source": "ai"
+    },
+    {
+      "text": "You are allowed to finish a conversation with something to think about instead of something to prove.",
+      "fingerprint": "df5e9ec59f1ecbba8e0a815f076249e41271e029bf2b5e0529d92ffc412e3f49",
+      "source": "ai"
+    },
+    {
+      "text": "The decision to stop polishing can be part of doing the work well. Ask whether another change would help its purpose.",
+      "fingerprint": "9f19d4c18697b25cadffe7f6567421debbfc05a69d23f678e80d86f7818a5f68",
+      "source": "ai"
+    },
+    {
+      "text": "Let a moment of doubt lead to a fair question rather than a harsh conclusion.",
+      "fingerprint": "f0bd24afb16b3684f2fff7095d283da0ffb48313ad68bb450b843b082ade12cc",
+      "source": "ai"
+    },
+    {
+      "text": "There is pleasure in making an ordinary thing easier to use. Notice when your care removes a little friction.",
+      "fingerprint": "0055618d28c11131bf4c1786e4fb0f0a040354858a0c867cdff38cfffb0e172e",
+      "source": "ai"
+    },
+    {
+      "text": "Before filling a free moment, consider whether you would rather leave it free.",
+      "fingerprint": "4e0fd60da50ebba7bcd77943bf81c5a54e530ad8b776e0251437b19f67854840",
+      "source": "ai"
+    },
+    {
+      "text": "Consider what would make the task easier to return to after an interruption, and arrange that before you leave.",
+      "fingerprint": "81f1255631c33c8ac4b07ebaf85abfcd3fe6c3efcda0ca39aa6928058918f2be",
+      "source": "ai"
+    },
+    {
+      "text": "Useful preparation can include deciding who to ask when you reach the part you do not understand.",
+      "fingerprint": "eba6fb7c4b032b4d4da6a59fdfed9a67a43f51e65e2aa8e44d349e2c82175d0d",
+      "source": "ai"
+    },
+    {
+      "text": "Try noticing when a familiar task takes less effort than it once did. Growth sometimes becomes visible through ease.",
+      "fingerprint": "16c40566f012cf9d2caf2e2ce208980834cc972691dc6187f3b39544283691d0",
+      "source": "ai"
+    },
+    {
+      "text": "Allow your plans to include the time it takes to finish, explain, and put things away.",
+      "fingerprint": "78ec4b719e9f433f59c0fa74a51d6b921fb1d2769e0e0b47d9d547b1dd18434d",
+      "source": "ai"
+    },
+    {
+      "text": "You can belong to a community while learning at a pace and in a manner that differ from its loudest members.",
+      "fingerprint": "41619ae03b33dcb5003d2d0b6bbd71b4ccbbc6d18eae72ca597e5656e4d7ada5",
+      "source": "ai"
+    },
+    {
+      "text": "The time you spend understanding a constraint may save the next person from mistaking it for a failure of effort.",
+      "fingerprint": "5a6e44e25a202faf2a8352d8e7f0afd625b744b9d71b275920667c68cdb84fda",
+      "source": "ai"
+    },
+    {
+      "text": "Some satisfaction comes from caring for what already exists rather than always beginning something new.",
+      "fingerprint": "c52cc809624c7366ebe72853d3c3210974dab18d8666754bbb2386f87e37c1df",
+      "source": "ai"
+    },
+    {
+      "text": "Trying a different example can reveal an idea that the first explanation left out of reach.",
+      "fingerprint": "bfc9ffb7d7074ff625b6bda346e2a16ae2cf349a5e4bb1f470e954409d95fd1c",
+      "source": "ai"
+    },
+    {
+      "text": "Let the first few minutes of learning be untidy. You are finding the edges of something unfamiliar.",
+      "fingerprint": "87a3773f7a5958832871d96feb93e427f6e12b5245afe967ed87e6f7afcf1f25",
+      "source": "ai"
+    },
+    {
+      "text": "An honest limit can keep a shared project from being built on an expectation you cannot meet.",
+      "fingerprint": "2daa6bf26988f324b59eb76d401a3ccfcbb37ca3c948b9193292e4555a148ac0",
+      "source": "ai"
+    },
+    {
+      "text": "Your contribution does not have to be the most visible one to make a shared effort more thoughtful.",
+      "fingerprint": "a86d124c2693cfc7103bfb3f5f0f246b69a45fa39a445fa09dcabbd1fe899ff1",
+      "source": "ai"
+    },
+    {
+      "text": "An honest invitation to collaborate leaves room for the other person to shape the work too.",
+      "fingerprint": "1f40c173ee9cc7faf87e5f923055eaac20810e3a1e76ba9e44c3109fe30406e8",
+      "source": "ai"
+    },
+    {
+      "text": "Your reasons for choosing a path can grow more precise as you learn what traveling it actually requires.",
+      "fingerprint": "34e5a7cc01a812611ba073daf5e3ee1354a40c543d7449422e9bc7de7e5e3b60",
+      "source": "ai"
+    },
+    {
+      "text": "The tools on your desk need not be perfect for you to make something careful with them.",
+      "fingerprint": "b7accf56f59b2cac969c56a7a672ec6c52c0ad00e43d0dfca611336977c073e9",
+      "source": "ai"
+    },
+    {
+      "text": "A project may ask you to become more patient with details, with other people, and with your own uneven attention.",
+      "fingerprint": "7f5aa2109bb2e0e9ce5068a023b96f4a1798c6cca01aa005388a43fb18738e5d",
+      "source": "ai"
+    },
+    {
+      "text": "Work that feels simple to you may reflect years of learning that you no longer notice.",
+      "fingerprint": "6a3eb599499d473103a68441a34745e99d351d01fa825d413953e1ff7d91580e",
+      "source": "ai"
+    },
+    {
+      "text": "When someone offers a different approach, you can examine it without putting your own ability on trial.",
+      "fingerprint": "7e367e804b3354dce2014117f4921fc86f81f74f619eee7775cade5bc87bf2b8",
+      "source": "ai"
+    },
+    {
+      "text": "A day spent putting scattered notes into order can prepare the ground for work you have not started yet.",
+      "fingerprint": "9910d0d9c4dbf448e61c3ef10e710cc84c04992b58cc06aa459554c700103874",
+      "source": "ai"
+    },
+    {
+      "text": "Notice which parts of the work make you more attentive to the people who will use it.",
+      "fingerprint": "d8dbfbe1f3b14d4e3568e405170dcaee359ec2656ec5cc8cb014601ceca607c4",
+      "source": "ai"
     }
   ],
   "recent": [
-    {
-      "text": "You can aim high and still take the stairs one deliberate step at a time.",
-      "fingerprint": "939ab3c67b8e2114a7edbbf497aae1349e60bf706716d8d0244841c74e04793c",
-      "source": "ai",
-      "slot": 166072,
-      "at": "2026-11-02T00:45:49.195Z"
-    },
-    {
-      "text": "You can be grateful for how far you have come and still be curious about what comes next.",
-      "fingerprint": "adba0d5f25c6beac934faeae097ac3aef965bec2ac0298b30b013ce0c86a388d",
-      "source": "ai",
-      "slot": 166073,
-      "at": "2026-11-02T03:00:00.000Z"
-    },
     {
       "text": "Let the mistake become information before you let it become a story about your worth.",
       "fingerprint": "fdf498d5dfead15dc161952170182541c1eb02430b1d17417f1083604d08a13f",
@@ -638,6 +894,20 @@
       "source": "ai",
       "slot": 166127,
       "at": "2026-11-08T22:06:09.795Z"
+    },
+    {
+      "text": "When you return to a neglected skill, begin with the parts that feel familiar and let them welcome you back.",
+      "fingerprint": "499a5fd75dace164ad19ad8570c58c3b3a476a8a33a4a15ff07126555351b1eb",
+      "source": "ai",
+      "slot": 166128,
+      "at": "2026-11-09T00:00:00.000Z"
+    },
+    {
+      "text": "A quiet hour with something you enjoy can be worth protecting even when it produces nothing to share.",
+      "fingerprint": "ebae662a32541d89430a7cac3af78ad65fe118fb1eaba1909e36d3160b0998e0",
+      "source": "ai",
+      "slot": 166129,
+      "at": "2026-11-09T04:28:24.814Z"
     }
   ],
   "used": [
@@ -908,6 +1178,14 @@
     {
       "fingerprint": "d3e1f24d0360c87c16c4258da5d24951448e5b5ce15ea4d149a92cab03cce408",
       "at": "2026-11-08T22:06:09.795Z"
+    },
+    {
+      "fingerprint": "499a5fd75dace164ad19ad8570c58c3b3a476a8a33a4a15ff07126555351b1eb",
+      "at": "2026-11-09T00:00:00.000Z"
+    },
+    {
+      "fingerprint": "ebae662a32541d89430a7cac3af78ad65fe118fb1eaba1909e36d3160b0998e0",
+      "at": "2026-11-09T04:28:24.814Z"
     }
   ]
 }
