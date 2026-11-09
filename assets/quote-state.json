@@ -1,20 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T04:28:24.814Z",
+  "updatedAt": "2026-11-09T06:30:49.599Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "A quiet hour with something you enjoy can be worth protecting even when it produces nothing to share.",
-    "fingerprint": "ebae662a32541d89430a7cac3af78ad65fe118fb1eaba1909e36d3160b0998e0",
+    "text": "A useful conversation often begins when someone is willing to ask for a concrete example.",
+    "fingerprint": "d1dd0c386ebad128e89eb5e96041b82f846f9d342caf4594a5666ccb4e333c85",
     "source": "ai",
-    "slot": 166129,
-    "at": "2026-11-09T04:28:24.814Z"
+    "slot": 166130,
+    "at": "2026-11-09T06:30:49.599Z"
   },
   "pending": [
-    {
-      "text": "A useful conversation often begins when someone is willing to ask for a concrete example.",
-      "fingerprint": "d1dd0c386ebad128e89eb5e96041b82f846f9d342caf4594a5666ccb4e333c85",
-      "source": "ai"
-    },
     {
       "text": "You may not enjoy every stage of a worthwhile task. Make room to notice the parts that still hold your interest.",
       "fingerprint": "9ee9b8de95f54fb2ae15dcbafe9921e82bf885531ffd96a92559acb24cabf6b0",
@@ -518,13 +513,6 @@
   ],
   "recent": [
     {
-      "text": "Let the mistake become information before you let it become a story about your worth.",
-      "fingerprint": "fdf498d5dfead15dc161952170182541c1eb02430b1d17417f1083604d08a13f",
-      "source": "ai",
-      "slot": 166074,
-      "at": "2026-11-02T06:00:00.000Z"
-    },
-    {
       "text": "Be willing to revise the plan when new understanding makes a better route possible.",
       "fingerprint": "c44fbc90b5c1577da6a8e79fb289c5464bf43024cda4a86553a03b823c9e71d2",
       "source": "ai",
@@ -908,6 +896,13 @@
       "source": "ai",
       "slot": 166129,
       "at": "2026-11-09T04:28:24.814Z"
+    },
+    {
+      "text": "A useful conversation often begins when someone is willing to ask for a concrete example.",
+      "fingerprint": "d1dd0c386ebad128e89eb5e96041b82f846f9d342caf4594a5666ccb4e333c85",
+      "source": "ai",
+      "slot": 166130,
+      "at": "2026-11-09T06:30:49.599Z"
     }
   ],
   "used": [
@@ -1186,6 +1181,10 @@
     {
       "fingerprint": "ebae662a32541d89430a7cac3af78ad65fe118fb1eaba1909e36d3160b0998e0",
       "at": "2026-11-09T04:28:24.814Z"
+    },
+    {
+      "fingerprint": "d1dd0c386ebad128e89eb5e96041b82f846f9d342caf4594a5666ccb4e333c85",
+      "at": "2026-11-09T06:30:49.599Z"
     }
   ]
 }
