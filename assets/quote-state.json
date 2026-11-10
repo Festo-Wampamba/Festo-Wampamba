@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T14:54:28.788Z",
+  "updatedAt": "2026-11-10T21:18:46.534Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "Feeling out of place in a new room does not erase the experience and care you brought into it.",
-    "fingerprint": "975ff33ff7302c046dc0cf31e00830882a1056efbb7f3344fe526d26bedabffe",
+    "text": "Pay attention to the questions that remain interesting after the applause and excitement have faded.",
+    "fingerprint": "d9a32bb5e83501b05969efa703e3d801d377af681d34eee70d8202246451cecf",
     "source": "ai",
-    "slot": 166140,
-    "at": "2026-11-10T14:54:28.788Z"
+    "slot": 166143,
+    "at": "2026-11-10T21:18:46.534Z"
   },
   "pending": [
-    {
-      "text": "You do not need to make your interests look consistent to other people before exploring where they lead.",
-      "fingerprint": "a409854aafa6874b39ad601da9a86a59841d54de41b874a11bffe45102ae1167",
-      "source": "ai"
-    },
-    {
-      "text": "When you teach a beginner, remember how much effort can hide inside a question that sounds simple.",
-      "fingerprint": "bc6688563570789f676a41b2c4855bebe6fdfdc9d1d9dc6050368a0b2a6c324b",
-      "source": "ai"
-    },
-    {
-      "text": "Pay attention to the questions that remain interesting after the applause and excitement have faded.",
-      "fingerprint": "d9a32bb5e83501b05969efa703e3d801d377af681d34eee70d8202246451cecf",
-      "source": "ai"
-    },
     {
       "text": "You can admire another person's work without borrowing their timetable for your own life.",
       "fingerprint": "3db5ee771885de2e3cd66b96c31e8f641995ccd6c3aec2d8103f4f514bb9fdcc",
@@ -463,27 +448,6 @@
   ],
   "recent": [
     {
-      "text": "Some days the brave thing is to begin. Some days it is to ask for help and continue differently.",
-      "fingerprint": "4028ab3bfb29b755031c32eb5d55e0fda47376d535aaea0ad473a11e7fc643a4",
-      "source": "ai",
-      "slot": 166085,
-      "at": "2026-11-03T17:04:12.028Z"
-    },
-    {
-      "text": "The version of you who keeps practicing deserves more patience than the version you imagined would never struggle.",
-      "fingerprint": "6cdafea99e1a02d526a35aaea99d2be8a1345330816867818af8517c116b73a4",
-      "source": "ai",
-      "slot": 166086,
-      "at": "2026-11-03T18:00:00.000Z"
-    },
-    {
-      "text": "An imperfect beginning gives improvement a place to stand.",
-      "fingerprint": "48ab01713519337a406a064d05eca0a85d873b1a2c7b44e0231871dfd51baf7d",
-      "source": "ai",
-      "slot": 166087,
-      "at": "2026-11-03T23:24:08.940Z"
-    },
-    {
       "text": "A setback is easier to carry when you separate what happened from what you can do next.",
       "fingerprint": "28d773832e4dca779dee12e4ad2558655782ce557c980e6558b4057b6f4a5ad2",
       "source": "ai",
@@ -853,6 +817,27 @@
       "source": "ai",
       "slot": 166140,
       "at": "2026-11-10T14:54:28.788Z"
+    },
+    {
+      "text": "You do not need to make your interests look consistent to other people before exploring where they lead.",
+      "fingerprint": "a409854aafa6874b39ad601da9a86a59841d54de41b874a11bffe45102ae1167",
+      "source": "ai",
+      "slot": 166141,
+      "at": "2026-11-10T15:00:00.000Z"
+    },
+    {
+      "text": "When you teach a beginner, remember how much effort can hide inside a question that sounds simple.",
+      "fingerprint": "bc6688563570789f676a41b2c4855bebe6fdfdc9d1d9dc6050368a0b2a6c324b",
+      "source": "ai",
+      "slot": 166142,
+      "at": "2026-11-10T18:00:00.000Z"
+    },
+    {
+      "text": "Pay attention to the questions that remain interesting after the applause and excitement have faded.",
+      "fingerprint": "d9a32bb5e83501b05969efa703e3d801d377af681d34eee70d8202246451cecf",
+      "source": "ai",
+      "slot": 166143,
+      "at": "2026-11-10T21:18:46.534Z"
     }
   ],
   "used": [
@@ -1175,6 +1160,18 @@
     {
       "fingerprint": "975ff33ff7302c046dc0cf31e00830882a1056efbb7f3344fe526d26bedabffe",
       "at": "2026-11-10T14:54:28.788Z"
+    },
+    {
+      "fingerprint": "a409854aafa6874b39ad601da9a86a59841d54de41b874a11bffe45102ae1167",
+      "at": "2026-11-10T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "bc6688563570789f676a41b2c4855bebe6fdfdc9d1d9dc6050368a0b2a6c324b",
+      "at": "2026-11-10T18:00:00.000Z"
+    },
+    {
+      "fingerprint": "d9a32bb5e83501b05969efa703e3d801d377af681d34eee70d8202246451cecf",
+      "at": "2026-11-10T21:18:46.534Z"
     }
   ]
 }
