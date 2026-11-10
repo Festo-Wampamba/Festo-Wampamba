@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T19:50:05.346Z",
+  "updatedAt": "2026-11-10T03:35:07.364Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "Consider the pace you could keep on a tired Wednesday, not only the pace you can manage when everything goes well.",
-    "fingerprint": "6a4fda4be02c376fb3d87fb85f5f09746cd6aa150a68f0ef2df323089ffa242f",
+    "text": "An experiment can end without the answer you wanted and still leave you with a better way to investigate.",
+    "fingerprint": "c64f769f49c80467c9c636ea4c03204cc1a7b3682cd66b4e02bb2529d16da50c",
     "source": "ai",
-    "slot": 166134,
-    "at": "2026-11-09T19:50:05.346Z"
+    "slot": 166137,
+    "at": "2026-11-10T03:35:07.364Z"
   },
   "pending": [
-    {
-      "text": "Look at what the last week actually required of you before judging it by a plan made under easier conditions.",
-      "fingerprint": "4c069782b8cb36b89c6d1a00104f3d8a66096561f6e2ae7bb51921408547530c",
-      "source": "ai"
-    },
-    {
-      "text": "Take interest in how things work before deciding whether you are the sort of person who could learn them.",
-      "fingerprint": "cf6a00368a73d9197091967bc32becb659060aba97c7ad32b8720f43025ac216",
-      "source": "ai"
-    },
-    {
-      "text": "An experiment can end without the answer you wanted and still leave you with a better way to investigate.",
-      "fingerprint": "c64f769f49c80467c9c636ea4c03204cc1a7b3682cd66b4e02bb2529d16da50c",
-      "source": "ai"
-    },
     {
       "text": "A change of mind can deserve a calm explanation rather than a long apology for having learned something.",
       "fingerprint": "5eb9fda207e8dac8ce87ea58a3e97231053f1a90115da32de4572551cc7ba758",
@@ -493,27 +478,6 @@
   ],
   "recent": [
     {
-      "text": "The ability to return is a strength. Practice it whenever your rhythm gets interrupted.",
-      "fingerprint": "a0433973788976ecd18060f6d541374b95f62f9954f557317dd7154bcbb5751b",
-      "source": "ai",
-      "slot": 166079,
-      "at": "2026-11-02T21:43:17.023Z"
-    },
-    {
-      "text": "Noticing that something needs to change is already a useful kind of honesty.",
-      "fingerprint": "925861a97bde8032071d05e68f887ad2e6439b46009bb94b572398b580afcb77",
-      "source": "ai",
-      "slot": 166080,
-      "at": "2026-11-03T00:00:00.000Z"
-    },
-    {
-      "text": "The confidence you are waiting for may be hiding inside the practice you keep postponing.",
-      "fingerprint": "84167d85466979e983b55a035fdc9ddc7cb9e70ce901971a8ab7578cdd15cf22",
-      "source": "ai",
-      "slot": 166081,
-      "at": "2026-11-03T03:00:00.000Z"
-    },
-    {
       "text": "You can start before you feel impressive. Useful work rarely asks for an impressive beginning.",
       "fingerprint": "e5b8954bf0862e123dcf111c1c972ef5b5c585ef4554e0459635389c63faa8fc",
       "source": "ai",
@@ -883,6 +847,27 @@
       "source": "ai",
       "slot": 166134,
       "at": "2026-11-09T19:50:05.346Z"
+    },
+    {
+      "text": "Look at what the last week actually required of you before judging it by a plan made under easier conditions.",
+      "fingerprint": "4c069782b8cb36b89c6d1a00104f3d8a66096561f6e2ae7bb51921408547530c",
+      "source": "ai",
+      "slot": 166135,
+      "at": "2026-11-09T21:00:00.000Z"
+    },
+    {
+      "text": "Take interest in how things work before deciding whether you are the sort of person who could learn them.",
+      "fingerprint": "cf6a00368a73d9197091967bc32becb659060aba97c7ad32b8720f43025ac216",
+      "source": "ai",
+      "slot": 166136,
+      "at": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "text": "An experiment can end without the answer you wanted and still leave you with a better way to investigate.",
+      "fingerprint": "c64f769f49c80467c9c636ea4c03204cc1a7b3682cd66b4e02bb2529d16da50c",
+      "source": "ai",
+      "slot": 166137,
+      "at": "2026-11-10T03:35:07.364Z"
     }
   ],
   "used": [
@@ -1181,6 +1166,18 @@
     {
       "fingerprint": "6a4fda4be02c376fb3d87fb85f5f09746cd6aa150a68f0ef2df323089ffa242f",
       "at": "2026-11-09T19:50:05.346Z"
+    },
+    {
+      "fingerprint": "4c069782b8cb36b89c6d1a00104f3d8a66096561f6e2ae7bb51921408547530c",
+      "at": "2026-11-09T21:00:00.000Z"
+    },
+    {
+      "fingerprint": "cf6a00368a73d9197091967bc32becb659060aba97c7ad32b8720f43025ac216",
+      "at": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "fingerprint": "c64f769f49c80467c9c636ea4c03204cc1a7b3682cd66b4e02bb2529d16da50c",
+      "at": "2026-11-10T03:35:07.364Z"
     }
   ]
 }
