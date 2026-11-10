@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T03:35:07.364Z",
+  "updatedAt": "2026-11-10T14:54:28.788Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "An experiment can end without the answer you wanted and still leave you with a better way to investigate.",
-    "fingerprint": "c64f769f49c80467c9c636ea4c03204cc1a7b3682cd66b4e02bb2529d16da50c",
+    "text": "Feeling out of place in a new room does not erase the experience and care you brought into it.",
+    "fingerprint": "975ff33ff7302c046dc0cf31e00830882a1056efbb7f3344fe526d26bedabffe",
     "source": "ai",
-    "slot": 166137,
-    "at": "2026-11-10T03:35:07.364Z"
+    "slot": 166140,
+    "at": "2026-11-10T14:54:28.788Z"
   },
   "pending": [
-    {
-      "text": "A change of mind can deserve a calm explanation rather than a long apology for having learned something.",
-      "fingerprint": "5eb9fda207e8dac8ce87ea58a3e97231053f1a90115da32de4572551cc7ba758",
-      "source": "ai"
-    },
-    {
-      "text": "The part you keep avoiding may need a clearer instruction, a shorter session, or another pair of eyes.",
-      "fingerprint": "1bd4e8ca96c1644591a04cf8bfc7525c2f49c5792dfdc263afaf0d125fcead49",
-      "source": "ai"
-    },
-    {
-      "text": "Feeling out of place in a new room does not erase the experience and care you brought into it.",
-      "fingerprint": "975ff33ff7302c046dc0cf31e00830882a1056efbb7f3344fe526d26bedabffe",
-      "source": "ai"
-    },
     {
       "text": "You do not need to make your interests look consistent to other people before exploring where they lead.",
       "fingerprint": "a409854aafa6874b39ad601da9a86a59841d54de41b874a11bffe45102ae1167",
@@ -478,27 +463,6 @@
   ],
   "recent": [
     {
-      "text": "You can start before you feel impressive. Useful work rarely asks for an impressive beginning.",
-      "fingerprint": "e5b8954bf0862e123dcf111c1c972ef5b5c585ef4554e0459635389c63faa8fc",
-      "source": "ai",
-      "slot": 166082,
-      "at": "2026-11-03T06:49:09.443Z"
-    },
-    {
-      "text": "When everything feels urgent, choose the action that will make tomorrow a little clearer.",
-      "fingerprint": "df238176c5c20883022e8555ecfbc318668a717e1d150d5b3cd127712f4acb7c",
-      "source": "ai",
-      "slot": 166083,
-      "at": "2026-11-03T09:00:00.000Z"
-    },
-    {
-      "text": "A day of steady practice can outlast a week of waiting for the perfect mood.",
-      "fingerprint": "b97885871f5299478a41af440ea15cf2060926725c05de90d224df2be38ad191",
-      "source": "ai",
-      "slot": 166084,
-      "at": "2026-11-03T12:00:00.000Z"
-    },
-    {
       "text": "Some days the brave thing is to begin. Some days it is to ask for help and continue differently.",
       "fingerprint": "4028ab3bfb29b755031c32eb5d55e0fda47376d535aaea0ad473a11e7fc643a4",
       "source": "ai",
@@ -868,6 +832,27 @@
       "source": "ai",
       "slot": 166137,
       "at": "2026-11-10T03:35:07.364Z"
+    },
+    {
+      "text": "A change of mind can deserve a calm explanation rather than a long apology for having learned something.",
+      "fingerprint": "5eb9fda207e8dac8ce87ea58a3e97231053f1a90115da32de4572551cc7ba758",
+      "source": "ai",
+      "slot": 166138,
+      "at": "2026-11-10T06:00:00.000Z"
+    },
+    {
+      "text": "The part you keep avoiding may need a clearer instruction, a shorter session, or another pair of eyes.",
+      "fingerprint": "1bd4e8ca96c1644591a04cf8bfc7525c2f49c5792dfdc263afaf0d125fcead49",
+      "source": "ai",
+      "slot": 166139,
+      "at": "2026-11-10T09:00:00.000Z"
+    },
+    {
+      "text": "Feeling out of place in a new room does not erase the experience and care you brought into it.",
+      "fingerprint": "975ff33ff7302c046dc0cf31e00830882a1056efbb7f3344fe526d26bedabffe",
+      "source": "ai",
+      "slot": 166140,
+      "at": "2026-11-10T14:54:28.788Z"
     }
   ],
   "used": [
@@ -1178,6 +1163,18 @@
     {
       "fingerprint": "c64f769f49c80467c9c636ea4c03204cc1a7b3682cd66b4e02bb2529d16da50c",
       "at": "2026-11-10T03:35:07.364Z"
+    },
+    {
+      "fingerprint": "5eb9fda207e8dac8ce87ea58a3e97231053f1a90115da32de4572551cc7ba758",
+      "at": "2026-11-10T06:00:00.000Z"
+    },
+    {
+      "fingerprint": "1bd4e8ca96c1644591a04cf8bfc7525c2f49c5792dfdc263afaf0d125fcead49",
+      "at": "2026-11-10T09:00:00.000Z"
+    },
+    {
+      "fingerprint": "975ff33ff7302c046dc0cf31e00830882a1056efbb7f3344fe526d26bedabffe",
+      "at": "2026-11-10T14:54:28.788Z"
     }
   ]
 }
