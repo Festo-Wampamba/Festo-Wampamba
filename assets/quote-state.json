@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T06:22:32.515Z",
+  "updatedAt": "2026-11-11T17:08:05.835Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "The satisfaction of understanding one stubborn detail is a worthy reason to spend time learning.",
-    "fingerprint": "532a334c44de132a283def276b3ab7ae8cdcc9dec82e1534157c7f65853c596a",
+    "text": "Notice who makes it easier for you to be honest about what you have not figured out yet.",
+    "fingerprint": "1f435e1f8c3c126be288800e5a427b16c246c64cf723a52a229c6940a59aed9b",
     "source": "ai",
-    "slot": 166146,
-    "at": "2026-11-11T06:22:32.515Z"
+    "slot": 166149,
+    "at": "2026-11-11T17:08:05.835Z"
   },
   "pending": [
-    {
-      "text": "Before adding another goal, notice which existing commitment needs a simpler path through your day.",
-      "fingerprint": "531572b8ede2a97500a75c182db27e6046644fca42c212f9397694eefb37466e",
-      "source": "ai"
-    },
-    {
-      "text": "A walk with no lesson to extract and no result to record can still belong in a meaningful day.",
-      "fingerprint": "232f1a07c0b66835374731868c1f8a68fb528914129103bd32e7201a5a5c3ee1",
-      "source": "ai"
-    },
-    {
-      "text": "Notice who makes it easier for you to be honest about what you have not figured out yet.",
-      "fingerprint": "1f435e1f8c3c126be288800e5a427b16c246c64cf723a52a229c6940a59aed9b",
-      "source": "ai"
-    },
     {
       "text": "When a choice feels tangled, write down what you know, what you assume, and what you still need to ask.",
       "fingerprint": "4570d4913091571a50aebabf067184efde209a3a773bbf04c847ae4e5c7a773f",
@@ -433,27 +418,6 @@
   ],
   "recent": [
     {
-      "text": "Choose a challenge that stretches your skills without making kindness toward yourself a casualty.",
-      "fingerprint": "8c3ff8b3dcd337849b13daceecae8ad3b3dc06c8cf330711e112e1f79f99f4c4",
-      "source": "ai",
-      "slot": 166091,
-      "at": "2026-11-04T09:00:00.000Z"
-    },
-    {
-      "text": "Give your curiosity a little more room than your fear expects.",
-      "fingerprint": "aa71ee181ef75817d64a657264966b015ec76ed4289415598d01506913d9b333",
-      "source": "ai",
-      "slot": 166092,
-      "at": "2026-11-04T12:00:00.000Z"
-    },
-    {
-      "text": "You can build something worthwhile without making every part of your life a competition.",
-      "fingerprint": "a5dfb85143f6cea0747dd4b2cb502a97e15d1af58e93c20e0b75e201375708f0",
-      "source": "ai",
-      "slot": 166093,
-      "at": "2026-11-04T17:15:26.127Z"
-    },
-    {
       "text": "Give your future fewer promises and more small pieces of evidence.",
       "fingerprint": "ca8423eb99f9d19cdeb94a565ec905f983852227e352cf812463c16a869b6b98",
       "source": "ai",
@@ -823,6 +787,27 @@
       "source": "ai",
       "slot": 166146,
       "at": "2026-11-11T06:22:32.515Z"
+    },
+    {
+      "text": "Before adding another goal, notice which existing commitment needs a simpler path through your day.",
+      "fingerprint": "531572b8ede2a97500a75c182db27e6046644fca42c212f9397694eefb37466e",
+      "source": "ai",
+      "slot": 166147,
+      "at": "2026-11-11T09:00:00.000Z"
+    },
+    {
+      "text": "A walk with no lesson to extract and no result to record can still belong in a meaningful day.",
+      "fingerprint": "232f1a07c0b66835374731868c1f8a68fb528914129103bd32e7201a5a5c3ee1",
+      "source": "ai",
+      "slot": 166148,
+      "at": "2026-11-11T12:00:00.000Z"
+    },
+    {
+      "text": "Notice who makes it easier for you to be honest about what you have not figured out yet.",
+      "fingerprint": "1f435e1f8c3c126be288800e5a427b16c246c64cf723a52a229c6940a59aed9b",
+      "source": "ai",
+      "slot": 166149,
+      "at": "2026-11-11T17:08:05.835Z"
     }
   ],
   "used": [
@@ -1169,6 +1154,18 @@
     {
       "fingerprint": "532a334c44de132a283def276b3ab7ae8cdcc9dec82e1534157c7f65853c596a",
       "at": "2026-11-11T06:22:32.515Z"
+    },
+    {
+      "fingerprint": "531572b8ede2a97500a75c182db27e6046644fca42c212f9397694eefb37466e",
+      "at": "2026-11-11T09:00:00.000Z"
+    },
+    {
+      "fingerprint": "232f1a07c0b66835374731868c1f8a68fb528914129103bd32e7201a5a5c3ee1",
+      "at": "2026-11-11T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "1f435e1f8c3c126be288800e5a427b16c246c64cf723a52a229c6940a59aed9b",
+      "at": "2026-11-11T17:08:05.835Z"
     }
   ]
 }
