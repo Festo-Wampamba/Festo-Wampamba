@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T21:18:46.534Z",
+  "updatedAt": "2026-11-11T06:22:32.515Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "Pay attention to the questions that remain interesting after the applause and excitement have faded.",
-    "fingerprint": "d9a32bb5e83501b05969efa703e3d801d377af681d34eee70d8202246451cecf",
+    "text": "The satisfaction of understanding one stubborn detail is a worthy reason to spend time learning.",
+    "fingerprint": "532a334c44de132a283def276b3ab7ae8cdcc9dec82e1534157c7f65853c596a",
     "source": "ai",
-    "slot": 166143,
-    "at": "2026-11-10T21:18:46.534Z"
+    "slot": 166146,
+    "at": "2026-11-11T06:22:32.515Z"
   },
   "pending": [
-    {
-      "text": "You can admire another person's work without borrowing their timetable for your own life.",
-      "fingerprint": "3db5ee771885de2e3cd66b96c31e8f641995ccd6c3aec2d8103f4f514bb9fdcc",
-      "source": "ai"
-    },
-    {
-      "text": "Allow a good moment to be a good moment without immediately asking how to make it bigger.",
-      "fingerprint": "9db4622fc6a8cb4331b31106299e83abda8dbe055f9006d82ea76d7031c3c412",
-      "source": "ai"
-    },
-    {
-      "text": "The satisfaction of understanding one stubborn detail is a worthy reason to spend time learning.",
-      "fingerprint": "532a334c44de132a283def276b3ab7ae8cdcc9dec82e1534157c7f65853c596a",
-      "source": "ai"
-    },
     {
       "text": "Before adding another goal, notice which existing commitment needs a simpler path through your day.",
       "fingerprint": "531572b8ede2a97500a75c182db27e6046644fca42c212f9397694eefb37466e",
@@ -448,27 +433,6 @@
   ],
   "recent": [
     {
-      "text": "A setback is easier to carry when you separate what happened from what you can do next.",
-      "fingerprint": "28d773832e4dca779dee12e4ad2558655782ce557c980e6558b4057b6f4a5ad2",
-      "source": "ai",
-      "slot": 166088,
-      "at": "2026-11-04T00:00:00.000Z"
-    },
-    {
-      "text": "One careful decision can interrupt a pattern that has been running on habit for years.",
-      "fingerprint": "02216d86a26b44ad0f300cc23cdc1d1240ae760ecfe6ed738e2149149158dc5f",
-      "source": "ai",
-      "slot": 166089,
-      "at": "2026-11-04T03:00:00.000Z"
-    },
-    {
-      "text": "If yesterday felt scattered, let one clear intention give today a different shape.",
-      "fingerprint": "f0eb21c055ac9798b5e18a4540883956fe27a2a9f7d181b6d11764efffc9125c",
-      "source": "ai",
-      "slot": 166090,
-      "at": "2026-11-04T06:24:07.523Z"
-    },
-    {
       "text": "Choose a challenge that stretches your skills without making kindness toward yourself a casualty.",
       "fingerprint": "8c3ff8b3dcd337849b13daceecae8ad3b3dc06c8cf330711e112e1f79f99f4c4",
       "source": "ai",
@@ -838,6 +802,27 @@
       "source": "ai",
       "slot": 166143,
       "at": "2026-11-10T21:18:46.534Z"
+    },
+    {
+      "text": "You can admire another person's work without borrowing their timetable for your own life.",
+      "fingerprint": "3db5ee771885de2e3cd66b96c31e8f641995ccd6c3aec2d8103f4f514bb9fdcc",
+      "source": "ai",
+      "slot": 166144,
+      "at": "2026-11-11T00:00:00.000Z"
+    },
+    {
+      "text": "Allow a good moment to be a good moment without immediately asking how to make it bigger.",
+      "fingerprint": "9db4622fc6a8cb4331b31106299e83abda8dbe055f9006d82ea76d7031c3c412",
+      "source": "ai",
+      "slot": 166145,
+      "at": "2026-11-11T03:00:00.000Z"
+    },
+    {
+      "text": "The satisfaction of understanding one stubborn detail is a worthy reason to spend time learning.",
+      "fingerprint": "532a334c44de132a283def276b3ab7ae8cdcc9dec82e1534157c7f65853c596a",
+      "source": "ai",
+      "slot": 166146,
+      "at": "2026-11-11T06:22:32.515Z"
     }
   ],
   "used": [
@@ -1172,6 +1157,18 @@
     {
       "fingerprint": "d9a32bb5e83501b05969efa703e3d801d377af681d34eee70d8202246451cecf",
       "at": "2026-11-10T21:18:46.534Z"
+    },
+    {
+      "fingerprint": "3db5ee771885de2e3cd66b96c31e8f641995ccd6c3aec2d8103f4f514bb9fdcc",
+      "at": "2026-11-11T00:00:00.000Z"
+    },
+    {
+      "fingerprint": "9db4622fc6a8cb4331b31106299e83abda8dbe055f9006d82ea76d7031c3c412",
+      "at": "2026-11-11T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "532a334c44de132a283def276b3ab7ae8cdcc9dec82e1534157c7f65853c596a",
+      "at": "2026-11-11T06:22:32.515Z"
     }
   ]
 }
