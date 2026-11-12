@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T00:44:56.007Z",
+  "updatedAt": "2026-11-12T11:12:16.047Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "Sometimes the useful question is not how to do more, but which part no longer serves the work you care about.",
-    "fingerprint": "c982c2681fa4f961c6a15e7ca489be76fc5f409f21ebc2efbbc33503b265a9aa",
+    "text": "Sharing a useful method can make your own learning matter beyond the task that first required it.",
+    "fingerprint": "78682ce5afe91383bafba7318b215f3b62706508e5e19e00ab553b5866c26116",
     "source": "ai",
-    "slot": 166152,
-    "at": "2026-11-12T00:44:56.007Z"
+    "slot": 166155,
+    "at": "2026-11-12T11:12:16.047Z"
   },
   "pending": [
-    {
-      "text": "A rough draft makes room for a conversation that a blank page cannot begin.",
-      "fingerprint": "846fba851f94a7c17498160ac0dcf45229b7c9f024deb7175b89a0b808320664",
-      "source": "ai"
-    },
-    {
-      "text": "You can accept encouragement without treating it as a demand to perform at your best every day.",
-      "fingerprint": "31c782e1f0e59950d45f4cc8baf5ab710c60a95ec9264eecbb8661bbce03d2b1",
-      "source": "ai"
-    },
-    {
-      "text": "Sharing a useful method can make your own learning matter beyond the task that first required it.",
-      "fingerprint": "78682ce5afe91383bafba7318b215f3b62706508e5e19e00ab553b5866c26116",
-      "source": "ai"
-    },
     {
       "text": "Remember the person you wanted to help when the details of a project begin to crowd out its purpose.",
       "fingerprint": "55a89ad56464ce71e3ede6a63c0e2eceb1fb1fc44c1ce4f66f83d8a8034b7e00",
@@ -403,27 +388,6 @@
   ],
   "recent": [
     {
-      "text": "Build a life that has room for both meaningful effort and unmeasured joy.",
-      "fingerprint": "74fd584e4155260cd96a003984c5e02f75b1341a32c93480723a3666102378f3",
-      "source": "ai",
-      "slot": 166097,
-      "at": "2026-11-05T03:00:00.000Z"
-    },
-    {
-      "text": "An unfinished attempt is not wasted effort when it leaves you with a clearer question.",
-      "fingerprint": "16558fd13b5a8de7d2efb38b2496267f3e5fc5096410dc5ed8f7e1464520a0d7",
-      "source": "ai",
-      "slot": 166098,
-      "at": "2026-11-05T06:47:35.005Z"
-    },
-    {
-      "text": "Your attention gives ordinary actions the chance to become excellent work.",
-      "fingerprint": "b72d834bee2dca7051b390a38299710a1a6b28f9578638de56cc91cd0e29b652",
-      "source": "ai",
-      "slot": 166099,
-      "at": "2026-11-05T09:00:00.000Z"
-    },
-    {
       "text": "A little courage used today can make tomorrow's unfamiliar task feel more approachable.",
       "fingerprint": "941033b1192927423b8da23ca4e93d87317dc8fd95d8fc18f21f2042e3decec0",
       "source": "ai",
@@ -793,6 +757,27 @@
       "source": "ai",
       "slot": 166152,
       "at": "2026-11-12T00:44:56.007Z"
+    },
+    {
+      "text": "A rough draft makes room for a conversation that a blank page cannot begin.",
+      "fingerprint": "846fba851f94a7c17498160ac0dcf45229b7c9f024deb7175b89a0b808320664",
+      "source": "ai",
+      "slot": 166153,
+      "at": "2026-11-12T03:00:00.000Z"
+    },
+    {
+      "text": "You can accept encouragement without treating it as a demand to perform at your best every day.",
+      "fingerprint": "31c782e1f0e59950d45f4cc8baf5ab710c60a95ec9264eecbb8661bbce03d2b1",
+      "source": "ai",
+      "slot": 166154,
+      "at": "2026-11-12T06:00:00.000Z"
+    },
+    {
+      "text": "Sharing a useful method can make your own learning matter beyond the task that first required it.",
+      "fingerprint": "78682ce5afe91383bafba7318b215f3b62706508e5e19e00ab553b5866c26116",
+      "source": "ai",
+      "slot": 166155,
+      "at": "2026-11-12T11:12:16.047Z"
     }
   ],
   "used": [
@@ -1163,6 +1148,18 @@
     {
       "fingerprint": "c982c2681fa4f961c6a15e7ca489be76fc5f409f21ebc2efbbc33503b265a9aa",
       "at": "2026-11-12T00:44:56.007Z"
+    },
+    {
+      "fingerprint": "846fba851f94a7c17498160ac0dcf45229b7c9f024deb7175b89a0b808320664",
+      "at": "2026-11-12T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "31c782e1f0e59950d45f4cc8baf5ab710c60a95ec9264eecbb8661bbce03d2b1",
+      "at": "2026-11-12T06:00:00.000Z"
+    },
+    {
+      "fingerprint": "78682ce5afe91383bafba7318b215f3b62706508e5e19e00ab553b5866c26116",
+      "at": "2026-11-12T11:12:16.047Z"
     }
   ]
 }
