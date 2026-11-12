@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T17:08:05.835Z",
+  "updatedAt": "2026-11-12T00:44:56.007Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "Notice who makes it easier for you to be honest about what you have not figured out yet.",
-    "fingerprint": "1f435e1f8c3c126be288800e5a427b16c246c64cf723a52a229c6940a59aed9b",
+    "text": "Sometimes the useful question is not how to do more, but which part no longer serves the work you care about.",
+    "fingerprint": "c982c2681fa4f961c6a15e7ca489be76fc5f409f21ebc2efbbc33503b265a9aa",
     "source": "ai",
-    "slot": 166149,
-    "at": "2026-11-11T17:08:05.835Z"
+    "slot": 166152,
+    "at": "2026-11-12T00:44:56.007Z"
   },
   "pending": [
-    {
-      "text": "When a choice feels tangled, write down what you know, what you assume, and what you still need to ask.",
-      "fingerprint": "4570d4913091571a50aebabf067184efde209a3a773bbf04c847ae4e5c7a773f",
-      "source": "ai"
-    },
-    {
-      "text": "An awkward first conversation may become easier when you replace the need to impress with the wish to understand.",
-      "fingerprint": "fdb76c36464170e14cb48087023a922ad5021b10c4931e34cac81ea77213f353",
-      "source": "ai"
-    },
-    {
-      "text": "Sometimes the useful question is not how to do more, but which part no longer serves the work you care about.",
-      "fingerprint": "c982c2681fa4f961c6a15e7ca489be76fc5f409f21ebc2efbbc33503b265a9aa",
-      "source": "ai"
-    },
     {
       "text": "A rough draft makes room for a conversation that a blank page cannot begin.",
       "fingerprint": "846fba851f94a7c17498160ac0dcf45229b7c9f024deb7175b89a0b808320664",
@@ -418,27 +403,6 @@
   ],
   "recent": [
     {
-      "text": "Give your future fewer promises and more small pieces of evidence.",
-      "fingerprint": "ca8423eb99f9d19cdeb94a565ec905f983852227e352cf812463c16a869b6b98",
-      "source": "ai",
-      "slot": 166094,
-      "at": "2026-11-04T18:00:00.000Z"
-    },
-    {
-      "text": "Make something small enough to finish and meaningful enough to teach you.",
-      "fingerprint": "53b3aed530c3fc05093ded927ff85ddf9f31017c4c1fcef6ff8a9a288b9db80a",
-      "source": "ai",
-      "slot": 166095,
-      "at": "2026-11-04T23:40:13.003Z"
-    },
-    {
-      "text": "A thoughtful pause can protect the direction that a rushed decision would undo.",
-      "fingerprint": "046055caccf78017ab7fe1dad697e6d23e97eb3a8bfce6d721451f88c0cace75",
-      "source": "ai",
-      "slot": 166096,
-      "at": "2026-11-05T00:00:00.000Z"
-    },
-    {
       "text": "Build a life that has room for both meaningful effort and unmeasured joy.",
       "fingerprint": "74fd584e4155260cd96a003984c5e02f75b1341a32c93480723a3666102378f3",
       "source": "ai",
@@ -808,6 +772,27 @@
       "source": "ai",
       "slot": 166149,
       "at": "2026-11-11T17:08:05.835Z"
+    },
+    {
+      "text": "When a choice feels tangled, write down what you know, what you assume, and what you still need to ask.",
+      "fingerprint": "4570d4913091571a50aebabf067184efde209a3a773bbf04c847ae4e5c7a773f",
+      "source": "ai",
+      "slot": 166150,
+      "at": "2026-11-11T18:00:00.000Z"
+    },
+    {
+      "text": "An awkward first conversation may become easier when you replace the need to impress with the wish to understand.",
+      "fingerprint": "fdb76c36464170e14cb48087023a922ad5021b10c4931e34cac81ea77213f353",
+      "source": "ai",
+      "slot": 166151,
+      "at": "2026-11-11T21:00:00.000Z"
+    },
+    {
+      "text": "Sometimes the useful question is not how to do more, but which part no longer serves the work you care about.",
+      "fingerprint": "c982c2681fa4f961c6a15e7ca489be76fc5f409f21ebc2efbbc33503b265a9aa",
+      "source": "ai",
+      "slot": 166152,
+      "at": "2026-11-12T00:44:56.007Z"
     }
   ],
   "used": [
@@ -1166,6 +1151,18 @@
     {
       "fingerprint": "1f435e1f8c3c126be288800e5a427b16c246c64cf723a52a229c6940a59aed9b",
       "at": "2026-11-11T17:08:05.835Z"
+    },
+    {
+      "fingerprint": "4570d4913091571a50aebabf067184efde209a3a773bbf04c847ae4e5c7a773f",
+      "at": "2026-11-11T18:00:00.000Z"
+    },
+    {
+      "fingerprint": "fdb76c36464170e14cb48087023a922ad5021b10c4931e34cac81ea77213f353",
+      "at": "2026-11-11T21:00:00.000Z"
+    },
+    {
+      "fingerprint": "c982c2681fa4f961c6a15e7ca489be76fc5f409f21ebc2efbbc33503b265a9aa",
+      "at": "2026-11-12T00:44:56.007Z"
     }
   ]
 }
