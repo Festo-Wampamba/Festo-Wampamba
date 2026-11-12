@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T11:12:16.047Z",
+  "updatedAt": "2026-11-12T19:54:40.748Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "Sharing a useful method can make your own learning matter beyond the task that first required it.",
-    "fingerprint": "78682ce5afe91383bafba7318b215f3b62706508e5e19e00ab553b5866c26116",
+    "text": "You can be serious about your work and still leave room for laughter while you do it.",
+    "fingerprint": "4b1a5cc7ff665d9e0fd0819063a9f62b3ca61a7427b5c4d089c31d4f64fc09dd",
     "source": "ai",
-    "slot": 166155,
-    "at": "2026-11-12T11:12:16.047Z"
+    "slot": 166158,
+    "at": "2026-11-12T19:54:40.748Z"
   },
   "pending": [
-    {
-      "text": "Remember the person you wanted to help when the details of a project begin to crowd out its purpose.",
-      "fingerprint": "55a89ad56464ce71e3ede6a63c0e2eceb1fb1fc44c1ce4f66f83d8a8034b7e00",
-      "source": "ai"
-    },
-    {
-      "text": "Let a finished piece of work have its day before you compare it with the next thing you hope to create.",
-      "fingerprint": "17f47a852cc69fe07956e24405d7c26affd84c6f0fbd7bd34b78b4c12ebf7b96",
-      "source": "ai"
-    },
-    {
-      "text": "You can be serious about your work and still leave room for laughter while you do it.",
-      "fingerprint": "4b1a5cc7ff665d9e0fd0819063a9f62b3ca61a7427b5c4d089c31d4f64fc09dd",
-      "source": "ai"
-    },
     {
       "text": "Revising an opinion after listening carefully is a sign that your understanding is still alive.",
       "fingerprint": "662a1e681a5e0e36829be6a5cb35bb5bc79602eeb94228009d114abaab776066",
@@ -387,27 +372,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "A little courage used today can make tomorrow's unfamiliar task feel more approachable.",
-      "fingerprint": "941033b1192927423b8da23ca4e93d87317dc8fd95d8fc18f21f2042e3decec0",
-      "source": "ai",
-      "slot": 166100,
-      "at": "2026-11-05T12:00:00.000Z"
-    },
-    {
-      "text": "Good work grows where curiosity is allowed to stay longer than embarrassment.",
-      "fingerprint": "c25999fa6750bd48ae3c36761d68ef4bb41db2f6b56b94d89f49826e6f691c2b",
-      "source": "ai",
-      "slot": 166101,
-      "at": "2026-11-05T17:25:07.823Z"
-    },
-    {
-      "text": "The work becomes lighter when the next action is clearer than the whole mountain.",
-      "fingerprint": "dac7afb6f37f254d2d9c47533b0f56c7de87226ecb97b44a018c0375a075a0a1",
-      "source": "ai",
-      "slot": 166102,
-      "at": "2026-11-05T18:00:00.000Z"
-    },
     {
       "text": "A season of rebuilding can still be a season of growth.",
       "fingerprint": "ff28f8dda1072b059e3f123e562821d8306af0fa9d2b0142fe5a17bb1e777df3",
@@ -778,6 +742,27 @@
       "source": "ai",
       "slot": 166155,
       "at": "2026-11-12T11:12:16.047Z"
+    },
+    {
+      "text": "Remember the person you wanted to help when the details of a project begin to crowd out its purpose.",
+      "fingerprint": "55a89ad56464ce71e3ede6a63c0e2eceb1fb1fc44c1ce4f66f83d8a8034b7e00",
+      "source": "ai",
+      "slot": 166156,
+      "at": "2026-11-12T12:00:00.000Z"
+    },
+    {
+      "text": "Let a finished piece of work have its day before you compare it with the next thing you hope to create.",
+      "fingerprint": "17f47a852cc69fe07956e24405d7c26affd84c6f0fbd7bd34b78b4c12ebf7b96",
+      "source": "ai",
+      "slot": 166157,
+      "at": "2026-11-12T15:00:00.000Z"
+    },
+    {
+      "text": "You can be serious about your work and still leave room for laughter while you do it.",
+      "fingerprint": "4b1a5cc7ff665d9e0fd0819063a9f62b3ca61a7427b5c4d089c31d4f64fc09dd",
+      "source": "ai",
+      "slot": 166158,
+      "at": "2026-11-12T19:54:40.748Z"
     }
   ],
   "used": [
@@ -1160,6 +1145,18 @@
     {
       "fingerprint": "78682ce5afe91383bafba7318b215f3b62706508e5e19e00ab553b5866c26116",
       "at": "2026-11-12T11:12:16.047Z"
+    },
+    {
+      "fingerprint": "55a89ad56464ce71e3ede6a63c0e2eceb1fb1fc44c1ce4f66f83d8a8034b7e00",
+      "at": "2026-11-12T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "17f47a852cc69fe07956e24405d7c26affd84c6f0fbd7bd34b78b4c12ebf7b96",
+      "at": "2026-11-12T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "4b1a5cc7ff665d9e0fd0819063a9f62b3ca61a7427b5c4d089c31d4f64fc09dd",
+      "at": "2026-11-12T19:54:40.748Z"
     }
   ]
 }
