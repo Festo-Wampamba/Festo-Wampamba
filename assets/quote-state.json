@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T01:49:50.724Z",
+  "updatedAt": "2026-11-13T10:59:23.676Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "There is room to enjoy being capable at something while accepting that someone else can still teach you.",
-    "fingerprint": "dc97f4c6acfdbcb3ead0cb9210490c2bd8084d4eb6fcfee5ee7e394ba5f2058d",
+    "text": "There is value in building something another person can understand, maintain, and make their own.",
+    "fingerprint": "6f104978de2fc3c9626a50eb0d807108b8806f55289c6a043787c4504a21516c",
     "source": "ai",
-    "slot": 166160,
-    "at": "2026-11-13T01:49:50.724Z"
+    "slot": 166163,
+    "at": "2026-11-13T10:59:23.676Z"
   },
   "pending": [
-    {
-      "text": "The next useful insight may come from noticing a detail you usually rush past.",
-      "fingerprint": "d414ce3303da4194a99501fe3a184048e655af33fa5d3c1a57b5f4cdf97cc088",
-      "source": "ai"
-    },
-    {
-      "text": "Try leaving a little space between receiving feedback and deciding what it means about you.",
-      "fingerprint": "346829dfd2b555c11cd3592780a33b93b3b89dd452ebc24b4306a5c8fa21cd63",
-      "source": "ai"
-    },
-    {
-      "text": "There is value in building something another person can understand, maintain, and make their own.",
-      "fingerprint": "6f104978de2fc3c9626a50eb0d807108b8806f55289c6a043787c4504a21516c",
-      "source": "ai"
-    },
     {
       "text": "Let an honest measure of progress include the questions you can now ask more clearly.",
       "fingerprint": "3f0c15c73e77959fef6ab503aba201e092c2ca77fb9dbdd4312054fc2cd1d74d",
@@ -362,27 +347,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "When the plan feels too heavy, reduce the step before you reduce the dream.",
-      "fingerprint": "13708c1925798f74645be6b5023f766366f69b05e382b3c5bb5b3208dcacc54c",
-      "source": "ai",
-      "slot": 166105,
-      "at": "2026-11-06T03:00:00.000Z"
-    },
-    {
-      "text": "Your ambition deserves a routine gentle enough to survive your difficult days.",
-      "fingerprint": "854ba648c36031c712dbbaea39631c0333c2e87244a12aaf543bf3245c2d1174",
-      "source": "ai",
-      "slot": 166106,
-      "at": "2026-11-06T06:47:04.310Z"
-    },
-    {
-      "text": "The courage to be a beginner is renewable. You can choose it each time you learn something new.",
-      "fingerprint": "977a471cc354a4a7bd1daa958c55e1394a917ce409e8d555efebb1da90ba6ae9",
-      "source": "ai",
-      "slot": 166107,
-      "at": "2026-11-06T09:00:00.000Z"
-    },
     {
       "text": "The smallest useful action is often more powerful than the largest untested intention.",
       "fingerprint": "c0e159933d87b73a429eade4b18b5fb5b7084f8f4cd2139c4415635ce90e1f6e",
@@ -753,6 +717,27 @@
       "source": "ai",
       "slot": 166160,
       "at": "2026-11-13T01:49:50.724Z"
+    },
+    {
+      "text": "The next useful insight may come from noticing a detail you usually rush past.",
+      "fingerprint": "d414ce3303da4194a99501fe3a184048e655af33fa5d3c1a57b5f4cdf97cc088",
+      "source": "ai",
+      "slot": 166161,
+      "at": "2026-11-13T03:00:00.000Z"
+    },
+    {
+      "text": "Try leaving a little space between receiving feedback and deciding what it means about you.",
+      "fingerprint": "346829dfd2b555c11cd3592780a33b93b3b89dd452ebc24b4306a5c8fa21cd63",
+      "source": "ai",
+      "slot": 166162,
+      "at": "2026-11-13T06:00:00.000Z"
+    },
+    {
+      "text": "There is value in building something another person can understand, maintain, and make their own.",
+      "fingerprint": "6f104978de2fc3c9626a50eb0d807108b8806f55289c6a043787c4504a21516c",
+      "source": "ai",
+      "slot": 166163,
+      "at": "2026-11-13T10:59:23.676Z"
     }
   ],
   "used": [
@@ -1155,6 +1140,18 @@
     {
       "fingerprint": "dc97f4c6acfdbcb3ead0cb9210490c2bd8084d4eb6fcfee5ee7e394ba5f2058d",
       "at": "2026-11-13T01:49:50.724Z"
+    },
+    {
+      "fingerprint": "d414ce3303da4194a99501fe3a184048e655af33fa5d3c1a57b5f4cdf97cc088",
+      "at": "2026-11-13T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "346829dfd2b555c11cd3592780a33b93b3b89dd452ebc24b4306a5c8fa21cd63",
+      "at": "2026-11-13T06:00:00.000Z"
+    },
+    {
+      "fingerprint": "6f104978de2fc3c9626a50eb0d807108b8806f55289c6a043787c4504a21516c",
+      "at": "2026-11-13T10:59:23.676Z"
     }
   ]
 }
