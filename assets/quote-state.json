@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T19:54:40.748Z",
+  "updatedAt": "2026-11-13T01:49:50.724Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "You can be serious about your work and still leave room for laughter while you do it.",
-    "fingerprint": "4b1a5cc7ff665d9e0fd0819063a9f62b3ca61a7427b5c4d089c31d4f64fc09dd",
+    "text": "There is room to enjoy being capable at something while accepting that someone else can still teach you.",
+    "fingerprint": "dc97f4c6acfdbcb3ead0cb9210490c2bd8084d4eb6fcfee5ee7e394ba5f2058d",
     "source": "ai",
-    "slot": 166158,
-    "at": "2026-11-12T19:54:40.748Z"
+    "slot": 166160,
+    "at": "2026-11-13T01:49:50.724Z"
   },
   "pending": [
-    {
-      "text": "Revising an opinion after listening carefully is a sign that your understanding is still alive.",
-      "fingerprint": "662a1e681a5e0e36829be6a5cb35bb5bc79602eeb94228009d114abaab776066",
-      "source": "ai"
-    },
-    {
-      "text": "There is room to enjoy being capable at something while accepting that someone else can still teach you.",
-      "fingerprint": "dc97f4c6acfdbcb3ead0cb9210490c2bd8084d4eb6fcfee5ee7e394ba5f2058d",
-      "source": "ai"
-    },
     {
       "text": "The next useful insight may come from noticing a detail you usually rush past.",
       "fingerprint": "d414ce3303da4194a99501fe3a184048e655af33fa5d3c1a57b5f4cdf97cc088",
@@ -372,20 +362,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "A season of rebuilding can still be a season of growth.",
-      "fingerprint": "ff28f8dda1072b059e3f123e562821d8306af0fa9d2b0142fe5a17bb1e777df3",
-      "source": "ai",
-      "slot": 166103,
-      "at": "2026-11-05T23:39:18.751Z"
-    },
-    {
-      "text": "You are allowed to change the method without giving up on the reason you started.",
-      "fingerprint": "92f453af1c7dd406348cc3dcb88854b9834fbf0e458d24d670197c087bd83669",
-      "source": "ai",
-      "slot": 166104,
-      "at": "2026-11-06T00:00:00.000Z"
-    },
     {
       "text": "When the plan feels too heavy, reduce the step before you reduce the dream.",
       "fingerprint": "13708c1925798f74645be6b5023f766366f69b05e382b3c5bb5b3208dcacc54c",
@@ -763,6 +739,20 @@
       "source": "ai",
       "slot": 166158,
       "at": "2026-11-12T19:54:40.748Z"
+    },
+    {
+      "text": "Revising an opinion after listening carefully is a sign that your understanding is still alive.",
+      "fingerprint": "662a1e681a5e0e36829be6a5cb35bb5bc79602eeb94228009d114abaab776066",
+      "source": "ai",
+      "slot": 166159,
+      "at": "2026-11-12T21:00:00.000Z"
+    },
+    {
+      "text": "There is room to enjoy being capable at something while accepting that someone else can still teach you.",
+      "fingerprint": "dc97f4c6acfdbcb3ead0cb9210490c2bd8084d4eb6fcfee5ee7e394ba5f2058d",
+      "source": "ai",
+      "slot": 166160,
+      "at": "2026-11-13T01:49:50.724Z"
     }
   ],
   "used": [
@@ -1157,6 +1147,14 @@
     {
       "fingerprint": "4b1a5cc7ff665d9e0fd0819063a9f62b3ca61a7427b5c4d089c31d4f64fc09dd",
       "at": "2026-11-12T19:54:40.748Z"
+    },
+    {
+      "fingerprint": "662a1e681a5e0e36829be6a5cb35bb5bc79602eeb94228009d114abaab776066",
+      "at": "2026-11-12T21:00:00.000Z"
+    },
+    {
+      "fingerprint": "dc97f4c6acfdbcb3ead0cb9210490c2bd8084d4eb6fcfee5ee7e394ba5f2058d",
+      "at": "2026-11-13T01:49:50.724Z"
     }
   ]
 }
