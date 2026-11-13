@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T10:59:23.676Z",
+  "updatedAt": "2026-11-13T19:42:56.147Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "There is value in building something another person can understand, maintain, and make their own.",
-    "fingerprint": "6f104978de2fc3c9626a50eb0d807108b8806f55289c6a043787c4504a21516c",
+    "text": "There is no need to turn every enjoyable activity into evidence that you are improving.",
+    "fingerprint": "77c107cca8f5d927a8940749bb3eae5488c048c4ca72d9c38a1d78dcbb6c1f56",
     "source": "ai",
-    "slot": 166163,
-    "at": "2026-11-13T10:59:23.676Z"
+    "slot": 166166,
+    "at": "2026-11-13T19:42:56.147Z"
   },
   "pending": [
-    {
-      "text": "Let an honest measure of progress include the questions you can now ask more clearly.",
-      "fingerprint": "3f0c15c73e77959fef6ab503aba201e092c2ca77fb9dbdd4312054fc2cd1d74d",
-      "source": "ai"
-    },
-    {
-      "text": "You can test an idea on a modest scale before asking it to carry your whole plan.",
-      "fingerprint": "e0fe5c9ca736c1b3b6b993a1805c0fe3ef34b529a9e53c6cc29b1471b83b78f9",
-      "source": "ai"
-    },
-    {
-      "text": "There is no need to turn every enjoyable activity into evidence that you are improving.",
-      "fingerprint": "77c107cca8f5d927a8940749bb3eae5488c048c4ca72d9c38a1d78dcbb6c1f56",
-      "source": "ai"
-    },
     {
       "text": "A task can be important without needing all of your evening. Decide what a reasonable stopping place looks like.",
       "fingerprint": "e331ae2749410dbde314f3450e0b611b7eafb129d202b8bc7d3ec7245b35e04b",
@@ -347,27 +332,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "The smallest useful action is often more powerful than the largest untested intention.",
-      "fingerprint": "c0e159933d87b73a429eade4b18b5fb5b7084f8f4cd2139c4415635ce90e1f6e",
-      "source": "ai",
-      "slot": 166108,
-      "at": "2026-11-06T12:00:00.000Z"
-    },
-    {
-      "text": "A better system can do more for your consistency than another argument with yourself.",
-      "fingerprint": "e2e7c66ac0e6b9948c118b9008e1d17f8d682eb067468ca9710f529a46a94d0e",
-      "source": "ai",
-      "slot": 166109,
-      "at": "2026-11-06T16:46:48.721Z"
-    },
-    {
-      "text": "Protect the habits that help you return to yourself, not only the habits that help you produce.",
-      "fingerprint": "40b0340c7ae8d227c555f4d879bf96458d47b6091b314d3e8d625125731613dd",
-      "source": "ai",
-      "slot": 166110,
-      "at": "2026-11-06T18:00:00.000Z"
-    },
     {
       "text": "Do the work that helps, ask the question that clarifies, and let recognition arrive in its own time.",
       "fingerprint": "66f3339509cef5a3d1131898114a24899a613a0e6dcf4227e94fa92a95737d3d",
@@ -738,6 +702,27 @@
       "source": "ai",
       "slot": 166163,
       "at": "2026-11-13T10:59:23.676Z"
+    },
+    {
+      "text": "Let an honest measure of progress include the questions you can now ask more clearly.",
+      "fingerprint": "3f0c15c73e77959fef6ab503aba201e092c2ca77fb9dbdd4312054fc2cd1d74d",
+      "source": "ai",
+      "slot": 166164,
+      "at": "2026-11-13T12:00:00.000Z"
+    },
+    {
+      "text": "You can test an idea on a modest scale before asking it to carry your whole plan.",
+      "fingerprint": "e0fe5c9ca736c1b3b6b993a1805c0fe3ef34b529a9e53c6cc29b1471b83b78f9",
+      "source": "ai",
+      "slot": 166165,
+      "at": "2026-11-13T15:00:00.000Z"
+    },
+    {
+      "text": "There is no need to turn every enjoyable activity into evidence that you are improving.",
+      "fingerprint": "77c107cca8f5d927a8940749bb3eae5488c048c4ca72d9c38a1d78dcbb6c1f56",
+      "source": "ai",
+      "slot": 166166,
+      "at": "2026-11-13T19:42:56.147Z"
     }
   ],
   "used": [
@@ -1152,6 +1137,18 @@
     {
       "fingerprint": "6f104978de2fc3c9626a50eb0d807108b8806f55289c6a043787c4504a21516c",
       "at": "2026-11-13T10:59:23.676Z"
+    },
+    {
+      "fingerprint": "3f0c15c73e77959fef6ab503aba201e092c2ca77fb9dbdd4312054fc2cd1d74d",
+      "at": "2026-11-13T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "e0fe5c9ca736c1b3b6b993a1805c0fe3ef34b529a9e53c6cc29b1471b83b78f9",
+      "at": "2026-11-13T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "77c107cca8f5d927a8940749bb3eae5488c048c4ca72d9c38a1d78dcbb6c1f56",
+      "at": "2026-11-13T19:42:56.147Z"
     }
   ]
 }
