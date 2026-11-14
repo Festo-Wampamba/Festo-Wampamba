@@ -1,20 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T18:02:15.818Z",
+  "updatedAt": "2026-11-14T22:25:02.535Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "A boundary can make a good commitment more honest by giving it the time and attention you can actually offer.",
-    "fingerprint": "ffaadcee3f797333235aecb88100b4115001d40945e0e09db3259d9d855a2225",
+    "text": "You can name a disappointment without adding a prediction about every attempt that follows.",
+    "fingerprint": "88b09cd8752c6c5da5a6ada5c18c506f5dc5e8e50c5577fcba05a7293a8b77fe",
     "source": "ai",
-    "slot": 166174,
-    "at": "2026-11-14T18:02:15.818Z"
+    "slot": 166175,
+    "at": "2026-11-14T22:25:02.535Z"
   },
   "pending": [
-    {
-      "text": "You can name a disappointment without adding a prediction about every attempt that follows.",
-      "fingerprint": "88b09cd8752c6c5da5a6ada5c18c506f5dc5e8e50c5577fcba05a7293a8b77fe",
-      "source": "ai"
-    },
     {
       "text": "An ordinary week can hold work you respect, company you enjoy, and room to be a person between tasks.",
       "fingerprint": "d0edf1421e6972bea247292d96dca32c1daecf90df9b9cacaf10a85b00fb0275",
@@ -292,13 +287,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "The work you leave easier for the next person is a contribution, even when your name is nowhere on it.",
-      "fingerprint": "467266f3081503161edf85fbea3cf39308a3564873b20e1e22b9979f25950351",
-      "source": "ai",
-      "slot": 166119,
-      "at": "2026-11-07T21:00:00.000Z"
-    },
     {
       "text": "Some courage looks like telling a trusted person that you are unsure and would value their perspective.",
       "fingerprint": "8cdf9193da3cdf3ca462c78761ad2d62c657fe965fdbcde102529d67f91a4aac",
@@ -683,6 +671,13 @@
       "source": "ai",
       "slot": 166174,
       "at": "2026-11-14T18:02:15.818Z"
+    },
+    {
+      "text": "You can name a disappointment without adding a prediction about every attempt that follows.",
+      "fingerprint": "88b09cd8752c6c5da5a6ada5c18c506f5dc5e8e50c5577fcba05a7293a8b77fe",
+      "source": "ai",
+      "slot": 166175,
+      "at": "2026-11-14T22:25:02.535Z"
     }
   ],
   "used": [
@@ -1141,6 +1136,10 @@
     {
       "fingerprint": "ffaadcee3f797333235aecb88100b4115001d40945e0e09db3259d9d855a2225",
       "at": "2026-11-14T18:02:15.818Z"
+    },
+    {
+      "fingerprint": "88b09cd8752c6c5da5a6ada5c18c506f5dc5e8e50c5577fcba05a7293a8b77fe",
+      "at": "2026-11-14T22:25:02.535Z"
     }
   ]
 }
