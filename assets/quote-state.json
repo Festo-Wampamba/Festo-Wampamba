@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T19:42:56.147Z",
+  "updatedAt": "2026-11-14T01:26:55.910Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "There is no need to turn every enjoyable activity into evidence that you are improving.",
-    "fingerprint": "77c107cca8f5d927a8940749bb3eae5488c048c4ca72d9c38a1d78dcbb6c1f56",
+    "text": "Choosing a different route can be a thoughtful response to what you have discovered along the way.",
+    "fingerprint": "a1a2a5644645dd86e04ca8984c5e1429ca268d19033f7031001494eb10562881",
     "source": "ai",
-    "slot": 166166,
-    "at": "2026-11-13T19:42:56.147Z"
+    "slot": 166168,
+    "at": "2026-11-14T01:26:55.910Z"
   },
   "pending": [
-    {
-      "text": "A task can be important without needing all of your evening. Decide what a reasonable stopping place looks like.",
-      "fingerprint": "e331ae2749410dbde314f3450e0b611b7eafb129d202b8bc7d3ec7245b35e04b",
-      "source": "ai"
-    },
-    {
-      "text": "Choosing a different route can be a thoughtful response to what you have discovered along the way.",
-      "fingerprint": "a1a2a5644645dd86e04ca8984c5e1429ca268d19033f7031001494eb10562881",
-      "source": "ai"
-    },
     {
       "text": "When an old problem returns, look for the part you understand better this time.",
       "fingerprint": "15c3c24b1382e40eeb342886e86882edc70686e0a1b37d580f4d350de0d16a10",
@@ -332,20 +322,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "Do the work that helps, ask the question that clarifies, and let recognition arrive in its own time.",
-      "fingerprint": "66f3339509cef5a3d1131898114a24899a613a0e6dcf4227e94fa92a95737d3d",
-      "source": "ai",
-      "slot": 166111,
-      "at": "2026-11-06T21:00:00.000Z"
-    },
-    {
-      "text": "There is dignity in the quiet work of becoming more capable, even when there is nothing to announce.",
-      "fingerprint": "fed29983a8c3df7889b8cf5e7a0e7b081ce3674871d34a7960b6478eb1c4fca2",
-      "source": "ai",
-      "slot": 166112,
-      "at": "2026-11-07T00:00:00.000Z"
-    },
     {
       "text": "Your effort is allowed to be quiet. Its meaning does not depend on an audience.",
       "fingerprint": "14f78cbf9c66e5f780ab805120ce858aaaf68f10c75156b10eba8571d0b9e067",
@@ -723,6 +699,20 @@
       "source": "ai",
       "slot": 166166,
       "at": "2026-11-13T19:42:56.147Z"
+    },
+    {
+      "text": "A task can be important without needing all of your evening. Decide what a reasonable stopping place looks like.",
+      "fingerprint": "e331ae2749410dbde314f3450e0b611b7eafb129d202b8bc7d3ec7245b35e04b",
+      "source": "ai",
+      "slot": 166167,
+      "at": "2026-11-13T21:00:00.000Z"
+    },
+    {
+      "text": "Choosing a different route can be a thoughtful response to what you have discovered along the way.",
+      "fingerprint": "a1a2a5644645dd86e04ca8984c5e1429ca268d19033f7031001494eb10562881",
+      "source": "ai",
+      "slot": 166168,
+      "at": "2026-11-14T01:26:55.910Z"
     }
   ],
   "used": [
@@ -1149,6 +1139,14 @@
     {
       "fingerprint": "77c107cca8f5d927a8940749bb3eae5488c048c4ca72d9c38a1d78dcbb6c1f56",
       "at": "2026-11-13T19:42:56.147Z"
+    },
+    {
+      "fingerprint": "e331ae2749410dbde314f3450e0b611b7eafb129d202b8bc7d3ec7245b35e04b",
+      "at": "2026-11-13T21:00:00.000Z"
+    },
+    {
+      "fingerprint": "a1a2a5644645dd86e04ca8984c5e1429ca268d19033f7031001494eb10562881",
+      "at": "2026-11-14T01:26:55.910Z"
     }
   ]
 }
