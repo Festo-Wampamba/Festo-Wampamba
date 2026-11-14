@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T10:27:03.797Z",
+  "updatedAt": "2026-11-14T18:02:15.818Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "You can mark a difficult experience honestly without making it the headline of every new possibility.",
-    "fingerprint": "90e5390afc19ee7e375f4da7632157f60a6a5625cec9ccadf36b01499089f59c",
+    "text": "A boundary can make a good commitment more honest by giving it the time and attention you can actually offer.",
+    "fingerprint": "ffaadcee3f797333235aecb88100b4115001d40945e0e09db3259d9d855a2225",
     "source": "ai",
-    "slot": 166171,
-    "at": "2026-11-14T10:27:03.797Z"
+    "slot": 166174,
+    "at": "2026-11-14T18:02:15.818Z"
   },
   "pending": [
-    {
-      "text": "A helpful note left for tomorrow can be an act of care for the person who will pick up the work.",
-      "fingerprint": "95082873a61d4ec31fb5a10b1b3a58db15c3b1f2ecd4e1553a9efd5c2f8ebff5",
-      "source": "ai"
-    },
-    {
-      "text": "A missed opportunity may deserve disappointment without requiring you to stop noticing the doors around it.",
-      "fingerprint": "ffa31a1d2750d1d22a28457dd42e390df1c0b3a73a1c7aab95bbda560e89898c",
-      "source": "ai"
-    },
-    {
-      "text": "A boundary can make a good commitment more honest by giving it the time and attention you can actually offer.",
-      "fingerprint": "ffaadcee3f797333235aecb88100b4115001d40945e0e09db3259d9d855a2225",
-      "source": "ai"
-    },
     {
       "text": "You can name a disappointment without adding a prediction about every attempt that follows.",
       "fingerprint": "88b09cd8752c6c5da5a6ada5c18c506f5dc5e8e50c5577fcba05a7293a8b77fe",
@@ -307,27 +292,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "You do not have to earn rest by reaching exhaustion. Protect the person doing the work.",
-      "fingerprint": "3a9fd1622ed24443add7d90e48e8d2a949e881b962dccd3dc8bc4b8de5456c98",
-      "source": "ai",
-      "slot": 166116,
-      "at": "2026-11-07T13:02:08.468Z"
-    },
-    {
-      "text": "Keep one small promise to your future self today, and let that quiet follow-through become tomorrow's confidence.",
-      "fingerprint": "884b4f962ab8e1f2b6e7b3e8510bfc6d4f1e54d180fa54e58d3dbde4eb0e6802",
-      "source": "ai",
-      "slot": 166117,
-      "at": "2026-11-07T15:00:00.000Z"
-    },
-    {
-      "text": "A little patience with today's practice can protect a tomorrow you are still learning how to build.",
-      "fingerprint": "aaef60f93ee722e38debae3056e95b0bbcc07933d136a7024e2c20a7a31f6787",
-      "source": "ai",
-      "slot": 166118,
-      "at": "2026-11-07T19:26:22.481Z"
-    },
     {
       "text": "The work you leave easier for the next person is a contribution, even when your name is nowhere on it.",
       "fingerprint": "467266f3081503161edf85fbea3cf39308a3564873b20e1e22b9979f25950351",
@@ -698,6 +662,27 @@
       "source": "ai",
       "slot": 166171,
       "at": "2026-11-14T10:27:03.797Z"
+    },
+    {
+      "text": "A helpful note left for tomorrow can be an act of care for the person who will pick up the work.",
+      "fingerprint": "95082873a61d4ec31fb5a10b1b3a58db15c3b1f2ecd4e1553a9efd5c2f8ebff5",
+      "source": "ai",
+      "slot": 166172,
+      "at": "2026-11-14T12:00:00.000Z"
+    },
+    {
+      "text": "A missed opportunity may deserve disappointment without requiring you to stop noticing the doors around it.",
+      "fingerprint": "ffa31a1d2750d1d22a28457dd42e390df1c0b3a73a1c7aab95bbda560e89898c",
+      "source": "ai",
+      "slot": 166173,
+      "at": "2026-11-14T15:00:00.000Z"
+    },
+    {
+      "text": "A boundary can make a good commitment more honest by giving it the time and attention you can actually offer.",
+      "fingerprint": "ffaadcee3f797333235aecb88100b4115001d40945e0e09db3259d9d855a2225",
+      "source": "ai",
+      "slot": 166174,
+      "at": "2026-11-14T18:02:15.818Z"
     }
   ],
   "used": [
@@ -1144,6 +1129,18 @@
     {
       "fingerprint": "90e5390afc19ee7e375f4da7632157f60a6a5625cec9ccadf36b01499089f59c",
       "at": "2026-11-14T10:27:03.797Z"
+    },
+    {
+      "fingerprint": "95082873a61d4ec31fb5a10b1b3a58db15c3b1f2ecd4e1553a9efd5c2f8ebff5",
+      "at": "2026-11-14T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "ffa31a1d2750d1d22a28457dd42e390df1c0b3a73a1c7aab95bbda560e89898c",
+      "at": "2026-11-14T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "ffaadcee3f797333235aecb88100b4115001d40945e0e09db3259d9d855a2225",
+      "at": "2026-11-14T18:02:15.818Z"
     }
   ]
 }
