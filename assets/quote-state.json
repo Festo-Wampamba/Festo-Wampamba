@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T22:25:02.535Z",
+  "updatedAt": "2026-11-15T06:33:47.367Z",
   "lastRefillAt": "2026-11-09T04:28:24.814Z",
   "current": {
-    "text": "You can name a disappointment without adding a prediction about every attempt that follows.",
-    "fingerprint": "88b09cd8752c6c5da5a6ada5c18c506f5dc5e8e50c5577fcba05a7293a8b77fe",
+    "text": "You are permitted to enjoy a day that does not become a story worth telling.",
+    "fingerprint": "58ee9a0e56cb93f985c46023456f297b3db96f2792b076eddc3ae9c8f8e3c899",
     "source": "ai",
-    "slot": 166175,
-    "at": "2026-11-14T22:25:02.535Z"
+    "slot": 166178,
+    "at": "2026-11-15T06:33:47.367Z"
   },
   "pending": [
-    {
-      "text": "An ordinary week can hold work you respect, company you enjoy, and room to be a person between tasks.",
-      "fingerprint": "d0edf1421e6972bea247292d96dca32c1daecf90df9b9cacaf10a85b00fb0275",
-      "source": "ai"
-    },
-    {
-      "text": "Before calling yourself stuck, check whether the next task is really several tasks wearing one name.",
-      "fingerprint": "3d5086d5f3608639ea408ac4fe4e7194962c0965ad57e359e41fd53a1ede1729",
-      "source": "ai"
-    },
-    {
-      "text": "You are permitted to enjoy a day that does not become a story worth telling.",
-      "fingerprint": "58ee9a0e56cb93f985c46023456f297b3db96f2792b076eddc3ae9c8f8e3c899",
-      "source": "ai"
-    },
     {
       "text": "A fresh start can be as plain as opening the file and reading the last note you left.",
       "fingerprint": "079021fc1168205053f77873430435948a40c318551d879e49ebcd6c3c703a61",
@@ -287,27 +272,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "Some courage looks like telling a trusted person that you are unsure and would value their perspective.",
-      "fingerprint": "8cdf9193da3cdf3ca462c78761ad2d62c657fe965fdbcde102529d67f91a4aac",
-      "source": "ai",
-      "slot": 166120,
-      "at": "2026-11-08T00:37:12.414Z"
-    },
-    {
-      "text": "A demanding week does not need a grand ending. Finishing one loose task and putting the rest in order can be enough.",
-      "fingerprint": "f6af8a866e51d613feab343b21cb3218ff3f354226607cf13754df6164a8fa0c",
-      "source": "ai",
-      "slot": 166121,
-      "at": "2026-11-08T03:00:00.000Z"
-    },
-    {
-      "text": "Practice explaining a difficult idea in your own words. The places where you hesitate can show you what to explore next.",
-      "fingerprint": "999b63d2f4072d04e54d5b762d3186607d0e5e433b2bc42a53da05823ddd106a",
-      "source": "ai",
-      "slot": 166122,
-      "at": "2026-11-08T06:00:00.000Z"
-    },
     {
       "text": "A reliable promise starts with an honest look at your time, your limits, and the help you may need.",
       "fingerprint": "db5b45893d3d5b9fba6aee80f6ad0fef63c4e6ce789f3465dd724f3cf38ef09e",
@@ -678,6 +642,27 @@
       "source": "ai",
       "slot": 166175,
       "at": "2026-11-14T22:25:02.535Z"
+    },
+    {
+      "text": "An ordinary week can hold work you respect, company you enjoy, and room to be a person between tasks.",
+      "fingerprint": "d0edf1421e6972bea247292d96dca32c1daecf90df9b9cacaf10a85b00fb0275",
+      "source": "ai",
+      "slot": 166176,
+      "at": "2026-11-15T00:00:00.000Z"
+    },
+    {
+      "text": "Before calling yourself stuck, check whether the next task is really several tasks wearing one name.",
+      "fingerprint": "3d5086d5f3608639ea408ac4fe4e7194962c0965ad57e359e41fd53a1ede1729",
+      "source": "ai",
+      "slot": 166177,
+      "at": "2026-11-15T03:00:00.000Z"
+    },
+    {
+      "text": "You are permitted to enjoy a day that does not become a story worth telling.",
+      "fingerprint": "58ee9a0e56cb93f985c46023456f297b3db96f2792b076eddc3ae9c8f8e3c899",
+      "source": "ai",
+      "slot": 166178,
+      "at": "2026-11-15T06:33:47.367Z"
     }
   ],
   "used": [
@@ -1140,6 +1125,18 @@
     {
       "fingerprint": "88b09cd8752c6c5da5a6ada5c18c506f5dc5e8e50c5577fcba05a7293a8b77fe",
       "at": "2026-11-14T22:25:02.535Z"
+    },
+    {
+      "fingerprint": "d0edf1421e6972bea247292d96dca32c1daecf90df9b9cacaf10a85b00fb0275",
+      "at": "2026-11-15T00:00:00.000Z"
+    },
+    {
+      "fingerprint": "3d5086d5f3608639ea408ac4fe4e7194962c0965ad57e359e41fd53a1ede1729",
+      "at": "2026-11-15T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "58ee9a0e56cb93f985c46023456f297b3db96f2792b076eddc3ae9c8f8e3c899",
+      "at": "2026-11-15T06:33:47.367Z"
     }
   ]
 }
