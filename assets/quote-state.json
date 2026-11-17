@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T19:36:45.020Z",
+  "updatedAt": "2026-11-17T03:54:29.806Z",
   "lastRefillAt": "2026-11-16T03:00:25.597Z",
   "current": {
-    "text": "When a new responsibility feels large, ask which decisions are yours and which ones can be made together.",
-    "fingerprint": "4ef2e6cc214417c1edfd39d23ba221b6435ee770c78605e004c494c908c8c65e",
+    "text": "A skill learned for one purpose may quietly become useful in a place you did not expect.",
+    "fingerprint": "8f1b95b54a634a572224e59b641dc1016e434138be161b3c779ebd5bebb1208d",
     "source": "ai",
-    "slot": 166190,
-    "at": "2026-11-16T19:36:45.020Z"
+    "slot": 166193,
+    "at": "2026-11-17T03:54:29.806Z"
   },
   "pending": [
-    {
-      "text": "Spend a few minutes with the question before reaching for the answer you usually give.",
-      "fingerprint": "2f4372b13ccf74088d3a2b4a953364fa4800381eaf21d1dd95089c697e97efe4",
-      "source": "ai"
-    },
-    {
-      "text": "An idea that survives a gentle test is more useful than an idea you have had to protect from every question.",
-      "fingerprint": "84005ca103302b2549016467d25eac6f77bc6a0803c345f522d52e3a16b1f641",
-      "source": "ai"
-    },
-    {
-      "text": "A skill learned for one purpose may quietly become useful in a place you did not expect.",
-      "fingerprint": "8f1b95b54a634a572224e59b641dc1016e434138be161b3c779ebd5bebb1208d",
-      "source": "ai"
-    },
     {
       "text": "There is room in a serious effort for an afternoon that is mostly practice and correction.",
       "fingerprint": "67194ce01d361db915639ca5b69d428c89b757790da20acbfc2c1e590f618daf",
@@ -493,27 +478,6 @@
   ],
   "recent": [
     {
-      "text": "Look at what the last week actually required of you before judging it by a plan made under easier conditions.",
-      "fingerprint": "4c069782b8cb36b89c6d1a00104f3d8a66096561f6e2ae7bb51921408547530c",
-      "source": "ai",
-      "slot": 166135,
-      "at": "2026-11-09T21:00:00.000Z"
-    },
-    {
-      "text": "Take interest in how things work before deciding whether you are the sort of person who could learn them.",
-      "fingerprint": "cf6a00368a73d9197091967bc32becb659060aba97c7ad32b8720f43025ac216",
-      "source": "ai",
-      "slot": 166136,
-      "at": "2026-11-10T00:00:00.000Z"
-    },
-    {
-      "text": "An experiment can end without the answer you wanted and still leave you with a better way to investigate.",
-      "fingerprint": "c64f769f49c80467c9c636ea4c03204cc1a7b3682cd66b4e02bb2529d16da50c",
-      "source": "ai",
-      "slot": 166137,
-      "at": "2026-11-10T03:35:07.364Z"
-    },
-    {
       "text": "A change of mind can deserve a calm explanation rather than a long apology for having learned something.",
       "fingerprint": "5eb9fda207e8dac8ce87ea58a3e97231053f1a90115da32de4572551cc7ba758",
       "source": "ai",
@@ -883,6 +847,27 @@
       "source": "ai",
       "slot": 166190,
       "at": "2026-11-16T19:36:45.020Z"
+    },
+    {
+      "text": "Spend a few minutes with the question before reaching for the answer you usually give.",
+      "fingerprint": "2f4372b13ccf74088d3a2b4a953364fa4800381eaf21d1dd95089c697e97efe4",
+      "source": "ai",
+      "slot": 166191,
+      "at": "2026-11-16T21:00:00.000Z"
+    },
+    {
+      "text": "An idea that survives a gentle test is more useful than an idea you have had to protect from every question.",
+      "fingerprint": "84005ca103302b2549016467d25eac6f77bc6a0803c345f522d52e3a16b1f641",
+      "source": "ai",
+      "slot": 166192,
+      "at": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "text": "A skill learned for one purpose may quietly become useful in a place you did not expect.",
+      "fingerprint": "8f1b95b54a634a572224e59b641dc1016e434138be161b3c779ebd5bebb1208d",
+      "source": "ai",
+      "slot": 166193,
+      "at": "2026-11-17T03:54:29.806Z"
     }
   ],
   "used": [
@@ -1405,6 +1390,18 @@
     {
       "fingerprint": "4ef2e6cc214417c1edfd39d23ba221b6435ee770c78605e004c494c908c8c65e",
       "at": "2026-11-16T19:36:45.020Z"
+    },
+    {
+      "fingerprint": "2f4372b13ccf74088d3a2b4a953364fa4800381eaf21d1dd95089c697e97efe4",
+      "at": "2026-11-16T21:00:00.000Z"
+    },
+    {
+      "fingerprint": "84005ca103302b2549016467d25eac6f77bc6a0803c345f522d52e3a16b1f641",
+      "at": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "fingerprint": "8f1b95b54a634a572224e59b641dc1016e434138be161b3c779ebd5bebb1208d",
+      "at": "2026-11-17T03:54:29.806Z"
     }
   ]
 }
