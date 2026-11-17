@@ -1,35 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T03:54:29.806Z",
+  "updatedAt": "2026-11-17T16:00:22.344Z",
   "lastRefillAt": "2026-11-16T03:00:25.597Z",
   "current": {
-    "text": "A skill learned for one purpose may quietly become useful in a place you did not expect.",
-    "fingerprint": "8f1b95b54a634a572224e59b641dc1016e434138be161b3c779ebd5bebb1208d",
+    "text": "Good company can make a hard learning season less lonely, even when each person has different work to do.",
+    "fingerprint": "8c9dd5d318156efbed6bdab2252cd8f628adfd3c1cb8ac721c8a3c7f4aebbe80",
     "source": "ai",
-    "slot": 166193,
-    "at": "2026-11-17T03:54:29.806Z"
+    "slot": 166197,
+    "at": "2026-11-17T16:00:22.344Z"
   },
   "pending": [
-    {
-      "text": "There is room in a serious effort for an afternoon that is mostly practice and correction.",
-      "fingerprint": "67194ce01d361db915639ca5b69d428c89b757790da20acbfc2c1e590f618daf",
-      "source": "ai"
-    },
-    {
-      "text": "You can respect the effort a plan took and still admit that it no longer fits the situation.",
-      "fingerprint": "5ba2fcf889b89d650a35672818f5d121f6ec3bc9f6273d07a8e04d9f19841af9",
-      "source": "ai"
-    },
-    {
-      "text": "A break from measuring can help you remember what you liked about the activity before it became a goal.",
-      "fingerprint": "8b1f1a6f09e6edf930a647647c945b516aefffaa905d58be277829bc52d0e0e0",
-      "source": "ai"
-    },
-    {
-      "text": "Good company can make a hard learning season less lonely, even when each person has different work to do.",
-      "fingerprint": "8c9dd5d318156efbed6bdab2252cd8f628adfd3c1cb8ac721c8a3c7f4aebbe80",
-      "source": "ai"
-    },
     {
       "text": "Make a place for the things that interest you even when you cannot yet explain their practical value.",
       "fingerprint": "c2abac98e89602a7a7f0c8e598a263f513b311e9454b97f1eb33eb7cb47dc608",
@@ -478,34 +458,6 @@
   ],
   "recent": [
     {
-      "text": "A change of mind can deserve a calm explanation rather than a long apology for having learned something.",
-      "fingerprint": "5eb9fda207e8dac8ce87ea58a3e97231053f1a90115da32de4572551cc7ba758",
-      "source": "ai",
-      "slot": 166138,
-      "at": "2026-11-10T06:00:00.000Z"
-    },
-    {
-      "text": "The part you keep avoiding may need a clearer instruction, a shorter session, or another pair of eyes.",
-      "fingerprint": "1bd4e8ca96c1644591a04cf8bfc7525c2f49c5792dfdc263afaf0d125fcead49",
-      "source": "ai",
-      "slot": 166139,
-      "at": "2026-11-10T09:00:00.000Z"
-    },
-    {
-      "text": "Feeling out of place in a new room does not erase the experience and care you brought into it.",
-      "fingerprint": "975ff33ff7302c046dc0cf31e00830882a1056efbb7f3344fe526d26bedabffe",
-      "source": "ai",
-      "slot": 166140,
-      "at": "2026-11-10T14:54:28.788Z"
-    },
-    {
-      "text": "You do not need to make your interests look consistent to other people before exploring where they lead.",
-      "fingerprint": "a409854aafa6874b39ad601da9a86a59841d54de41b874a11bffe45102ae1167",
-      "source": "ai",
-      "slot": 166141,
-      "at": "2026-11-10T15:00:00.000Z"
-    },
-    {
       "text": "When you teach a beginner, remember how much effort can hide inside a question that sounds simple.",
       "fingerprint": "bc6688563570789f676a41b2c4855bebe6fdfdc9d1d9dc6050368a0b2a6c324b",
       "source": "ai",
@@ -868,6 +820,34 @@
       "source": "ai",
       "slot": 166193,
       "at": "2026-11-17T03:54:29.806Z"
+    },
+    {
+      "text": "There is room in a serious effort for an afternoon that is mostly practice and correction.",
+      "fingerprint": "67194ce01d361db915639ca5b69d428c89b757790da20acbfc2c1e590f618daf",
+      "source": "ai",
+      "slot": 166194,
+      "at": "2026-11-17T06:00:00.000Z"
+    },
+    {
+      "text": "You can respect the effort a plan took and still admit that it no longer fits the situation.",
+      "fingerprint": "5ba2fcf889b89d650a35672818f5d121f6ec3bc9f6273d07a8e04d9f19841af9",
+      "source": "ai",
+      "slot": 166195,
+      "at": "2026-11-17T09:00:00.000Z"
+    },
+    {
+      "text": "A break from measuring can help you remember what you liked about the activity before it became a goal.",
+      "fingerprint": "8b1f1a6f09e6edf930a647647c945b516aefffaa905d58be277829bc52d0e0e0",
+      "source": "ai",
+      "slot": 166196,
+      "at": "2026-11-17T12:00:00.000Z"
+    },
+    {
+      "text": "Good company can make a hard learning season less lonely, even when each person has different work to do.",
+      "fingerprint": "8c9dd5d318156efbed6bdab2252cd8f628adfd3c1cb8ac721c8a3c7f4aebbe80",
+      "source": "ai",
+      "slot": 166197,
+      "at": "2026-11-17T16:00:22.344Z"
     }
   ],
   "used": [
@@ -1402,6 +1382,22 @@
     {
       "fingerprint": "8f1b95b54a634a572224e59b641dc1016e434138be161b3c779ebd5bebb1208d",
       "at": "2026-11-17T03:54:29.806Z"
+    },
+    {
+      "fingerprint": "67194ce01d361db915639ca5b69d428c89b757790da20acbfc2c1e590f618daf",
+      "at": "2026-11-17T06:00:00.000Z"
+    },
+    {
+      "fingerprint": "5ba2fcf889b89d650a35672818f5d121f6ec3bc9f6273d07a8e04d9f19841af9",
+      "at": "2026-11-17T09:00:00.000Z"
+    },
+    {
+      "fingerprint": "8b1f1a6f09e6edf930a647647c945b516aefffaa905d58be277829bc52d0e0e0",
+      "at": "2026-11-17T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "8c9dd5d318156efbed6bdab2252cd8f628adfd3c1cb8ac721c8a3c7f4aebbe80",
+      "at": "2026-11-17T16:00:22.344Z"
     }
   ]
 }
