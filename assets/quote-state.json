@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-18T00:58:13.525Z",
+  "updatedAt": "2026-11-18T11:43:11.737Z",
   "lastRefillAt": "2026-11-16T03:00:25.597Z",
   "current": {
-    "text": "Choose a task you can describe in one clear sentence. Give that sentence a chance to guide the next hour.",
-    "fingerprint": "ab8aeac69edd7b560aafc0c08468280c15f862a85f05c6235f52f4a79bda82b3",
+    "text": "Remember to ask what went well while you are tracing what went wrong. Both belong in a useful account.",
+    "fingerprint": "9ed28ec1aa22e7e93b53c286f4a582654ecee00efa7616b7f36054159babd4a8",
     "source": "ai",
-    "slot": 166200,
-    "at": "2026-11-18T00:58:13.525Z"
+    "slot": 166203,
+    "at": "2026-11-18T11:43:11.737Z"
   },
   "pending": [
-    {
-      "text": "A fair review of your work should notice the care you took as well as the detail you missed.",
-      "fingerprint": "4fab478e18fb9f68a158be9794a729fa91c90d2ef1fc0bf8bce4c3f5c2e7aa66",
-      "source": "ai"
-    },
-    {
-      "text": "When your standards rise, remember that noticing finer details is itself a result of learning.",
-      "fingerprint": "cce0f60bad599bc63ef499d4b4212016f04c88269c4232df58f44cc1ecc70fb0",
-      "source": "ai"
-    },
-    {
-      "text": "Remember to ask what went well while you are tracing what went wrong. Both belong in a useful account.",
-      "fingerprint": "9ed28ec1aa22e7e93b53c286f4a582654ecee00efa7616b7f36054159babd4a8",
-      "source": "ai"
-    },
     {
       "text": "You do not have to answer every request at once to be a thoughtful person to work with.",
       "fingerprint": "bb90a0d18c110a0baa84e26a5ddaa4f703068db78132493327561eb885f5b60f",
@@ -443,27 +428,6 @@
   ],
   "recent": [
     {
-      "text": "Allow a good moment to be a good moment without immediately asking how to make it bigger.",
-      "fingerprint": "9db4622fc6a8cb4331b31106299e83abda8dbe055f9006d82ea76d7031c3c412",
-      "source": "ai",
-      "slot": 166145,
-      "at": "2026-11-11T03:00:00.000Z"
-    },
-    {
-      "text": "The satisfaction of understanding one stubborn detail is a worthy reason to spend time learning.",
-      "fingerprint": "532a334c44de132a283def276b3ab7ae8cdcc9dec82e1534157c7f65853c596a",
-      "source": "ai",
-      "slot": 166146,
-      "at": "2026-11-11T06:22:32.515Z"
-    },
-    {
-      "text": "Before adding another goal, notice which existing commitment needs a simpler path through your day.",
-      "fingerprint": "531572b8ede2a97500a75c182db27e6046644fca42c212f9397694eefb37466e",
-      "source": "ai",
-      "slot": 166147,
-      "at": "2026-11-11T09:00:00.000Z"
-    },
-    {
       "text": "A walk with no lesson to extract and no result to record can still belong in a meaningful day.",
       "fingerprint": "232f1a07c0b66835374731868c1f8a68fb528914129103bd32e7201a5a5c3ee1",
       "source": "ai",
@@ -833,6 +797,27 @@
       "source": "ai",
       "slot": 166200,
       "at": "2026-11-18T00:58:13.525Z"
+    },
+    {
+      "text": "A fair review of your work should notice the care you took as well as the detail you missed.",
+      "fingerprint": "4fab478e18fb9f68a158be9794a729fa91c90d2ef1fc0bf8bce4c3f5c2e7aa66",
+      "source": "ai",
+      "slot": 166201,
+      "at": "2026-11-18T03:00:00.000Z"
+    },
+    {
+      "text": "When your standards rise, remember that noticing finer details is itself a result of learning.",
+      "fingerprint": "cce0f60bad599bc63ef499d4b4212016f04c88269c4232df58f44cc1ecc70fb0",
+      "source": "ai",
+      "slot": 166202,
+      "at": "2026-11-18T06:00:00.000Z"
+    },
+    {
+      "text": "Remember to ask what went well while you are tracing what went wrong. Both belong in a useful account.",
+      "fingerprint": "9ed28ec1aa22e7e93b53c286f4a582654ecee00efa7616b7f36054159babd4a8",
+      "source": "ai",
+      "slot": 166203,
+      "at": "2026-11-18T11:43:11.737Z"
     }
   ],
   "used": [
@@ -1395,6 +1380,18 @@
     {
       "fingerprint": "ab8aeac69edd7b560aafc0c08468280c15f862a85f05c6235f52f4a79bda82b3",
       "at": "2026-11-18T00:58:13.525Z"
+    },
+    {
+      "fingerprint": "4fab478e18fb9f68a158be9794a729fa91c90d2ef1fc0bf8bce4c3f5c2e7aa66",
+      "at": "2026-11-18T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "cce0f60bad599bc63ef499d4b4212016f04c88269c4232df58f44cc1ecc70fb0",
+      "at": "2026-11-18T06:00:00.000Z"
+    },
+    {
+      "fingerprint": "9ed28ec1aa22e7e93b53c286f4a582654ecee00efa7616b7f36054159babd4a8",
+      "at": "2026-11-18T11:43:11.737Z"
     }
   ]
 }
