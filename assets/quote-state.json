@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-18T11:43:11.737Z",
+  "updatedAt": "2026-11-18T20:32:06.986Z",
   "lastRefillAt": "2026-11-16T03:00:25.597Z",
   "current": {
-    "text": "Remember to ask what went well while you are tracing what went wrong. Both belong in a useful account.",
-    "fingerprint": "9ed28ec1aa22e7e93b53c286f4a582654ecee00efa7616b7f36054159babd4a8",
+    "text": "Repetition can teach you to hear differences that were invisible when everything was new.",
+    "fingerprint": "82ac3c5439e1ebf71d3076659cf2843bc97ee87c255f0c9ab5200b815e62ba6f",
     "source": "ai",
-    "slot": 166203,
-    "at": "2026-11-18T11:43:11.737Z"
+    "slot": 166206,
+    "at": "2026-11-18T20:32:06.986Z"
   },
   "pending": [
-    {
-      "text": "You do not have to answer every request at once to be a thoughtful person to work with.",
-      "fingerprint": "bb90a0d18c110a0baa84e26a5ddaa4f703068db78132493327561eb885f5b60f",
-      "source": "ai"
-    },
-    {
-      "text": "When the room feels rushed, one calm question about what matters most may be a useful contribution.",
-      "fingerprint": "13042edd677047f015f6cc52222808002a2c6de40e7328ac97c356205afa5024",
-      "source": "ai"
-    },
-    {
-      "text": "Repetition can teach you to hear differences that were invisible when everything was new.",
-      "fingerprint": "82ac3c5439e1ebf71d3076659cf2843bc97ee87c255f0c9ab5200b815e62ba6f",
-      "source": "ai"
-    },
     {
       "text": "You are allowed to finish a conversation with something to think about instead of something to prove.",
       "fingerprint": "df5e9ec59f1ecbba8e0a815f076249e41271e029bf2b5e0529d92ffc412e3f49",
@@ -428,27 +413,6 @@
   ],
   "recent": [
     {
-      "text": "A walk with no lesson to extract and no result to record can still belong in a meaningful day.",
-      "fingerprint": "232f1a07c0b66835374731868c1f8a68fb528914129103bd32e7201a5a5c3ee1",
-      "source": "ai",
-      "slot": 166148,
-      "at": "2026-11-11T12:00:00.000Z"
-    },
-    {
-      "text": "Notice who makes it easier for you to be honest about what you have not figured out yet.",
-      "fingerprint": "1f435e1f8c3c126be288800e5a427b16c246c64cf723a52a229c6940a59aed9b",
-      "source": "ai",
-      "slot": 166149,
-      "at": "2026-11-11T17:08:05.835Z"
-    },
-    {
-      "text": "When a choice feels tangled, write down what you know, what you assume, and what you still need to ask.",
-      "fingerprint": "4570d4913091571a50aebabf067184efde209a3a773bbf04c847ae4e5c7a773f",
-      "source": "ai",
-      "slot": 166150,
-      "at": "2026-11-11T18:00:00.000Z"
-    },
-    {
       "text": "An awkward first conversation may become easier when you replace the need to impress with the wish to understand.",
       "fingerprint": "fdb76c36464170e14cb48087023a922ad5021b10c4931e34cac81ea77213f353",
       "source": "ai",
@@ -818,6 +782,27 @@
       "source": "ai",
       "slot": 166203,
       "at": "2026-11-18T11:43:11.737Z"
+    },
+    {
+      "text": "You do not have to answer every request at once to be a thoughtful person to work with.",
+      "fingerprint": "bb90a0d18c110a0baa84e26a5ddaa4f703068db78132493327561eb885f5b60f",
+      "source": "ai",
+      "slot": 166204,
+      "at": "2026-11-18T12:00:00.000Z"
+    },
+    {
+      "text": "When the room feels rushed, one calm question about what matters most may be a useful contribution.",
+      "fingerprint": "13042edd677047f015f6cc52222808002a2c6de40e7328ac97c356205afa5024",
+      "source": "ai",
+      "slot": 166205,
+      "at": "2026-11-18T15:00:00.000Z"
+    },
+    {
+      "text": "Repetition can teach you to hear differences that were invisible when everything was new.",
+      "fingerprint": "82ac3c5439e1ebf71d3076659cf2843bc97ee87c255f0c9ab5200b815e62ba6f",
+      "source": "ai",
+      "slot": 166206,
+      "at": "2026-11-18T20:32:06.986Z"
     }
   ],
   "used": [
@@ -1392,6 +1377,18 @@
     {
       "fingerprint": "9ed28ec1aa22e7e93b53c286f4a582654ecee00efa7616b7f36054159babd4a8",
       "at": "2026-11-18T11:43:11.737Z"
+    },
+    {
+      "fingerprint": "bb90a0d18c110a0baa84e26a5ddaa4f703068db78132493327561eb885f5b60f",
+      "at": "2026-11-18T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "13042edd677047f015f6cc52222808002a2c6de40e7328ac97c356205afa5024",
+      "at": "2026-11-18T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "82ac3c5439e1ebf71d3076659cf2843bc97ee87c255f0c9ab5200b815e62ba6f",
+      "at": "2026-11-18T20:32:06.986Z"
     }
   ]
 }
