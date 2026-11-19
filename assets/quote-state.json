@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-18T20:32:06.986Z",
+  "updatedAt": "2026-11-19T02:34:26.308Z",
   "lastRefillAt": "2026-11-16T03:00:25.597Z",
   "current": {
-    "text": "Repetition can teach you to hear differences that were invisible when everything was new.",
-    "fingerprint": "82ac3c5439e1ebf71d3076659cf2843bc97ee87c255f0c9ab5200b815e62ba6f",
+    "text": "The decision to stop polishing can be part of doing the work well. Ask whether another change would help its purpose.",
+    "fingerprint": "9f19d4c18697b25cadffe7f6567421debbfc05a69d23f678e80d86f7818a5f68",
     "source": "ai",
-    "slot": 166206,
-    "at": "2026-11-18T20:32:06.986Z"
+    "slot": 166208,
+    "at": "2026-11-19T02:34:26.308Z"
   },
   "pending": [
-    {
-      "text": "You are allowed to finish a conversation with something to think about instead of something to prove.",
-      "fingerprint": "df5e9ec59f1ecbba8e0a815f076249e41271e029bf2b5e0529d92ffc412e3f49",
-      "source": "ai"
-    },
-    {
-      "text": "The decision to stop polishing can be part of doing the work well. Ask whether another change would help its purpose.",
-      "fingerprint": "9f19d4c18697b25cadffe7f6567421debbfc05a69d23f678e80d86f7818a5f68",
-      "source": "ai"
-    },
     {
       "text": "Let a moment of doubt lead to a fair question rather than a harsh conclusion.",
       "fingerprint": "f0bd24afb16b3684f2fff7095d283da0ffb48313ad68bb450b843b082ade12cc",
@@ -413,20 +403,6 @@
   ],
   "recent": [
     {
-      "text": "An awkward first conversation may become easier when you replace the need to impress with the wish to understand.",
-      "fingerprint": "fdb76c36464170e14cb48087023a922ad5021b10c4931e34cac81ea77213f353",
-      "source": "ai",
-      "slot": 166151,
-      "at": "2026-11-11T21:00:00.000Z"
-    },
-    {
-      "text": "Sometimes the useful question is not how to do more, but which part no longer serves the work you care about.",
-      "fingerprint": "c982c2681fa4f961c6a15e7ca489be76fc5f409f21ebc2efbbc33503b265a9aa",
-      "source": "ai",
-      "slot": 166152,
-      "at": "2026-11-12T00:44:56.007Z"
-    },
-    {
       "text": "A rough draft makes room for a conversation that a blank page cannot begin.",
       "fingerprint": "846fba851f94a7c17498160ac0dcf45229b7c9f024deb7175b89a0b808320664",
       "source": "ai",
@@ -803,6 +779,20 @@
       "source": "ai",
       "slot": 166206,
       "at": "2026-11-18T20:32:06.986Z"
+    },
+    {
+      "text": "You are allowed to finish a conversation with something to think about instead of something to prove.",
+      "fingerprint": "df5e9ec59f1ecbba8e0a815f076249e41271e029bf2b5e0529d92ffc412e3f49",
+      "source": "ai",
+      "slot": 166207,
+      "at": "2026-11-18T21:00:00.000Z"
+    },
+    {
+      "text": "The decision to stop polishing can be part of doing the work well. Ask whether another change would help its purpose.",
+      "fingerprint": "9f19d4c18697b25cadffe7f6567421debbfc05a69d23f678e80d86f7818a5f68",
+      "source": "ai",
+      "slot": 166208,
+      "at": "2026-11-19T02:34:26.308Z"
     }
   ],
   "used": [
@@ -1389,6 +1379,14 @@
     {
       "fingerprint": "82ac3c5439e1ebf71d3076659cf2843bc97ee87c255f0c9ab5200b815e62ba6f",
       "at": "2026-11-18T20:32:06.986Z"
+    },
+    {
+      "fingerprint": "df5e9ec59f1ecbba8e0a815f076249e41271e029bf2b5e0529d92ffc412e3f49",
+      "at": "2026-11-18T21:00:00.000Z"
+    },
+    {
+      "fingerprint": "9f19d4c18697b25cadffe7f6567421debbfc05a69d23f678e80d86f7818a5f68",
+      "at": "2026-11-19T02:34:26.308Z"
     }
   ]
 }
