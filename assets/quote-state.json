@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T11:40:42.116Z",
+  "updatedAt": "2026-11-20T20:21:31.341Z",
   "lastRefillAt": "2026-11-16T03:00:25.597Z",
   "current": {
-    "text": "Trying a different example can reveal an idea that the first explanation left out of reach.",
-    "fingerprint": "bfc9ffb7d7074ff625b6bda346e2a16ae2cf349a5e4bb1f470e954409d95fd1c",
+    "text": "Your contribution does not have to be the most visible one to make a shared effort more thoughtful.",
+    "fingerprint": "a86d124c2693cfc7103bfb3f5f0f246b69a45fa39a445fa09dcabbd1fe899ff1",
     "source": "ai",
-    "slot": 166219,
-    "at": "2026-11-20T11:40:42.116Z"
+    "slot": 166222,
+    "at": "2026-11-20T20:21:31.341Z"
   },
   "pending": [
-    {
-      "text": "Let the first few minutes of learning be untidy. You are finding the edges of something unfamiliar.",
-      "fingerprint": "87a3773f7a5958832871d96feb93e427f6e12b5245afe967ed87e6f7afcf1f25",
-      "source": "ai"
-    },
-    {
-      "text": "An honest limit can keep a shared project from being built on an expectation you cannot meet.",
-      "fingerprint": "2daa6bf26988f324b59eb76d401a3ccfcbb37ca3c948b9193292e4555a148ac0",
-      "source": "ai"
-    },
-    {
-      "text": "Your contribution does not have to be the most visible one to make a shared effort more thoughtful.",
-      "fingerprint": "a86d124c2693cfc7103bfb3f5f0f246b69a45fa39a445fa09dcabbd1fe899ff1",
-      "source": "ai"
-    },
     {
       "text": "An honest invitation to collaborate leaves room for the other person to shape the work too.",
       "fingerprint": "1f40c173ee9cc7faf87e5f923055eaac20810e3a1e76ba9e44c3109fe30406e8",
@@ -347,27 +332,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "Let an honest measure of progress include the questions you can now ask more clearly.",
-      "fingerprint": "3f0c15c73e77959fef6ab503aba201e092c2ca77fb9dbdd4312054fc2cd1d74d",
-      "source": "ai",
-      "slot": 166164,
-      "at": "2026-11-13T12:00:00.000Z"
-    },
-    {
-      "text": "You can test an idea on a modest scale before asking it to carry your whole plan.",
-      "fingerprint": "e0fe5c9ca736c1b3b6b993a1805c0fe3ef34b529a9e53c6cc29b1471b83b78f9",
-      "source": "ai",
-      "slot": 166165,
-      "at": "2026-11-13T15:00:00.000Z"
-    },
-    {
-      "text": "There is no need to turn every enjoyable activity into evidence that you are improving.",
-      "fingerprint": "77c107cca8f5d927a8940749bb3eae5488c048c4ca72d9c38a1d78dcbb6c1f56",
-      "source": "ai",
-      "slot": 166166,
-      "at": "2026-11-13T19:42:56.147Z"
-    },
     {
       "text": "A task can be important without needing all of your evening. Decide what a reasonable stopping place looks like.",
       "fingerprint": "e331ae2749410dbde314f3450e0b611b7eafb129d202b8bc7d3ec7245b35e04b",
@@ -738,6 +702,27 @@
       "source": "ai",
       "slot": 166219,
       "at": "2026-11-20T11:40:42.116Z"
+    },
+    {
+      "text": "Let the first few minutes of learning be untidy. You are finding the edges of something unfamiliar.",
+      "fingerprint": "87a3773f7a5958832871d96feb93e427f6e12b5245afe967ed87e6f7afcf1f25",
+      "source": "ai",
+      "slot": 166220,
+      "at": "2026-11-20T12:00:00.000Z"
+    },
+    {
+      "text": "An honest limit can keep a shared project from being built on an expectation you cannot meet.",
+      "fingerprint": "2daa6bf26988f324b59eb76d401a3ccfcbb37ca3c948b9193292e4555a148ac0",
+      "source": "ai",
+      "slot": 166221,
+      "at": "2026-11-20T15:00:00.000Z"
+    },
+    {
+      "text": "Your contribution does not have to be the most visible one to make a shared effort more thoughtful.",
+      "fingerprint": "a86d124c2693cfc7103bfb3f5f0f246b69a45fa39a445fa09dcabbd1fe899ff1",
+      "source": "ai",
+      "slot": 166222,
+      "at": "2026-11-20T20:21:31.341Z"
     }
   ],
   "used": [
@@ -1376,6 +1361,18 @@
     {
       "fingerprint": "bfc9ffb7d7074ff625b6bda346e2a16ae2cf349a5e4bb1f470e954409d95fd1c",
       "at": "2026-11-20T11:40:42.116Z"
+    },
+    {
+      "fingerprint": "87a3773f7a5958832871d96feb93e427f6e12b5245afe967ed87e6f7afcf1f25",
+      "at": "2026-11-20T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "2daa6bf26988f324b59eb76d401a3ccfcbb37ca3c948b9193292e4555a148ac0",
+      "at": "2026-11-20T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "a86d124c2693cfc7103bfb3f5f0f246b69a45fa39a445fa09dcabbd1fe899ff1",
+      "at": "2026-11-20T20:21:31.341Z"
     }
   ]
 }
