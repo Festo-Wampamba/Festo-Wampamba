@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T20:38:20.296Z",
+  "updatedAt": "2026-11-20T02:19:48.876Z",
   "lastRefillAt": "2026-11-16T03:00:25.597Z",
   "current": {
-    "text": "Try noticing when a familiar task takes less effort than it once did. Growth sometimes becomes visible through ease.",
-    "fingerprint": "16c40566f012cf9d2caf2e2ce208980834cc972691dc6187f3b39544283691d0",
+    "text": "You can belong to a community while learning at a pace and in a manner that differ from its loudest members.",
+    "fingerprint": "41619ae03b33dcb5003d2d0b6bbd71b4ccbbc6d18eae72ca597e5656e4d7ada5",
     "source": "ai",
-    "slot": 166214,
-    "at": "2026-11-19T20:38:20.296Z"
+    "slot": 166216,
+    "at": "2026-11-20T02:19:48.876Z"
   },
   "pending": [
-    {
-      "text": "Allow your plans to include the time it takes to finish, explain, and put things away.",
-      "fingerprint": "78ec4b719e9f433f59c0fa74a51d6b921fb1d2769e0e0b47d9d547b1dd18434d",
-      "source": "ai"
-    },
-    {
-      "text": "You can belong to a community while learning at a pace and in a manner that differ from its loudest members.",
-      "fingerprint": "41619ae03b33dcb5003d2d0b6bbd71b4ccbbc6d18eae72ca597e5656e4d7ada5",
-      "source": "ai"
-    },
     {
       "text": "The time you spend understanding a constraint may save the next person from mistaking it for a failure of effort.",
       "fingerprint": "5a6e44e25a202faf2a8352d8e7f0afd625b744b9d71b275920667c68cdb84fda",
@@ -372,20 +362,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "Revising an opinion after listening carefully is a sign that your understanding is still alive.",
-      "fingerprint": "662a1e681a5e0e36829be6a5cb35bb5bc79602eeb94228009d114abaab776066",
-      "source": "ai",
-      "slot": 166159,
-      "at": "2026-11-12T21:00:00.000Z"
-    },
-    {
-      "text": "There is room to enjoy being capable at something while accepting that someone else can still teach you.",
-      "fingerprint": "dc97f4c6acfdbcb3ead0cb9210490c2bd8084d4eb6fcfee5ee7e394ba5f2058d",
-      "source": "ai",
-      "slot": 166160,
-      "at": "2026-11-13T01:49:50.724Z"
-    },
     {
       "text": "The next useful insight may come from noticing a detail you usually rush past.",
       "fingerprint": "d414ce3303da4194a99501fe3a184048e655af33fa5d3c1a57b5f4cdf97cc088",
@@ -763,6 +739,20 @@
       "source": "ai",
       "slot": 166214,
       "at": "2026-11-19T20:38:20.296Z"
+    },
+    {
+      "text": "Allow your plans to include the time it takes to finish, explain, and put things away.",
+      "fingerprint": "78ec4b719e9f433f59c0fa74a51d6b921fb1d2769e0e0b47d9d547b1dd18434d",
+      "source": "ai",
+      "slot": 166215,
+      "at": "2026-11-19T21:00:00.000Z"
+    },
+    {
+      "text": "You can belong to a community while learning at a pace and in a manner that differ from its loudest members.",
+      "fingerprint": "41619ae03b33dcb5003d2d0b6bbd71b4ccbbc6d18eae72ca597e5656e4d7ada5",
+      "source": "ai",
+      "slot": 166216,
+      "at": "2026-11-20T02:19:48.876Z"
     }
   ],
   "used": [
@@ -1381,6 +1371,14 @@
     {
       "fingerprint": "16c40566f012cf9d2caf2e2ce208980834cc972691dc6187f3b39544283691d0",
       "at": "2026-11-19T20:38:20.296Z"
+    },
+    {
+      "fingerprint": "78ec4b719e9f433f59c0fa74a51d6b921fb1d2769e0e0b47d9d547b1dd18434d",
+      "at": "2026-11-19T21:00:00.000Z"
+    },
+    {
+      "fingerprint": "41619ae03b33dcb5003d2d0b6bbd71b4ccbbc6d18eae72ca597e5656e4d7ada5",
+      "at": "2026-11-20T02:19:48.876Z"
     }
   ]
 }
