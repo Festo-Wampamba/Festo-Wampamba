@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T02:19:48.876Z",
+  "updatedAt": "2026-11-20T11:40:42.116Z",
   "lastRefillAt": "2026-11-16T03:00:25.597Z",
   "current": {
-    "text": "You can belong to a community while learning at a pace and in a manner that differ from its loudest members.",
-    "fingerprint": "41619ae03b33dcb5003d2d0b6bbd71b4ccbbc6d18eae72ca597e5656e4d7ada5",
+    "text": "Trying a different example can reveal an idea that the first explanation left out of reach.",
+    "fingerprint": "bfc9ffb7d7074ff625b6bda346e2a16ae2cf349a5e4bb1f470e954409d95fd1c",
     "source": "ai",
-    "slot": 166216,
-    "at": "2026-11-20T02:19:48.876Z"
+    "slot": 166219,
+    "at": "2026-11-20T11:40:42.116Z"
   },
   "pending": [
-    {
-      "text": "The time you spend understanding a constraint may save the next person from mistaking it for a failure of effort.",
-      "fingerprint": "5a6e44e25a202faf2a8352d8e7f0afd625b744b9d71b275920667c68cdb84fda",
-      "source": "ai"
-    },
-    {
-      "text": "Some satisfaction comes from caring for what already exists rather than always beginning something new.",
-      "fingerprint": "c52cc809624c7366ebe72853d3c3210974dab18d8666754bbb2386f87e37c1df",
-      "source": "ai"
-    },
-    {
-      "text": "Trying a different example can reveal an idea that the first explanation left out of reach.",
-      "fingerprint": "bfc9ffb7d7074ff625b6bda346e2a16ae2cf349a5e4bb1f470e954409d95fd1c",
-      "source": "ai"
-    },
     {
       "text": "Let the first few minutes of learning be untidy. You are finding the edges of something unfamiliar.",
       "fingerprint": "87a3773f7a5958832871d96feb93e427f6e12b5245afe967ed87e6f7afcf1f25",
@@ -362,27 +347,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "The next useful insight may come from noticing a detail you usually rush past.",
-      "fingerprint": "d414ce3303da4194a99501fe3a184048e655af33fa5d3c1a57b5f4cdf97cc088",
-      "source": "ai",
-      "slot": 166161,
-      "at": "2026-11-13T03:00:00.000Z"
-    },
-    {
-      "text": "Try leaving a little space between receiving feedback and deciding what it means about you.",
-      "fingerprint": "346829dfd2b555c11cd3592780a33b93b3b89dd452ebc24b4306a5c8fa21cd63",
-      "source": "ai",
-      "slot": 166162,
-      "at": "2026-11-13T06:00:00.000Z"
-    },
-    {
-      "text": "There is value in building something another person can understand, maintain, and make their own.",
-      "fingerprint": "6f104978de2fc3c9626a50eb0d807108b8806f55289c6a043787c4504a21516c",
-      "source": "ai",
-      "slot": 166163,
-      "at": "2026-11-13T10:59:23.676Z"
-    },
     {
       "text": "Let an honest measure of progress include the questions you can now ask more clearly.",
       "fingerprint": "3f0c15c73e77959fef6ab503aba201e092c2ca77fb9dbdd4312054fc2cd1d74d",
@@ -753,6 +717,27 @@
       "source": "ai",
       "slot": 166216,
       "at": "2026-11-20T02:19:48.876Z"
+    },
+    {
+      "text": "The time you spend understanding a constraint may save the next person from mistaking it for a failure of effort.",
+      "fingerprint": "5a6e44e25a202faf2a8352d8e7f0afd625b744b9d71b275920667c68cdb84fda",
+      "source": "ai",
+      "slot": 166217,
+      "at": "2026-11-20T03:00:00.000Z"
+    },
+    {
+      "text": "Some satisfaction comes from caring for what already exists rather than always beginning something new.",
+      "fingerprint": "c52cc809624c7366ebe72853d3c3210974dab18d8666754bbb2386f87e37c1df",
+      "source": "ai",
+      "slot": 166218,
+      "at": "2026-11-20T06:00:00.000Z"
+    },
+    {
+      "text": "Trying a different example can reveal an idea that the first explanation left out of reach.",
+      "fingerprint": "bfc9ffb7d7074ff625b6bda346e2a16ae2cf349a5e4bb1f470e954409d95fd1c",
+      "source": "ai",
+      "slot": 166219,
+      "at": "2026-11-20T11:40:42.116Z"
     }
   ],
   "used": [
@@ -1379,6 +1364,18 @@
     {
       "fingerprint": "41619ae03b33dcb5003d2d0b6bbd71b4ccbbc6d18eae72ca597e5656e4d7ada5",
       "at": "2026-11-20T02:19:48.876Z"
+    },
+    {
+      "fingerprint": "5a6e44e25a202faf2a8352d8e7f0afd625b744b9d71b275920667c68cdb84fda",
+      "at": "2026-11-20T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "c52cc809624c7366ebe72853d3c3210974dab18d8666754bbb2386f87e37c1df",
+      "at": "2026-11-20T06:00:00.000Z"
+    },
+    {
+      "fingerprint": "bfc9ffb7d7074ff625b6bda346e2a16ae2cf349a5e4bb1f470e954409d95fd1c",
+      "at": "2026-11-20T11:40:42.116Z"
     }
   ]
 }
