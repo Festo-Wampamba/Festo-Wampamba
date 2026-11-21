@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T20:21:31.341Z",
+  "updatedAt": "2026-11-21T02:15:51.322Z",
   "lastRefillAt": "2026-11-16T03:00:25.597Z",
   "current": {
-    "text": "Your contribution does not have to be the most visible one to make a shared effort more thoughtful.",
-    "fingerprint": "a86d124c2693cfc7103bfb3f5f0f246b69a45fa39a445fa09dcabbd1fe899ff1",
+    "text": "Your reasons for choosing a path can grow more precise as you learn what traveling it actually requires.",
+    "fingerprint": "34e5a7cc01a812611ba073daf5e3ee1354a40c543d7449422e9bc7de7e5e3b60",
     "source": "ai",
-    "slot": 166222,
-    "at": "2026-11-20T20:21:31.341Z"
+    "slot": 166224,
+    "at": "2026-11-21T02:15:51.322Z"
   },
   "pending": [
-    {
-      "text": "An honest invitation to collaborate leaves room for the other person to shape the work too.",
-      "fingerprint": "1f40c173ee9cc7faf87e5f923055eaac20810e3a1e76ba9e44c3109fe30406e8",
-      "source": "ai"
-    },
-    {
-      "text": "Your reasons for choosing a path can grow more precise as you learn what traveling it actually requires.",
-      "fingerprint": "34e5a7cc01a812611ba073daf5e3ee1354a40c543d7449422e9bc7de7e5e3b60",
-      "source": "ai"
-    },
     {
       "text": "The tools on your desk need not be perfect for you to make something careful with them.",
       "fingerprint": "b7accf56f59b2cac969c56a7a672ec6c52c0ad00e43d0dfca611336977c073e9",
@@ -332,20 +322,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "A task can be important without needing all of your evening. Decide what a reasonable stopping place looks like.",
-      "fingerprint": "e331ae2749410dbde314f3450e0b611b7eafb129d202b8bc7d3ec7245b35e04b",
-      "source": "ai",
-      "slot": 166167,
-      "at": "2026-11-13T21:00:00.000Z"
-    },
-    {
-      "text": "Choosing a different route can be a thoughtful response to what you have discovered along the way.",
-      "fingerprint": "a1a2a5644645dd86e04ca8984c5e1429ca268d19033f7031001494eb10562881",
-      "source": "ai",
-      "slot": 166168,
-      "at": "2026-11-14T01:26:55.910Z"
-    },
     {
       "text": "When an old problem returns, look for the part you understand better this time.",
       "fingerprint": "15c3c24b1382e40eeb342886e86882edc70686e0a1b37d580f4d350de0d16a10",
@@ -723,6 +699,20 @@
       "source": "ai",
       "slot": 166222,
       "at": "2026-11-20T20:21:31.341Z"
+    },
+    {
+      "text": "An honest invitation to collaborate leaves room for the other person to shape the work too.",
+      "fingerprint": "1f40c173ee9cc7faf87e5f923055eaac20810e3a1e76ba9e44c3109fe30406e8",
+      "source": "ai",
+      "slot": 166223,
+      "at": "2026-11-20T21:00:00.000Z"
+    },
+    {
+      "text": "Your reasons for choosing a path can grow more precise as you learn what traveling it actually requires.",
+      "fingerprint": "34e5a7cc01a812611ba073daf5e3ee1354a40c543d7449422e9bc7de7e5e3b60",
+      "source": "ai",
+      "slot": 166224,
+      "at": "2026-11-21T02:15:51.322Z"
     }
   ],
   "used": [
@@ -1373,6 +1363,14 @@
     {
       "fingerprint": "a86d124c2693cfc7103bfb3f5f0f246b69a45fa39a445fa09dcabbd1fe899ff1",
       "at": "2026-11-20T20:21:31.341Z"
+    },
+    {
+      "fingerprint": "1f40c173ee9cc7faf87e5f923055eaac20810e3a1e76ba9e44c3109fe30406e8",
+      "at": "2026-11-20T21:00:00.000Z"
+    },
+    {
+      "fingerprint": "34e5a7cc01a812611ba073daf5e3ee1354a40c543d7449422e9bc7de7e5e3b60",
+      "at": "2026-11-21T02:15:51.322Z"
     }
   ]
 }
