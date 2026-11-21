@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T02:15:51.322Z",
+  "updatedAt": "2026-11-21T11:02:10.990Z",
   "lastRefillAt": "2026-11-16T03:00:25.597Z",
   "current": {
-    "text": "Your reasons for choosing a path can grow more precise as you learn what traveling it actually requires.",
-    "fingerprint": "34e5a7cc01a812611ba073daf5e3ee1354a40c543d7449422e9bc7de7e5e3b60",
+    "text": "Work that feels simple to you may reflect years of learning that you no longer notice.",
+    "fingerprint": "6a3eb599499d473103a68441a34745e99d351d01fa825d413953e1ff7d91580e",
     "source": "ai",
-    "slot": 166224,
-    "at": "2026-11-21T02:15:51.322Z"
+    "slot": 166227,
+    "at": "2026-11-21T11:02:10.990Z"
   },
   "pending": [
-    {
-      "text": "The tools on your desk need not be perfect for you to make something careful with them.",
-      "fingerprint": "b7accf56f59b2cac969c56a7a672ec6c52c0ad00e43d0dfca611336977c073e9",
-      "source": "ai"
-    },
-    {
-      "text": "A project may ask you to become more patient with details, with other people, and with your own uneven attention.",
-      "fingerprint": "7f5aa2109bb2e0e9ce5068a023b96f4a1798c6cca01aa005388a43fb18738e5d",
-      "source": "ai"
-    },
-    {
-      "text": "Work that feels simple to you may reflect years of learning that you no longer notice.",
-      "fingerprint": "6a3eb599499d473103a68441a34745e99d351d01fa825d413953e1ff7d91580e",
-      "source": "ai"
-    },
     {
       "text": "When someone offers a different approach, you can examine it without putting your own ability on trial.",
       "fingerprint": "7e367e804b3354dce2014117f4921fc86f81f74f619eee7775cade5bc87bf2b8",
@@ -322,27 +307,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "When an old problem returns, look for the part you understand better this time.",
-      "fingerprint": "15c3c24b1382e40eeb342886e86882edc70686e0a1b37d580f4d350de0d16a10",
-      "source": "ai",
-      "slot": 166169,
-      "at": "2026-11-14T03:00:00.000Z"
-    },
-    {
-      "text": "If a result surprised you, stay with the surprise long enough to learn which assumption it challenged.",
-      "fingerprint": "f2bdaeeb8943f49f6667dc93d09432f3ab25f7ecf48c5dbbbd2b7e69d8d1fb43",
-      "source": "ai",
-      "slot": 166170,
-      "at": "2026-11-14T06:00:00.000Z"
-    },
-    {
-      "text": "You can mark a difficult experience honestly without making it the headline of every new possibility.",
-      "fingerprint": "90e5390afc19ee7e375f4da7632157f60a6a5625cec9ccadf36b01499089f59c",
-      "source": "ai",
-      "slot": 166171,
-      "at": "2026-11-14T10:27:03.797Z"
-    },
     {
       "text": "A helpful note left for tomorrow can be an act of care for the person who will pick up the work.",
       "fingerprint": "95082873a61d4ec31fb5a10b1b3a58db15c3b1f2ecd4e1553a9efd5c2f8ebff5",
@@ -713,6 +677,27 @@
       "source": "ai",
       "slot": 166224,
       "at": "2026-11-21T02:15:51.322Z"
+    },
+    {
+      "text": "The tools on your desk need not be perfect for you to make something careful with them.",
+      "fingerprint": "b7accf56f59b2cac969c56a7a672ec6c52c0ad00e43d0dfca611336977c073e9",
+      "source": "ai",
+      "slot": 166225,
+      "at": "2026-11-21T03:00:00.000Z"
+    },
+    {
+      "text": "A project may ask you to become more patient with details, with other people, and with your own uneven attention.",
+      "fingerprint": "7f5aa2109bb2e0e9ce5068a023b96f4a1798c6cca01aa005388a43fb18738e5d",
+      "source": "ai",
+      "slot": 166226,
+      "at": "2026-11-21T06:00:00.000Z"
+    },
+    {
+      "text": "Work that feels simple to you may reflect years of learning that you no longer notice.",
+      "fingerprint": "6a3eb599499d473103a68441a34745e99d351d01fa825d413953e1ff7d91580e",
+      "source": "ai",
+      "slot": 166227,
+      "at": "2026-11-21T11:02:10.990Z"
     }
   ],
   "used": [
@@ -1371,6 +1356,18 @@
     {
       "fingerprint": "34e5a7cc01a812611ba073daf5e3ee1354a40c543d7449422e9bc7de7e5e3b60",
       "at": "2026-11-21T02:15:51.322Z"
+    },
+    {
+      "fingerprint": "b7accf56f59b2cac969c56a7a672ec6c52c0ad00e43d0dfca611336977c073e9",
+      "at": "2026-11-21T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "7f5aa2109bb2e0e9ce5068a023b96f4a1798c6cca01aa005388a43fb18738e5d",
+      "at": "2026-11-21T06:00:00.000Z"
+    },
+    {
+      "fingerprint": "6a3eb599499d473103a68441a34745e99d351d01fa825d413953e1ff7d91580e",
+      "at": "2026-11-21T11:02:10.990Z"
     }
   ]
 }
