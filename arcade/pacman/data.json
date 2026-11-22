@@ -1,55 +1,20 @@
 {
   "username": "Festo-Wampamba",
-  "updatedAt": "2026-11-21T04:15:44.004Z",
+  "updatedAt": "2026-11-22T03:27:23.943Z",
   "engine": "pacman-contribution-graph",
   "version": "5.3.1",
-  "from": "2025-11-16",
-  "to": "2026-11-21",
-  "total": 4611,
-  "active": 301,
-  "frames": 2272,
-  "duration": 454.40000000000003,
+  "from": "2025-11-23",
+  "to": "2026-11-22",
+  "total": 4615,
+  "active": 302,
+  "frames": 1578,
+  "duration": 315.6,
   "gameStats": {
-    "totalScore": 4611,
-    "steps": 1652,
+    "totalScore": 4614,
+    "steps": 1218,
     "ghostsEaten": 1
   },
   "days": [
-    {
-      "date": "2025-11-16",
-      "count": 0,
-      "level": "NONE"
-    },
-    {
-      "date": "2025-11-17",
-      "count": 0,
-      "level": "NONE"
-    },
-    {
-      "date": "2025-11-18",
-      "count": 0,
-      "level": "NONE"
-    },
-    {
-      "date": "2025-11-19",
-      "count": 0,
-      "level": "NONE"
-    },
-    {
-      "date": "2025-11-20",
-      "count": 0,
-      "level": "NONE"
-    },
-    {
-      "date": "2025-11-21",
-      "count": 0,
-      "level": "NONE"
-    },
-    {
-      "date": "2025-11-22",
-      "count": 0,
-      "level": "NONE"
-    },
     {
       "date": "2025-11-23",
       "count": 0,
@@ -1867,6 +1832,11 @@
     },
     {
       "date": "2026-11-21",
+      "count": 4,
+      "level": "FIRST_QUARTILE"
+    },
+    {
+      "date": "2026-11-22",
       "count": 1,
       "level": "FIRST_QUARTILE"
     }
