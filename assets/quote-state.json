@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T01:20:02.052Z",
+  "updatedAt": "2026-11-22T11:26:02.909Z",
   "lastRefillAt": "2026-11-16T03:00:25.597Z",
   "current": {
-    "text": "When you notice envy, you can ask what it reveals about an interest you have not given much room.",
-    "fingerprint": "e219c4994db8045100646e5c6751b4a76a4c81e3f728b1be3fecf5a2d5049e02",
+    "text": "The things you choose to maintain can express your values as clearly as the things you choose to start.",
+    "fingerprint": "1a9f59d7b4a98015302642b14bae83ecbb4c8aaeaf542279ed7c75cb05afd9a6",
     "source": "ai",
-    "slot": 166232,
-    "at": "2026-11-22T01:20:02.052Z"
+    "slot": 166235,
+    "at": "2026-11-22T11:26:02.909Z"
   },
   "pending": [
-    {
-      "text": "When you enter a new group, listening carefully is already a way of taking part.",
-      "fingerprint": "9f0dffe7f27604678320ff4fdf69dc4d775de028bdb3be9852012065a401f4ca",
-      "source": "ai"
-    },
-    {
-      "text": "Work can have value before it is polished enough to display. The early version is where you discover what it needs.",
-      "fingerprint": "abaef283e1232d7c6a73c5e15e7d245ba9d6270d020abb3a627d0585a1aab412",
-      "source": "ai"
-    },
-    {
-      "text": "The things you choose to maintain can express your values as clearly as the things you choose to start.",
-      "fingerprint": "1a9f59d7b4a98015302642b14bae83ecbb4c8aaeaf542279ed7c75cb05afd9a6",
-      "source": "ai"
-    },
     {
       "text": "Before making a task larger, ask whether the smaller version would serve the person it is meant to help.",
       "fingerprint": "96cac0127b871d8fe585177078b702908b495421568721b2d436f45fc13cdef6",
@@ -282,27 +267,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "Before calling yourself stuck, check whether the next task is really several tasks wearing one name.",
-      "fingerprint": "3d5086d5f3608639ea408ac4fe4e7194962c0965ad57e359e41fd53a1ede1729",
-      "source": "ai",
-      "slot": 166177,
-      "at": "2026-11-15T03:00:00.000Z"
-    },
-    {
-      "text": "You are permitted to enjoy a day that does not become a story worth telling.",
-      "fingerprint": "58ee9a0e56cb93f985c46023456f297b3db96f2792b076eddc3ae9c8f8e3c899",
-      "source": "ai",
-      "slot": 166178,
-      "at": "2026-11-15T06:33:47.367Z"
-    },
-    {
-      "text": "A fresh start can be as plain as opening the file and reading the last note you left.",
-      "fingerprint": "079021fc1168205053f77873430435948a40c318551d879e49ebcd6c3c703a61",
-      "source": "ai",
-      "slot": 166179,
-      "at": "2026-11-15T09:00:00.000Z"
-    },
     {
       "text": "A useful goal can tell you where to place your attention without deciding how much you are worth.",
       "fingerprint": "d8b9e4fcff8faafcf9ab172abc8c5e906ea3e053b5b69a7714231c58b6cfe141",
@@ -673,6 +637,27 @@
       "source": "ai",
       "slot": 166232,
       "at": "2026-11-22T01:20:02.052Z"
+    },
+    {
+      "text": "When you enter a new group, listening carefully is already a way of taking part.",
+      "fingerprint": "9f0dffe7f27604678320ff4fdf69dc4d775de028bdb3be9852012065a401f4ca",
+      "source": "ai",
+      "slot": 166233,
+      "at": "2026-11-22T03:00:00.000Z"
+    },
+    {
+      "text": "Work can have value before it is polished enough to display. The early version is where you discover what it needs.",
+      "fingerprint": "abaef283e1232d7c6a73c5e15e7d245ba9d6270d020abb3a627d0585a1aab412",
+      "source": "ai",
+      "slot": 166234,
+      "at": "2026-11-22T06:00:00.000Z"
+    },
+    {
+      "text": "The things you choose to maintain can express your values as clearly as the things you choose to start.",
+      "fingerprint": "1a9f59d7b4a98015302642b14bae83ecbb4c8aaeaf542279ed7c75cb05afd9a6",
+      "source": "ai",
+      "slot": 166235,
+      "at": "2026-11-22T11:26:02.909Z"
     }
   ],
   "used": [
@@ -1363,6 +1348,18 @@
     {
       "fingerprint": "e219c4994db8045100646e5c6751b4a76a4c81e3f728b1be3fecf5a2d5049e02",
       "at": "2026-11-22T01:20:02.052Z"
+    },
+    {
+      "fingerprint": "9f0dffe7f27604678320ff4fdf69dc4d775de028bdb3be9852012065a401f4ca",
+      "at": "2026-11-22T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "abaef283e1232d7c6a73c5e15e7d245ba9d6270d020abb3a627d0585a1aab412",
+      "at": "2026-11-22T06:00:00.000Z"
+    },
+    {
+      "fingerprint": "1a9f59d7b4a98015302642b14bae83ecbb4c8aaeaf542279ed7c75cb05afd9a6",
+      "at": "2026-11-22T11:26:02.909Z"
     }
   ]
 }
