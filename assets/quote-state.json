@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T11:26:02.909Z",
+  "updatedAt": "2026-11-22T19:41:11.695Z",
   "lastRefillAt": "2026-11-16T03:00:25.597Z",
   "current": {
-    "text": "The things you choose to maintain can express your values as clearly as the things you choose to start.",
-    "fingerprint": "1a9f59d7b4a98015302642b14bae83ecbb4c8aaeaf542279ed7c75cb05afd9a6",
+    "text": "Write down something you would like to understand by evening. A day of learning can have a small, clear shape.",
+    "fingerprint": "1a3089f8b4db16f226ffab59ba982801819f13fae2799b90e457f5a8d20f101e",
     "source": "ai",
-    "slot": 166235,
-    "at": "2026-11-22T11:26:02.909Z"
+    "slot": 166238,
+    "at": "2026-11-22T19:41:11.695Z"
   },
   "pending": [
-    {
-      "text": "Before making a task larger, ask whether the smaller version would serve the person it is meant to help.",
-      "fingerprint": "96cac0127b871d8fe585177078b702908b495421568721b2d436f45fc13cdef6",
-      "source": "ai"
-    },
-    {
-      "text": "You can make your expectations clearer without making your voice harsher.",
-      "fingerprint": "25cf5f2583abfdad1be936881a9e8ebe71e17b1e99f67acca4080dd232e65718",
-      "source": "ai"
-    },
-    {
-      "text": "Write down something you would like to understand by evening. A day of learning can have a small, clear shape.",
-      "fingerprint": "1a3089f8b4db16f226ffab59ba982801819f13fae2799b90e457f5a8d20f101e",
-      "source": "ai"
-    },
     {
       "text": "Being new to a task can make you attentive to details that an experienced person no longer sees.",
       "fingerprint": "8f6abd9b1b31bd1a9b18e237eb2f7dd9dfac696aac1568e1411f613838eab555",
@@ -267,27 +252,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "A useful goal can tell you where to place your attention without deciding how much you are worth.",
-      "fingerprint": "d8b9e4fcff8faafcf9ab172abc8c5e906ea3e053b5b69a7714231c58b6cfe141",
-      "source": "ai",
-      "slot": 166180,
-      "at": "2026-11-15T12:00:00.000Z"
-    },
-    {
-      "text": "You can honor an earlier version of yourself without keeping every choice that version made.",
-      "fingerprint": "acef77cd10333ee24da0d6680694a9160296a3ad43bb81545c17934872a548b4",
-      "source": "ai",
-      "slot": 166181,
-      "at": "2026-11-15T16:22:18.031Z"
-    },
-    {
-      "text": "A difficult reply can wait long enough for you to choose words that serve the conversation.",
-      "fingerprint": "21020cfdff8dc9493ace2efb3088796521eab9de0a84e9aa0f72185ada26c566",
-      "source": "ai",
-      "slot": 166182,
-      "at": "2026-11-15T18:00:00.000Z"
-    },
     {
       "text": "It takes care to say that a task needs more time. Clear notice can serve others better than a rushed promise.",
       "fingerprint": "e5273d095f5d6589ba5662a4bb0151ec5b201db3c3ca47526cf89ae4c4428b4b",
@@ -658,6 +622,27 @@
       "source": "ai",
       "slot": 166235,
       "at": "2026-11-22T11:26:02.909Z"
+    },
+    {
+      "text": "Before making a task larger, ask whether the smaller version would serve the person it is meant to help.",
+      "fingerprint": "96cac0127b871d8fe585177078b702908b495421568721b2d436f45fc13cdef6",
+      "source": "ai",
+      "slot": 166236,
+      "at": "2026-11-22T12:00:00.000Z"
+    },
+    {
+      "text": "You can make your expectations clearer without making your voice harsher.",
+      "fingerprint": "25cf5f2583abfdad1be936881a9e8ebe71e17b1e99f67acca4080dd232e65718",
+      "source": "ai",
+      "slot": 166237,
+      "at": "2026-11-22T15:00:00.000Z"
+    },
+    {
+      "text": "Write down something you would like to understand by evening. A day of learning can have a small, clear shape.",
+      "fingerprint": "1a3089f8b4db16f226ffab59ba982801819f13fae2799b90e457f5a8d20f101e",
+      "source": "ai",
+      "slot": 166238,
+      "at": "2026-11-22T19:41:11.695Z"
     }
   ],
   "used": [
@@ -1360,6 +1345,18 @@
     {
       "fingerprint": "1a9f59d7b4a98015302642b14bae83ecbb4c8aaeaf542279ed7c75cb05afd9a6",
       "at": "2026-11-22T11:26:02.909Z"
+    },
+    {
+      "fingerprint": "96cac0127b871d8fe585177078b702908b495421568721b2d436f45fc13cdef6",
+      "at": "2026-11-22T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "25cf5f2583abfdad1be936881a9e8ebe71e17b1e99f67acca4080dd232e65718",
+      "at": "2026-11-22T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "1a3089f8b4db16f226ffab59ba982801819f13fae2799b90e457f5a8d20f101e",
+      "at": "2026-11-22T19:41:11.695Z"
     }
   ]
 }
