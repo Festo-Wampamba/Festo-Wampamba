@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T06:07:23.814Z",
+  "updatedAt": "2026-11-23T12:42:32.762Z",
   "lastRefillAt": "2026-11-23T06:07:23.814Z",
   "current": {
-    "text": "You are not required to turn a private interest into a public identity before giving it your time.",
-    "fingerprint": "89c4b06a6ad54f408b7a91d0a25f95fadce9d7ff25c663c7dc43cdd4f734528f",
+    "text": "Even a brief meeting can be worthwhile when people leave knowing what they agreed to do.",
+    "fingerprint": "e3b6fc755a9f81a06128b70dc4c244e9c027415542b96097085166e4babff78e",
     "source": "ai",
-    "slot": 166242,
-    "at": "2026-11-23T06:07:23.814Z"
+    "slot": 166244,
+    "at": "2026-11-23T12:42:32.762Z"
   },
   "pending": [
-    {
-      "text": "A familiar place, a simple tool, and a little uninterrupted time may be enough for today's practice.",
-      "fingerprint": "a6d1389cb189c562fafbd4ff0cb1d2efce3e8914b2655237245249209016b4f4",
-      "source": "ai"
-    },
-    {
-      "text": "Even a brief meeting can be worthwhile when people leave knowing what they agreed to do.",
-      "fingerprint": "e3b6fc755a9f81a06128b70dc4c244e9c027415542b96097085166e4babff78e",
-      "source": "ai"
-    },
     {
       "text": "The measure of a learning day can include discovering a better source, a clearer example, or a person you can ask.",
       "fingerprint": "3b2ffc686b58ef56465b23cd984d08e2b468b05573365a8f0e84523816d0d839",
@@ -513,20 +503,6 @@
   ],
   "recent": [
     {
-      "text": "Leave a margin in the plan for the tasks you cannot predict and the person you cannot schedule perfectly.",
-      "fingerprint": "e40cc54b94fd12fe69509953e665a7d7b843b9299030a79210a1a05f8d9b8836",
-      "source": "ai",
-      "slot": 166187,
-      "at": "2026-11-16T09:00:00.000Z"
-    },
-    {
-      "text": "If you are waiting to feel fully ready, identify one part you could safely rehearse instead.",
-      "fingerprint": "65cf90cc5080e81639688ca6aab51cf0f0ae65bac28a4ad1ef31da6e8ea58b63",
-      "source": "ai",
-      "slot": 166188,
-      "at": "2026-11-16T12:00:00.000Z"
-    },
-    {
       "text": "A reason to continue can be modest: a detail worth understanding, a person worth helping, or a task worth completing.",
       "fingerprint": "bb2d844a7392a78d2509dc06121a187f6343c0ab058a39535e20854f89131d3a",
       "source": "ai",
@@ -903,6 +879,20 @@
       "source": "ai",
       "slot": 166242,
       "at": "2026-11-23T06:07:23.814Z"
+    },
+    {
+      "text": "A familiar place, a simple tool, and a little uninterrupted time may be enough for today's practice.",
+      "fingerprint": "a6d1389cb189c562fafbd4ff0cb1d2efce3e8914b2655237245249209016b4f4",
+      "source": "ai",
+      "slot": 166243,
+      "at": "2026-11-23T09:00:00.000Z"
+    },
+    {
+      "text": "Even a brief meeting can be worthwhile when people leave knowing what they agreed to do.",
+      "fingerprint": "e3b6fc755a9f81a06128b70dc4c244e9c027415542b96097085166e4babff78e",
+      "source": "ai",
+      "slot": 166244,
+      "at": "2026-11-23T12:42:32.762Z"
     }
   ],
   "used": [
@@ -1633,6 +1623,14 @@
     {
       "fingerprint": "89c4b06a6ad54f408b7a91d0a25f95fadce9d7ff25c663c7dc43cdd4f734528f",
       "at": "2026-11-23T06:07:23.814Z"
+    },
+    {
+      "fingerprint": "a6d1389cb189c562fafbd4ff0cb1d2efce3e8914b2655237245249209016b4f4",
+      "at": "2026-11-23T09:00:00.000Z"
+    },
+    {
+      "fingerprint": "e3b6fc755a9f81a06128b70dc4c244e9c027415542b96097085166e4babff78e",
+      "at": "2026-11-23T12:42:32.762Z"
     }
   ]
 }
