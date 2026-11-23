@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T19:41:11.695Z",
+  "updatedAt": "2026-11-23T01:43:37.200Z",
   "lastRefillAt": "2026-11-16T03:00:25.597Z",
   "current": {
-    "text": "Write down something you would like to understand by evening. A day of learning can have a small, clear shape.",
-    "fingerprint": "1a3089f8b4db16f226ffab59ba982801819f13fae2799b90e457f5a8d20f101e",
+    "text": "You can remember who helped you learn without assuming you must now have every answer for someone else.",
+    "fingerprint": "fec1bf9908f517163aead03fd77fcfb1da5b8c30aa9d01fe5c24431fde17ee7f",
     "source": "ai",
-    "slot": 166238,
-    "at": "2026-11-22T19:41:11.695Z"
+    "slot": 166240,
+    "at": "2026-11-23T01:43:37.200Z"
   },
   "pending": [
-    {
-      "text": "Being new to a task can make you attentive to details that an experienced person no longer sees.",
-      "fingerprint": "8f6abd9b1b31bd1a9b18e237eb2f7dd9dfac696aac1568e1411f613838eab555",
-      "source": "ai"
-    },
-    {
-      "text": "You can remember who helped you learn without assuming you must now have every answer for someone else.",
-      "fingerprint": "fec1bf9908f517163aead03fd77fcfb1da5b8c30aa9d01fe5c24431fde17ee7f",
-      "source": "ai"
-    },
     {
       "text": "Sometimes the kindest part of working together is making the handoff clear.",
       "fingerprint": "bd3eb20fb888a90b49ec3301e3e9ffcca0f4e865691b0e1b5d8ef9905b9a20e6",
@@ -252,20 +242,6 @@
     }
   ],
   "recent": [
-    {
-      "text": "It takes care to say that a task needs more time. Clear notice can serve others better than a rushed promise.",
-      "fingerprint": "e5273d095f5d6589ba5662a4bb0151ec5b201db3c3ca47526cf89ae4c4428b4b",
-      "source": "ai",
-      "slot": 166183,
-      "at": "2026-11-15T22:48:44.208Z"
-    },
-    {
-      "text": "Try thanking yourself for the care taken in a difficult attempt, even while deciding what you would change.",
-      "fingerprint": "99ff5b398cb04fcbe0b149981fa1c3a6eab29245e00d6fee966550f82a9bfaa0",
-      "source": "ai",
-      "slot": 166184,
-      "at": "2026-11-16T00:00:00.000Z"
-    },
     {
       "text": "Keep some questions open while you gather experience. Not every uncertainty requires an immediate opinion.",
       "fingerprint": "b65a50c533758dcf4f37c48069df61ee94ffa52af1088ceab5252b0526e65e17",
@@ -643,6 +619,20 @@
       "source": "ai",
       "slot": 166238,
       "at": "2026-11-22T19:41:11.695Z"
+    },
+    {
+      "text": "Being new to a task can make you attentive to details that an experienced person no longer sees.",
+      "fingerprint": "8f6abd9b1b31bd1a9b18e237eb2f7dd9dfac696aac1568e1411f613838eab555",
+      "source": "ai",
+      "slot": 166239,
+      "at": "2026-11-22T21:00:00.000Z"
+    },
+    {
+      "text": "You can remember who helped you learn without assuming you must now have every answer for someone else.",
+      "fingerprint": "fec1bf9908f517163aead03fd77fcfb1da5b8c30aa9d01fe5c24431fde17ee7f",
+      "source": "ai",
+      "slot": 166240,
+      "at": "2026-11-23T01:43:37.200Z"
     }
   ],
   "used": [
@@ -1357,6 +1347,14 @@
     {
       "fingerprint": "1a3089f8b4db16f226ffab59ba982801819f13fae2799b90e457f5a8d20f101e",
       "at": "2026-11-22T19:41:11.695Z"
+    },
+    {
+      "fingerprint": "8f6abd9b1b31bd1a9b18e237eb2f7dd9dfac696aac1568e1411f613838eab555",
+      "at": "2026-11-22T21:00:00.000Z"
+    },
+    {
+      "fingerprint": "fec1bf9908f517163aead03fd77fcfb1da5b8c30aa9d01fe5c24431fde17ee7f",
+      "at": "2026-11-23T01:43:37.200Z"
     }
   ]
 }
