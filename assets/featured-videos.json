@@ -1,7 +1,7 @@
 {
   "version": 1,
   "channelId": "UCSiPOa3Vowwi42t1BysexmQ",
-  "updatedAt": "2026-11-22T05:49:05.059Z",
+  "updatedAt": "2026-11-23T06:35:56.572Z",
   "videos": [
     {
       "id": "cWG3g2gUlvg",
@@ -13,14 +13,14 @@
     {
       "id": "9eBj_4fwLOg",
       "title": "Configure Linux Mint Perfectly for VMware (Web Server Setup)",
-      "views": 94,
+      "views": 96,
       "publishedAt": "2026-03-18T14:00:15Z",
       "durationSeconds": 591
     },
     {
       "id": "r95-iuuPgTY",
       "title": "VMware Workstation Pro 25H2u1: New Broadcom Download Process (Step-by-Step)",
-      "views": 832,
+      "views": 831,
       "publishedAt": "2026-03-16T13:01:27Z",
       "durationSeconds": 661
     },
