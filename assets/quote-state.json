@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T01:43:37.200Z",
-  "lastRefillAt": "2026-11-16T03:00:25.597Z",
+  "updatedAt": "2026-11-23T06:07:23.814Z",
+  "lastRefillAt": "2026-11-23T06:07:23.814Z",
   "current": {
-    "text": "You can remember who helped you learn without assuming you must now have every answer for someone else.",
-    "fingerprint": "fec1bf9908f517163aead03fd77fcfb1da5b8c30aa9d01fe5c24431fde17ee7f",
+    "text": "You are not required to turn a private interest into a public identity before giving it your time.",
+    "fingerprint": "89c4b06a6ad54f408b7a91d0a25f95fadce9d7ff25c663c7dc43cdd4f734528f",
     "source": "ai",
-    "slot": 166240,
-    "at": "2026-11-23T01:43:37.200Z"
+    "slot": 166242,
+    "at": "2026-11-23T06:07:23.814Z"
   },
   "pending": [
-    {
-      "text": "Sometimes the kindest part of working together is making the handoff clear.",
-      "fingerprint": "bd3eb20fb888a90b49ec3301e3e9ffcca0f4e865691b0e1b5d8ef9905b9a20e6",
-      "source": "ai"
-    },
-    {
-      "text": "You are not required to turn a private interest into a public identity before giving it your time.",
-      "fingerprint": "89c4b06a6ad54f408b7a91d0a25f95fadce9d7ff25c663c7dc43cdd4f734528f",
-      "source": "ai"
-    },
     {
       "text": "A familiar place, a simple tool, and a little uninterrupted time may be enough for today's practice.",
       "fingerprint": "a6d1389cb189c562fafbd4ff0cb1d2efce3e8914b2655237245249209016b4f4",
@@ -239,23 +229,289 @@
       "text": "When a task becomes familiar, look for a chance to do it with more care rather than simply more speed.",
       "fingerprint": "4f7b243f8a3cc82c71186aaa81d2dcd74c56f5cb20264943755a6695b8d35bc7",
       "source": "ai"
+    },
+    {
+      "text": "There may be something worth keeping in an approach that did not work as a whole.",
+      "fingerprint": "bd732a07567393b238926ba90a71a4798714dc2f427068fb378387081a7a1ef9",
+      "source": "ai"
+    },
+    {
+      "text": "Let the people who care about you know what kind of encouragement would actually be helpful.",
+      "fingerprint": "8a52ea6745ad9c1195a8299503e92a8dbefac2ef293bcf021079f56efd5923de",
+      "source": "ai"
+    },
+    {
+      "text": "Notice the difference between a deadline the work requires and a hurry you have learned to carry.",
+      "fingerprint": "836d0cd402f6a7852295169eea46e22239a95c9095b9c1ef2733dbcaa9817514",
+      "source": "ai"
+    },
+    {
+      "text": "You can do useful work at the edge of your knowledge while staying clear about where that edge lies.",
+      "fingerprint": "e667db4d42d9e80076e80eb1418b487be4a23f9c0595947b2a8222b3ed393542",
+      "source": "ai"
+    },
+    {
+      "text": "Look for the assumption hidden in the phrase that is how it has to be.",
+      "fingerprint": "d76669db63dbb4db971104a270c6d03af12a6490a9285aec25a5974d4b699351",
+      "source": "ai"
+    },
+    {
+      "text": "You can leave space in a conversation for a thought that is still taking shape.",
+      "fingerprint": "358c98fe94fbabf52244f829f1e15e6ef430df77358c768fbf39e9c9155e4214",
+      "source": "ai"
+    },
+    {
+      "text": "An ordinary act of follow-through can make someone else's part of the work less uncertain.",
+      "fingerprint": "60ffedc9d460f0cd2182bf1d143c75f0c63d53d079db95018305bc08db763a23",
+      "source": "ai"
+    },
+    {
+      "text": "Some days curiosity begins with wondering why an ordinary thing has always been done that way.",
+      "fingerprint": "e5f99e86548a5503faa1f18e009e4267509645ff9e029ab3f67cdd41b41e55ba",
+      "source": "ai"
+    },
+    {
+      "text": "Let the next attempt be curious about the details, rather than occupied with defending the last attempt.",
+      "fingerprint": "bbf27ef52fa0c20a295e85a9dcaac77bd95afa8ecbeb96c62f6a03e71e8b39e6",
+      "source": "ai"
+    },
+    {
+      "text": "You can take pride in work that makes a common task feel a little less frustrating.",
+      "fingerprint": "3448352209730fad80180aa03aea4025b4c14a0d1e285dda247a82d9510cccda",
+      "source": "ai"
+    },
+    {
+      "text": "An unfinished page does not need an excuse. It may simply need another honest visit.",
+      "fingerprint": "a2f928fd067d95db524cf56597c49833e1cc945a2fccc3e486440a8a8e8f5fdc",
+      "source": "ai"
+    },
+    {
+      "text": "Before deciding that an attempt taught you nothing, describe what you would now try differently.",
+      "fingerprint": "eb3e853a3cf2251c488f891bd1a474a69520d0c9c690d073c413cddff9c24fed",
+      "source": "ai"
+    },
+    {
+      "text": "The part of a project that asks for courage may be the request for feedback rather than the public announcement.",
+      "fingerprint": "713a21c6ed94d521ea78abf253a52d83b8b5f333dbfb74187a39eb339cba316f",
+      "source": "ai"
+    },
+    {
+      "text": "Asking to see the process can teach you things that admiring the finished result cannot.",
+      "fingerprint": "51cb7b4da9fe8f4dcb5916fd8d06f4295cf0935b88306adcee6d9ebfe0385f4b",
+      "source": "ai"
+    },
+    {
+      "text": "A plan made together can be stronger for including the needs that people were hesitant to mention.",
+      "fingerprint": "2de0db65a5cd53d0a406a63371ab399f56aeefd025f1dace3e2380259462067e",
+      "source": "ai"
+    },
+    {
+      "text": "A practice session can have one purpose: to become more familiar with something that currently feels strange.",
+      "fingerprint": "332538d0f6c2b9dba8337f7b7c6be1422d1cc36b7a1cca3ff928bdd7a971b176",
+      "source": "ai"
+    },
+    {
+      "text": "Rest can be an ordinary part of the week rather than a special event you must justify.",
+      "fingerprint": "619ef82e6bd904ce91e162751d3cfc5998e1c1f3600b99da35fc139f9939223b",
+      "source": "ai"
+    },
+    {
+      "text": "You may need to learn the setting as well as the skill. Give yourself room to understand how people work together.",
+      "fingerprint": "e4f27fec6d1163d2aa3d7bba71ee0f66058b9f30876e2ab8f15e6ff5546506f5",
+      "source": "ai"
+    },
+    {
+      "text": "You can offer a useful observation without being responsible for solving the entire situation.",
+      "fingerprint": "bef4158943ae07c9ece55897dc7d13d19d5a3758a5f3cb02873c6a98beffd5a4",
+      "source": "ai"
+    },
+    {
+      "text": "You can welcome a challenge and still ask for clear instructions, fair time, and a place to start.",
+      "fingerprint": "726066fa3a23bebf778109eb5d7fbcbd6a6dd0b8cadcd102a34e97f9aeeef253",
+      "source": "ai"
+    },
+    {
+      "text": "Consider keeping a record of what surprised you, not only a record of what you completed.",
+      "fingerprint": "9ae8072ef3553ed8a8fd9a955a700c4dfeab93259e1925137e88abfe35b4631b",
+      "source": "ai"
+    },
+    {
+      "text": "A person who learns differently from you may help you notice another route into the same subject.",
+      "fingerprint": "47a7f32f687075384f86c8435eb6afd4f293d9ca810b0ea1d750c42055ff2d9d",
+      "source": "ai"
+    },
+    {
+      "text": "Careful listening includes noticing when you are preparing a reply instead of taking in what was said.",
+      "fingerprint": "e2bca036674b3ee55e1795685fabb9c8e5f99f4f18b84d834afb2c4342d37d77",
+      "source": "ai"
+    },
+    {
+      "text": "A commitment becomes easier to share when people know what it includes and what it cannot include.",
+      "fingerprint": "bacdc351dc22b7589cc2141e0aa61d118e78977403d414c39f95fb41aa8157e5",
+      "source": "ai"
+    },
+    {
+      "text": "An honest pause can help a group notice that everyone has been answering a different question.",
+      "fingerprint": "c585693986185722dfddaaebce42f764ce895ff76bfc27a1ed72321ab06bfa98",
+      "source": "ai"
+    },
+    {
+      "text": "Choose a corner of the problem you can inspect closely. Understanding need not arrive all at once.",
+      "fingerprint": "05d3e86a7c0eb69a952e1afd14c7e92f3cf4cdfa52cc467ec96250ae4ff201f3",
+      "source": "ai"
+    },
+    {
+      "text": "A small piece of work done with attention can be a satisfying place to stop for the day.",
+      "fingerprint": "2a258b48cceda35265d4c02e523734d6e77de4e7f026dc45447846ba625d6e06",
+      "source": "ai"
+    },
+    {
+      "text": "An idea becomes easier to discuss when you give it an example someone else can examine.",
+      "fingerprint": "671e93b797ed6f37cd4cdf8556f76419a3790a041a6738258fa40a2e32ebe075",
+      "source": "ai"
+    },
+    {
+      "text": "You are allowed to have a part of the day that does not need to be useful to anyone.",
+      "fingerprint": "737a569f70a1bf44d7cc3460f16648c2cd33ff813ba19252ed729cee8ff2686d",
+      "source": "ai"
+    },
+    {
+      "text": "Leaving a tool ready for its next use is one modest way to support the work you care about.",
+      "fingerprint": "a4a3b6071ab0e7870344d6dc1296c08b5f918a833f0542e40c723077a582eb13",
+      "source": "ai"
+    },
+    {
+      "text": "A day can be full of care even when very little on the task list gets crossed out.",
+      "fingerprint": "823c05bc0581c807f3f1d500a6ee5b6d366e2f15882604a664c9f4f02e3e749e",
+      "source": "ai"
+    },
+    {
+      "text": "Notice what you do with more ease now, and give some credit to the practice that became hard to see.",
+      "fingerprint": "f373627b3223e160e8c1a6019a9b63ad4cabc688dd717494258026505a027c13",
+      "source": "ai"
+    },
+    {
+      "text": "The days that teach you patience may leave few finished things, but they can still change how you approach the work.",
+      "fingerprint": "035ce4c079b92ad2c79bcd89e1c539a3b1947a55cd4583b8d99d416832e2c5d0",
+      "source": "ai"
+    },
+    {
+      "text": "The simple version of a task can reveal what matters before you spend time adding more.",
+      "fingerprint": "cce73ca24529b5c71f715b3f28d5aa84493d7b6572d55c758d0bee24ad00cbb6",
+      "source": "ai"
+    },
+    {
+      "text": "Your interest in a topic does not need to survive an audience test before it deserves a notebook page.",
+      "fingerprint": "f003506e01f72f7ef9d757622eb14efbef731d01a9c7f5addde40bdd1eb69492",
+      "source": "ai"
+    },
+    {
+      "text": "Someone else's clear explanation may rest on many confused attempts they no longer show. Allow yourself the same room.",
+      "fingerprint": "323d8d9a04004c4b54e30dc787ca7b61f69673e0e7e44b41da9f6a49ea0f2fe4",
+      "source": "ai"
+    },
+    {
+      "text": "A fresh example from daily life can make an old idea feel available to you in a new way.",
+      "fingerprint": "6b94015ee130339cebd1096f9f58461f4c7c9fbf3ccad3916585459b772d70a7",
+      "source": "ai"
+    },
+    {
+      "text": "The way you welcome a basic question can shape how safe another person feels about learning beside you.",
+      "fingerprint": "4fb27099bac46cda9bab65277d36eca474cc5d7acaf72b83f3b928b7e1785a19",
+      "source": "ai"
+    },
+    {
+      "text": "A new direction does not have to disown the years that helped you recognize it.",
+      "fingerprint": "dfe5f2a1cc0d3a4794dc2ae92e2e8f2367a01ca483bdc35881aa4dc4e3990fd2",
+      "source": "ai"
+    },
+    {
+      "text": "Being thorough can include checking whether the extra detail makes the result easier for someone to understand.",
+      "fingerprint": "acc2da19a1fab2323593b294ae2dc981cf44b8e1eec5540f8044a76e7e1139b2",
+      "source": "ai"
+    },
+    {
+      "text": "You can begin a new subject by learning its questions before trying to master its answers.",
+      "fingerprint": "7ee42889f13760b8d93f95e6d04cfeb1b9e89921028ec5fda41923b909aa2e53",
+      "source": "ai"
+    },
+    {
+      "text": "You do not have to save every good idea for the most ambitious version of the project.",
+      "fingerprint": "546763eae8039844561ed221cf8db09d5e9ec6849277e921b0c090e9b3318856",
+      "source": "ai"
+    },
+    {
+      "text": "A limit stated early gives a shared plan more honest material to work with.",
+      "fingerprint": "a668484d6fb7f4551a4e13851c82eb262eb31d04adcd48ae25af4f2d40a83281",
+      "source": "ai"
+    },
+    {
+      "text": "The task may feel different after you remove the requirement to impress anyone with your first attempt.",
+      "fingerprint": "f6c10ba60aed1445f247c2d0afc728130a77cc27f0785fa31062d38b9c4d532d",
+      "source": "ai"
+    },
+    {
+      "text": "Writing a question down can give you space to think without having to hold every part of it at once.",
+      "fingerprint": "1f346b57a6142fdfde0bd351d3b1677638be3554f3755fca51fb3a95b30816b8",
+      "source": "ai"
+    },
+    {
+      "text": "A careful choice about what to leave out can give the rest of your work more room to breathe.",
+      "fingerprint": "22505bdb9131d7a5b2062d008abbe87d5ef148c24a3c89959bec1078c78ad238",
+      "source": "ai"
+    },
+    {
+      "text": "When you review a busy season, include the moments of kindness you would want to bring into the next one.",
+      "fingerprint": "9eedf4a3bafc9af1914810b743ab3cd67430b862f8b7d3eece8854f86d6d9d92",
+      "source": "ai"
+    },
+    {
+      "text": "You can enjoy making something without needing to decide today how far it will go.",
+      "fingerprint": "ed1e9fccaf53d4791e12846f24254025b55ba87713c48945bee8ff3cb125d60d",
+      "source": "ai"
+    },
+    {
+      "text": "There is room to be proud of learning something that other people happened to learn earlier.",
+      "fingerprint": "c88c422384639e7a430f3a5ecb95b8c9f0ed403e0ea547df775fc1713b30e9dc",
+      "source": "ai"
+    },
+    {
+      "text": "You can build trust in a shared task by making your next action visible and your uncertainty speakable.",
+      "fingerprint": "9bc3b82b499af62473611905dbeb2fb823059ba1280d105c1d712eb061648468",
+      "source": "ai"
+    },
+    {
+      "text": "An unexpected result is worth examining before you label the whole effort a bad use of time.",
+      "fingerprint": "eddbdf588f130152284388a0b45d40f0380d946512c67b85c30503812e053d00",
+      "source": "ai"
+    },
+    {
+      "text": "The ability to ask a smaller question is useful when the larger one has become too hard to enter.",
+      "fingerprint": "c0234509615323dde0bb4d3620ad33c62acd438c21baa40104d6da2d8e218e0a",
+      "source": "ai"
+    },
+    {
+      "text": "If you have changed since making a promise to yourself, it is reasonable to look at that promise again.",
+      "fingerprint": "39bb81ae16d7333e3cafa124411b47a203e332151738cfeb91401717682712d7",
+      "source": "ai"
+    },
+    {
+      "text": "Sometimes progress is recognizing that the question you inherited is not the question you want to spend your time on.",
+      "fingerprint": "273205ae8d350e4c0fc85abd05aeadda46bf3fb6c80af090dec0b2e1bda072d8",
+      "source": "ai"
+    },
+    {
+      "text": "A difficult task can be shared in pieces without anyone needing to pretend it is easy.",
+      "fingerprint": "f57ea629f3abc94de255b45680028180d39afca03f59931158ae63ba26340a68",
+      "source": "ai"
+    },
+    {
+      "text": "A patient correction can preserve both the quality of the work and another person's willingness to keep learning.",
+      "fingerprint": "6f975222bce6d99f0a174aa615b5deecb3100f5e2a3accb411006f1e77911482",
+      "source": "ai"
     }
   ],
   "recent": [
-    {
-      "text": "Keep some questions open while you gather experience. Not every uncertainty requires an immediate opinion.",
-      "fingerprint": "b65a50c533758dcf4f37c48069df61ee94ffa52af1088ceab5252b0526e65e17",
-      "source": "ai",
-      "slot": 166185,
-      "at": "2026-11-16T03:00:25.597Z"
-    },
-    {
-      "text": "There is no need to hide the simple method that helped you. Someone else may be looking for an accessible beginning.",
-      "fingerprint": "daa2973c02018923360c5356d244a8f7deefdcbbe5b3b413256914688a787ddc",
-      "source": "ai",
-      "slot": 166186,
-      "at": "2026-11-16T06:30:55.346Z"
-    },
     {
       "text": "Leave a margin in the plan for the tasks you cannot predict and the person you cannot schedule perfectly.",
       "fingerprint": "e40cc54b94fd12fe69509953e665a7d7b843b9299030a79210a1a05f8d9b8836",
@@ -633,6 +889,20 @@
       "source": "ai",
       "slot": 166240,
       "at": "2026-11-23T01:43:37.200Z"
+    },
+    {
+      "text": "Sometimes the kindest part of working together is making the handoff clear.",
+      "fingerprint": "bd3eb20fb888a90b49ec3301e3e9ffcca0f4e865691b0e1b5d8ef9905b9a20e6",
+      "source": "ai",
+      "slot": 166241,
+      "at": "2026-11-23T03:00:00.000Z"
+    },
+    {
+      "text": "You are not required to turn a private interest into a public identity before giving it your time.",
+      "fingerprint": "89c4b06a6ad54f408b7a91d0a25f95fadce9d7ff25c663c7dc43cdd4f734528f",
+      "source": "ai",
+      "slot": 166242,
+      "at": "2026-11-23T06:07:23.814Z"
     }
   ],
   "used": [
@@ -1355,6 +1625,14 @@
     {
       "fingerprint": "fec1bf9908f517163aead03fd77fcfb1da5b8c30aa9d01fe5c24431fde17ee7f",
       "at": "2026-11-23T01:43:37.200Z"
+    },
+    {
+      "fingerprint": "bd3eb20fb888a90b49ec3301e3e9ffcca0f4e865691b0e1b5d8ef9905b9a20e6",
+      "at": "2026-11-23T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "89c4b06a6ad54f408b7a91d0a25f95fadce9d7ff25c663c7dc43cdd4f734528f",
+      "at": "2026-11-23T06:07:23.814Z"
     }
   ]
 }
