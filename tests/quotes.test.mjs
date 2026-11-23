@@ -1,13 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { INTERVAL, fingerprint, reserve, rotate, resolveQuote, importBatch, renderQuoteSvg, quoteReadme, validateState, sixMonthsAgo } from '../quotes/engine.mjs';
-const empty = () => ({ version: 1, updatedAt: '2026-10-31T00:00:00.000Z', lastRefillAt: null, current: null, pending: [], recent: [], used: [] });
+import { INTERVAL, MAX_RECENT, fingerprint, reserve, rotate, resolveQuote, importBatch, renderQuoteSvg, quoteReadme, validateState, validateText, sixMonthsAgo, slotAt } from '../quotes/engine.mjs';
+const empty = () => ({ version: 1, intervalMs: INTERVAL, updatedAt: '2026-10-31T00:00:00.000Z', lastRefillAt: null, current: null, pending: [], recent: [], used: [] });
 const sample = 'Give the next useful step enough attention to become a meaningful part of your day.';
 
 test('reserve survives six calendar months without AI, GitHub, duplicates or growing text history', () => {
-  assert.ok(reserve.length >= 1472);
+  assert.ok(reserve.length >= 4416);
   assert.equal(new Set(reserve.map(quote => quote.fingerprint)).size, reserve.length);
+  for (const quote of reserve) validateText(quote.text);
   const start = Date.parse('2026-10-31T00:00:00Z'), end = Date.parse('2027-04-30T23:59:59Z');
   let state = empty(); const seen = new Set(), served = new Set();
   for (let time = start; time <= end; time += INTERVAL) {
@@ -16,11 +17,11 @@ test('reserve survives six calendar months without AI, GitHub, duplicates or gro
     state = rotate(state, now).state;
     assert.ok(!seen.has(state.current.fingerprint)); seen.add(state.current.fingerprint);
     assert.equal(state.current.text, live.text);
-    assert.ok(state.recent.length <= 56);
-    assert.ok(state.used.length <= 1472);
+    assert.ok(state.recent.length <= MAX_RECENT);
+    assert.ok(state.used.length <= 4440);
   }
-  assert.equal(state.recent.length, 56);
-  assert.ok(JSON.stringify(state).length < 250000);
+  assert.equal(state.recent.length, MAX_RECENT);
+  assert.ok(JSON.stringify(state).length < 900000);
   assert.equal(sixMonthsAgo(new Date('2027-08-31T12:00:00Z')), '2027-02-28T12:00:00.000Z');
 });
 
@@ -36,8 +37,8 @@ test('AI queue imports only safe unique text and publication is idempotent', () 
   assert.throws(() => validateState({ ...state, current: { ...state.current, fingerprint: 'bad' } }), /identity/);
   const next = resolveQuote(state, new Date(Number(now) + INTERVAL));
   assert.equal(next.source, 'reserve'); assert.notEqual(next.fingerprint, state.current.fingerprint);
-  assert.equal(resolveQuote(state, new Date('2026-10-31T14:59:59Z')).text, sample);
-  assert.equal(resolveQuote(state, new Date('2026-10-31T15:00:00Z')).source, 'reserve');
+  assert.equal(resolveQuote(state, new Date('2026-10-31T12:59:59Z')).text, sample);
+  assert.equal(resolveQuote(state, new Date('2026-10-31T13:00:00Z')).source, 'reserve');
 });
 
 test('weekly cleanup drops old full text while six-month fingerprints block repeats', () => {
@@ -65,10 +66,25 @@ test('README card stays scoped, versioned and safely rendered in both themes', (
   }
 });
 
-test('saved quote state is valid and has a healthy writer queue', async () => {
+test('saved quote state is valid and migrates cleanly from legacy three-hour slots', async () => {
   const state = validateState(JSON.parse(await readFile(new URL('../assets/quote-state.json', import.meta.url), 'utf8')));
   assert.ok(state.current); // Queue may legitimately empty while the AI writer is unavailable.
   assert.equal(state.current.fingerprint, fingerprint(state.current.text));
+  const at = Date.parse(state.current.at);
+  const sameHour = rotate(state, new Date(at + 60000));
+  assert.equal(sameHour.state.intervalMs, INTERVAL);
+  assert.equal(sameHour.state.current.slot, slotAt(at));
+  assert.equal(sameHour.state.pending.length, state.pending.length);
+  assert.equal(rotate(sameHour.state, new Date(at + 120000)).changed, false);
+  const nextHour = new Date(at + INTERVAL);
+  const projected = resolveQuote(state, nextHour);
+  const rotated = rotate(state, nextHour);
+  assert.equal(rotated.changed, true);
+  assert.equal(rotated.state.current.text, projected.text);
+  if (state.pending.length > 0) {
+    assert.equal(rotated.state.current.text, state.pending[0].text);
+    assert.equal(rotated.state.pending.length, state.pending.length - 1);
+  }
 });
 
 test('Vercel endpoint falls back during source outage and serves escaped SVG without credentials', async () => {
@@ -90,9 +106,9 @@ test('Vercel serves queued AI quotes on time and delayed publication records the
   const planned = imported.pending.map(quote => quote.text);
   assert.deepEqual(new Set(planned), new Set(texts));
   let state = rotate(imported, new Date('2026-10-31T12:00:00Z')).state;
-  assert.equal(resolveQuote(state, new Date('2026-10-31T15:00:00Z')).text, planned[1]);
-  assert.equal(resolveQuote(state, new Date('2026-10-31T18:00:00Z')).text, planned[2]);
-  state = rotate(state, new Date('2026-10-31T18:17:00Z')).state;
+  assert.equal(resolveQuote(state, new Date('2026-10-31T13:00:00Z')).text, planned[1]);
+  assert.equal(resolveQuote(state, new Date('2026-10-31T14:00:00Z')).text, planned[2]);
+  state = rotate(state, new Date('2026-10-31T14:17:00Z')).state;
   assert.equal(state.current.text, planned[2]);
   assert.equal(state.used.length, 3); assert.equal(state.pending.length, 0);
   assert.equal(importBatch(state, [planned[1]], new Date('2026-11-01')).added, 0);

@@ -7,7 +7,7 @@ export async function loadState(fetcher = fetch, now = Date.now()) {
     try {
       const response = await fetcher('https://raw.githubusercontent.com/Festo-Wampamba/Festo-Wampamba/main/assets/quote-state.json', { signal: AbortSignal.timeout(4000), headers: { 'Cache-Control': 'no-cache' } });
       if (!response.ok) throw new Error('Snapshot unavailable');
-      const body = await response.text(); if (body.length > 512000) throw new Error('Snapshot too large');
+      const body = await response.text(); if (body.length > 1048576) throw new Error('Snapshot too large');
       const state = validateState(JSON.parse(body));
       if (Date.parse(state.updatedAt) >= Date.parse(latest.updatedAt)) latest = state;
     } catch { /* The timed reserve works even when GitHub or the writer is unavailable. */ }

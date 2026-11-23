@@ -1,12 +1,28 @@
 import { createHash, randomInt } from 'node:crypto';
 import { reserveTexts } from './reserve.mjs';
 import { palettes } from '../scripts/palette.mjs';
-export const INTERVAL = 3 * 60 * 60 * 1000;
+export const INTERVAL = 60 * 60 * 1000;
+const LEGACY_INTERVAL = 3 * 60 * 60 * 1000;
+export const MAX_PENDING = 336;
+export const MAX_RECENT = 168;
+export const MAX_USED = 4600;
 export const normalize = text => text.normalize('NFKC').toLowerCase().replace(/[\p{P}\p{S}\s]+/gu, ' ').trim();
 export const fingerprint = text => createHash('sha256').update(normalize(text)).digest('hex');
 export const reserve = reserveTexts.map(text => ({ text, fingerprint: fingerprint(text), source: 'reserve' })).sort((a, b) => a.fingerprint.localeCompare(b.fingerprint));
 const reserved = new Set(reserve.map(quote => quote.fingerprint));
+const reserveByText = new Map(reserve.map(quote => [quote.text, quote.fingerprint]));
+const HEX64 = /^[a-f0-9]{64}$/;
 export const slotAt = now => Math.floor(Number(new Date(now)) / INTERVAL);
+const isLegacyState = state => state?.intervalMs == null && Boolean(state?.current) && state.current.slot === Math.floor(Date.parse(state.current.at) / LEGACY_INTERVAL);
+export function normalizeState(state) {
+  if (!isLegacyState(state)) return state;
+  return {
+    ...state,
+    intervalMs: INTERVAL,
+    current: { ...state.current, slot: slotAt(state.current.at) },
+    recent: state.recent.map(quote => ({ ...quote, slot: slotAt(quote.at) })),
+  };
+}
 export function sixMonthsAgo(now) {
   const date = new Date(now), day = date.getUTCDate();
   date.setUTCDate(1); date.setUTCMonth(date.getUTCMonth() - 6);
@@ -18,38 +34,48 @@ export function validateText(text) {
   return text.trim();
 }
 export function validateState(state) {
-  if (state?.version !== 1 || !Array.isArray(state.pending) || state.pending.length > 112 || !Array.isArray(state.used) || state.used.length > 1600 || !Array.isArray(state.recent) || state.recent.length > 56) throw new Error('Invalid quote state.');
+  if (state?.version !== 1 || (state.intervalMs !== undefined && state.intervalMs !== INTERVAL) || !Array.isArray(state.pending) || state.pending.length > MAX_PENDING || !Array.isArray(state.used) || state.used.length > MAX_USED || !Array.isArray(state.recent) || state.recent.length > MAX_RECENT) throw new Error('Invalid quote state.');
   for (const quote of [...state.pending, ...state.recent, ...(state.current ? [state.current] : [])]) {
+    if (quote.source === 'reserve') {
+      const expected = reserveByText.get(quote.text);
+      if (!expected || quote.fingerprint !== expected) {
+        validateText(quote.text);
+        if (quote.fingerprint !== fingerprint(quote.text)) throw new Error('Invalid quote identity.');
+        throw new Error('Unknown reserve quote.');
+      }
+      continue;
+    }
     validateText(quote.text);
-    if (quote.fingerprint !== fingerprint(quote.text) || !['ai', 'reserve'].includes(quote.source)) throw new Error('Invalid quote identity.');
-    if (quote.source === 'ai' && reserved.has(quote.fingerprint)) throw new Error('AI quote duplicates the reserve.');
-    if (quote.source === 'reserve' && !reserved.has(quote.fingerprint)) throw new Error('Unknown reserve quote.');
+    if (quote.fingerprint !== fingerprint(quote.text) || quote.source !== 'ai') throw new Error('Invalid quote identity.');
+    if (reserved.has(quote.fingerprint)) throw new Error('AI quote duplicates the reserve.');
   }
-  for (const entry of state.used) if (!/^[a-f0-9]{64}$/.test(entry.fingerprint) || !Number.isFinite(Date.parse(entry.at))) throw new Error('Invalid quote history.');
+  for (const entry of state.used) if (!HEX64.test(entry.fingerprint) || !Number.isFinite(Date.parse(entry.at))) throw new Error('Invalid quote history.');
   if (state.current && (!Number.isSafeInteger(state.current.slot) || !Number.isFinite(Date.parse(state.current.at)))) throw new Error('Invalid current quote.');
   return state;
 }
 export function resolveQuote(state, now = new Date()) {
+  const currentState = normalizeState(state);
   const slot = slotAt(now);
   if (!Number.isSafeInteger(slot) || slot < 0) throw new Error('Invalid clock.');
-  const offset = state.current ? slot - state.current.slot - 1 : -1;
-  const quote = state.current?.slot === slot ? state.current : (offset >= 0 ? state.pending[offset] : null) ?? reserve[slot % reserve.length];
+  const offset = currentState.current ? slot - currentState.current.slot - 1 : -1;
+  const quote = currentState.current?.slot === slot ? currentState.current : (offset >= 0 ? currentState.pending[offset] : null) ?? reserve[slot % reserve.length];
   return { text: quote.text, source: quote.source, fingerprint: quote.fingerprint, slot, startsAt: new Date(slot * INTERVAL).toISOString(), nextChangeAt: new Date((slot + 1) * INTERVAL).toISOString() };
 }
 export function rotate(state, now = new Date()) {
   validateState(state);
+  const migrated = normalizeState(state);
   const slot = slotAt(now), at = new Date(now).toISOString(), cutoff = sixMonthsAgo(now);
-  if (state.current?.slot > slot) throw new Error('Clock is behind the saved publication.');
-  if (state.current?.slot === slot) return { state, changed: false };
-  const used = state.used.filter(entry => entry.at > cutoff);
+  if (migrated.current?.slot > slot) throw new Error('Clock is behind the saved publication.');
+  if (migrated.current?.slot === slot) return { state: migrated, changed: migrated !== state };
+  const used = migrated.used.filter(entry => entry.at > cutoff);
   const seen = new Set(used.map(entry => entry.fingerprint));
-  const previous = state.current?.slot ?? slot - 1;
-  const elapsed = slot - previous, recent = [...state.recent];
+  const previous = migrated.current?.slot ?? slot - 1;
+  const elapsed = slot - previous, recent = [...migrated.recent];
   let current;
   // Account for slots served by Vercel even if the scheduled publisher was delayed.
-  for (let cursor = Math.max(previous + 1, slot - 1500); cursor <= slot; cursor++) {
+  for (let cursor = Math.max(previous + 1, slot - 4500); cursor <= slot; cursor++) {
     const offset = cursor - previous - 1;
-    const quote = state.pending[offset] ?? reserve[cursor % reserve.length];
+    const quote = migrated.pending[offset] ?? reserve[cursor % reserve.length];
     const publishedAt = cursor === slot ? at : new Date(cursor * INTERVAL).toISOString();
     if (publishedAt > cutoff) {
       if (seen.has(quote.fingerprint)) throw new Error('Refusing a repeated quote.');
@@ -57,24 +83,25 @@ export function rotate(state, now = new Date()) {
     }
     current = { ...quote, slot: cursor, at: publishedAt }; recent.push(current);
   }
-  const next = { version: 1, updatedAt: at, lastRefillAt: state.lastRefillAt ?? null, current, pending: state.pending.slice(elapsed), recent: recent.filter(quote => Date.parse(quote.at) > Number(new Date(now)) - 7 * 86400000).slice(-56), used };
+  const next = { version: 1, intervalMs: INTERVAL, updatedAt: at, lastRefillAt: migrated.lastRefillAt ?? null, current, pending: migrated.pending.slice(elapsed), recent: recent.filter(quote => Date.parse(quote.at) > Number(new Date(now)) - 7 * 86400000).slice(-MAX_RECENT), used };
   return { state: validateState(next), changed: true };
 }
 export function importBatch(state, texts, now = new Date()) {
   validateState(state);
+  state = normalizeState(state);
   if (state.current && state.current.slot < slotAt(now)) state = rotate(state, now).state;
-  if (!Array.isArray(texts) || texts.length < 1 || texts.length > 112) throw new Error('Supply an array of 1–112 original quotes.');
+  if (!Array.isArray(texts) || texts.length < 1 || texts.length > MAX_PENDING) throw new Error(`Supply an array of 1–${MAX_PENDING} original quotes.`);
   const seen = new Set([...state.used.filter(entry => entry.at > sixMonthsAgo(now)), ...state.pending].map(entry => entry.fingerprint));
   const pending = [...state.pending], additions = []; let added = 0;
   for (const item of texts) {
     const text = validateText(item), key = fingerprint(text);
     if (reserved.has(key) || seen.has(key)) continue;
-    if (pending.length + additions.length >= 112) throw new Error('Quote queue is full; publish some before refilling.');
+    if (pending.length + additions.length >= MAX_PENDING) throw new Error('Quote queue is full; publish some before refilling.');
     additions.push({ text, fingerprint: key, source: 'ai' }); seen.add(key); added++;
   }
   for (let index = additions.length - 1; index > 0; index--) { const pick = randomInt(index + 1); [additions[index], additions[pick]] = [additions[pick], additions[index]]; }
   pending.push(...additions);
-  return { state: validateState({ ...state, pending, lastRefillAt: added ? new Date(now).toISOString() : state.lastRefillAt }), added };
+  return { state: validateState({ ...state, intervalMs: INTERVAL, pending, lastRefillAt: added ? new Date(now).toISOString() : state.lastRefillAt }), added };
 }
 const escape = text => String(text).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' })[char]);
 export function renderQuoteSvg(quote, theme = 'dark', compact = false) {

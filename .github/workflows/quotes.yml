@@ -1,7 +1,7 @@
 name: Publish a fresh reflection
 on:
   schedule:
-    - cron: '17 */3 * * *' # Three-hour cadence; GitHub may delay scheduled jobs.
+    - cron: '17 * * * *' # Hourly cadence; GitHub may delay scheduled jobs.
   workflow_dispatch:
   push:
     branches: [main]
@@ -33,7 +33,7 @@ jobs:
           node-version: '24'
       - name: Verify rotation and fallback
         run: node --test tests/quotes.test.mjs
-      - name: Publish once for this three-hour window
+      - name: Publish once for this hourly window
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -49,7 +49,7 @@ jobs:
             if git diff --cached --quiet; then
               exit 0
             fi
-            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit --author='Festo Wampamba <festotechug@gmail.com>' -m 'chore: publish an automated three-hour reflection'
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit --author='Festo Wampamba <festotechug@gmail.com>' -m 'chore: publish an automated hourly reflection'
             if git push origin HEAD:main; then
               exit 0
             fi

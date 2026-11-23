@@ -11,4 +11,4 @@ if (result.changed) {
   await writeFile(temp, JSON.stringify(result.state, null, 2) + '\n'); await rename(temp, path);
 }
 if (readme !== next) await writeFile(readmePath, next);
-console.log(result.changed ? `Published quote for slot ${result.state.current.slot}.` : 'This three-hour slot is already published.');
+console.log(result.changed ? `Published quote for slot ${result.state.current.slot}.` : 'This hourly slot is already published.');
