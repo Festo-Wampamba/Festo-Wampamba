@@ -1,35 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T02:12:56.741Z",
+  "updatedAt": "2026-11-24T13:43:56.572Z",
   "lastRefillAt": "2026-11-23T06:07:23.814Z",
   "current": {
-    "text": "An empty space on the calendar need not be a mistake waiting for another commitment.",
-    "fingerprint": "b2b4970229027db98547a492d842fcdf557b912e359c0ed224225dc601bb2d16",
+    "text": "A goal that once excited you can be examined with honesty, rather than carried forever out of habit.",
+    "fingerprint": "eed87b3a81c9670621155daeab1d3074f47fb3b59464174215441101983b69ef",
     "source": "ai",
-    "slot": 166248,
-    "at": "2026-11-24T02:12:56.741Z"
+    "slot": 166252,
+    "at": "2026-11-24T13:43:56.572Z"
   },
   "pending": [
-    {
-      "text": "You can let yesterday remain unfinished for a moment while deciding what deserves your attention this morning.",
-      "fingerprint": "a527fa44fc513d662328fd20e3d7fb93e91a6671a9fe56014e6761a8d39cf874",
-      "source": "ai"
-    },
-    {
-      "text": "Let your examples become simpler when your explanation becomes harder to follow.",
-      "fingerprint": "28118c9783caaddab754f0aa853fff758ebcfd74525861717e4bddcc1ce8e34e",
-      "source": "ai"
-    },
-    {
-      "text": "Some days a worthwhile contribution is making the confusing part easier for another person to approach.",
-      "fingerprint": "2f97e730e52b384b695a31d94699e332406c6064ac0bcb01448f4140882dd8da",
-      "source": "ai"
-    },
-    {
-      "text": "A goal that once excited you can be examined with honesty, rather than carried forever out of habit.",
-      "fingerprint": "eed87b3a81c9670621155daeab1d3074f47fb3b59464174215441101983b69ef",
-      "source": "ai"
-    },
     {
       "text": "There is a difference between leaving a task for later and deciding when you will look at it again.",
       "fingerprint": "1e04b90ef815306c290d67bb2cc63ad0cae1bc992afdccd8b8d5a2c96ab2e049",
@@ -483,34 +463,6 @@
   ],
   "recent": [
     {
-      "text": "A skill learned for one purpose may quietly become useful in a place you did not expect.",
-      "fingerprint": "8f1b95b54a634a572224e59b641dc1016e434138be161b3c779ebd5bebb1208d",
-      "source": "ai",
-      "slot": 166193,
-      "at": "2026-11-17T03:54:29.806Z"
-    },
-    {
-      "text": "There is room in a serious effort for an afternoon that is mostly practice and correction.",
-      "fingerprint": "67194ce01d361db915639ca5b69d428c89b757790da20acbfc2c1e590f618daf",
-      "source": "ai",
-      "slot": 166194,
-      "at": "2026-11-17T06:00:00.000Z"
-    },
-    {
-      "text": "You can respect the effort a plan took and still admit that it no longer fits the situation.",
-      "fingerprint": "5ba2fcf889b89d650a35672818f5d121f6ec3bc9f6273d07a8e04d9f19841af9",
-      "source": "ai",
-      "slot": 166195,
-      "at": "2026-11-17T09:00:00.000Z"
-    },
-    {
-      "text": "A break from measuring can help you remember what you liked about the activity before it became a goal.",
-      "fingerprint": "8b1f1a6f09e6edf930a647647c945b516aefffaa905d58be277829bc52d0e0e0",
-      "source": "ai",
-      "slot": 166196,
-      "at": "2026-11-17T12:00:00.000Z"
-    },
-    {
       "text": "Good company can make a hard learning season less lonely, even when each person has different work to do.",
       "fingerprint": "8c9dd5d318156efbed6bdab2252cd8f628adfd3c1cb8ac721c8a3c7f4aebbe80",
       "source": "ai",
@@ -873,6 +825,34 @@
       "source": "ai",
       "slot": 166248,
       "at": "2026-11-24T02:12:56.741Z"
+    },
+    {
+      "text": "You can let yesterday remain unfinished for a moment while deciding what deserves your attention this morning.",
+      "fingerprint": "a527fa44fc513d662328fd20e3d7fb93e91a6671a9fe56014e6761a8d39cf874",
+      "source": "ai",
+      "slot": 166249,
+      "at": "2026-11-24T03:00:00.000Z"
+    },
+    {
+      "text": "Let your examples become simpler when your explanation becomes harder to follow.",
+      "fingerprint": "28118c9783caaddab754f0aa853fff758ebcfd74525861717e4bddcc1ce8e34e",
+      "source": "ai",
+      "slot": 166250,
+      "at": "2026-11-24T06:00:00.000Z"
+    },
+    {
+      "text": "Some days a worthwhile contribution is making the confusing part easier for another person to approach.",
+      "fingerprint": "2f97e730e52b384b695a31d94699e332406c6064ac0bcb01448f4140882dd8da",
+      "source": "ai",
+      "slot": 166251,
+      "at": "2026-11-24T09:00:00.000Z"
+    },
+    {
+      "text": "A goal that once excited you can be examined with honesty, rather than carried forever out of habit.",
+      "fingerprint": "eed87b3a81c9670621155daeab1d3074f47fb3b59464174215441101983b69ef",
+      "source": "ai",
+      "slot": 166252,
+      "at": "2026-11-24T13:43:56.572Z"
     }
   ],
   "used": [
@@ -1627,6 +1607,22 @@
     {
       "fingerprint": "b2b4970229027db98547a492d842fcdf557b912e359c0ed224225dc601bb2d16",
       "at": "2026-11-24T02:12:56.741Z"
+    },
+    {
+      "fingerprint": "a527fa44fc513d662328fd20e3d7fb93e91a6671a9fe56014e6761a8d39cf874",
+      "at": "2026-11-24T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "28118c9783caaddab754f0aa853fff758ebcfd74525861717e4bddcc1ce8e34e",
+      "at": "2026-11-24T06:00:00.000Z"
+    },
+    {
+      "fingerprint": "2f97e730e52b384b695a31d94699e332406c6064ac0bcb01448f4140882dd8da",
+      "at": "2026-11-24T09:00:00.000Z"
+    },
+    {
+      "fingerprint": "eed87b3a81c9670621155daeab1d3074f47fb3b59464174215441101983b69ef",
+      "at": "2026-11-24T13:43:56.572Z"
     }
   ]
 }
