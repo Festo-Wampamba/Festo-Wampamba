@@ -1,35 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T12:42:32.762Z",
+  "updatedAt": "2026-11-24T02:12:56.741Z",
   "lastRefillAt": "2026-11-23T06:07:23.814Z",
   "current": {
-    "text": "Even a brief meeting can be worthwhile when people leave knowing what they agreed to do.",
-    "fingerprint": "e3b6fc755a9f81a06128b70dc4c244e9c027415542b96097085166e4babff78e",
+    "text": "An empty space on the calendar need not be a mistake waiting for another commitment.",
+    "fingerprint": "b2b4970229027db98547a492d842fcdf557b912e359c0ed224225dc601bb2d16",
     "source": "ai",
-    "slot": 166244,
-    "at": "2026-11-23T12:42:32.762Z"
+    "slot": 166248,
+    "at": "2026-11-24T02:12:56.741Z"
   },
   "pending": [
-    {
-      "text": "The measure of a learning day can include discovering a better source, a clearer example, or a person you can ask.",
-      "fingerprint": "3b2ffc686b58ef56465b23cd984d08e2b468b05573365a8f0e84523816d0d839",
-      "source": "ai"
-    },
-    {
-      "text": "A slow conversation can leave room for an idea that would disappear in a quick exchange of conclusions.",
-      "fingerprint": "780972fb360130a4dcd242f3db66145a065cb98889b63031f2c7b84a2f3e9396",
-      "source": "ai"
-    },
-    {
-      "text": "Leave yourself a record of the decision, not just the result. The reason may be what helps you later.",
-      "fingerprint": "0f432870ab5ba6a13d6feefb7ffbc10709a0cbd21ffbf3aed6465a6a68313e0c",
-      "source": "ai"
-    },
-    {
-      "text": "An empty space on the calendar need not be a mistake waiting for another commitment.",
-      "fingerprint": "b2b4970229027db98547a492d842fcdf557b912e359c0ed224225dc601bb2d16",
-      "source": "ai"
-    },
     {
       "text": "You can let yesterday remain unfinished for a moment while deciding what deserves your attention this morning.",
       "fingerprint": "a527fa44fc513d662328fd20e3d7fb93e91a6671a9fe56014e6761a8d39cf874",
@@ -503,34 +483,6 @@
   ],
   "recent": [
     {
-      "text": "A reason to continue can be modest: a detail worth understanding, a person worth helping, or a task worth completing.",
-      "fingerprint": "bb2d844a7392a78d2509dc06121a187f6343c0ab058a39535e20854f89131d3a",
-      "source": "ai",
-      "slot": 166189,
-      "at": "2026-11-16T15:00:00.000Z"
-    },
-    {
-      "text": "When a new responsibility feels large, ask which decisions are yours and which ones can be made together.",
-      "fingerprint": "4ef2e6cc214417c1edfd39d23ba221b6435ee770c78605e004c494c908c8c65e",
-      "source": "ai",
-      "slot": 166190,
-      "at": "2026-11-16T19:36:45.020Z"
-    },
-    {
-      "text": "Spend a few minutes with the question before reaching for the answer you usually give.",
-      "fingerprint": "2f4372b13ccf74088d3a2b4a953364fa4800381eaf21d1dd95089c697e97efe4",
-      "source": "ai",
-      "slot": 166191,
-      "at": "2026-11-16T21:00:00.000Z"
-    },
-    {
-      "text": "An idea that survives a gentle test is more useful than an idea you have had to protect from every question.",
-      "fingerprint": "84005ca103302b2549016467d25eac6f77bc6a0803c345f522d52e3a16b1f641",
-      "source": "ai",
-      "slot": 166192,
-      "at": "2026-11-17T00:00:00.000Z"
-    },
-    {
       "text": "A skill learned for one purpose may quietly become useful in a place you did not expect.",
       "fingerprint": "8f1b95b54a634a572224e59b641dc1016e434138be161b3c779ebd5bebb1208d",
       "source": "ai",
@@ -893,6 +845,34 @@
       "source": "ai",
       "slot": 166244,
       "at": "2026-11-23T12:42:32.762Z"
+    },
+    {
+      "text": "The measure of a learning day can include discovering a better source, a clearer example, or a person you can ask.",
+      "fingerprint": "3b2ffc686b58ef56465b23cd984d08e2b468b05573365a8f0e84523816d0d839",
+      "source": "ai",
+      "slot": 166245,
+      "at": "2026-11-23T15:00:00.000Z"
+    },
+    {
+      "text": "A slow conversation can leave room for an idea that would disappear in a quick exchange of conclusions.",
+      "fingerprint": "780972fb360130a4dcd242f3db66145a065cb98889b63031f2c7b84a2f3e9396",
+      "source": "ai",
+      "slot": 166246,
+      "at": "2026-11-23T18:00:00.000Z"
+    },
+    {
+      "text": "Leave yourself a record of the decision, not just the result. The reason may be what helps you later.",
+      "fingerprint": "0f432870ab5ba6a13d6feefb7ffbc10709a0cbd21ffbf3aed6465a6a68313e0c",
+      "source": "ai",
+      "slot": 166247,
+      "at": "2026-11-23T21:00:00.000Z"
+    },
+    {
+      "text": "An empty space on the calendar need not be a mistake waiting for another commitment.",
+      "fingerprint": "b2b4970229027db98547a492d842fcdf557b912e359c0ed224225dc601bb2d16",
+      "source": "ai",
+      "slot": 166248,
+      "at": "2026-11-24T02:12:56.741Z"
     }
   ],
   "used": [
@@ -1631,6 +1611,22 @@
     {
       "fingerprint": "e3b6fc755a9f81a06128b70dc4c244e9c027415542b96097085166e4babff78e",
       "at": "2026-11-23T12:42:32.762Z"
+    },
+    {
+      "fingerprint": "3b2ffc686b58ef56465b23cd984d08e2b468b05573365a8f0e84523816d0d839",
+      "at": "2026-11-23T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "780972fb360130a4dcd242f3db66145a065cb98889b63031f2c7b84a2f3e9396",
+      "at": "2026-11-23T18:00:00.000Z"
+    },
+    {
+      "fingerprint": "0f432870ab5ba6a13d6feefb7ffbc10709a0cbd21ffbf3aed6465a6a68313e0c",
+      "at": "2026-11-23T21:00:00.000Z"
+    },
+    {
+      "fingerprint": "b2b4970229027db98547a492d842fcdf557b912e359c0ed224225dc601bb2d16",
+      "at": "2026-11-24T02:12:56.741Z"
     }
   ]
 }
