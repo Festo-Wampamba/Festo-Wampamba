@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T13:43:56.572Z",
+  "updatedAt": "2026-11-24T23:53:56.703Z",
   "lastRefillAt": "2026-11-23T06:07:23.814Z",
   "current": {
-    "text": "A goal that once excited you can be examined with honesty, rather than carried forever out of habit.",
-    "fingerprint": "eed87b3a81c9670621155daeab1d3074f47fb3b59464174215441101983b69ef",
+    "text": "You can appreciate advice without accepting every part of it as an instruction for your own life.",
+    "fingerprint": "ea7af4df383f7c8acb07b07d9eedcd872afb1cee7ff989c0778fa2988ac31544",
     "source": "ai",
-    "slot": 166252,
-    "at": "2026-11-24T13:43:56.572Z"
+    "slot": 166255,
+    "at": "2026-11-24T23:53:56.703Z"
   },
   "pending": [
-    {
-      "text": "There is a difference between leaving a task for later and deciding when you will look at it again.",
-      "fingerprint": "1e04b90ef815306c290d67bb2cc63ad0cae1bc992afdccd8b8d5a2c96ab2e049",
-      "source": "ai"
-    },
-    {
-      "text": "A promising idea deserves questions that help it grow, not only praise that leaves it unchanged.",
-      "fingerprint": "e37db986ec0a68faf33f2214497220d59235baca24daf603ca521688bfad5598",
-      "source": "ai"
-    },
-    {
-      "text": "You can appreciate advice without accepting every part of it as an instruction for your own life.",
-      "fingerprint": "ea7af4df383f7c8acb07b07d9eedcd872afb1cee7ff989c0778fa2988ac31544",
-      "source": "ai"
-    },
     {
       "text": "A good use of experience is knowing when an old solution needs a fresh look.",
       "fingerprint": "0abab3acaad4e5db37ca0fcdf089c0171f48bfda31b70962fcd1b72f71f40409",
@@ -463,27 +448,6 @@
   ],
   "recent": [
     {
-      "text": "Good company can make a hard learning season less lonely, even when each person has different work to do.",
-      "fingerprint": "8c9dd5d318156efbed6bdab2252cd8f628adfd3c1cb8ac721c8a3c7f4aebbe80",
-      "source": "ai",
-      "slot": 166197,
-      "at": "2026-11-17T16:00:22.344Z"
-    },
-    {
-      "text": "Make a place for the things that interest you even when you cannot yet explain their practical value.",
-      "fingerprint": "c2abac98e89602a7a7f0c8e598a263f513b311e9454b97f1eb33eb7cb47dc608",
-      "source": "ai",
-      "slot": 166198,
-      "at": "2026-11-17T18:00:00.000Z"
-    },
-    {
-      "text": "The courage to disagree can be quiet and precise. You can explain a concern without turning it into a contest.",
-      "fingerprint": "3814628debd50b7131a07793538a447b5bd99c864eb898cb35d4493a8c14dfeb",
-      "source": "ai",
-      "slot": 166199,
-      "at": "2026-11-17T21:00:00.000Z"
-    },
-    {
       "text": "Choose a task you can describe in one clear sentence. Give that sentence a chance to guide the next hour.",
       "fingerprint": "ab8aeac69edd7b560aafc0c08468280c15f862a85f05c6235f52f4a79bda82b3",
       "source": "ai",
@@ -853,6 +817,27 @@
       "source": "ai",
       "slot": 166252,
       "at": "2026-11-24T13:43:56.572Z"
+    },
+    {
+      "text": "There is a difference between leaving a task for later and deciding when you will look at it again.",
+      "fingerprint": "1e04b90ef815306c290d67bb2cc63ad0cae1bc992afdccd8b8d5a2c96ab2e049",
+      "source": "ai",
+      "slot": 166253,
+      "at": "2026-11-24T15:00:00.000Z"
+    },
+    {
+      "text": "A promising idea deserves questions that help it grow, not only praise that leaves it unchanged.",
+      "fingerprint": "e37db986ec0a68faf33f2214497220d59235baca24daf603ca521688bfad5598",
+      "source": "ai",
+      "slot": 166254,
+      "at": "2026-11-24T18:00:00.000Z"
+    },
+    {
+      "text": "You can appreciate advice without accepting every part of it as an instruction for your own life.",
+      "fingerprint": "ea7af4df383f7c8acb07b07d9eedcd872afb1cee7ff989c0778fa2988ac31544",
+      "source": "ai",
+      "slot": 166255,
+      "at": "2026-11-24T23:53:56.703Z"
     }
   ],
   "used": [
@@ -1623,6 +1608,18 @@
     {
       "fingerprint": "eed87b3a81c9670621155daeab1d3074f47fb3b59464174215441101983b69ef",
       "at": "2026-11-24T13:43:56.572Z"
+    },
+    {
+      "fingerprint": "1e04b90ef815306c290d67bb2cc63ad0cae1bc992afdccd8b8d5a2c96ab2e049",
+      "at": "2026-11-24T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "e37db986ec0a68faf33f2214497220d59235baca24daf603ca521688bfad5598",
+      "at": "2026-11-24T18:00:00.000Z"
+    },
+    {
+      "fingerprint": "ea7af4df383f7c8acb07b07d9eedcd872afb1cee7ff989c0778fa2988ac31544",
+      "at": "2026-11-24T23:53:56.703Z"
     }
   ]
 }
