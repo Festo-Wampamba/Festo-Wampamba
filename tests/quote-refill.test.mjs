@@ -145,19 +145,26 @@ test('requestGeminiQuotes retries transient 429/503 errors and never leaks the A
   assert.equal(attempts, 2);
   assert.equal(recovered.length, 1);
 
+  const seenModels = [];
   const verified = await verifyGeminiConnection({
     apiKey: secret,
-    retryDelaysMs: [1],
-    fetcher: async () => interactionResponse('OK'),
+    retryDelaysMs: [],
+    fetcher: async (_url, init) => {
+      const body = JSON.parse(init.body);
+      seenModels.push(body.model);
+      if (body.model === 'gemini-4-hydrogen') return { ok: false, status: 503 };
+      return interactionResponse('OK');
+    },
   });
-  assert.equal(verified.model, 'gemini-4-hydrogen');
+  assert.deepEqual(seenModels, ['gemini-4-hydrogen', 'gemini-3.8-flash']);
+  assert.equal(verified.model, 'gemini-3.8-flash');
   assert.equal(verified.text, 'OK');
 
   await assert.rejects(
     () =>
       requestGeminiQuotes({
         apiKey: secret,
-        retryDelaysMs: [1],
+        retryDelaysMs: [],
         fetcher: async () => ({ ok: false, status: 429 }),
       }),
     error => {
