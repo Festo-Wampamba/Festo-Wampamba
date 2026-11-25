@@ -16,10 +16,24 @@ export const MIN_FUTURE_PENDING = 120; // 5 days at 24 hourly slots/day
 export const TARGET_BATCH = 216; // Tops up toward MAX_PENDING (336 = 14 days) so Gemini runs ~once every 9 days
 export const CHUNK_SIZE = 56;
 export const DEFAULT_MODEL = 'gemini-4-hydrogen';
+export const DEFAULT_MODELS = ['gemini-4-hydrogen', 'gemini-3.8-flash', 'gemini-3.5-flash-lite'];
 export const INTERACTIONS_URL = 'https://generativelanguage.googleapis.com/v1/interactions';
 export const API_REVISION = '2026-05-20';
 const TRANSIENT_STATUS = new Set([408, 429, 500, 502, 503, 504]);
+const FALLBACK_STATUS = new Set([404, 408, 429, 500, 502, 503, 504]);
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+export function resolveModelChain(preferred) {
+  const list = [preferred || DEFAULT_MODEL, ...DEFAULT_MODELS]
+    .map(name => String(name || '').trim().replace(/^models\//, ''))
+    .filter(Boolean);
+  const unique = [];
+  for (const name of list) {
+    if (!/^[a-zA-Z0-9._-]+$/.test(name)) throw new Error('Invalid Gemini model identifier.');
+    if (!unique.includes(name)) unique.push(name);
+  }
+  return unique;
+}
 
 const reserveFingerprints = new Set(reserve.map(quote => quote.fingerprint));
 const AUTHOR_ATTRIBUTION = /\s*(?:—|–|--|\s-\s)\s*[A-Z][A-Za-z.'-]+(?:\s+[A-Z][A-Za-z.'-]+){0,3}\s*$/;
@@ -124,11 +138,15 @@ async function postInteraction({ apiKey, body, fetcher = fetch, timeoutMs = 4500
       });
       if (response.ok) break;
       if (!TRANSIENT_STATUS.has(response.status) || attempt === retryDelaysMs.length) {
-        throw new Error(`Gemini API request failed with HTTP ${response.status}.`);
+        const err = new Error(`Gemini API request failed with HTTP ${response.status}.`);
+        err.status = response.status;
+        throw err;
       }
     } catch (error) {
       if (error.message?.startsWith('Gemini API request failed with HTTP ') || attempt === retryDelaysMs.length) {
-        throw new Error(error.message?.startsWith('Gemini API') ? error.message : 'Gemini API network request failed.');
+        const err = new Error(error.message?.startsWith('Gemini API') ? error.message : 'Gemini API network request failed.');
+        if (error.status) err.status = error.status;
+        throw err;
       }
     }
     await sleep(retryDelaysMs[attempt]);
@@ -136,30 +154,50 @@ async function postInteraction({ apiKey, body, fetcher = fetch, timeoutMs = 4500
   return response.json();
 }
 
+async function postWithModelFallback({ apiKey, model, buildBody, fetcher, timeoutMs, retryDelaysMs }) {
+  const models = resolveModelChain(model);
+  let lastError;
+  for (const candidate of models) {
+    try {
+      const payload = await postInteraction({
+        apiKey,
+        body: buildBody(candidate),
+        fetcher,
+        timeoutMs,
+        retryDelaysMs,
+      });
+      return { model: candidate, payload };
+    } catch (error) {
+      lastError = error;
+      if (error.status && !FALLBACK_STATUS.has(error.status)) throw error;
+    }
+  }
+  throw lastError;
+}
+
 export async function verifyGeminiConnection({
   apiKey,
   model = DEFAULT_MODEL,
   fetcher = fetch,
   timeoutMs = 30000,
-  retryDelaysMs = [5000],
+  retryDelaysMs = [3000],
 }) {
-  const safeModel = String(model || DEFAULT_MODEL).replace(/^models\//, '');
-  if (!/^[a-zA-Z0-9._-]+$/.test(safeModel)) throw new Error('Invalid Gemini model identifier.');
-  const payload = await postInteraction({
+  const { model: usedModel, payload } = await postWithModelFallback({
     apiKey,
+    model,
     fetcher,
     timeoutMs,
     retryDelaysMs,
-    body: {
-      model: safeModel,
+    buildBody: candidate => ({
+      model: candidate,
       input: 'Reply with OK.',
       store: false,
       generation_config: { thinking_level: 'low' },
-    },
+    }),
   });
   const text = extractInteractionText(payload);
   if (!text) throw new Error('Gemini API verification returned an empty response.');
-  return { model: safeModel, text };
+  return { model: usedModel, text };
 }
 
 export async function requestGeminiQuotes({
@@ -172,15 +210,14 @@ export async function requestGeminiQuotes({
   timeoutMs = 60000,
   retryDelaysMs = [5000, 15000],
 }) {
-  const safeModel = String(model || DEFAULT_MODEL).replace(/^models\//, '');
-  if (!/^[a-zA-Z0-9._-]+$/.test(safeModel)) throw new Error('Invalid Gemini model identifier.');
-  const payload = await postInteraction({
+  const { payload } = await postWithModelFallback({
     apiKey,
+    model,
     fetcher,
     timeoutMs,
     retryDelaysMs,
-    body: {
-      model: safeModel,
+    buildBody: candidate => ({
+      model: candidate,
       input: buildPrompt({ count, avoidExamples, chunkIndex }),
       store: false,
       generation_config: { thinking_level: 'low' },
@@ -192,7 +229,7 @@ export async function requestGeminiQuotes({
           items: { type: 'string' },
         },
       },
-    },
+    }),
   });
   const rawText = extractInteractionText(payload);
   if (!rawText) throw new Error('Gemini API returned an empty response.');
