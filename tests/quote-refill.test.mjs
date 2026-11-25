@@ -2,12 +2,16 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { INTERVAL, MAX_PENDING, fingerprint, importBatch, reserve, rotate } from '../quotes/engine.mjs';
 import {
+  API_REVISION,
+  DEFAULT_MODEL,
+  INTERACTIONS_URL,
   MIN_FUTURE_PENDING,
   collectUniqueCandidates,
   countFuturePending,
   refillWithGemini,
   requestGeminiQuotes,
   sanitizeCandidate,
+  verifyGeminiConnection,
 } from '../scripts/refill-quotes-gemini.mjs';
 
 const empty = () => ({
@@ -23,6 +27,19 @@ const empty = () => ({
 
 const makeUniqueQuotes = (count, prefix = 'Original reflection number') =>
   Array.from({ length: count }, (_, i) => `${prefix} ${i + 1}: steady attention turns one honest hour into lasting craft.`);
+
+const interactionResponse = text => ({
+  ok: true,
+  status: 200,
+  json: async () => ({
+    id: 'v1_test_interaction',
+    status: 'completed',
+    steps: [
+      { type: 'thought', signature: 'sig', summary: 'drafting' },
+      { type: 'model_output', content: [{ type: 'text', text }] },
+    ],
+  }),
+});
 
 test('countFuturePending counts only pending entries strictly after nowSlot', () => {
   const start = new Date('2026-11-25T10:00:00.000Z');
@@ -64,13 +81,14 @@ test('refillWithGemini skips API call when Antigravity or prior refill left enou
   assert.equal(result.added, 0);
 });
 
-test('refillWithGemini sends key in header only, filters duplicates/reserve, shuffles, and caps at MAX_PENDING', async () => {
+test('refillWithGemini uses v1 Interactions API with gemini-4-hydrogen, filters duplicates/reserve, shuffles, and caps at MAX_PENDING', async () => {
   const now = new Date('2026-11-25T10:00:00.000Z');
   let state = importBatch(empty(), makeUniqueQuotes(10, 'Existing queue item'), now).state;
   state = rotate(state, now).state;
   const existingText = state.pending[0].text;
   let seenUrl = '';
-  let seenHeader = '';
+  let seenHeaders = null;
+  let seenBody = null;
   let calls = 0;
 
   const result = await refillWithGemini({
@@ -82,7 +100,8 @@ test('refillWithGemini sends key in header only, filters duplicates/reserve, shu
     fetcher: async (url, init) => {
       calls++;
       seenUrl = url;
-      seenHeader = init.headers['x-goog-api-key'];
+      seenHeaders = init.headers;
+      seenBody = JSON.parse(init.body);
       const batch = [
         existingText, // duplicate of pending
         reserve[0].text, // duplicate of reserve
@@ -90,13 +109,7 @@ test('refillWithGemini sends key in header only, filters duplicates/reserve, shu
         'A quote with attribution — Famous Author', // attribution rejected
         ...makeUniqueQuotes(25, `Fresh Gemini chunk ${calls}`),
       ];
-      return {
-        ok: true,
-        status: 200,
-        json: async () => ({
-          candidates: [{ content: { parts: [{ text: JSON.stringify(batch) }] } }],
-        }),
-      };
+      return interactionResponse(JSON.stringify(batch));
     },
   });
 
@@ -104,7 +117,15 @@ test('refillWithGemini sends key in header only, filters duplicates/reserve, shu
   assert.equal(result.added, 30);
   assert.equal(result.futurePendingAfter, 39);
   assert.ok(result.state.pending.length <= MAX_PENDING);
-  assert.equal(seenHeader, 'test-gemini-secret-123');
+  assert.equal(seenUrl, INTERACTIONS_URL);
+  assert.equal(seenHeaders['x-goog-api-key'], 'test-gemini-secret-123');
+  assert.equal(seenHeaders['Api-Revision'], API_REVISION);
+  assert.equal(seenBody.model, DEFAULT_MODEL);
+  assert.equal(DEFAULT_MODEL, 'gemini-4-hydrogen');
+  assert.equal(seenBody.store, false);
+  assert.equal(seenBody.generation_config.thinking_level, 'low');
+  assert.equal(seenBody.generation_config.temperature, undefined);
+  assert.equal(seenBody.response_format.mime_type, 'application/json');
   assert.doesNotMatch(seenUrl, /test-gemini-secret-123|key=/);
   assert.ok(calls >= 2);
 });
@@ -118,17 +139,19 @@ test('requestGeminiQuotes retries transient 429/503 errors and never leaks the A
     fetcher: async () => {
       attempts++;
       if (attempts === 1) return { ok: false, status: 503 };
-      return {
-        ok: true,
-        status: 200,
-        json: async () => ({
-          candidates: [{ content: { parts: [{ text: JSON.stringify(['Steady habits make difficult goals easier to approach every single week.']) }] } }],
-        }),
-      };
+      return interactionResponse(JSON.stringify(['Steady habits make difficult goals easier to approach every single week.']));
     },
   });
   assert.equal(attempts, 2);
   assert.equal(recovered.length, 1);
+
+  const verified = await verifyGeminiConnection({
+    apiKey: secret,
+    retryDelaysMs: [1],
+    fetcher: async () => interactionResponse('OK'),
+  });
+  assert.equal(verified.model, 'gemini-4-hydrogen');
+  assert.equal(verified.text, 'OK');
 
   await assert.rejects(
     () =>
