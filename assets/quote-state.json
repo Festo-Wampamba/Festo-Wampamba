@@ -1,30 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T23:53:56.703Z",
+  "updatedAt": "2026-11-25T08:35:11.032Z",
   "lastRefillAt": "2026-11-23T06:07:23.814Z",
   "current": {
-    "text": "You can appreciate advice without accepting every part of it as an instruction for your own life.",
-    "fingerprint": "ea7af4df383f7c8acb07b07d9eedcd872afb1cee7ff989c0778fa2988ac31544",
+    "text": "You can take a concern seriously while waiting for enough information to decide what it asks of you.",
+    "fingerprint": "7152a827edd86dca7b9b6cf1edae902d5841a4f495f05f7c1a50dfc73dcb759a",
     "source": "ai",
-    "slot": 166255,
-    "at": "2026-11-24T23:53:56.703Z"
+    "slot": 166258,
+    "at": "2026-11-25T08:35:11.032Z"
   },
   "pending": [
-    {
-      "text": "A good use of experience is knowing when an old solution needs a fresh look.",
-      "fingerprint": "0abab3acaad4e5db37ca0fcdf089c0171f48bfda31b70962fcd1b72f71f40409",
-      "source": "ai"
-    },
-    {
-      "text": "A generous teacher leaves room for the learner to discover something in a different way.",
-      "fingerprint": "f536fdffbaa7abd5258895ea51375fe5374ef09cfb76d8f9b33d6339cfa878cd",
-      "source": "ai"
-    },
-    {
-      "text": "You can take a concern seriously while waiting for enough information to decide what it asks of you.",
-      "fingerprint": "7152a827edd86dca7b9b6cf1edae902d5841a4f495f05f7c1a50dfc73dcb759a",
-      "source": "ai"
-    },
     {
       "text": "There is room to celebrate a shared result without sorting everyone into a ranking of who mattered most.",
       "fingerprint": "ec32ce23245cd32ca131fe4e9de0bf485ef00775eae406fc2cdc8aba85a5e70e",
@@ -448,27 +433,6 @@
   ],
   "recent": [
     {
-      "text": "Choose a task you can describe in one clear sentence. Give that sentence a chance to guide the next hour.",
-      "fingerprint": "ab8aeac69edd7b560aafc0c08468280c15f862a85f05c6235f52f4a79bda82b3",
-      "source": "ai",
-      "slot": 166200,
-      "at": "2026-11-18T00:58:13.525Z"
-    },
-    {
-      "text": "A fair review of your work should notice the care you took as well as the detail you missed.",
-      "fingerprint": "4fab478e18fb9f68a158be9794a729fa91c90d2ef1fc0bf8bce4c3f5c2e7aa66",
-      "source": "ai",
-      "slot": 166201,
-      "at": "2026-11-18T03:00:00.000Z"
-    },
-    {
-      "text": "When your standards rise, remember that noticing finer details is itself a result of learning.",
-      "fingerprint": "cce0f60bad599bc63ef499d4b4212016f04c88269c4232df58f44cc1ecc70fb0",
-      "source": "ai",
-      "slot": 166202,
-      "at": "2026-11-18T06:00:00.000Z"
-    },
-    {
       "text": "Remember to ask what went well while you are tracing what went wrong. Both belong in a useful account.",
       "fingerprint": "9ed28ec1aa22e7e93b53c286f4a582654ecee00efa7616b7f36054159babd4a8",
       "source": "ai",
@@ -838,6 +802,27 @@
       "source": "ai",
       "slot": 166255,
       "at": "2026-11-24T23:53:56.703Z"
+    },
+    {
+      "text": "A good use of experience is knowing when an old solution needs a fresh look.",
+      "fingerprint": "0abab3acaad4e5db37ca0fcdf089c0171f48bfda31b70962fcd1b72f71f40409",
+      "source": "ai",
+      "slot": 166256,
+      "at": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "text": "A generous teacher leaves room for the learner to discover something in a different way.",
+      "fingerprint": "f536fdffbaa7abd5258895ea51375fe5374ef09cfb76d8f9b33d6339cfa878cd",
+      "source": "ai",
+      "slot": 166257,
+      "at": "2026-11-25T03:00:00.000Z"
+    },
+    {
+      "text": "You can take a concern seriously while waiting for enough information to decide what it asks of you.",
+      "fingerprint": "7152a827edd86dca7b9b6cf1edae902d5841a4f495f05f7c1a50dfc73dcb759a",
+      "source": "ai",
+      "slot": 166258,
+      "at": "2026-11-25T08:35:11.032Z"
     }
   ],
   "used": [
@@ -1620,6 +1605,18 @@
     {
       "fingerprint": "ea7af4df383f7c8acb07b07d9eedcd872afb1cee7ff989c0778fa2988ac31544",
       "at": "2026-11-24T23:53:56.703Z"
+    },
+    {
+      "fingerprint": "0abab3acaad4e5db37ca0fcdf089c0171f48bfda31b70962fcd1b72f71f40409",
+      "at": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "fingerprint": "f536fdffbaa7abd5258895ea51375fe5374ef09cfb76d8f9b33d6339cfa878cd",
+      "at": "2026-11-25T03:00:00.000Z"
+    },
+    {
+      "fingerprint": "7152a827edd86dca7b9b6cf1edae902d5841a4f495f05f7c1a50dfc73dcb759a",
+      "at": "2026-11-25T08:35:11.032Z"
     }
   ]
 }
