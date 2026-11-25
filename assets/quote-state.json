@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-25T11:02:09.838Z",
+  "updatedAt": "2026-11-25T12:57:02.103Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "Consider whether the rule you made during a busy season still belongs in the life you have now.",
-    "fingerprint": "9903ace8660c3a6a02d8b4cf53c524b6cdc84593ee68916638f34d8d9ea685bf",
+    "text": "There is value in recognizing when a task needs company, when it needs quiet, and when it needs a clearer limit.",
+    "fingerprint": "8d36a55984c1154f51c4a53c9cb46890d671a4835768e3c21764baaf5d043776",
     "source": "ai",
-    "slot": 498779,
-    "at": "2026-11-25T11:02:09.838Z"
+    "slot": 498780,
+    "at": "2026-11-25T12:57:02.103Z"
   },
   "pending": [
-    {
-      "text": "There is value in recognizing when a task needs company, when it needs quiet, and when it needs a clearer limit.",
-      "fingerprint": "8d36a55984c1154f51c4a53c9cb46890d671a4835768e3c21764baaf5d043776",
-      "source": "ai"
-    },
     {
       "text": "You can notice a gap in your knowledge without filling the silence with a guess.",
       "fingerprint": "e7766f5451b1699ab25e5474215220ad0fd21c42e78331c134ac6ab335ea861a",
@@ -1679,20 +1674,6 @@
   ],
   "recent": [
     {
-      "text": "Remember to ask what went well while you are tracing what went wrong. Both belong in a useful account.",
-      "fingerprint": "9ed28ec1aa22e7e93b53c286f4a582654ecee00efa7616b7f36054159babd4a8",
-      "source": "ai",
-      "slot": 498611,
-      "at": "2026-11-18T11:43:11.737Z"
-    },
-    {
-      "text": "You do not have to answer every request at once to be a thoughtful person to work with.",
-      "fingerprint": "bb90a0d18c110a0baa84e26a5ddaa4f703068db78132493327561eb885f5b60f",
-      "source": "ai",
-      "slot": 498612,
-      "at": "2026-11-18T12:00:00.000Z"
-    },
-    {
       "text": "When the room feels rushed, one calm question about what matters most may be a useful contribution.",
       "fingerprint": "13042edd677047f015f6cc52222808002a2c6de40e7328ac97c356205afa5024",
       "source": "ai",
@@ -2090,6 +2071,13 @@
       "source": "ai",
       "slot": 498779,
       "at": "2026-11-25T11:02:09.838Z"
+    },
+    {
+      "text": "There is value in recognizing when a task needs company, when it needs quiet, and when it needs a clearer limit.",
+      "fingerprint": "8d36a55984c1154f51c4a53c9cb46890d671a4835768e3c21764baaf5d043776",
+      "source": "ai",
+      "slot": 498780,
+      "at": "2026-11-25T12:57:02.103Z"
     }
   ],
   "used": [
@@ -2896,6 +2884,10 @@
     {
       "fingerprint": "9903ace8660c3a6a02d8b4cf53c524b6cdc84593ee68916638f34d8d9ea685bf",
       "at": "2026-11-25T11:02:09.838Z"
+    },
+    {
+      "fingerprint": "8d36a55984c1154f51c4a53c9cb46890d671a4835768e3c21764baaf5d043776",
+      "at": "2026-11-25T12:57:02.103Z"
     }
   ]
 }
