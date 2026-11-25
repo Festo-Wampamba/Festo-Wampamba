@@ -51,10 +51,3 @@ jobs:
             fi
           done
           exit 1
-      - name: Request Vercel rebuild
-        env:
-          DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
-        run: |
-          if [ -n "$DEPLOY_HOOK" ]; then
-            curl --fail --silent --show-error --max-time 30 --request POST "$DEPLOY_HOOK" --output /dev/null
-          fi
