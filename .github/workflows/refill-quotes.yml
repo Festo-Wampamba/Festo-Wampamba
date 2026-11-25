@@ -1,0 +1,68 @@
+name: Refill AI inspiration queue (Gemini fallback)
+on:
+  schedule:
+    - cron: '17 3 * * *' # Daily check around 06:17 Africa/Kampala; only calls Gemini when < 120 future quotes remain.
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/refill-quotes-gemini.mjs'
+      - 'tests/quote-refill.test.mjs'
+      - '.github/workflows/refill-quotes.yml'
+permissions:
+  contents: read
+concurrency:
+  group: motivation-publication
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Check syntax and refill tests
+        run: node --check scripts/refill-quotes-gemini.mjs && node --check tests/quote-refill.test.mjs && node --test tests/quote-refill.test.mjs
+
+  refill:
+    if: github.event_name != 'pull_request'
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Refill AI quote queue via Gemini when runway is low
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          gh auth setup-git
+          git remote set-url origin https://github.com/Festo-Wampamba/Festo-Wampamba.git
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            node scripts/refill-quotes-gemini.mjs --allow-missing-key
+            git add assets/quote-state.json
+            if git diff --cached --quiet; then
+              exit 0
+            fi
+            node --test tests/quotes.test.mjs
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit --author='Festo Wampamba <festotechug@gmail.com>' -m 'chore: replenish AI-written inspiration queue'
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          exit 1
