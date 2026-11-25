@@ -1,25 +1,16 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T08:35:11.032Z",
+  "intervalMs": 3600000,
+  "updatedAt": "2026-11-25T10:50:10.962Z",
   "lastRefillAt": "2026-11-23T06:07:23.814Z",
   "current": {
-    "text": "You can take a concern seriously while waiting for enough information to decide what it asks of you.",
-    "fingerprint": "7152a827edd86dca7b9b6cf1edae902d5841a4f495f05f7c1a50dfc73dcb759a",
+    "text": "If you keep guessing at the same problem, name the missing fact that would make the next attempt more informed.",
+    "fingerprint": "38cbb13093e32602133c9ba11e84ac6d0e0f9149b46d1525fd669df3fb473de6",
     "source": "ai",
-    "slot": 166258,
-    "at": "2026-11-25T08:35:11.032Z"
+    "slot": 498778,
+    "at": "2026-11-25T10:50:10.962Z"
   },
   "pending": [
-    {
-      "text": "There is room to celebrate a shared result without sorting everyone into a ranking of who mattered most.",
-      "fingerprint": "ec32ce23245cd32ca131fe4e9de0bf485ef00775eae406fc2cdc8aba85a5e70e",
-      "source": "ai"
-    },
-    {
-      "text": "If you keep guessing at the same problem, name the missing fact that would make the next attempt more informed.",
-      "fingerprint": "38cbb13093e32602133c9ba11e84ac6d0e0f9149b46d1525fd669df3fb473de6",
-      "source": "ai"
-    },
     {
       "text": "Consider whether the rule you made during a busy season still belongs in the life you have now.",
       "fingerprint": "9903ace8660c3a6a02d8b4cf53c524b6cdc84593ee68916638f34d8d9ea685bf",
@@ -436,393 +427,407 @@
       "text": "Remember to ask what went well while you are tracing what went wrong. Both belong in a useful account.",
       "fingerprint": "9ed28ec1aa22e7e93b53c286f4a582654ecee00efa7616b7f36054159babd4a8",
       "source": "ai",
-      "slot": 166203,
+      "slot": 498611,
       "at": "2026-11-18T11:43:11.737Z"
     },
     {
       "text": "You do not have to answer every request at once to be a thoughtful person to work with.",
       "fingerprint": "bb90a0d18c110a0baa84e26a5ddaa4f703068db78132493327561eb885f5b60f",
       "source": "ai",
-      "slot": 166204,
+      "slot": 498612,
       "at": "2026-11-18T12:00:00.000Z"
     },
     {
       "text": "When the room feels rushed, one calm question about what matters most may be a useful contribution.",
       "fingerprint": "13042edd677047f015f6cc52222808002a2c6de40e7328ac97c356205afa5024",
       "source": "ai",
-      "slot": 166205,
+      "slot": 498615,
       "at": "2026-11-18T15:00:00.000Z"
     },
     {
       "text": "Repetition can teach you to hear differences that were invisible when everything was new.",
       "fingerprint": "82ac3c5439e1ebf71d3076659cf2843bc97ee87c255f0c9ab5200b815e62ba6f",
       "source": "ai",
-      "slot": 166206,
+      "slot": 498620,
       "at": "2026-11-18T20:32:06.986Z"
     },
     {
       "text": "You are allowed to finish a conversation with something to think about instead of something to prove.",
       "fingerprint": "df5e9ec59f1ecbba8e0a815f076249e41271e029bf2b5e0529d92ffc412e3f49",
       "source": "ai",
-      "slot": 166207,
+      "slot": 498621,
       "at": "2026-11-18T21:00:00.000Z"
     },
     {
       "text": "The decision to stop polishing can be part of doing the work well. Ask whether another change would help its purpose.",
       "fingerprint": "9f19d4c18697b25cadffe7f6567421debbfc05a69d23f678e80d86f7818a5f68",
       "source": "ai",
-      "slot": 166208,
+      "slot": 498626,
       "at": "2026-11-19T02:34:26.308Z"
     },
     {
       "text": "Let a moment of doubt lead to a fair question rather than a harsh conclusion.",
       "fingerprint": "f0bd24afb16b3684f2fff7095d283da0ffb48313ad68bb450b843b082ade12cc",
       "source": "ai",
-      "slot": 166209,
+      "slot": 498627,
       "at": "2026-11-19T03:00:00.000Z"
     },
     {
       "text": "There is pleasure in making an ordinary thing easier to use. Notice when your care removes a little friction.",
       "fingerprint": "0055618d28c11131bf4c1786e4fb0f0a040354858a0c867cdff38cfffb0e172e",
       "source": "ai",
-      "slot": 166210,
+      "slot": 498630,
       "at": "2026-11-19T06:00:00.000Z"
     },
     {
       "text": "Before filling a free moment, consider whether you would rather leave it free.",
       "fingerprint": "4e0fd60da50ebba7bcd77943bf81c5a54e530ad8b776e0251437b19f67854840",
       "source": "ai",
-      "slot": 166211,
+      "slot": 498635,
       "at": "2026-11-19T11:41:26.534Z"
     },
     {
       "text": "Consider what would make the task easier to return to after an interruption, and arrange that before you leave.",
       "fingerprint": "81f1255631c33c8ac4b07ebaf85abfcd3fe6c3efcda0ca39aa6928058918f2be",
       "source": "ai",
-      "slot": 166212,
+      "slot": 498636,
       "at": "2026-11-19T12:00:00.000Z"
     },
     {
       "text": "Useful preparation can include deciding who to ask when you reach the part you do not understand.",
       "fingerprint": "eba6fb7c4b032b4d4da6a59fdfed9a67a43f51e65e2aa8e44d349e2c82175d0d",
       "source": "ai",
-      "slot": 166213,
+      "slot": 498639,
       "at": "2026-11-19T15:00:00.000Z"
     },
     {
       "text": "Try noticing when a familiar task takes less effort than it once did. Growth sometimes becomes visible through ease.",
       "fingerprint": "16c40566f012cf9d2caf2e2ce208980834cc972691dc6187f3b39544283691d0",
       "source": "ai",
-      "slot": 166214,
+      "slot": 498644,
       "at": "2026-11-19T20:38:20.296Z"
     },
     {
       "text": "Allow your plans to include the time it takes to finish, explain, and put things away.",
       "fingerprint": "78ec4b719e9f433f59c0fa74a51d6b921fb1d2769e0e0b47d9d547b1dd18434d",
       "source": "ai",
-      "slot": 166215,
+      "slot": 498645,
       "at": "2026-11-19T21:00:00.000Z"
     },
     {
       "text": "You can belong to a community while learning at a pace and in a manner that differ from its loudest members.",
       "fingerprint": "41619ae03b33dcb5003d2d0b6bbd71b4ccbbc6d18eae72ca597e5656e4d7ada5",
       "source": "ai",
-      "slot": 166216,
+      "slot": 498650,
       "at": "2026-11-20T02:19:48.876Z"
     },
     {
       "text": "The time you spend understanding a constraint may save the next person from mistaking it for a failure of effort.",
       "fingerprint": "5a6e44e25a202faf2a8352d8e7f0afd625b744b9d71b275920667c68cdb84fda",
       "source": "ai",
-      "slot": 166217,
+      "slot": 498651,
       "at": "2026-11-20T03:00:00.000Z"
     },
     {
       "text": "Some satisfaction comes from caring for what already exists rather than always beginning something new.",
       "fingerprint": "c52cc809624c7366ebe72853d3c3210974dab18d8666754bbb2386f87e37c1df",
       "source": "ai",
-      "slot": 166218,
+      "slot": 498654,
       "at": "2026-11-20T06:00:00.000Z"
     },
     {
       "text": "Trying a different example can reveal an idea that the first explanation left out of reach.",
       "fingerprint": "bfc9ffb7d7074ff625b6bda346e2a16ae2cf349a5e4bb1f470e954409d95fd1c",
       "source": "ai",
-      "slot": 166219,
+      "slot": 498659,
       "at": "2026-11-20T11:40:42.116Z"
     },
     {
       "text": "Let the first few minutes of learning be untidy. You are finding the edges of something unfamiliar.",
       "fingerprint": "87a3773f7a5958832871d96feb93e427f6e12b5245afe967ed87e6f7afcf1f25",
       "source": "ai",
-      "slot": 166220,
+      "slot": 498660,
       "at": "2026-11-20T12:00:00.000Z"
     },
     {
       "text": "An honest limit can keep a shared project from being built on an expectation you cannot meet.",
       "fingerprint": "2daa6bf26988f324b59eb76d401a3ccfcbb37ca3c948b9193292e4555a148ac0",
       "source": "ai",
-      "slot": 166221,
+      "slot": 498663,
       "at": "2026-11-20T15:00:00.000Z"
     },
     {
       "text": "Your contribution does not have to be the most visible one to make a shared effort more thoughtful.",
       "fingerprint": "a86d124c2693cfc7103bfb3f5f0f246b69a45fa39a445fa09dcabbd1fe899ff1",
       "source": "ai",
-      "slot": 166222,
+      "slot": 498668,
       "at": "2026-11-20T20:21:31.341Z"
     },
     {
       "text": "An honest invitation to collaborate leaves room for the other person to shape the work too.",
       "fingerprint": "1f40c173ee9cc7faf87e5f923055eaac20810e3a1e76ba9e44c3109fe30406e8",
       "source": "ai",
-      "slot": 166223,
+      "slot": 498669,
       "at": "2026-11-20T21:00:00.000Z"
     },
     {
       "text": "Your reasons for choosing a path can grow more precise as you learn what traveling it actually requires.",
       "fingerprint": "34e5a7cc01a812611ba073daf5e3ee1354a40c543d7449422e9bc7de7e5e3b60",
       "source": "ai",
-      "slot": 166224,
+      "slot": 498674,
       "at": "2026-11-21T02:15:51.322Z"
     },
     {
       "text": "The tools on your desk need not be perfect for you to make something careful with them.",
       "fingerprint": "b7accf56f59b2cac969c56a7a672ec6c52c0ad00e43d0dfca611336977c073e9",
       "source": "ai",
-      "slot": 166225,
+      "slot": 498675,
       "at": "2026-11-21T03:00:00.000Z"
     },
     {
       "text": "A project may ask you to become more patient with details, with other people, and with your own uneven attention.",
       "fingerprint": "7f5aa2109bb2e0e9ce5068a023b96f4a1798c6cca01aa005388a43fb18738e5d",
       "source": "ai",
-      "slot": 166226,
+      "slot": 498678,
       "at": "2026-11-21T06:00:00.000Z"
     },
     {
       "text": "Work that feels simple to you may reflect years of learning that you no longer notice.",
       "fingerprint": "6a3eb599499d473103a68441a34745e99d351d01fa825d413953e1ff7d91580e",
       "source": "ai",
-      "slot": 166227,
+      "slot": 498683,
       "at": "2026-11-21T11:02:10.990Z"
     },
     {
       "text": "When someone offers a different approach, you can examine it without putting your own ability on trial.",
       "fingerprint": "7e367e804b3354dce2014117f4921fc86f81f74f619eee7775cade5bc87bf2b8",
       "source": "ai",
-      "slot": 166228,
+      "slot": 498684,
       "at": "2026-11-21T12:00:00.000Z"
     },
     {
       "text": "A day spent putting scattered notes into order can prepare the ground for work you have not started yet.",
       "fingerprint": "9910d0d9c4dbf448e61c3ef10e710cc84c04992b58cc06aa459554c700103874",
       "source": "ai",
-      "slot": 166229,
+      "slot": 498687,
       "at": "2026-11-21T15:00:00.000Z"
     },
     {
       "text": "Notice which parts of the work make you more attentive to the people who will use it.",
       "fingerprint": "d8dbfbe1f3b14d4e3568e405170dcaee359ec2656ec5cc8cb014601ceca607c4",
       "source": "ai",
-      "slot": 166230,
+      "slot": 498691,
       "at": "2026-11-21T19:16:34.322Z"
     },
     {
       "text": "You can admire a finished project and still allow your own work to look like a project in progress.",
       "fingerprint": "8812fb282930b760047d054a319445ae6d4cc56a5f70f6a96f58f737c001a508",
       "source": "ai",
-      "slot": 166231,
+      "slot": 498693,
       "at": "2026-11-21T21:00:00.000Z"
     },
     {
       "text": "When you notice envy, you can ask what it reveals about an interest you have not given much room.",
       "fingerprint": "e219c4994db8045100646e5c6751b4a76a4c81e3f728b1be3fecf5a2d5049e02",
       "source": "ai",
-      "slot": 166232,
+      "slot": 498697,
       "at": "2026-11-22T01:20:02.052Z"
     },
     {
       "text": "When you enter a new group, listening carefully is already a way of taking part.",
       "fingerprint": "9f0dffe7f27604678320ff4fdf69dc4d775de028bdb3be9852012065a401f4ca",
       "source": "ai",
-      "slot": 166233,
+      "slot": 498699,
       "at": "2026-11-22T03:00:00.000Z"
     },
     {
       "text": "Work can have value before it is polished enough to display. The early version is where you discover what it needs.",
       "fingerprint": "abaef283e1232d7c6a73c5e15e7d245ba9d6270d020abb3a627d0585a1aab412",
       "source": "ai",
-      "slot": 166234,
+      "slot": 498702,
       "at": "2026-11-22T06:00:00.000Z"
     },
     {
       "text": "The things you choose to maintain can express your values as clearly as the things you choose to start.",
       "fingerprint": "1a9f59d7b4a98015302642b14bae83ecbb4c8aaeaf542279ed7c75cb05afd9a6",
       "source": "ai",
-      "slot": 166235,
+      "slot": 498707,
       "at": "2026-11-22T11:26:02.909Z"
     },
     {
       "text": "Before making a task larger, ask whether the smaller version would serve the person it is meant to help.",
       "fingerprint": "96cac0127b871d8fe585177078b702908b495421568721b2d436f45fc13cdef6",
       "source": "ai",
-      "slot": 166236,
+      "slot": 498708,
       "at": "2026-11-22T12:00:00.000Z"
     },
     {
       "text": "You can make your expectations clearer without making your voice harsher.",
       "fingerprint": "25cf5f2583abfdad1be936881a9e8ebe71e17b1e99f67acca4080dd232e65718",
       "source": "ai",
-      "slot": 166237,
+      "slot": 498711,
       "at": "2026-11-22T15:00:00.000Z"
     },
     {
       "text": "Write down something you would like to understand by evening. A day of learning can have a small, clear shape.",
       "fingerprint": "1a3089f8b4db16f226ffab59ba982801819f13fae2799b90e457f5a8d20f101e",
       "source": "ai",
-      "slot": 166238,
+      "slot": 498715,
       "at": "2026-11-22T19:41:11.695Z"
     },
     {
       "text": "Being new to a task can make you attentive to details that an experienced person no longer sees.",
       "fingerprint": "8f6abd9b1b31bd1a9b18e237eb2f7dd9dfac696aac1568e1411f613838eab555",
       "source": "ai",
-      "slot": 166239,
+      "slot": 498717,
       "at": "2026-11-22T21:00:00.000Z"
     },
     {
       "text": "You can remember who helped you learn without assuming you must now have every answer for someone else.",
       "fingerprint": "fec1bf9908f517163aead03fd77fcfb1da5b8c30aa9d01fe5c24431fde17ee7f",
       "source": "ai",
-      "slot": 166240,
+      "slot": 498721,
       "at": "2026-11-23T01:43:37.200Z"
     },
     {
       "text": "Sometimes the kindest part of working together is making the handoff clear.",
       "fingerprint": "bd3eb20fb888a90b49ec3301e3e9ffcca0f4e865691b0e1b5d8ef9905b9a20e6",
       "source": "ai",
-      "slot": 166241,
+      "slot": 498723,
       "at": "2026-11-23T03:00:00.000Z"
     },
     {
       "text": "You are not required to turn a private interest into a public identity before giving it your time.",
       "fingerprint": "89c4b06a6ad54f408b7a91d0a25f95fadce9d7ff25c663c7dc43cdd4f734528f",
       "source": "ai",
-      "slot": 166242,
+      "slot": 498726,
       "at": "2026-11-23T06:07:23.814Z"
     },
     {
       "text": "A familiar place, a simple tool, and a little uninterrupted time may be enough for today's practice.",
       "fingerprint": "a6d1389cb189c562fafbd4ff0cb1d2efce3e8914b2655237245249209016b4f4",
       "source": "ai",
-      "slot": 166243,
+      "slot": 498729,
       "at": "2026-11-23T09:00:00.000Z"
     },
     {
       "text": "Even a brief meeting can be worthwhile when people leave knowing what they agreed to do.",
       "fingerprint": "e3b6fc755a9f81a06128b70dc4c244e9c027415542b96097085166e4babff78e",
       "source": "ai",
-      "slot": 166244,
+      "slot": 498732,
       "at": "2026-11-23T12:42:32.762Z"
     },
     {
       "text": "The measure of a learning day can include discovering a better source, a clearer example, or a person you can ask.",
       "fingerprint": "3b2ffc686b58ef56465b23cd984d08e2b468b05573365a8f0e84523816d0d839",
       "source": "ai",
-      "slot": 166245,
+      "slot": 498735,
       "at": "2026-11-23T15:00:00.000Z"
     },
     {
       "text": "A slow conversation can leave room for an idea that would disappear in a quick exchange of conclusions.",
       "fingerprint": "780972fb360130a4dcd242f3db66145a065cb98889b63031f2c7b84a2f3e9396",
       "source": "ai",
-      "slot": 166246,
+      "slot": 498738,
       "at": "2026-11-23T18:00:00.000Z"
     },
     {
       "text": "Leave yourself a record of the decision, not just the result. The reason may be what helps you later.",
       "fingerprint": "0f432870ab5ba6a13d6feefb7ffbc10709a0cbd21ffbf3aed6465a6a68313e0c",
       "source": "ai",
-      "slot": 166247,
+      "slot": 498741,
       "at": "2026-11-23T21:00:00.000Z"
     },
     {
       "text": "An empty space on the calendar need not be a mistake waiting for another commitment.",
       "fingerprint": "b2b4970229027db98547a492d842fcdf557b912e359c0ed224225dc601bb2d16",
       "source": "ai",
-      "slot": 166248,
+      "slot": 498746,
       "at": "2026-11-24T02:12:56.741Z"
     },
     {
       "text": "You can let yesterday remain unfinished for a moment while deciding what deserves your attention this morning.",
       "fingerprint": "a527fa44fc513d662328fd20e3d7fb93e91a6671a9fe56014e6761a8d39cf874",
       "source": "ai",
-      "slot": 166249,
+      "slot": 498747,
       "at": "2026-11-24T03:00:00.000Z"
     },
     {
       "text": "Let your examples become simpler when your explanation becomes harder to follow.",
       "fingerprint": "28118c9783caaddab754f0aa853fff758ebcfd74525861717e4bddcc1ce8e34e",
       "source": "ai",
-      "slot": 166250,
+      "slot": 498750,
       "at": "2026-11-24T06:00:00.000Z"
     },
     {
       "text": "Some days a worthwhile contribution is making the confusing part easier for another person to approach.",
       "fingerprint": "2f97e730e52b384b695a31d94699e332406c6064ac0bcb01448f4140882dd8da",
       "source": "ai",
-      "slot": 166251,
+      "slot": 498753,
       "at": "2026-11-24T09:00:00.000Z"
     },
     {
       "text": "A goal that once excited you can be examined with honesty, rather than carried forever out of habit.",
       "fingerprint": "eed87b3a81c9670621155daeab1d3074f47fb3b59464174215441101983b69ef",
       "source": "ai",
-      "slot": 166252,
+      "slot": 498757,
       "at": "2026-11-24T13:43:56.572Z"
     },
     {
       "text": "There is a difference between leaving a task for later and deciding when you will look at it again.",
       "fingerprint": "1e04b90ef815306c290d67bb2cc63ad0cae1bc992afdccd8b8d5a2c96ab2e049",
       "source": "ai",
-      "slot": 166253,
+      "slot": 498759,
       "at": "2026-11-24T15:00:00.000Z"
     },
     {
       "text": "A promising idea deserves questions that help it grow, not only praise that leaves it unchanged.",
       "fingerprint": "e37db986ec0a68faf33f2214497220d59235baca24daf603ca521688bfad5598",
       "source": "ai",
-      "slot": 166254,
+      "slot": 498762,
       "at": "2026-11-24T18:00:00.000Z"
     },
     {
       "text": "You can appreciate advice without accepting every part of it as an instruction for your own life.",
       "fingerprint": "ea7af4df383f7c8acb07b07d9eedcd872afb1cee7ff989c0778fa2988ac31544",
       "source": "ai",
-      "slot": 166255,
+      "slot": 498767,
       "at": "2026-11-24T23:53:56.703Z"
     },
     {
       "text": "A good use of experience is knowing when an old solution needs a fresh look.",
       "fingerprint": "0abab3acaad4e5db37ca0fcdf089c0171f48bfda31b70962fcd1b72f71f40409",
       "source": "ai",
-      "slot": 166256,
+      "slot": 498768,
       "at": "2026-11-25T00:00:00.000Z"
     },
     {
       "text": "A generous teacher leaves room for the learner to discover something in a different way.",
       "fingerprint": "f536fdffbaa7abd5258895ea51375fe5374ef09cfb76d8f9b33d6339cfa878cd",
       "source": "ai",
-      "slot": 166257,
+      "slot": 498771,
       "at": "2026-11-25T03:00:00.000Z"
     },
     {
       "text": "You can take a concern seriously while waiting for enough information to decide what it asks of you.",
       "fingerprint": "7152a827edd86dca7b9b6cf1edae902d5841a4f495f05f7c1a50dfc73dcb759a",
       "source": "ai",
-      "slot": 166258,
+      "slot": 498776,
       "at": "2026-11-25T08:35:11.032Z"
+    },
+    {
+      "text": "There is room to celebrate a shared result without sorting everyone into a ranking of who mattered most.",
+      "fingerprint": "ec32ce23245cd32ca131fe4e9de0bf485ef00775eae406fc2cdc8aba85a5e70e",
+      "source": "ai",
+      "slot": 498777,
+      "at": "2026-11-25T09:00:00.000Z"
+    },
+    {
+      "text": "If you keep guessing at the same problem, name the missing fact that would make the next attempt more informed.",
+      "fingerprint": "38cbb13093e32602133c9ba11e84ac6d0e0f9149b46d1525fd669df3fb473de6",
+      "source": "ai",
+      "slot": 498778,
+      "at": "2026-11-25T10:50:10.962Z"
     }
   ],
   "used": [
@@ -1617,6 +1622,14 @@
     {
       "fingerprint": "7152a827edd86dca7b9b6cf1edae902d5841a4f495f05f7c1a50dfc73dcb759a",
       "at": "2026-11-25T08:35:11.032Z"
+    },
+    {
+      "fingerprint": "ec32ce23245cd32ca131fe4e9de0bf485ef00775eae406fc2cdc8aba85a5e70e",
+      "at": "2026-11-25T09:00:00.000Z"
+    },
+    {
+      "fingerprint": "38cbb13093e32602133c9ba11e84ac6d0e0f9149b46d1525fd669df3fb473de6",
+      "at": "2026-11-25T10:50:10.962Z"
     }
   ]
 }
