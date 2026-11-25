@@ -11,11 +11,17 @@ The Node endpoint reads the bounded snapshot on GitHub main and renders the curr
 
 Vercel generates the SVG on demand; image files do not accumulate. Quote-only commits skip full builds while the endpoint reads the latest data. Git retains previous commits, including previous README alternatives and old snapshot contents; deleting current data does not erase Git history. The seven-day policy applies to displayed quote text in the current snapshot, not unused quotes or the permanent fallback collection.
 
-## AI writer and fallback
+## AI writer, dual refill, and fallback
 
 The GitHub Actions workflow `Publish a fresh reflection` runs every hour in GitHub's cloud (even when your PC is off), updating `README.md` and `assets/quote-state.json` using the owner's previously verified GitHub-associated author email with `github-actions[bot]` as committer. Commit messages explicitly identify automation (`chore: publish an automated hourly reflection`). GitHub can take time to update contribution counts and its image proxy can delay the visible card.
 
-Fresh AI-written batches (up to 336 pending quotes, e.g. 168 for a week) can be imported on demand in Antigravity using `scripts/submit-quote-batch.mjs` without any paid API key. Whenever the AI queue empties, the 4,704-entry reserve continues rotating hourly for over six calendar months with zero repeats. Disable any local Codex refill automation before using on-demand refills so two writers never run concurrently.
+Queue refills follow a three-tier design with zero conflicts:
+
+1. **Antigravity on-demand refills (primary when active)**: Whenever you are working in Antigravity, you can top up `assets/quote-state.json` (up to 336 pending quotes = 14 days) via `scripts/submit-quote-batch.mjs`. Keeping at least 120 future quotes in the queue keeps the cloud Gemini job idle and avoids using Gemini API quota.
+2. **Cloud Gemini fallback (`Refill AI inspiration queue (Gemini fallback)`)**: Runs daily in GitHub Actions (~06:17 Africa/Kampala, plus manual trigger), sharing the `motivation-publication` concurrency group with the hourly publisher. Only when fewer than **120 future quotes** (< 5 days) remain does it call the Gemini API (via repository secret `GEMINI_API_KEY` and optional variable `GEMINI_MODEL`, default `gemini-2.5-flash`) to generate up to **216 original reflections** (filling toward 336 / 14 days so Gemini only runs ~once every 9 days), strictly validate and deduplicate them against the 6-month history and reserve, randomly shuffle them via `importBatch()`, verify `tests/quotes.test.mjs`, and push `assets/quote-state.json`. If `GEMINI_API_KEY` is absent, it logs a warning and exits cleanly.
+3. **Built-in 4,704-entry reserve**: Whenever the AI queue is empty, the deterministic reserve rotates hourly for 196 days (> 6 calendar months) with zero repeats.
+
+A separate workflow (`Six-month inspiration system review`) opens a review checklist Issue on 31 May and 30 November (09:00 Africa/Kampala), replacing local Codex review schedules. Disable any legacy local Codex refill/review automations on your PC so two writers never compete.
 
 ## Maintenance
 

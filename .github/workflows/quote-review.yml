@@ -1,0 +1,61 @@
+name: Six-month inspiration system review
+on:
+  schedule:
+    - cron: '0 6 31 5 *'  # 31 May at 09:00 Africa/Kampala
+    - cron: '0 6 30 11 *' # 30 Nov at 09:00 Africa/Kampala
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  open-review-issue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Create semi-annual review checklist issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SUMMARY=$(node -e "
+            import { readFileSync } from 'node:fs';
+            import { reserve } from './quotes/engine.mjs';
+            import { countFuturePending } from './scripts/refill-quotes-gemini.mjs';
+            const s = JSON.parse(readFileSync('assets/quote-state.json', 'utf8'));
+            const future = countFuturePending(s);
+            console.log(JSON.stringify({
+              future,
+              pending: s.pending.length,
+              recent: s.recent.length,
+              used: s.used.length,
+              reserve: reserve.length,
+              lastRefillAt: s.lastRefillAt,
+              updatedAt: s.updatedAt,
+            }));
+          ")
+          TITLE="Six-month review: Inspiration quote system ($(date -u +%Y-%m))"
+          EXISTING=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number --jq 'length')
+          if [ "$EXISTING" -gt 0 ]; then
+            echo "Review issue already open: $TITLE"
+            exit 0
+          fi
+          gh issue create --title "$TITLE" --body "$(cat <<EOF
+          Scheduled six-month health review for the hourly inspiration quote system (replaces local Codex review automation).
+
+          ### Current snapshot metrics
+          \`\`\`json
+          $SUMMARY
+          \`\`\`
+
+          ### Review checklist
+          - [ ] Inspect recent AI-written quotes in \`assets/quote-state.json\` for tone, originality, and theme variety.
+          - [ ] Verify dual-refill operation (Antigravity on-demand + \`Refill AI inspiration queue (Gemini fallback)\` workflow / \`GEMINI_API_KEY\` quota & model version).
+          - [ ] Confirm \`Publish a fresh reflection\` hourly runs and \`/api/quote\` Vercel endpoint health.
+          - [ ] Verify \`assets/quote-state.json\` stays well within the 1 MB ceiling and six-month duplicate history (\`MAX_USED = 4600\`).
+          - [ ] Review the 4,704-entry reserve bank (\`quotes/reserve.mjs\`) before making any order/content refreshes.
+          - [ ] Review pinned GitHub Actions versions (Node 24 runner compatibility).
+          EOF
+          )"
