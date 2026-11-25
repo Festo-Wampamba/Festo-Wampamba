@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-25T10:50:10.962Z",
+  "updatedAt": "2026-11-25T11:02:09.838Z",
   "lastRefillAt": "2026-11-23T06:07:23.814Z",
   "current": {
-    "text": "If you keep guessing at the same problem, name the missing fact that would make the next attempt more informed.",
-    "fingerprint": "38cbb13093e32602133c9ba11e84ac6d0e0f9149b46d1525fd669df3fb473de6",
+    "text": "Consider whether the rule you made during a busy season still belongs in the life you have now.",
+    "fingerprint": "9903ace8660c3a6a02d8b4cf53c524b6cdc84593ee68916638f34d8d9ea685bf",
     "source": "ai",
-    "slot": 498778,
-    "at": "2026-11-25T10:50:10.962Z"
+    "slot": 498779,
+    "at": "2026-11-25T11:02:09.838Z"
   },
   "pending": [
-    {
-      "text": "Consider whether the rule you made during a busy season still belongs in the life you have now.",
-      "fingerprint": "9903ace8660c3a6a02d8b4cf53c524b6cdc84593ee68916638f34d8d9ea685bf",
-      "source": "ai"
-    },
     {
       "text": "There is value in recognizing when a task needs company, when it needs quiet, and when it needs a clearer limit.",
       "fingerprint": "8d36a55984c1154f51c4a53c9cb46890d671a4835768e3c21764baaf5d043776",
@@ -828,6 +823,13 @@
       "source": "ai",
       "slot": 498778,
       "at": "2026-11-25T10:50:10.962Z"
+    },
+    {
+      "text": "Consider whether the rule you made during a busy season still belongs in the life you have now.",
+      "fingerprint": "9903ace8660c3a6a02d8b4cf53c524b6cdc84593ee68916638f34d8d9ea685bf",
+      "source": "ai",
+      "slot": 498779,
+      "at": "2026-11-25T11:02:09.838Z"
     }
   ],
   "used": [
@@ -1630,6 +1632,10 @@
     {
       "fingerprint": "38cbb13093e32602133c9ba11e84ac6d0e0f9149b46d1525fd669df3fb473de6",
       "at": "2026-11-25T10:50:10.962Z"
+    },
+    {
+      "fingerprint": "9903ace8660c3a6a02d8b4cf53c524b6cdc84593ee68916638f34d8d9ea685bf",
+      "at": "2026-11-25T11:02:09.838Z"
     }
   ]
 }
