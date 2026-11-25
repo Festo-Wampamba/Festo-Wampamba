@@ -3,6 +3,12 @@ on:
   schedule:
     - cron: '17 3 * * *' # Daily check around 06:17 Africa/Kampala; only calls Gemini when < 120 future quotes remain.
   workflow_dispatch:
+    inputs:
+      verify_api:
+        description: 'Verify GEMINI_API_KEY and model connectivity without modifying the queue'
+        required: false
+        type: boolean
+        default: false
   pull_request:
     paths:
       - 'scripts/refill-quotes-gemini.mjs'
@@ -41,11 +47,17 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '24'
+      - name: Verify Gemini API connectivity (when requested)
+        if: ${{ inputs.verify_api == true }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-4-hydrogen' }}
+        run: node scripts/refill-quotes-gemini.mjs --verify-key
       - name: Refill AI quote queue via Gemini when runway is low
         env:
           GH_TOKEN: ${{ github.token }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-4-hydrogen' }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

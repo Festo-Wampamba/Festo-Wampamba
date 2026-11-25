@@ -15,7 +15,9 @@ import {
 export const MIN_FUTURE_PENDING = 120; // 5 days at 24 hourly slots/day
 export const TARGET_BATCH = 216; // Tops up toward MAX_PENDING (336 = 14 days) so Gemini runs ~once every 9 days
 export const CHUNK_SIZE = 56;
-export const DEFAULT_MODEL = 'gemini-2.5-flash';
+export const DEFAULT_MODEL = 'gemini-4-hydrogen';
+export const INTERACTIONS_URL = 'https://generativelanguage.googleapis.com/v1/interactions';
+export const API_REVISION = '2026-05-20';
 const TRANSIENT_STATUS = new Set([408, 429, 500, 502, 503, 504]);
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -88,40 +90,34 @@ export function buildPrompt({ count, avoidExamples = [], chunkIndex = 0 }) {
   ].join('\n');
 }
 
-export async function requestGeminiQuotes({
-  apiKey,
-  model = DEFAULT_MODEL,
-  count = CHUNK_SIZE,
-  avoidExamples = [],
-  chunkIndex = 0,
-  fetcher = fetch,
-  timeoutMs = 45000,
-  retryDelaysMs = [5000, 15000],
-}) {
-  if (!apiKey) throw new Error('Missing Gemini API key.');
-  const safeModel = String(model || DEFAULT_MODEL).replace(/^models\//, '');
-  if (!/^[a-zA-Z0-9._-]+$/.test(safeModel)) throw new Error('Invalid Gemini model identifier.');
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(safeModel)}:generateContent`;
-  const requestBody = JSON.stringify({
-    contents: [{ role: 'user', parts: [{ text: buildPrompt({ count, avoidExamples, chunkIndex }) }] }],
-    generationConfig: {
-      temperature: 1.0,
-      responseMimeType: 'application/json',
-      responseSchema: {
-        type: 'ARRAY',
-        items: { type: 'STRING' },
-      },
-    },
-  });
+export function extractInteractionText(payload) {
+  const steps = Array.isArray(payload?.steps) ? payload.steps : [];
+  const chunks = [];
+  for (let index = steps.length - 1; index >= 0; index--) {
+    const step = steps[index];
+    if (step?.type !== 'model_output') {
+      if (chunks.length > 0) break;
+      continue;
+    }
+    const parts = Array.isArray(step.content) ? step.content : [];
+    const stepText = parts.filter(part => part?.type === 'text' && typeof part.text === 'string').map(part => part.text).join('');
+    if (stepText) chunks.unshift(stepText);
+  }
+  return chunks.join('').trim();
+}
 
+async function postInteraction({ apiKey, body, fetcher = fetch, timeoutMs = 45000, retryDelaysMs = [5000, 15000] }) {
+  if (!apiKey) throw new Error('Missing Gemini API key.');
+  const requestBody = JSON.stringify(body);
   let response;
   for (let attempt = 0; attempt <= retryDelaysMs.length; attempt++) {
     try {
-      response = await fetcher(url, {
+      response = await fetcher(INTERACTIONS_URL, {
         method: 'POST',
         signal: AbortSignal.timeout(timeoutMs),
         headers: {
           'Content-Type': 'application/json',
+          'Api-Revision': API_REVISION,
           'x-goog-api-key': apiKey,
         },
         body: requestBody,
@@ -137,9 +133,68 @@ export async function requestGeminiQuotes({
     }
     await sleep(retryDelaysMs[attempt]);
   }
+  return response.json();
+}
 
-  const payload = await response.json();
-  const rawText = payload?.candidates?.[0]?.content?.parts?.map(part => part.text ?? '').join('').trim();
+export async function verifyGeminiConnection({
+  apiKey,
+  model = DEFAULT_MODEL,
+  fetcher = fetch,
+  timeoutMs = 30000,
+  retryDelaysMs = [5000],
+}) {
+  const safeModel = String(model || DEFAULT_MODEL).replace(/^models\//, '');
+  if (!/^[a-zA-Z0-9._-]+$/.test(safeModel)) throw new Error('Invalid Gemini model identifier.');
+  const payload = await postInteraction({
+    apiKey,
+    fetcher,
+    timeoutMs,
+    retryDelaysMs,
+    body: {
+      model: safeModel,
+      input: 'Reply with OK.',
+      store: false,
+      generation_config: { thinking_level: 'low' },
+    },
+  });
+  const text = extractInteractionText(payload);
+  if (!text) throw new Error('Gemini API verification returned an empty response.');
+  return { model: safeModel, text };
+}
+
+export async function requestGeminiQuotes({
+  apiKey,
+  model = DEFAULT_MODEL,
+  count = CHUNK_SIZE,
+  avoidExamples = [],
+  chunkIndex = 0,
+  fetcher = fetch,
+  timeoutMs = 60000,
+  retryDelaysMs = [5000, 15000],
+}) {
+  const safeModel = String(model || DEFAULT_MODEL).replace(/^models\//, '');
+  if (!/^[a-zA-Z0-9._-]+$/.test(safeModel)) throw new Error('Invalid Gemini model identifier.');
+  const payload = await postInteraction({
+    apiKey,
+    fetcher,
+    timeoutMs,
+    retryDelaysMs,
+    body: {
+      model: safeModel,
+      input: buildPrompt({ count, avoidExamples, chunkIndex }),
+      store: false,
+      generation_config: { thinking_level: 'low' },
+      response_format: {
+        type: 'text',
+        mime_type: 'application/json',
+        schema: {
+          type: 'array',
+          items: { type: 'string' },
+        },
+      },
+    },
+  });
+  const rawText = extractInteractionText(payload);
   if (!rawText) throw new Error('Gemini API returned an empty response.');
   let parsed;
   try {
@@ -224,14 +279,20 @@ export async function refillWithGemini({
 
 async function main() {
   const allowMissingKey = process.argv.includes('--allow-missing-key');
+  const verifyKey = process.argv.includes('--verify-key');
+  const apiKey = process.env.GEMINI_API_KEY?.trim();
+  const model = process.env.GEMINI_MODEL?.trim() || DEFAULT_MODEL;
+
+  if (verifyKey) {
+    const check = await verifyGeminiConnection({ apiKey, model });
+    console.log(`Gemini API verified with model ${check.model}.`);
+    return;
+  }
+
   const root = new URL('../', import.meta.url);
   const statePath = new URL('assets/quote-state.json', root);
   const state = JSON.parse(await readFile(statePath, 'utf8'));
-  const result = await refillWithGemini({
-    state,
-    apiKey: process.env.GEMINI_API_KEY?.trim(),
-    model: process.env.GEMINI_MODEL?.trim() || DEFAULT_MODEL,
-  });
+  const result = await refillWithGemini({ state, apiKey, model });
 
   if (result.skipped) {
     if (result.reason === 'missing_key') {
