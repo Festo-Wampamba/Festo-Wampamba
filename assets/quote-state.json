@@ -1,56 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-25T12:57:02.103Z",
+  "updatedAt": "2026-11-25T20:30:41.871Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "There is value in recognizing when a task needs company, when it needs quiet, and when it needs a clearer limit.",
-    "fingerprint": "8d36a55984c1154f51c4a53c9cb46890d671a4835768e3c21764baaf5d043776",
+    "text": "An attempt that reveals the wrong question gives you a chance to ask a more useful one.",
+    "fingerprint": "b047cde3c5c7fcba4418e1c30010c993b88ada48fb7c578af82adc7cceb210ae",
     "source": "ai",
-    "slot": 498780,
-    "at": "2026-11-25T12:57:02.103Z"
+    "slot": 498788,
+    "at": "2026-11-25T20:30:41.871Z"
   },
   "pending": [
-    {
-      "text": "You can notice a gap in your knowledge without filling the silence with a guess.",
-      "fingerprint": "e7766f5451b1699ab25e5474215220ad0fd21c42e78331c134ac6ab335ea861a",
-      "source": "ai"
-    },
-    {
-      "text": "You can step away from an activity you love without needing to explain the pause as a loss of purpose.",
-      "fingerprint": "a2980e79055ea1c4b3b77fea8dbdfd6aa8d7449526a4662cf1f9bdb55608e877",
-      "source": "ai"
-    },
-    {
-      "text": "Your attention is allowed to settle on one thing without proving that everything else is unimportant.",
-      "fingerprint": "67d6e1a5a1eda851aa11c1d956e3239ba5724a52a3ed1f98687f86c67e5bdd78",
-      "source": "ai"
-    },
-    {
-      "text": "A small act of repair can be meaningful even when it does not undo the whole difficulty.",
-      "fingerprint": "b1c4ba09d533f7ce38599fbf56d69977475a09316cb6cd9d0ac3ae7f6b39d1de",
-      "source": "ai"
-    },
-    {
-      "text": "Let enjoyment have a place in your plans that does not depend on finishing the entire list first.",
-      "fingerprint": "84f44ea3df0d536b7904cad6f0e55e308923c10f745da2e08fbccfe0ee1919e0",
-      "source": "ai"
-    },
-    {
-      "text": "You may find a clearer direction by describing the kind of workday you want, not only the result you want to announce.",
-      "fingerprint": "7655eab43aa8d0335f0ac120fcd005fa05385a57687fcf98a73041a53b13f2ce",
-      "source": "ai"
-    },
-    {
-      "text": "The next conversation may be easier to enter if you bring a question instead of a finished defense.",
-      "fingerprint": "d595c56da92e8723c8a0888919c3c9d6efcf11e23af8271e14dba29758a8a2b1",
-      "source": "ai"
-    },
-    {
-      "text": "An attempt that reveals the wrong question gives you a chance to ask a more useful one.",
-      "fingerprint": "b047cde3c5c7fcba4418e1c30010c993b88ada48fb7c578af82adc7cceb210ae",
-      "source": "ai"
-    },
     {
       "text": "The effort to repair a misunderstanding can matter as much as the confidence of the first explanation.",
       "fingerprint": "68268deba363d041409d2dc47a85fe0bfe8e743e65b96ed33d0c33c6d3ece7b4",
@@ -1674,13 +1634,6 @@
   ],
   "recent": [
     {
-      "text": "When the room feels rushed, one calm question about what matters most may be a useful contribution.",
-      "fingerprint": "13042edd677047f015f6cc52222808002a2c6de40e7328ac97c356205afa5024",
-      "source": "ai",
-      "slot": 498615,
-      "at": "2026-11-18T15:00:00.000Z"
-    },
-    {
       "text": "Repetition can teach you to hear differences that were invisible when everything was new.",
       "fingerprint": "82ac3c5439e1ebf71d3076659cf2843bc97ee87c255f0c9ab5200b815e62ba6f",
       "source": "ai",
@@ -2078,6 +2031,62 @@
       "source": "ai",
       "slot": 498780,
       "at": "2026-11-25T12:57:02.103Z"
+    },
+    {
+      "text": "You can notice a gap in your knowledge without filling the silence with a guess.",
+      "fingerprint": "e7766f5451b1699ab25e5474215220ad0fd21c42e78331c134ac6ab335ea861a",
+      "source": "ai",
+      "slot": 498781,
+      "at": "2026-11-25T13:00:00.000Z"
+    },
+    {
+      "text": "You can step away from an activity you love without needing to explain the pause as a loss of purpose.",
+      "fingerprint": "a2980e79055ea1c4b3b77fea8dbdfd6aa8d7449526a4662cf1f9bdb55608e877",
+      "source": "ai",
+      "slot": 498782,
+      "at": "2026-11-25T14:00:00.000Z"
+    },
+    {
+      "text": "Your attention is allowed to settle on one thing without proving that everything else is unimportant.",
+      "fingerprint": "67d6e1a5a1eda851aa11c1d956e3239ba5724a52a3ed1f98687f86c67e5bdd78",
+      "source": "ai",
+      "slot": 498783,
+      "at": "2026-11-25T15:00:00.000Z"
+    },
+    {
+      "text": "A small act of repair can be meaningful even when it does not undo the whole difficulty.",
+      "fingerprint": "b1c4ba09d533f7ce38599fbf56d69977475a09316cb6cd9d0ac3ae7f6b39d1de",
+      "source": "ai",
+      "slot": 498784,
+      "at": "2026-11-25T16:00:00.000Z"
+    },
+    {
+      "text": "Let enjoyment have a place in your plans that does not depend on finishing the entire list first.",
+      "fingerprint": "84f44ea3df0d536b7904cad6f0e55e308923c10f745da2e08fbccfe0ee1919e0",
+      "source": "ai",
+      "slot": 498785,
+      "at": "2026-11-25T17:00:00.000Z"
+    },
+    {
+      "text": "You may find a clearer direction by describing the kind of workday you want, not only the result you want to announce.",
+      "fingerprint": "7655eab43aa8d0335f0ac120fcd005fa05385a57687fcf98a73041a53b13f2ce",
+      "source": "ai",
+      "slot": 498786,
+      "at": "2026-11-25T18:00:00.000Z"
+    },
+    {
+      "text": "The next conversation may be easier to enter if you bring a question instead of a finished defense.",
+      "fingerprint": "d595c56da92e8723c8a0888919c3c9d6efcf11e23af8271e14dba29758a8a2b1",
+      "source": "ai",
+      "slot": 498787,
+      "at": "2026-11-25T19:00:00.000Z"
+    },
+    {
+      "text": "An attempt that reveals the wrong question gives you a chance to ask a more useful one.",
+      "fingerprint": "b047cde3c5c7fcba4418e1c30010c993b88ada48fb7c578af82adc7cceb210ae",
+      "source": "ai",
+      "slot": 498788,
+      "at": "2026-11-25T20:30:41.871Z"
     }
   ],
   "used": [
@@ -2888,6 +2897,38 @@
     {
       "fingerprint": "8d36a55984c1154f51c4a53c9cb46890d671a4835768e3c21764baaf5d043776",
       "at": "2026-11-25T12:57:02.103Z"
+    },
+    {
+      "fingerprint": "e7766f5451b1699ab25e5474215220ad0fd21c42e78331c134ac6ab335ea861a",
+      "at": "2026-11-25T13:00:00.000Z"
+    },
+    {
+      "fingerprint": "a2980e79055ea1c4b3b77fea8dbdfd6aa8d7449526a4662cf1f9bdb55608e877",
+      "at": "2026-11-25T14:00:00.000Z"
+    },
+    {
+      "fingerprint": "67d6e1a5a1eda851aa11c1d956e3239ba5724a52a3ed1f98687f86c67e5bdd78",
+      "at": "2026-11-25T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "b1c4ba09d533f7ce38599fbf56d69977475a09316cb6cd9d0ac3ae7f6b39d1de",
+      "at": "2026-11-25T16:00:00.000Z"
+    },
+    {
+      "fingerprint": "84f44ea3df0d536b7904cad6f0e55e308923c10f745da2e08fbccfe0ee1919e0",
+      "at": "2026-11-25T17:00:00.000Z"
+    },
+    {
+      "fingerprint": "7655eab43aa8d0335f0ac120fcd005fa05385a57687fcf98a73041a53b13f2ce",
+      "at": "2026-11-25T18:00:00.000Z"
+    },
+    {
+      "fingerprint": "d595c56da92e8723c8a0888919c3c9d6efcf11e23af8271e14dba29758a8a2b1",
+      "at": "2026-11-25T19:00:00.000Z"
+    },
+    {
+      "fingerprint": "b047cde3c5c7fcba4418e1c30010c993b88ada48fb7c578af82adc7cceb210ae",
+      "at": "2026-11-25T20:30:41.871Z"
     }
   ]
 }
