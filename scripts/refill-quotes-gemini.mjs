@@ -13,9 +13,11 @@ import {
 } from '../quotes/engine.mjs';
 
 export const MIN_FUTURE_PENDING = 120; // 5 days at 24 hourly slots/day
-export const TARGET_BATCH = 168; // 7 days at 24 hourly slots/day
+export const TARGET_BATCH = 216; // Tops up toward MAX_PENDING (336 = 14 days) so Gemini runs ~once every 9 days
 export const CHUNK_SIZE = 56;
 export const DEFAULT_MODEL = 'gemini-2.5-flash';
+const TRANSIENT_STATUS = new Set([408, 429, 500, 502, 503, 504]);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 const reserveFingerprints = new Set(reserve.map(quote => quote.fingerprint));
 const AUTHOR_ATTRIBUTION = /\s*(?:—|–|--|\s-\s)\s*[A-Z][A-Za-z.'-]+(?:\s+[A-Z][A-Za-z.'-]+){0,3}\s*$/;
@@ -94,33 +96,48 @@ export async function requestGeminiQuotes({
   chunkIndex = 0,
   fetcher = fetch,
   timeoutMs = 45000,
+  retryDelaysMs = [5000, 15000],
 }) {
   if (!apiKey) throw new Error('Missing Gemini API key.');
   const safeModel = String(model || DEFAULT_MODEL).replace(/^models\//, '');
   if (!/^[a-zA-Z0-9._-]+$/.test(safeModel)) throw new Error('Invalid Gemini model identifier.');
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(safeModel)}:generateContent`;
-  const response = await fetcher(url, {
-    method: 'POST',
-    signal: AbortSignal.timeout(timeoutMs),
-    headers: {
-      'Content-Type': 'application/json',
-      'x-goog-api-key': apiKey,
-    },
-    body: JSON.stringify({
-      contents: [{ role: 'user', parts: [{ text: buildPrompt({ count, avoidExamples, chunkIndex }) }] }],
-      generationConfig: {
-        temperature: 1.0,
-        responseMimeType: 'application/json',
-        responseSchema: {
-          type: 'ARRAY',
-          items: { type: 'STRING' },
-        },
+  const requestBody = JSON.stringify({
+    contents: [{ role: 'user', parts: [{ text: buildPrompt({ count, avoidExamples, chunkIndex }) }] }],
+    generationConfig: {
+      temperature: 1.0,
+      responseMimeType: 'application/json',
+      responseSchema: {
+        type: 'ARRAY',
+        items: { type: 'STRING' },
       },
-    }),
+    },
   });
-  if (!response.ok) {
-    throw new Error(`Gemini API request failed with HTTP ${response.status}.`);
+
+  let response;
+  for (let attempt = 0; attempt <= retryDelaysMs.length; attempt++) {
+    try {
+      response = await fetcher(url, {
+        method: 'POST',
+        signal: AbortSignal.timeout(timeoutMs),
+        headers: {
+          'Content-Type': 'application/json',
+          'x-goog-api-key': apiKey,
+        },
+        body: requestBody,
+      });
+      if (response.ok) break;
+      if (!TRANSIENT_STATUS.has(response.status) || attempt === retryDelaysMs.length) {
+        throw new Error(`Gemini API request failed with HTTP ${response.status}.`);
+      }
+    } catch (error) {
+      if (error.message?.startsWith('Gemini API request failed with HTTP ') || attempt === retryDelaysMs.length) {
+        throw new Error(error.message?.startsWith('Gemini API') ? error.message : 'Gemini API network request failed.');
+      }
+    }
+    await sleep(retryDelaysMs[attempt]);
   }
+
   const payload = await response.json();
   const rawText = payload?.candidates?.[0]?.content?.parts?.map(part => part.text ?? '').join('').trim();
   if (!rawText) throw new Error('Gemini API returned an empty response.');

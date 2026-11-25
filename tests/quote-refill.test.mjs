@@ -109,12 +109,32 @@ test('refillWithGemini sends key in header only, filters duplicates/reserve, shu
   assert.ok(calls >= 2);
 });
 
-test('requestGeminiQuotes never leaks the API key on HTTP errors', async () => {
+test('requestGeminiQuotes retries transient 429/503 errors and never leaks the API key', async () => {
   const secret = 'AIza-super-secret-value';
+  let attempts = 0;
+  const recovered = await requestGeminiQuotes({
+    apiKey: secret,
+    retryDelaysMs: [1, 1],
+    fetcher: async () => {
+      attempts++;
+      if (attempts === 1) return { ok: false, status: 503 };
+      return {
+        ok: true,
+        status: 200,
+        json: async () => ({
+          candidates: [{ content: { parts: [{ text: JSON.stringify(['Steady habits make difficult goals easier to approach every single week.']) }] } }],
+        }),
+      };
+    },
+  });
+  assert.equal(attempts, 2);
+  assert.equal(recovered.length, 1);
+
   await assert.rejects(
     () =>
       requestGeminiQuotes({
         apiKey: secret,
+        retryDelaysMs: [1],
         fetcher: async () => ({ ok: false, status: 429 }),
       }),
     error => {
