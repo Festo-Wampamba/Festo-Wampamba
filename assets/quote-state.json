@@ -1,51 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-26T14:00:00.850Z",
+  "updatedAt": "2026-11-26T21:39:46.176Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "Let the people who care about you know what kind of encouragement would actually be helpful.",
-    "fingerprint": "8a52ea6745ad9c1195a8299503e92a8dbefac2ef293bcf021079f56efd5923de",
+    "text": "Let the next attempt be curious about the details, rather than occupied with defending the last attempt.",
+    "fingerprint": "bbf27ef52fa0c20a295e85a9dcaac77bd95afa8ecbeb96c62f6a03e71e8b39e6",
     "source": "ai",
-    "slot": 498806,
-    "at": "2026-11-26T14:00:00.850Z"
+    "slot": 498813,
+    "at": "2026-11-26T21:39:46.176Z"
   },
   "pending": [
-    {
-      "text": "Notice the difference between a deadline the work requires and a hurry you have learned to carry.",
-      "fingerprint": "836d0cd402f6a7852295169eea46e22239a95c9095b9c1ef2733dbcaa9817514",
-      "source": "ai"
-    },
-    {
-      "text": "You can do useful work at the edge of your knowledge while staying clear about where that edge lies.",
-      "fingerprint": "e667db4d42d9e80076e80eb1418b487be4a23f9c0595947b2a8222b3ed393542",
-      "source": "ai"
-    },
-    {
-      "text": "Look for the assumption hidden in the phrase that is how it has to be.",
-      "fingerprint": "d76669db63dbb4db971104a270c6d03af12a6490a9285aec25a5974d4b699351",
-      "source": "ai"
-    },
-    {
-      "text": "You can leave space in a conversation for a thought that is still taking shape.",
-      "fingerprint": "358c98fe94fbabf52244f829f1e15e6ef430df77358c768fbf39e9c9155e4214",
-      "source": "ai"
-    },
-    {
-      "text": "An ordinary act of follow-through can make someone else's part of the work less uncertain.",
-      "fingerprint": "60ffedc9d460f0cd2182bf1d143c75f0c63d53d079db95018305bc08db763a23",
-      "source": "ai"
-    },
-    {
-      "text": "Some days curiosity begins with wondering why an ordinary thing has always been done that way.",
-      "fingerprint": "e5f99e86548a5503faa1f18e009e4267509645ff9e029ab3f67cdd41b41e55ba",
-      "source": "ai"
-    },
-    {
-      "text": "Let the next attempt be curious about the details, rather than occupied with defending the last attempt.",
-      "fingerprint": "bbf27ef52fa0c20a295e85a9dcaac77bd95afa8ecbeb96c62f6a03e71e8b39e6",
-      "source": "ai"
-    },
     {
       "text": "You can take pride in work that makes a common task feel a little less frustrating.",
       "fingerprint": "3448352209730fad80180aa03aea4025b4c14a0d1e285dda247a82d9510cccda",
@@ -1544,27 +1509,6 @@
   ],
   "recent": [
     {
-      "text": "Useful preparation can include deciding who to ask when you reach the part you do not understand.",
-      "fingerprint": "eba6fb7c4b032b4d4da6a59fdfed9a67a43f51e65e2aa8e44d349e2c82175d0d",
-      "source": "ai",
-      "slot": 498639,
-      "at": "2026-11-19T15:00:00.000Z"
-    },
-    {
-      "text": "Try noticing when a familiar task takes less effort than it once did. Growth sometimes becomes visible through ease.",
-      "fingerprint": "16c40566f012cf9d2caf2e2ce208980834cc972691dc6187f3b39544283691d0",
-      "source": "ai",
-      "slot": 498644,
-      "at": "2026-11-19T20:38:20.296Z"
-    },
-    {
-      "text": "Allow your plans to include the time it takes to finish, explain, and put things away.",
-      "fingerprint": "78ec4b719e9f433f59c0fa74a51d6b921fb1d2769e0e0b47d9d547b1dd18434d",
-      "source": "ai",
-      "slot": 498645,
-      "at": "2026-11-19T21:00:00.000Z"
-    },
-    {
       "text": "You can belong to a community while learning at a pace and in a manner that differ from its loudest members.",
       "fingerprint": "41619ae03b33dcb5003d2d0b6bbd71b4ccbbc6d18eae72ca597e5656e4d7ada5",
       "source": "ai",
@@ -2074,6 +2018,55 @@
       "source": "ai",
       "slot": 498806,
       "at": "2026-11-26T14:00:00.850Z"
+    },
+    {
+      "text": "Notice the difference between a deadline the work requires and a hurry you have learned to carry.",
+      "fingerprint": "836d0cd402f6a7852295169eea46e22239a95c9095b9c1ef2733dbcaa9817514",
+      "source": "ai",
+      "slot": 498807,
+      "at": "2026-11-26T15:00:00.000Z"
+    },
+    {
+      "text": "You can do useful work at the edge of your knowledge while staying clear about where that edge lies.",
+      "fingerprint": "e667db4d42d9e80076e80eb1418b487be4a23f9c0595947b2a8222b3ed393542",
+      "source": "ai",
+      "slot": 498808,
+      "at": "2026-11-26T16:00:00.000Z"
+    },
+    {
+      "text": "Look for the assumption hidden in the phrase that is how it has to be.",
+      "fingerprint": "d76669db63dbb4db971104a270c6d03af12a6490a9285aec25a5974d4b699351",
+      "source": "ai",
+      "slot": 498809,
+      "at": "2026-11-26T17:00:00.000Z"
+    },
+    {
+      "text": "You can leave space in a conversation for a thought that is still taking shape.",
+      "fingerprint": "358c98fe94fbabf52244f829f1e15e6ef430df77358c768fbf39e9c9155e4214",
+      "source": "ai",
+      "slot": 498810,
+      "at": "2026-11-26T18:00:00.000Z"
+    },
+    {
+      "text": "An ordinary act of follow-through can make someone else's part of the work less uncertain.",
+      "fingerprint": "60ffedc9d460f0cd2182bf1d143c75f0c63d53d079db95018305bc08db763a23",
+      "source": "ai",
+      "slot": 498811,
+      "at": "2026-11-26T19:00:00.000Z"
+    },
+    {
+      "text": "Some days curiosity begins with wondering why an ordinary thing has always been done that way.",
+      "fingerprint": "e5f99e86548a5503faa1f18e009e4267509645ff9e029ab3f67cdd41b41e55ba",
+      "source": "ai",
+      "slot": 498812,
+      "at": "2026-11-26T20:00:00.000Z"
+    },
+    {
+      "text": "Let the next attempt be curious about the details, rather than occupied with defending the last attempt.",
+      "fingerprint": "bbf27ef52fa0c20a295e85a9dcaac77bd95afa8ecbeb96c62f6a03e71e8b39e6",
+      "source": "ai",
+      "slot": 498813,
+      "at": "2026-11-26T21:39:46.176Z"
     }
   ],
   "used": [
@@ -2988,6 +2981,34 @@
     {
       "fingerprint": "8a52ea6745ad9c1195a8299503e92a8dbefac2ef293bcf021079f56efd5923de",
       "at": "2026-11-26T14:00:00.850Z"
+    },
+    {
+      "fingerprint": "836d0cd402f6a7852295169eea46e22239a95c9095b9c1ef2733dbcaa9817514",
+      "at": "2026-11-26T15:00:00.000Z"
+    },
+    {
+      "fingerprint": "e667db4d42d9e80076e80eb1418b487be4a23f9c0595947b2a8222b3ed393542",
+      "at": "2026-11-26T16:00:00.000Z"
+    },
+    {
+      "fingerprint": "d76669db63dbb4db971104a270c6d03af12a6490a9285aec25a5974d4b699351",
+      "at": "2026-11-26T17:00:00.000Z"
+    },
+    {
+      "fingerprint": "358c98fe94fbabf52244f829f1e15e6ef430df77358c768fbf39e9c9155e4214",
+      "at": "2026-11-26T18:00:00.000Z"
+    },
+    {
+      "fingerprint": "60ffedc9d460f0cd2182bf1d143c75f0c63d53d079db95018305bc08db763a23",
+      "at": "2026-11-26T19:00:00.000Z"
+    },
+    {
+      "fingerprint": "e5f99e86548a5503faa1f18e009e4267509645ff9e029ab3f67cdd41b41e55ba",
+      "at": "2026-11-26T20:00:00.000Z"
+    },
+    {
+      "fingerprint": "bbf27ef52fa0c20a295e85a9dcaac77bd95afa8ecbeb96c62f6a03e71e8b39e6",
+      "at": "2026-11-26T21:39:46.176Z"
     }
   ]
 }
