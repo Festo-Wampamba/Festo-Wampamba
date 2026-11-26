@@ -1,51 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-25T20:30:41.871Z",
+  "updatedAt": "2026-11-26T03:38:41.800Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "An attempt that reveals the wrong question gives you a chance to ask a more useful one.",
-    "fingerprint": "b047cde3c5c7fcba4418e1c30010c993b88ada48fb7c578af82adc7cceb210ae",
+    "text": "Getting a little further into a difficult subject is worth noticing, even if the subject remains difficult.",
+    "fingerprint": "f23c44f0e7896471efd4943536adb432ed522ec62b759181a5a62701b3a0b696",
     "source": "ai",
-    "slot": 498788,
-    "at": "2026-11-25T20:30:41.871Z"
+    "slot": 498795,
+    "at": "2026-11-26T03:38:41.800Z"
   },
   "pending": [
-    {
-      "text": "The effort to repair a misunderstanding can matter as much as the confidence of the first explanation.",
-      "fingerprint": "68268deba363d041409d2dc47a85fe0bfe8e743e65b96ed33d0c33c6d3ece7b4",
-      "source": "ai"
-    },
-    {
-      "text": "Good preparation includes leaving a way for someone to tell you that the plan is not working for them.",
-      "fingerprint": "0707a4e820a740db22a27f27e43bf886603916e8991a32669dbd94091f9103a3",
-      "source": "ai"
-    },
-    {
-      "text": "When the instructions are unclear, asking what a useful result would look like is part of beginning well.",
-      "fingerprint": "1411b24cc999fac3c1855ef2ad600aa0b185ae7c440b54af95849c75508ffad7",
-      "source": "ai"
-    },
-    {
-      "text": "After a busy stretch, take an honest look at what you want to keep doing and what you took on only to get through.",
-      "fingerprint": "b659045eb30ff39b8d4a75f08c5d622f376fe52f7e0c996c2a6ed4ee23911a12",
-      "source": "ai"
-    },
-    {
-      "text": "Keep a little room for being surprised by what you enjoy learning.",
-      "fingerprint": "27619b9c28f0fb8182a1d1d7aaa7941369a9720553ea4568eac8c16eb1519ff1",
-      "source": "ai"
-    },
-    {
-      "text": "A plan deserves room to meet the actual person who has to carry it out.",
-      "fingerprint": "6f055eacafbac0f3c76943aab1388e95924395c3818292a256054b0918e702d3",
-      "source": "ai"
-    },
-    {
-      "text": "Getting a little further into a difficult subject is worth noticing, even if the subject remains difficult.",
-      "fingerprint": "f23c44f0e7896471efd4943536adb432ed522ec62b759181a5a62701b3a0b696",
-      "source": "ai"
-    },
     {
       "text": "An honest account of a hard day can include the things you carried that were never written on the list.",
       "fingerprint": "16b21ec7fa89cec4b3e715ad2783afa2394eafb57ca2130aefa41d5704480606",
@@ -1634,34 +1599,6 @@
   ],
   "recent": [
     {
-      "text": "Repetition can teach you to hear differences that were invisible when everything was new.",
-      "fingerprint": "82ac3c5439e1ebf71d3076659cf2843bc97ee87c255f0c9ab5200b815e62ba6f",
-      "source": "ai",
-      "slot": 498620,
-      "at": "2026-11-18T20:32:06.986Z"
-    },
-    {
-      "text": "You are allowed to finish a conversation with something to think about instead of something to prove.",
-      "fingerprint": "df5e9ec59f1ecbba8e0a815f076249e41271e029bf2b5e0529d92ffc412e3f49",
-      "source": "ai",
-      "slot": 498621,
-      "at": "2026-11-18T21:00:00.000Z"
-    },
-    {
-      "text": "The decision to stop polishing can be part of doing the work well. Ask whether another change would help its purpose.",
-      "fingerprint": "9f19d4c18697b25cadffe7f6567421debbfc05a69d23f678e80d86f7818a5f68",
-      "source": "ai",
-      "slot": 498626,
-      "at": "2026-11-19T02:34:26.308Z"
-    },
-    {
-      "text": "Let a moment of doubt lead to a fair question rather than a harsh conclusion.",
-      "fingerprint": "f0bd24afb16b3684f2fff7095d283da0ffb48313ad68bb450b843b082ade12cc",
-      "source": "ai",
-      "slot": 498627,
-      "at": "2026-11-19T03:00:00.000Z"
-    },
-    {
       "text": "There is pleasure in making an ordinary thing easier to use. Notice when your care removes a little friction.",
       "fingerprint": "0055618d28c11131bf4c1786e4fb0f0a040354858a0c867cdff38cfffb0e172e",
       "source": "ai",
@@ -2087,6 +2024,55 @@
       "source": "ai",
       "slot": 498788,
       "at": "2026-11-25T20:30:41.871Z"
+    },
+    {
+      "text": "The effort to repair a misunderstanding can matter as much as the confidence of the first explanation.",
+      "fingerprint": "68268deba363d041409d2dc47a85fe0bfe8e743e65b96ed33d0c33c6d3ece7b4",
+      "source": "ai",
+      "slot": 498789,
+      "at": "2026-11-25T21:00:00.000Z"
+    },
+    {
+      "text": "Good preparation includes leaving a way for someone to tell you that the plan is not working for them.",
+      "fingerprint": "0707a4e820a740db22a27f27e43bf886603916e8991a32669dbd94091f9103a3",
+      "source": "ai",
+      "slot": 498790,
+      "at": "2026-11-25T22:00:00.000Z"
+    },
+    {
+      "text": "When the instructions are unclear, asking what a useful result would look like is part of beginning well.",
+      "fingerprint": "1411b24cc999fac3c1855ef2ad600aa0b185ae7c440b54af95849c75508ffad7",
+      "source": "ai",
+      "slot": 498791,
+      "at": "2026-11-25T23:00:00.000Z"
+    },
+    {
+      "text": "After a busy stretch, take an honest look at what you want to keep doing and what you took on only to get through.",
+      "fingerprint": "b659045eb30ff39b8d4a75f08c5d622f376fe52f7e0c996c2a6ed4ee23911a12",
+      "source": "ai",
+      "slot": 498792,
+      "at": "2026-11-26T00:00:00.000Z"
+    },
+    {
+      "text": "Keep a little room for being surprised by what you enjoy learning.",
+      "fingerprint": "27619b9c28f0fb8182a1d1d7aaa7941369a9720553ea4568eac8c16eb1519ff1",
+      "source": "ai",
+      "slot": 498793,
+      "at": "2026-11-26T01:00:00.000Z"
+    },
+    {
+      "text": "A plan deserves room to meet the actual person who has to carry it out.",
+      "fingerprint": "6f055eacafbac0f3c76943aab1388e95924395c3818292a256054b0918e702d3",
+      "source": "ai",
+      "slot": 498794,
+      "at": "2026-11-26T02:00:00.000Z"
+    },
+    {
+      "text": "Getting a little further into a difficult subject is worth noticing, even if the subject remains difficult.",
+      "fingerprint": "f23c44f0e7896471efd4943536adb432ed522ec62b759181a5a62701b3a0b696",
+      "source": "ai",
+      "slot": 498795,
+      "at": "2026-11-26T03:38:41.800Z"
     }
   ],
   "used": [
@@ -2929,6 +2915,34 @@
     {
       "fingerprint": "b047cde3c5c7fcba4418e1c30010c993b88ada48fb7c578af82adc7cceb210ae",
       "at": "2026-11-25T20:30:41.871Z"
+    },
+    {
+      "fingerprint": "68268deba363d041409d2dc47a85fe0bfe8e743e65b96ed33d0c33c6d3ece7b4",
+      "at": "2026-11-25T21:00:00.000Z"
+    },
+    {
+      "fingerprint": "0707a4e820a740db22a27f27e43bf886603916e8991a32669dbd94091f9103a3",
+      "at": "2026-11-25T22:00:00.000Z"
+    },
+    {
+      "fingerprint": "1411b24cc999fac3c1855ef2ad600aa0b185ae7c440b54af95849c75508ffad7",
+      "at": "2026-11-25T23:00:00.000Z"
+    },
+    {
+      "fingerprint": "b659045eb30ff39b8d4a75f08c5d622f376fe52f7e0c996c2a6ed4ee23911a12",
+      "at": "2026-11-26T00:00:00.000Z"
+    },
+    {
+      "fingerprint": "27619b9c28f0fb8182a1d1d7aaa7941369a9720553ea4568eac8c16eb1519ff1",
+      "at": "2026-11-26T01:00:00.000Z"
+    },
+    {
+      "fingerprint": "6f055eacafbac0f3c76943aab1388e95924395c3818292a256054b0918e702d3",
+      "at": "2026-11-26T02:00:00.000Z"
+    },
+    {
+      "fingerprint": "f23c44f0e7896471efd4943536adb432ed522ec62b759181a5a62701b3a0b696",
+      "at": "2026-11-26T03:38:41.800Z"
     }
   ]
 }
