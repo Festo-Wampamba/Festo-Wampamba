@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-26T21:39:46.176Z",
+  "updatedAt": "2026-11-26T22:00:23.648Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "Let the next attempt be curious about the details, rather than occupied with defending the last attempt.",
-    "fingerprint": "bbf27ef52fa0c20a295e85a9dcaac77bd95afa8ecbeb96c62f6a03e71e8b39e6",
+    "text": "You can take pride in work that makes a common task feel a little less frustrating.",
+    "fingerprint": "3448352209730fad80180aa03aea4025b4c14a0d1e285dda247a82d9510cccda",
     "source": "ai",
-    "slot": 498813,
-    "at": "2026-11-26T21:39:46.176Z"
+    "slot": 498814,
+    "at": "2026-11-26T22:00:23.648Z"
   },
   "pending": [
-    {
-      "text": "You can take pride in work that makes a common task feel a little less frustrating.",
-      "fingerprint": "3448352209730fad80180aa03aea4025b4c14a0d1e285dda247a82d9510cccda",
-      "source": "ai"
-    },
     {
       "text": "An unfinished page does not need an excuse. It may simply need another honest visit.",
       "fingerprint": "a2f928fd067d95db524cf56597c49833e1cc945a2fccc3e486440a8a8e8f5fdc",
@@ -2067,6 +2062,13 @@
       "source": "ai",
       "slot": 498813,
       "at": "2026-11-26T21:39:46.176Z"
+    },
+    {
+      "text": "You can take pride in work that makes a common task feel a little less frustrating.",
+      "fingerprint": "3448352209730fad80180aa03aea4025b4c14a0d1e285dda247a82d9510cccda",
+      "source": "ai",
+      "slot": 498814,
+      "at": "2026-11-26T22:00:23.648Z"
     }
   ],
   "used": [
@@ -3009,6 +3011,10 @@
     {
       "fingerprint": "bbf27ef52fa0c20a295e85a9dcaac77bd95afa8ecbeb96c62f6a03e71e8b39e6",
       "at": "2026-11-26T21:39:46.176Z"
+    },
+    {
+      "fingerprint": "3448352209730fad80180aa03aea4025b4c14a0d1e285dda247a82d9510cccda",
+      "at": "2026-11-26T22:00:23.648Z"
     }
   ]
 }
