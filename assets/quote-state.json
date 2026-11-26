@@ -1,71 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-26T03:38:41.800Z",
+  "updatedAt": "2026-11-26T14:00:00.850Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "Getting a little further into a difficult subject is worth noticing, even if the subject remains difficult.",
-    "fingerprint": "f23c44f0e7896471efd4943536adb432ed522ec62b759181a5a62701b3a0b696",
+    "text": "Let the people who care about you know what kind of encouragement would actually be helpful.",
+    "fingerprint": "8a52ea6745ad9c1195a8299503e92a8dbefac2ef293bcf021079f56efd5923de",
     "source": "ai",
-    "slot": 498795,
-    "at": "2026-11-26T03:38:41.800Z"
+    "slot": 498806,
+    "at": "2026-11-26T14:00:00.850Z"
   },
   "pending": [
-    {
-      "text": "An honest account of a hard day can include the things you carried that were never written on the list.",
-      "fingerprint": "16b21ec7fa89cec4b3e715ad2783afa2394eafb57ca2130aefa41d5704480606",
-      "source": "ai"
-    },
-    {
-      "text": "An answer can be useful for today without becoming an opinion you must defend forever.",
-      "fingerprint": "7656de58aa20c4f745447098fa9956f1cd03f4c2f084e85f284676007b9d3167",
-      "source": "ai"
-    },
-    {
-      "text": "The part of the task you now do calmly may once have required most of your concentration.",
-      "fingerprint": "3543d3a5ddf212ff67557af99cbe070f5eec94b0875d77bb8b5dc14cf27484a8",
-      "source": "ai"
-    },
-    {
-      "text": "There may be a useful skill inside the task you find tedious. Look for what the repetition is asking you to notice.",
-      "fingerprint": "4b0703f46f532a514e06a7183f408de217ed7a4255020a2b8b30b919db0f934f",
-      "source": "ai"
-    },
-    {
-      "text": "You can care deeply about an outcome while speaking gently about the person who is still working toward it.",
-      "fingerprint": "21e74f17a3ed3c4efede1756ed5eb50ce1345d1e25de450e4ca06957f448d745",
-      "source": "ai"
-    },
-    {
-      "text": "A thoughtful change can begin with removing one obstacle from a routine you already value.",
-      "fingerprint": "315f393a34f13fca5d5c49bc64de80a5fffc1d0485147a5beaca944bb2c36a29",
-      "source": "ai"
-    },
-    {
-      "text": "Notice the moments when your work makes room for someone else to contribute an idea.",
-      "fingerprint": "a2605a677548cd6a0d22aac37a3a1b86e12ea9f44f02e455792c69205085e66a",
-      "source": "ai"
-    },
-    {
-      "text": "The wish to do careful work does not require turning every small error into a long private argument.",
-      "fingerprint": "0da98b5b1d7f6396796031591c54708884a03f6095a2fb9428fd75fcf945cf74",
-      "source": "ai"
-    },
-    {
-      "text": "When a task becomes familiar, look for a chance to do it with more care rather than simply more speed.",
-      "fingerprint": "4f7b243f8a3cc82c71186aaa81d2dcd74c56f5cb20264943755a6695b8d35bc7",
-      "source": "ai"
-    },
-    {
-      "text": "There may be something worth keeping in an approach that did not work as a whole.",
-      "fingerprint": "bd732a07567393b238926ba90a71a4798714dc2f427068fb378387081a7a1ef9",
-      "source": "ai"
-    },
-    {
-      "text": "Let the people who care about you know what kind of encouragement would actually be helpful.",
-      "fingerprint": "8a52ea6745ad9c1195a8299503e92a8dbefac2ef293bcf021079f56efd5923de",
-      "source": "ai"
-    },
     {
       "text": "Notice the difference between a deadline the work requires and a hurry you have learned to carry.",
       "fingerprint": "836d0cd402f6a7852295169eea46e22239a95c9095b9c1ef2733dbcaa9817514",
@@ -1599,27 +1544,6 @@
   ],
   "recent": [
     {
-      "text": "There is pleasure in making an ordinary thing easier to use. Notice when your care removes a little friction.",
-      "fingerprint": "0055618d28c11131bf4c1786e4fb0f0a040354858a0c867cdff38cfffb0e172e",
-      "source": "ai",
-      "slot": 498630,
-      "at": "2026-11-19T06:00:00.000Z"
-    },
-    {
-      "text": "Before filling a free moment, consider whether you would rather leave it free.",
-      "fingerprint": "4e0fd60da50ebba7bcd77943bf81c5a54e530ad8b776e0251437b19f67854840",
-      "source": "ai",
-      "slot": 498635,
-      "at": "2026-11-19T11:41:26.534Z"
-    },
-    {
-      "text": "Consider what would make the task easier to return to after an interruption, and arrange that before you leave.",
-      "fingerprint": "81f1255631c33c8ac4b07ebaf85abfcd3fe6c3efcda0ca39aa6928058918f2be",
-      "source": "ai",
-      "slot": 498636,
-      "at": "2026-11-19T12:00:00.000Z"
-    },
-    {
       "text": "Useful preparation can include deciding who to ask when you reach the part you do not understand.",
       "fingerprint": "eba6fb7c4b032b4d4da6a59fdfed9a67a43f51e65e2aa8e44d349e2c82175d0d",
       "source": "ai",
@@ -2073,6 +1997,83 @@
       "source": "ai",
       "slot": 498795,
       "at": "2026-11-26T03:38:41.800Z"
+    },
+    {
+      "text": "An honest account of a hard day can include the things you carried that were never written on the list.",
+      "fingerprint": "16b21ec7fa89cec4b3e715ad2783afa2394eafb57ca2130aefa41d5704480606",
+      "source": "ai",
+      "slot": 498796,
+      "at": "2026-11-26T04:00:00.000Z"
+    },
+    {
+      "text": "An answer can be useful for today without becoming an opinion you must defend forever.",
+      "fingerprint": "7656de58aa20c4f745447098fa9956f1cd03f4c2f084e85f284676007b9d3167",
+      "source": "ai",
+      "slot": 498797,
+      "at": "2026-11-26T05:00:00.000Z"
+    },
+    {
+      "text": "The part of the task you now do calmly may once have required most of your concentration.",
+      "fingerprint": "3543d3a5ddf212ff67557af99cbe070f5eec94b0875d77bb8b5dc14cf27484a8",
+      "source": "ai",
+      "slot": 498798,
+      "at": "2026-11-26T06:00:00.000Z"
+    },
+    {
+      "text": "There may be a useful skill inside the task you find tedious. Look for what the repetition is asking you to notice.",
+      "fingerprint": "4b0703f46f532a514e06a7183f408de217ed7a4255020a2b8b30b919db0f934f",
+      "source": "ai",
+      "slot": 498799,
+      "at": "2026-11-26T07:00:00.000Z"
+    },
+    {
+      "text": "You can care deeply about an outcome while speaking gently about the person who is still working toward it.",
+      "fingerprint": "21e74f17a3ed3c4efede1756ed5eb50ce1345d1e25de450e4ca06957f448d745",
+      "source": "ai",
+      "slot": 498800,
+      "at": "2026-11-26T08:00:00.000Z"
+    },
+    {
+      "text": "A thoughtful change can begin with removing one obstacle from a routine you already value.",
+      "fingerprint": "315f393a34f13fca5d5c49bc64de80a5fffc1d0485147a5beaca944bb2c36a29",
+      "source": "ai",
+      "slot": 498801,
+      "at": "2026-11-26T09:00:00.000Z"
+    },
+    {
+      "text": "Notice the moments when your work makes room for someone else to contribute an idea.",
+      "fingerprint": "a2605a677548cd6a0d22aac37a3a1b86e12ea9f44f02e455792c69205085e66a",
+      "source": "ai",
+      "slot": 498802,
+      "at": "2026-11-26T10:00:00.000Z"
+    },
+    {
+      "text": "The wish to do careful work does not require turning every small error into a long private argument.",
+      "fingerprint": "0da98b5b1d7f6396796031591c54708884a03f6095a2fb9428fd75fcf945cf74",
+      "source": "ai",
+      "slot": 498803,
+      "at": "2026-11-26T11:00:00.000Z"
+    },
+    {
+      "text": "When a task becomes familiar, look for a chance to do it with more care rather than simply more speed.",
+      "fingerprint": "4f7b243f8a3cc82c71186aaa81d2dcd74c56f5cb20264943755a6695b8d35bc7",
+      "source": "ai",
+      "slot": 498804,
+      "at": "2026-11-26T12:00:00.000Z"
+    },
+    {
+      "text": "There may be something worth keeping in an approach that did not work as a whole.",
+      "fingerprint": "bd732a07567393b238926ba90a71a4798714dc2f427068fb378387081a7a1ef9",
+      "source": "ai",
+      "slot": 498805,
+      "at": "2026-11-26T13:00:00.000Z"
+    },
+    {
+      "text": "Let the people who care about you know what kind of encouragement would actually be helpful.",
+      "fingerprint": "8a52ea6745ad9c1195a8299503e92a8dbefac2ef293bcf021079f56efd5923de",
+      "source": "ai",
+      "slot": 498806,
+      "at": "2026-11-26T14:00:00.850Z"
     }
   ],
   "used": [
@@ -2943,6 +2944,50 @@
     {
       "fingerprint": "f23c44f0e7896471efd4943536adb432ed522ec62b759181a5a62701b3a0b696",
       "at": "2026-11-26T03:38:41.800Z"
+    },
+    {
+      "fingerprint": "16b21ec7fa89cec4b3e715ad2783afa2394eafb57ca2130aefa41d5704480606",
+      "at": "2026-11-26T04:00:00.000Z"
+    },
+    {
+      "fingerprint": "7656de58aa20c4f745447098fa9956f1cd03f4c2f084e85f284676007b9d3167",
+      "at": "2026-11-26T05:00:00.000Z"
+    },
+    {
+      "fingerprint": "3543d3a5ddf212ff67557af99cbe070f5eec94b0875d77bb8b5dc14cf27484a8",
+      "at": "2026-11-26T06:00:00.000Z"
+    },
+    {
+      "fingerprint": "4b0703f46f532a514e06a7183f408de217ed7a4255020a2b8b30b919db0f934f",
+      "at": "2026-11-26T07:00:00.000Z"
+    },
+    {
+      "fingerprint": "21e74f17a3ed3c4efede1756ed5eb50ce1345d1e25de450e4ca06957f448d745",
+      "at": "2026-11-26T08:00:00.000Z"
+    },
+    {
+      "fingerprint": "315f393a34f13fca5d5c49bc64de80a5fffc1d0485147a5beaca944bb2c36a29",
+      "at": "2026-11-26T09:00:00.000Z"
+    },
+    {
+      "fingerprint": "a2605a677548cd6a0d22aac37a3a1b86e12ea9f44f02e455792c69205085e66a",
+      "at": "2026-11-26T10:00:00.000Z"
+    },
+    {
+      "fingerprint": "0da98b5b1d7f6396796031591c54708884a03f6095a2fb9428fd75fcf945cf74",
+      "at": "2026-11-26T11:00:00.000Z"
+    },
+    {
+      "fingerprint": "4f7b243f8a3cc82c71186aaa81d2dcd74c56f5cb20264943755a6695b8d35bc7",
+      "at": "2026-11-26T12:00:00.000Z"
+    },
+    {
+      "fingerprint": "bd732a07567393b238926ba90a71a4798714dc2f427068fb378387081a7a1ef9",
+      "at": "2026-11-26T13:00:00.000Z"
+    },
+    {
+      "fingerprint": "8a52ea6745ad9c1195a8299503e92a8dbefac2ef293bcf021079f56efd5923de",
+      "at": "2026-11-26T14:00:00.850Z"
     }
   ]
 }
