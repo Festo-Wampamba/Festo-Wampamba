@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T15:00:29.005Z",
+  "updatedAt": "2026-11-27T16:00:32.227Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "A small piece of work done with attention can be a satisfying place to stop for the day.",
-    "fingerprint": "2a258b48cceda35265d4c02e523734d6e77de4e7f026dc45447846ba625d6e06",
+    "text": "An idea becomes easier to discuss when you give it an example someone else can examine.",
+    "fingerprint": "671e93b797ed6f37cd4cdf8556f76419a3790a041a6738258fa40a2e32ebe075",
     "source": "ai",
-    "slot": 498831,
-    "at": "2026-11-27T15:00:29.005Z"
+    "slot": 498832,
+    "at": "2026-11-27T16:00:32.227Z"
   },
   "pending": [
-    {
-      "text": "An idea becomes easier to discuss when you give it an example someone else can examine.",
-      "fingerprint": "671e93b797ed6f37cd4cdf8556f76419a3790a041a6738258fa40a2e32ebe075",
-      "source": "ai"
-    },
     {
       "text": "You are allowed to have a part of the day that does not need to be useful to anyone.",
       "fingerprint": "737a569f70a1bf44d7cc3460f16648c2cd33ff813ba19252ed729cee8ff2686d",
@@ -2061,6 +2056,13 @@
       "source": "ai",
       "slot": 498831,
       "at": "2026-11-27T15:00:29.005Z"
+    },
+    {
+      "text": "An idea becomes easier to discuss when you give it an example someone else can examine.",
+      "fingerprint": "671e93b797ed6f37cd4cdf8556f76419a3790a041a6738258fa40a2e32ebe075",
+      "source": "ai",
+      "slot": 498832,
+      "at": "2026-11-27T16:00:32.227Z"
     }
   ],
   "used": [
@@ -3075,6 +3077,10 @@
     {
       "fingerprint": "2a258b48cceda35265d4c02e523734d6e77de4e7f026dc45447846ba625d6e06",
       "at": "2026-11-27T15:00:29.005Z"
+    },
+    {
+      "fingerprint": "671e93b797ed6f37cd4cdf8556f76419a3790a041a6738258fa40a2e32ebe075",
+      "at": "2026-11-27T16:00:32.227Z"
     }
   ]
 }
