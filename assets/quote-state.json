@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T21:00:23.097Z",
+  "updatedAt": "2026-11-27T22:00:23.225Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "The days that teach you patience may leave few finished things, but they can still change how you approach the work.",
-    "fingerprint": "035ce4c079b92ad2c79bcd89e1c539a3b1947a55cd4583b8d99d416832e2c5d0",
+    "text": "The simple version of a task can reveal what matters before you spend time adding more.",
+    "fingerprint": "cce73ca24529b5c71f715b3f28d5aa84493d7b6572d55c758d0bee24ad00cbb6",
     "source": "ai",
-    "slot": 498837,
-    "at": "2026-11-27T21:00:23.097Z"
+    "slot": 498838,
+    "at": "2026-11-27T22:00:23.225Z"
   },
   "pending": [
-    {
-      "text": "The simple version of a task can reveal what matters before you spend time adding more.",
-      "fingerprint": "cce73ca24529b5c71f715b3f28d5aa84493d7b6572d55c758d0bee24ad00cbb6",
-      "source": "ai"
-    },
     {
       "text": "Your interest in a topic does not need to survive an audience test before it deserves a notebook page.",
       "fingerprint": "f003506e01f72f7ef9d757622eb14efbef731d01a9c7f5addde40bdd1eb69492",
@@ -2059,6 +2054,13 @@
       "source": "ai",
       "slot": 498837,
       "at": "2026-11-27T21:00:23.097Z"
+    },
+    {
+      "text": "The simple version of a task can reveal what matters before you spend time adding more.",
+      "fingerprint": "cce73ca24529b5c71f715b3f28d5aa84493d7b6572d55c758d0bee24ad00cbb6",
+      "source": "ai",
+      "slot": 498838,
+      "at": "2026-11-27T22:00:23.225Z"
     }
   ],
   "used": [
@@ -3097,6 +3099,10 @@
     {
       "fingerprint": "035ce4c079b92ad2c79bcd89e1c539a3b1947a55cd4583b8d99d416832e2c5d0",
       "at": "2026-11-27T21:00:23.097Z"
+    },
+    {
+      "fingerprint": "cce73ca24529b5c71f715b3f28d5aa84493d7b6572d55c758d0bee24ad00cbb6",
+      "at": "2026-11-27T22:00:23.225Z"
     }
   ]
 }
