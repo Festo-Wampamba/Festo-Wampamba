@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T01:00:32.485Z",
+  "updatedAt": "2026-11-27T02:00:26.564Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "The part of a project that asks for courage may be the request for feedback rather than the public announcement.",
-    "fingerprint": "713a21c6ed94d521ea78abf253a52d83b8b5f333dbfb74187a39eb339cba316f",
+    "text": "Asking to see the process can teach you things that admiring the finished result cannot.",
+    "fingerprint": "51cb7b4da9fe8f4dcb5916fd8d06f4295cf0935b88306adcee6d9ebfe0385f4b",
     "source": "ai",
-    "slot": 498817,
-    "at": "2026-11-27T01:00:32.485Z"
+    "slot": 498818,
+    "at": "2026-11-27T02:00:26.564Z"
   },
   "pending": [
-    {
-      "text": "Asking to see the process can teach you things that admiring the finished result cannot.",
-      "fingerprint": "51cb7b4da9fe8f4dcb5916fd8d06f4295cf0935b88306adcee6d9ebfe0385f4b",
-      "source": "ai"
-    },
     {
       "text": "A plan made together can be stronger for including the needs that people were hesitant to mention.",
       "fingerprint": "2de0db65a5cd53d0a406a63371ab399f56aeefd025f1dace3e2380259462067e",
@@ -2075,6 +2070,13 @@
       "source": "ai",
       "slot": 498817,
       "at": "2026-11-27T01:00:32.485Z"
+    },
+    {
+      "text": "Asking to see the process can teach you things that admiring the finished result cannot.",
+      "fingerprint": "51cb7b4da9fe8f4dcb5916fd8d06f4295cf0935b88306adcee6d9ebfe0385f4b",
+      "source": "ai",
+      "slot": 498818,
+      "at": "2026-11-27T02:00:26.564Z"
     }
   ],
   "used": [
@@ -3033,6 +3035,10 @@
     {
       "fingerprint": "713a21c6ed94d521ea78abf253a52d83b8b5f333dbfb74187a39eb339cba316f",
       "at": "2026-11-27T01:00:32.485Z"
+    },
+    {
+      "fingerprint": "51cb7b4da9fe8f4dcb5916fd8d06f4295cf0935b88306adcee6d9ebfe0385f4b",
+      "at": "2026-11-27T02:00:26.564Z"
     }
   ]
 }
