@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T06:00:27.301Z",
+  "updatedAt": "2026-11-27T07:00:36.593Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "You may need to learn the setting as well as the skill. Give yourself room to understand how people work together.",
-    "fingerprint": "e4f27fec6d1163d2aa3d7bba71ee0f66058b9f30876e2ab8f15e6ff5546506f5",
+    "text": "You can offer a useful observation without being responsible for solving the entire situation.",
+    "fingerprint": "bef4158943ae07c9ece55897dc7d13d19d5a3758a5f3cb02873c6a98beffd5a4",
     "source": "ai",
-    "slot": 498822,
-    "at": "2026-11-27T06:00:27.301Z"
+    "slot": 498823,
+    "at": "2026-11-27T07:00:36.593Z"
   },
   "pending": [
-    {
-      "text": "You can offer a useful observation without being responsible for solving the entire situation.",
-      "fingerprint": "bef4158943ae07c9ece55897dc7d13d19d5a3758a5f3cb02873c6a98beffd5a4",
-      "source": "ai"
-    },
     {
       "text": "You can welcome a challenge and still ask for clear instructions, fair time, and a place to start.",
       "fingerprint": "726066fa3a23bebf778109eb5d7fbcbd6a6dd0b8cadcd102a34e97f9aeeef253",
@@ -2064,6 +2059,13 @@
       "source": "ai",
       "slot": 498822,
       "at": "2026-11-27T06:00:27.301Z"
+    },
+    {
+      "text": "You can offer a useful observation without being responsible for solving the entire situation.",
+      "fingerprint": "bef4158943ae07c9ece55897dc7d13d19d5a3758a5f3cb02873c6a98beffd5a4",
+      "source": "ai",
+      "slot": 498823,
+      "at": "2026-11-27T07:00:36.593Z"
     }
   ],
   "used": [
@@ -3042,6 +3044,10 @@
     {
       "fingerprint": "e4f27fec6d1163d2aa3d7bba71ee0f66058b9f30876e2ab8f15e6ff5546506f5",
       "at": "2026-11-27T06:00:27.301Z"
+    },
+    {
+      "fingerprint": "bef4158943ae07c9ece55897dc7d13d19d5a3758a5f3cb02873c6a98beffd5a4",
+      "at": "2026-11-27T07:00:36.593Z"
     }
   ]
 }
