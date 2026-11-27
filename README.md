@@ -5,11 +5,11 @@
 <!-- QUOTE:START -->
 <div align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=498828&amp;layout=compact" />
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=light&amp;style=quiet&amp;v=498828&amp;layout=compact" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=498828" />
-    <source media="(prefers-color-scheme: light)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=light&amp;style=quiet&amp;v=498828" />
-    <img src="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=498828" alt="A commitment becomes easier to share when people know what it includes and what it cannot include." width="100%" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=498829&amp;layout=compact" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=light&amp;style=quiet&amp;v=498829&amp;layout=compact" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=498829" />
+    <source media="(prefers-color-scheme: light)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=light&amp;style=quiet&amp;v=498829" />
+    <img src="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=498829" alt="An honest pause can help a group notice that everyone has been answering a different question." width="100%" />
   </picture>
   <p><a href="https://festo-contribution-journal.vercel.app/quotes/">Explore more inspiration ↗</a></p>
 </div>

@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T12:00:30.975Z",
+  "updatedAt": "2026-11-27T13:00:28.772Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "A commitment becomes easier to share when people know what it includes and what it cannot include.",
-    "fingerprint": "bacdc351dc22b7589cc2141e0aa61d118e78977403d414c39f95fb41aa8157e5",
+    "text": "An honest pause can help a group notice that everyone has been answering a different question.",
+    "fingerprint": "c585693986185722dfddaaebce42f764ce895ff76bfc27a1ed72321ab06bfa98",
     "source": "ai",
-    "slot": 498828,
-    "at": "2026-11-27T12:00:30.975Z"
+    "slot": 498829,
+    "at": "2026-11-27T13:00:28.772Z"
   },
   "pending": [
-    {
-      "text": "An honest pause can help a group notice that everyone has been answering a different question.",
-      "fingerprint": "c585693986185722dfddaaebce42f764ce895ff76bfc27a1ed72321ab06bfa98",
-      "source": "ai"
-    },
     {
       "text": "Choose a corner of the problem you can inspect closely. Understanding need not arrive all at once.",
       "fingerprint": "05d3e86a7c0eb69a952e1afd14c7e92f3cf4cdfa52cc467ec96250ae4ff201f3",
@@ -2062,6 +2057,13 @@
       "source": "ai",
       "slot": 498828,
       "at": "2026-11-27T12:00:30.975Z"
+    },
+    {
+      "text": "An honest pause can help a group notice that everyone has been answering a different question.",
+      "fingerprint": "c585693986185722dfddaaebce42f764ce895ff76bfc27a1ed72321ab06bfa98",
+      "source": "ai",
+      "slot": 498829,
+      "at": "2026-11-27T13:00:28.772Z"
     }
   ],
   "used": [
@@ -3064,6 +3066,10 @@
     {
       "fingerprint": "bacdc351dc22b7589cc2141e0aa61d118e78977403d414c39f95fb41aa8157e5",
       "at": "2026-11-27T12:00:30.975Z"
+    },
+    {
+      "fingerprint": "c585693986185722dfddaaebce42f764ce895ff76bfc27a1ed72321ab06bfa98",
+      "at": "2026-11-27T13:00:28.772Z"
     }
   ]
 }
