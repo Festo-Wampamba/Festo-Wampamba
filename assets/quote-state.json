@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-26T23:00:24.360Z",
+  "updatedAt": "2026-11-27T00:00:26.232Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "An unfinished page does not need an excuse. It may simply need another honest visit.",
-    "fingerprint": "a2f928fd067d95db524cf56597c49833e1cc945a2fccc3e486440a8a8e8f5fdc",
+    "text": "Before deciding that an attempt taught you nothing, describe what you would now try differently.",
+    "fingerprint": "eb3e853a3cf2251c488f891bd1a474a69520d0c9c690d073c413cddff9c24fed",
     "source": "ai",
-    "slot": 498815,
-    "at": "2026-11-26T23:00:24.360Z"
+    "slot": 498816,
+    "at": "2026-11-27T00:00:26.232Z"
   },
   "pending": [
-    {
-      "text": "Before deciding that an attempt taught you nothing, describe what you would now try differently.",
-      "fingerprint": "eb3e853a3cf2251c488f891bd1a474a69520d0c9c690d073c413cddff9c24fed",
-      "source": "ai"
-    },
     {
       "text": "The part of a project that asks for courage may be the request for feedback rather than the public announcement.",
       "fingerprint": "713a21c6ed94d521ea78abf253a52d83b8b5f333dbfb74187a39eb339cba316f",
@@ -2071,6 +2066,13 @@
       "source": "ai",
       "slot": 498815,
       "at": "2026-11-26T23:00:24.360Z"
+    },
+    {
+      "text": "Before deciding that an attempt taught you nothing, describe what you would now try differently.",
+      "fingerprint": "eb3e853a3cf2251c488f891bd1a474a69520d0c9c690d073c413cddff9c24fed",
+      "source": "ai",
+      "slot": 498816,
+      "at": "2026-11-27T00:00:26.232Z"
     }
   ],
   "used": [
@@ -3021,6 +3023,10 @@
     {
       "fingerprint": "a2f928fd067d95db524cf56597c49833e1cc945a2fccc3e486440a8a8e8f5fdc",
       "at": "2026-11-26T23:00:24.360Z"
+    },
+    {
+      "fingerprint": "eb3e853a3cf2251c488f891bd1a474a69520d0c9c690d073c413cddff9c24fed",
+      "at": "2026-11-27T00:00:26.232Z"
     }
   ]
 }
