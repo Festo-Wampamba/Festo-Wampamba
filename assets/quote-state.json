@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T20:00:23.543Z",
+  "updatedAt": "2026-11-27T21:00:23.097Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "Notice what you do with more ease now, and give some credit to the practice that became hard to see.",
-    "fingerprint": "f373627b3223e160e8c1a6019a9b63ad4cabc688dd717494258026505a027c13",
+    "text": "The days that teach you patience may leave few finished things, but they can still change how you approach the work.",
+    "fingerprint": "035ce4c079b92ad2c79bcd89e1c539a3b1947a55cd4583b8d99d416832e2c5d0",
     "source": "ai",
-    "slot": 498836,
-    "at": "2026-11-27T20:00:23.543Z"
+    "slot": 498837,
+    "at": "2026-11-27T21:00:23.097Z"
   },
   "pending": [
-    {
-      "text": "The days that teach you patience may leave few finished things, but they can still change how you approach the work.",
-      "fingerprint": "035ce4c079b92ad2c79bcd89e1c539a3b1947a55cd4583b8d99d416832e2c5d0",
-      "source": "ai"
-    },
     {
       "text": "The simple version of a task can reveal what matters before you spend time adding more.",
       "fingerprint": "cce73ca24529b5c71f715b3f28d5aa84493d7b6572d55c758d0bee24ad00cbb6",
@@ -1394,20 +1389,6 @@
   ],
   "recent": [
     {
-      "text": "Your contribution does not have to be the most visible one to make a shared effort more thoughtful.",
-      "fingerprint": "a86d124c2693cfc7103bfb3f5f0f246b69a45fa39a445fa09dcabbd1fe899ff1",
-      "source": "ai",
-      "slot": 498668,
-      "at": "2026-11-20T20:21:31.341Z"
-    },
-    {
-      "text": "An honest invitation to collaborate leaves room for the other person to shape the work too.",
-      "fingerprint": "1f40c173ee9cc7faf87e5f923055eaac20810e3a1e76ba9e44c3109fe30406e8",
-      "source": "ai",
-      "slot": 498669,
-      "at": "2026-11-20T21:00:00.000Z"
-    },
-    {
       "text": "Your reasons for choosing a path can grow more precise as you learn what traveling it actually requires.",
       "fingerprint": "34e5a7cc01a812611ba073daf5e3ee1354a40c543d7449422e9bc7de7e5e3b60",
       "source": "ai",
@@ -2071,6 +2052,13 @@
       "source": "ai",
       "slot": 498836,
       "at": "2026-11-27T20:00:23.543Z"
+    },
+    {
+      "text": "The days that teach you patience may leave few finished things, but they can still change how you approach the work.",
+      "fingerprint": "035ce4c079b92ad2c79bcd89e1c539a3b1947a55cd4583b8d99d416832e2c5d0",
+      "source": "ai",
+      "slot": 498837,
+      "at": "2026-11-27T21:00:23.097Z"
     }
   ],
   "used": [
@@ -3105,6 +3093,10 @@
     {
       "fingerprint": "f373627b3223e160e8c1a6019a9b63ad4cabc688dd717494258026505a027c13",
       "at": "2026-11-27T20:00:23.543Z"
+    },
+    {
+      "fingerprint": "035ce4c079b92ad2c79bcd89e1c539a3b1947a55cd4583b8d99d416832e2c5d0",
+      "at": "2026-11-27T21:00:23.097Z"
     }
   ]
 }
