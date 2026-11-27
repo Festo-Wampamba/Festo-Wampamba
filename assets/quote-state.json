@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T14:00:29.117Z",
+  "updatedAt": "2026-11-27T15:00:29.005Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "Choose a corner of the problem you can inspect closely. Understanding need not arrive all at once.",
-    "fingerprint": "05d3e86a7c0eb69a952e1afd14c7e92f3cf4cdfa52cc467ec96250ae4ff201f3",
+    "text": "A small piece of work done with attention can be a satisfying place to stop for the day.",
+    "fingerprint": "2a258b48cceda35265d4c02e523734d6e77de4e7f026dc45447846ba625d6e06",
     "source": "ai",
-    "slot": 498830,
-    "at": "2026-11-27T14:00:29.117Z"
+    "slot": 498831,
+    "at": "2026-11-27T15:00:29.005Z"
   },
   "pending": [
-    {
-      "text": "A small piece of work done with attention can be a satisfying place to stop for the day.",
-      "fingerprint": "2a258b48cceda35265d4c02e523734d6e77de4e7f026dc45447846ba625d6e06",
-      "source": "ai"
-    },
     {
       "text": "An idea becomes easier to discuss when you give it an example someone else can examine.",
       "fingerprint": "671e93b797ed6f37cd4cdf8556f76419a3790a041a6738258fa40a2e32ebe075",
@@ -1424,13 +1419,6 @@
   ],
   "recent": [
     {
-      "text": "An honest limit can keep a shared project from being built on an expectation you cannot meet.",
-      "fingerprint": "2daa6bf26988f324b59eb76d401a3ccfcbb37ca3c948b9193292e4555a148ac0",
-      "source": "ai",
-      "slot": 498663,
-      "at": "2026-11-20T15:00:00.000Z"
-    },
-    {
       "text": "Your contribution does not have to be the most visible one to make a shared effort more thoughtful.",
       "fingerprint": "a86d124c2693cfc7103bfb3f5f0f246b69a45fa39a445fa09dcabbd1fe899ff1",
       "source": "ai",
@@ -2066,6 +2054,13 @@
       "source": "ai",
       "slot": 498830,
       "at": "2026-11-27T14:00:29.117Z"
+    },
+    {
+      "text": "A small piece of work done with attention can be a satisfying place to stop for the day.",
+      "fingerprint": "2a258b48cceda35265d4c02e523734d6e77de4e7f026dc45447846ba625d6e06",
+      "source": "ai",
+      "slot": 498831,
+      "at": "2026-11-27T15:00:29.005Z"
     }
   ],
   "used": [
@@ -3076,6 +3071,10 @@
     {
       "fingerprint": "05d3e86a7c0eb69a952e1afd14c7e92f3cf4cdfa52cc467ec96250ae4ff201f3",
       "at": "2026-11-27T14:00:29.117Z"
+    },
+    {
+      "fingerprint": "2a258b48cceda35265d4c02e523734d6e77de4e7f026dc45447846ba625d6e06",
+      "at": "2026-11-27T15:00:29.005Z"
     }
   ]
 }
