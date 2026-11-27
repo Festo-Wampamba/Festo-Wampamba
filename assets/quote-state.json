@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T18:00:29.800Z",
+  "updatedAt": "2026-11-27T19:00:25.908Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "Leaving a tool ready for its next use is one modest way to support the work you care about.",
-    "fingerprint": "a4a3b6071ab0e7870344d6dc1296c08b5f918a833f0542e40c723077a582eb13",
+    "text": "A day can be full of care even when very little on the task list gets crossed out.",
+    "fingerprint": "823c05bc0581c807f3f1d500a6ee5b6d366e2f15882604a664c9f4f02e3e749e",
     "source": "ai",
-    "slot": 498834,
-    "at": "2026-11-27T18:00:29.800Z"
+    "slot": 498835,
+    "at": "2026-11-27T19:00:25.908Z"
   },
   "pending": [
-    {
-      "text": "A day can be full of care even when very little on the task list gets crossed out.",
-      "fingerprint": "823c05bc0581c807f3f1d500a6ee5b6d366e2f15882604a664c9f4f02e3e749e",
-      "source": "ai"
-    },
     {
       "text": "Notice what you do with more ease now, and give some credit to the practice that became hard to see.",
       "fingerprint": "f373627b3223e160e8c1a6019a9b63ad4cabc688dd717494258026505a027c13",
@@ -2067,6 +2062,13 @@
       "source": "ai",
       "slot": 498834,
       "at": "2026-11-27T18:00:29.800Z"
+    },
+    {
+      "text": "A day can be full of care even when very little on the task list gets crossed out.",
+      "fingerprint": "823c05bc0581c807f3f1d500a6ee5b6d366e2f15882604a664c9f4f02e3e749e",
+      "source": "ai",
+      "slot": 498835,
+      "at": "2026-11-27T19:00:25.908Z"
     }
   ],
   "used": [
@@ -3093,6 +3095,10 @@
     {
       "fingerprint": "a4a3b6071ab0e7870344d6dc1296c08b5f918a833f0542e40c723077a582eb13",
       "at": "2026-11-27T18:00:29.800Z"
+    },
+    {
+      "fingerprint": "823c05bc0581c807f3f1d500a6ee5b6d366e2f15882604a664c9f4f02e3e749e",
+      "at": "2026-11-27T19:00:25.908Z"
     }
   ]
 }
