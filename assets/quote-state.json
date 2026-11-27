@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T10:00:29.002Z",
+  "updatedAt": "2026-11-27T11:00:25.752Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "A person who learns differently from you may help you notice another route into the same subject.",
-    "fingerprint": "47a7f32f687075384f86c8435eb6afd4f293d9ca810b0ea1d750c42055ff2d9d",
+    "text": "Careful listening includes noticing when you are preparing a reply instead of taking in what was said.",
+    "fingerprint": "e2bca036674b3ee55e1795685fabb9c8e5f99f4f18b84d834afb2c4342d37d77",
     "source": "ai",
-    "slot": 498826,
-    "at": "2026-11-27T10:00:29.002Z"
+    "slot": 498827,
+    "at": "2026-11-27T11:00:25.752Z"
   },
   "pending": [
-    {
-      "text": "Careful listening includes noticing when you are preparing a reply instead of taking in what was said.",
-      "fingerprint": "e2bca036674b3ee55e1795685fabb9c8e5f99f4f18b84d834afb2c4342d37d77",
-      "source": "ai"
-    },
     {
       "text": "A commitment becomes easier to share when people know what it includes and what it cannot include.",
       "fingerprint": "bacdc351dc22b7589cc2141e0aa61d118e78977403d414c39f95fb41aa8157e5",
@@ -2072,6 +2067,13 @@
       "source": "ai",
       "slot": 498826,
       "at": "2026-11-27T10:00:29.002Z"
+    },
+    {
+      "text": "Careful listening includes noticing when you are preparing a reply instead of taking in what was said.",
+      "fingerprint": "e2bca036674b3ee55e1795685fabb9c8e5f99f4f18b84d834afb2c4342d37d77",
+      "source": "ai",
+      "slot": 498827,
+      "at": "2026-11-27T11:00:25.752Z"
     }
   ],
   "used": [
@@ -3066,6 +3068,10 @@
     {
       "fingerprint": "47a7f32f687075384f86c8435eb6afd4f293d9ca810b0ea1d750c42055ff2d9d",
       "at": "2026-11-27T10:00:29.002Z"
+    },
+    {
+      "fingerprint": "e2bca036674b3ee55e1795685fabb9c8e5f99f4f18b84d834afb2c4342d37d77",
+      "at": "2026-11-27T11:00:25.752Z"
     }
   ]
 }
