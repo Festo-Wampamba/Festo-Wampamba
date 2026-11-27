@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T22:00:23.225Z",
+  "updatedAt": "2026-11-27T23:00:24.928Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "The simple version of a task can reveal what matters before you spend time adding more.",
-    "fingerprint": "cce73ca24529b5c71f715b3f28d5aa84493d7b6572d55c758d0bee24ad00cbb6",
+    "text": "Your interest in a topic does not need to survive an audience test before it deserves a notebook page.",
+    "fingerprint": "f003506e01f72f7ef9d757622eb14efbef731d01a9c7f5addde40bdd1eb69492",
     "source": "ai",
-    "slot": 498838,
-    "at": "2026-11-27T22:00:23.225Z"
+    "slot": 498839,
+    "at": "2026-11-27T23:00:24.928Z"
   },
   "pending": [
-    {
-      "text": "Your interest in a topic does not need to survive an audience test before it deserves a notebook page.",
-      "fingerprint": "f003506e01f72f7ef9d757622eb14efbef731d01a9c7f5addde40bdd1eb69492",
-      "source": "ai"
-    },
     {
       "text": "Someone else's clear explanation may rest on many confused attempts they no longer show. Allow yourself the same room.",
       "fingerprint": "323d8d9a04004c4b54e30dc787ca7b61f69673e0e7e44b41da9f6a49ea0f2fe4",
@@ -2061,6 +2056,13 @@
       "source": "ai",
       "slot": 498838,
       "at": "2026-11-27T22:00:23.225Z"
+    },
+    {
+      "text": "Your interest in a topic does not need to survive an audience test before it deserves a notebook page.",
+      "fingerprint": "f003506e01f72f7ef9d757622eb14efbef731d01a9c7f5addde40bdd1eb69492",
+      "source": "ai",
+      "slot": 498839,
+      "at": "2026-11-27T23:00:24.928Z"
     }
   ],
   "used": [
@@ -3103,6 +3105,10 @@
     {
       "fingerprint": "cce73ca24529b5c71f715b3f28d5aa84493d7b6572d55c758d0bee24ad00cbb6",
       "at": "2026-11-27T22:00:23.225Z"
+    },
+    {
+      "fingerprint": "f003506e01f72f7ef9d757622eb14efbef731d01a9c7f5addde40bdd1eb69492",
+      "at": "2026-11-27T23:00:24.928Z"
     }
   ]
 }
