@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T11:00:25.752Z",
+  "updatedAt": "2026-11-27T12:00:30.975Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "Careful listening includes noticing when you are preparing a reply instead of taking in what was said.",
-    "fingerprint": "e2bca036674b3ee55e1795685fabb9c8e5f99f4f18b84d834afb2c4342d37d77",
+    "text": "A commitment becomes easier to share when people know what it includes and what it cannot include.",
+    "fingerprint": "bacdc351dc22b7589cc2141e0aa61d118e78977403d414c39f95fb41aa8157e5",
     "source": "ai",
-    "slot": 498827,
-    "at": "2026-11-27T11:00:25.752Z"
+    "slot": 498828,
+    "at": "2026-11-27T12:00:30.975Z"
   },
   "pending": [
-    {
-      "text": "A commitment becomes easier to share when people know what it includes and what it cannot include.",
-      "fingerprint": "bacdc351dc22b7589cc2141e0aa61d118e78977403d414c39f95fb41aa8157e5",
-      "source": "ai"
-    },
     {
       "text": "An honest pause can help a group notice that everyone has been answering a different question.",
       "fingerprint": "c585693986185722dfddaaebce42f764ce895ff76bfc27a1ed72321ab06bfa98",
@@ -1439,20 +1434,6 @@
   ],
   "recent": [
     {
-      "text": "Trying a different example can reveal an idea that the first explanation left out of reach.",
-      "fingerprint": "bfc9ffb7d7074ff625b6bda346e2a16ae2cf349a5e4bb1f470e954409d95fd1c",
-      "source": "ai",
-      "slot": 498659,
-      "at": "2026-11-20T11:40:42.116Z"
-    },
-    {
-      "text": "Let the first few minutes of learning be untidy. You are finding the edges of something unfamiliar.",
-      "fingerprint": "87a3773f7a5958832871d96feb93e427f6e12b5245afe967ed87e6f7afcf1f25",
-      "source": "ai",
-      "slot": 498660,
-      "at": "2026-11-20T12:00:00.000Z"
-    },
-    {
       "text": "An honest limit can keep a shared project from being built on an expectation you cannot meet.",
       "fingerprint": "2daa6bf26988f324b59eb76d401a3ccfcbb37ca3c948b9193292e4555a148ac0",
       "source": "ai",
@@ -2074,6 +2055,13 @@
       "source": "ai",
       "slot": 498827,
       "at": "2026-11-27T11:00:25.752Z"
+    },
+    {
+      "text": "A commitment becomes easier to share when people know what it includes and what it cannot include.",
+      "fingerprint": "bacdc351dc22b7589cc2141e0aa61d118e78977403d414c39f95fb41aa8157e5",
+      "source": "ai",
+      "slot": 498828,
+      "at": "2026-11-27T12:00:30.975Z"
     }
   ],
   "used": [
@@ -3072,6 +3060,10 @@
     {
       "fingerprint": "e2bca036674b3ee55e1795685fabb9c8e5f99f4f18b84d834afb2c4342d37d77",
       "at": "2026-11-27T11:00:25.752Z"
+    },
+    {
+      "fingerprint": "bacdc351dc22b7589cc2141e0aa61d118e78977403d414c39f95fb41aa8157e5",
+      "at": "2026-11-27T12:00:30.975Z"
     }
   ]
 }
