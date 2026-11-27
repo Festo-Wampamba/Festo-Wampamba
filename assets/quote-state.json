@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T02:00:26.564Z",
+  "updatedAt": "2026-11-27T03:00:30.822Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "Asking to see the process can teach you things that admiring the finished result cannot.",
-    "fingerprint": "51cb7b4da9fe8f4dcb5916fd8d06f4295cf0935b88306adcee6d9ebfe0385f4b",
+    "text": "A plan made together can be stronger for including the needs that people were hesitant to mention.",
+    "fingerprint": "2de0db65a5cd53d0a406a63371ab399f56aeefd025f1dace3e2380259462067e",
     "source": "ai",
-    "slot": 498818,
-    "at": "2026-11-27T02:00:26.564Z"
+    "slot": 498819,
+    "at": "2026-11-27T03:00:30.822Z"
   },
   "pending": [
-    {
-      "text": "A plan made together can be stronger for including the needs that people were hesitant to mention.",
-      "fingerprint": "2de0db65a5cd53d0a406a63371ab399f56aeefd025f1dace3e2380259462067e",
-      "source": "ai"
-    },
     {
       "text": "A practice session can have one purpose: to become more familiar with something that currently feels strange.",
       "fingerprint": "332538d0f6c2b9dba8337f7b7c6be1422d1cc36b7a1cca3ff928bdd7a971b176",
@@ -1484,20 +1479,6 @@
   ],
   "recent": [
     {
-      "text": "You can belong to a community while learning at a pace and in a manner that differ from its loudest members.",
-      "fingerprint": "41619ae03b33dcb5003d2d0b6bbd71b4ccbbc6d18eae72ca597e5656e4d7ada5",
-      "source": "ai",
-      "slot": 498650,
-      "at": "2026-11-20T02:19:48.876Z"
-    },
-    {
-      "text": "The time you spend understanding a constraint may save the next person from mistaking it for a failure of effort.",
-      "fingerprint": "5a6e44e25a202faf2a8352d8e7f0afd625b744b9d71b275920667c68cdb84fda",
-      "source": "ai",
-      "slot": 498651,
-      "at": "2026-11-20T03:00:00.000Z"
-    },
-    {
       "text": "Some satisfaction comes from caring for what already exists rather than always beginning something new.",
       "fingerprint": "c52cc809624c7366ebe72853d3c3210974dab18d8666754bbb2386f87e37c1df",
       "source": "ai",
@@ -2077,6 +2058,13 @@
       "source": "ai",
       "slot": 498818,
       "at": "2026-11-27T02:00:26.564Z"
+    },
+    {
+      "text": "A plan made together can be stronger for including the needs that people were hesitant to mention.",
+      "fingerprint": "2de0db65a5cd53d0a406a63371ab399f56aeefd025f1dace3e2380259462067e",
+      "source": "ai",
+      "slot": 498819,
+      "at": "2026-11-27T03:00:30.822Z"
     }
   ],
   "used": [
@@ -3039,6 +3027,10 @@
     {
       "fingerprint": "51cb7b4da9fe8f4dcb5916fd8d06f4295cf0935b88306adcee6d9ebfe0385f4b",
       "at": "2026-11-27T02:00:26.564Z"
+    },
+    {
+      "fingerprint": "2de0db65a5cd53d0a406a63371ab399f56aeefd025f1dace3e2380259462067e",
+      "at": "2026-11-27T03:00:30.822Z"
     }
   ]
 }
