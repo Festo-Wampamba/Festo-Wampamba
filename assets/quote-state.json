@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T03:00:30.822Z",
+  "updatedAt": "2026-11-27T04:00:21.819Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "A plan made together can be stronger for including the needs that people were hesitant to mention.",
-    "fingerprint": "2de0db65a5cd53d0a406a63371ab399f56aeefd025f1dace3e2380259462067e",
+    "text": "A practice session can have one purpose: to become more familiar with something that currently feels strange.",
+    "fingerprint": "332538d0f6c2b9dba8337f7b7c6be1422d1cc36b7a1cca3ff928bdd7a971b176",
     "source": "ai",
-    "slot": 498819,
-    "at": "2026-11-27T03:00:30.822Z"
+    "slot": 498820,
+    "at": "2026-11-27T04:00:21.819Z"
   },
   "pending": [
-    {
-      "text": "A practice session can have one purpose: to become more familiar with something that currently feels strange.",
-      "fingerprint": "332538d0f6c2b9dba8337f7b7c6be1422d1cc36b7a1cca3ff928bdd7a971b176",
-      "source": "ai"
-    },
     {
       "text": "Rest can be an ordinary part of the week rather than a special event you must justify.",
       "fingerprint": "619ef82e6bd904ce91e162751d3cfc5998e1c1f3600b99da35fc139f9939223b",
@@ -2065,6 +2060,13 @@
       "source": "ai",
       "slot": 498819,
       "at": "2026-11-27T03:00:30.822Z"
+    },
+    {
+      "text": "A practice session can have one purpose: to become more familiar with something that currently feels strange.",
+      "fingerprint": "332538d0f6c2b9dba8337f7b7c6be1422d1cc36b7a1cca3ff928bdd7a971b176",
+      "source": "ai",
+      "slot": 498820,
+      "at": "2026-11-27T04:00:21.819Z"
     }
   ],
   "used": [
@@ -3031,6 +3033,10 @@
     {
       "fingerprint": "2de0db65a5cd53d0a406a63371ab399f56aeefd025f1dace3e2380259462067e",
       "at": "2026-11-27T03:00:30.822Z"
+    },
+    {
+      "fingerprint": "332538d0f6c2b9dba8337f7b7c6be1422d1cc36b7a1cca3ff928bdd7a971b176",
+      "at": "2026-11-27T04:00:21.819Z"
     }
   ]
 }
