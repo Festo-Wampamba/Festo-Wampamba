@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T19:00:25.908Z",
+  "updatedAt": "2026-11-27T20:00:23.543Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "A day can be full of care even when very little on the task list gets crossed out.",
-    "fingerprint": "823c05bc0581c807f3f1d500a6ee5b6d366e2f15882604a664c9f4f02e3e749e",
+    "text": "Notice what you do with more ease now, and give some credit to the practice that became hard to see.",
+    "fingerprint": "f373627b3223e160e8c1a6019a9b63ad4cabc688dd717494258026505a027c13",
     "source": "ai",
-    "slot": 498835,
-    "at": "2026-11-27T19:00:25.908Z"
+    "slot": 498836,
+    "at": "2026-11-27T20:00:23.543Z"
   },
   "pending": [
-    {
-      "text": "Notice what you do with more ease now, and give some credit to the practice that became hard to see.",
-      "fingerprint": "f373627b3223e160e8c1a6019a9b63ad4cabc688dd717494258026505a027c13",
-      "source": "ai"
-    },
     {
       "text": "The days that teach you patience may leave few finished things, but they can still change how you approach the work.",
       "fingerprint": "035ce4c079b92ad2c79bcd89e1c539a3b1947a55cd4583b8d99d416832e2c5d0",
@@ -2069,6 +2064,13 @@
       "source": "ai",
       "slot": 498835,
       "at": "2026-11-27T19:00:25.908Z"
+    },
+    {
+      "text": "Notice what you do with more ease now, and give some credit to the practice that became hard to see.",
+      "fingerprint": "f373627b3223e160e8c1a6019a9b63ad4cabc688dd717494258026505a027c13",
+      "source": "ai",
+      "slot": 498836,
+      "at": "2026-11-27T20:00:23.543Z"
     }
   ],
   "used": [
@@ -3099,6 +3101,10 @@
     {
       "fingerprint": "823c05bc0581c807f3f1d500a6ee5b6d366e2f15882604a664c9f4f02e3e749e",
       "at": "2026-11-27T19:00:25.908Z"
+    },
+    {
+      "fingerprint": "f373627b3223e160e8c1a6019a9b63ad4cabc688dd717494258026505a027c13",
+      "at": "2026-11-27T20:00:23.543Z"
     }
   ]
 }
