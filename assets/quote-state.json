@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-27T23:00:24.928Z",
+  "updatedAt": "2026-11-28T00:00:24.070Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "Your interest in a topic does not need to survive an audience test before it deserves a notebook page.",
-    "fingerprint": "f003506e01f72f7ef9d757622eb14efbef731d01a9c7f5addde40bdd1eb69492",
+    "text": "Someone else's clear explanation may rest on many confused attempts they no longer show. Allow yourself the same room.",
+    "fingerprint": "323d8d9a04004c4b54e30dc787ca7b61f69673e0e7e44b41da9f6a49ea0f2fe4",
     "source": "ai",
-    "slot": 498839,
-    "at": "2026-11-27T23:00:24.928Z"
+    "slot": 498840,
+    "at": "2026-11-28T00:00:24.070Z"
   },
   "pending": [
-    {
-      "text": "Someone else's clear explanation may rest on many confused attempts they no longer show. Allow yourself the same room.",
-      "fingerprint": "323d8d9a04004c4b54e30dc787ca7b61f69673e0e7e44b41da9f6a49ea0f2fe4",
-      "source": "ai"
-    },
     {
       "text": "A fresh example from daily life can make an old idea feel available to you in a new way.",
       "fingerprint": "6b94015ee130339cebd1096f9f58461f4c7c9fbf3ccad3916585459b772d70a7",
@@ -2063,6 +2058,13 @@
       "source": "ai",
       "slot": 498839,
       "at": "2026-11-27T23:00:24.928Z"
+    },
+    {
+      "text": "Someone else's clear explanation may rest on many confused attempts they no longer show. Allow yourself the same room.",
+      "fingerprint": "323d8d9a04004c4b54e30dc787ca7b61f69673e0e7e44b41da9f6a49ea0f2fe4",
+      "source": "ai",
+      "slot": 498840,
+      "at": "2026-11-28T00:00:24.070Z"
     }
   ],
   "used": [
@@ -3109,6 +3111,10 @@
     {
       "fingerprint": "f003506e01f72f7ef9d757622eb14efbef731d01a9c7f5addde40bdd1eb69492",
       "at": "2026-11-27T23:00:24.928Z"
+    },
+    {
+      "fingerprint": "323d8d9a04004c4b54e30dc787ca7b61f69673e0e7e44b41da9f6a49ea0f2fe4",
+      "at": "2026-11-28T00:00:24.070Z"
     }
   ]
 }
