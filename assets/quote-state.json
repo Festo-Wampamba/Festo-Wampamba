@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-28T01:00:28.769Z",
+  "updatedAt": "2026-11-28T02:00:27.318Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "A fresh example from daily life can make an old idea feel available to you in a new way.",
-    "fingerprint": "6b94015ee130339cebd1096f9f58461f4c7c9fbf3ccad3916585459b772d70a7",
+    "text": "The way you welcome a basic question can shape how safe another person feels about learning beside you.",
+    "fingerprint": "4fb27099bac46cda9bab65277d36eca474cc5d7acaf72b83f3b928b7e1785a19",
     "source": "ai",
-    "slot": 498841,
-    "at": "2026-11-28T01:00:28.769Z"
+    "slot": 498842,
+    "at": "2026-11-28T02:00:27.318Z"
   },
   "pending": [
-    {
-      "text": "The way you welcome a basic question can shape how safe another person feels about learning beside you.",
-      "fingerprint": "4fb27099bac46cda9bab65277d36eca474cc5d7acaf72b83f3b928b7e1785a19",
-      "source": "ai"
-    },
     {
       "text": "A new direction does not have to disown the years that helped you recognize it.",
       "fingerprint": "dfe5f2a1cc0d3a4794dc2ae92e2e8f2367a01ca483bdc35881aa4dc4e3990fd2",
@@ -2067,6 +2062,13 @@
       "source": "ai",
       "slot": 498841,
       "at": "2026-11-28T01:00:28.769Z"
+    },
+    {
+      "text": "The way you welcome a basic question can shape how safe another person feels about learning beside you.",
+      "fingerprint": "4fb27099bac46cda9bab65277d36eca474cc5d7acaf72b83f3b928b7e1785a19",
+      "source": "ai",
+      "slot": 498842,
+      "at": "2026-11-28T02:00:27.318Z"
     }
   ],
   "used": [
@@ -3121,6 +3123,10 @@
     {
       "fingerprint": "6b94015ee130339cebd1096f9f58461f4c7c9fbf3ccad3916585459b772d70a7",
       "at": "2026-11-28T01:00:28.769Z"
+    },
+    {
+      "fingerprint": "4fb27099bac46cda9bab65277d36eca474cc5d7acaf72b83f3b928b7e1785a19",
+      "at": "2026-11-28T02:00:27.318Z"
     }
   ]
 }
