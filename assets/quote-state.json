@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-28T11:00:34.488Z",
+  "updatedAt": "2026-11-28T12:00:26.008Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "When you review a busy season, include the moments of kindness you would want to bring into the next one.",
-    "fingerprint": "9eedf4a3bafc9af1914810b743ab3cd67430b862f8b7d3eece8854f86d6d9d92",
+    "text": "You can enjoy making something without needing to decide today how far it will go.",
+    "fingerprint": "ed1e9fccaf53d4791e12846f24254025b55ba87713c48945bee8ff3cb125d60d",
     "source": "ai",
-    "slot": 498851,
-    "at": "2026-11-28T11:00:34.488Z"
+    "slot": 498852,
+    "at": "2026-11-28T12:00:26.008Z"
   },
   "pending": [
-    {
-      "text": "You can enjoy making something without needing to decide today how far it will go.",
-      "fingerprint": "ed1e9fccaf53d4791e12846f24254025b55ba87713c48945bee8ff3cb125d60d",
-      "source": "ai"
-    },
     {
       "text": "There is room to be proud of learning something that other people happened to learn earlier.",
       "fingerprint": "c88c422384639e7a430f3a5ecb95b8c9f0ed403e0ea547df775fc1713b30e9dc",
@@ -1319,20 +1314,6 @@
   ],
   "recent": [
     {
-      "text": "Work that feels simple to you may reflect years of learning that you no longer notice.",
-      "fingerprint": "6a3eb599499d473103a68441a34745e99d351d01fa825d413953e1ff7d91580e",
-      "source": "ai",
-      "slot": 498683,
-      "at": "2026-11-21T11:02:10.990Z"
-    },
-    {
-      "text": "When someone offers a different approach, you can examine it without putting your own ability on trial.",
-      "fingerprint": "7e367e804b3354dce2014117f4921fc86f81f74f619eee7775cade5bc87bf2b8",
-      "source": "ai",
-      "slot": 498684,
-      "at": "2026-11-21T12:00:00.000Z"
-    },
-    {
       "text": "A day spent putting scattered notes into order can prepare the ground for work you have not started yet.",
       "fingerprint": "9910d0d9c4dbf448e61c3ef10e710cc84c04992b58cc06aa459554c700103874",
       "source": "ai",
@@ -2066,6 +2047,13 @@
       "source": "ai",
       "slot": 498851,
       "at": "2026-11-28T11:00:34.488Z"
+    },
+    {
+      "text": "You can enjoy making something without needing to decide today how far it will go.",
+      "fingerprint": "ed1e9fccaf53d4791e12846f24254025b55ba87713c48945bee8ff3cb125d60d",
+      "source": "ai",
+      "slot": 498852,
+      "at": "2026-11-28T12:00:26.008Z"
     }
   ],
   "used": [
@@ -3160,6 +3148,10 @@
     {
       "fingerprint": "9eedf4a3bafc9af1914810b743ab3cd67430b862f8b7d3eece8854f86d6d9d92",
       "at": "2026-11-28T11:00:34.488Z"
+    },
+    {
+      "fingerprint": "ed1e9fccaf53d4791e12846f24254025b55ba87713c48945bee8ff3cb125d60d",
+      "at": "2026-11-28T12:00:26.008Z"
     }
   ]
 }
