@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-28T08:00:11.328Z",
+  "updatedAt": "2026-11-28T09:00:28.832Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "The task may feel different after you remove the requirement to impress anyone with your first attempt.",
-    "fingerprint": "f6c10ba60aed1445f247c2d0afc728130a77cc27f0785fa31062d38b9c4d532d",
+    "text": "Writing a question down can give you space to think without having to hold every part of it at once.",
+    "fingerprint": "1f346b57a6142fdfde0bd351d3b1677638be3554f3755fca51fb3a95b30816b8",
     "source": "ai",
-    "slot": 498848,
-    "at": "2026-11-28T08:00:11.328Z"
+    "slot": 498849,
+    "at": "2026-11-28T09:00:28.832Z"
   },
   "pending": [
-    {
-      "text": "Writing a question down can give you space to think without having to hold every part of it at once.",
-      "fingerprint": "1f346b57a6142fdfde0bd351d3b1677638be3554f3755fca51fb3a95b30816b8",
-      "source": "ai"
-    },
     {
       "text": "A careful choice about what to leave out can give the rest of your work more room to breathe.",
       "fingerprint": "22505bdb9131d7a5b2062d008abbe87d5ef148c24a3c89959bec1078c78ad238",
@@ -2060,6 +2055,13 @@
       "source": "ai",
       "slot": 498848,
       "at": "2026-11-28T08:00:11.328Z"
+    },
+    {
+      "text": "Writing a question down can give you space to think without having to hold every part of it at once.",
+      "fingerprint": "1f346b57a6142fdfde0bd351d3b1677638be3554f3755fca51fb3a95b30816b8",
+      "source": "ai",
+      "slot": 498849,
+      "at": "2026-11-28T09:00:28.832Z"
     }
   ],
   "used": [
@@ -3142,6 +3144,10 @@
     {
       "fingerprint": "f6c10ba60aed1445f247c2d0afc728130a77cc27f0785fa31062d38b9c4d532d",
       "at": "2026-11-28T08:00:11.328Z"
+    },
+    {
+      "fingerprint": "1f346b57a6142fdfde0bd351d3b1677638be3554f3755fca51fb3a95b30816b8",
+      "at": "2026-11-28T09:00:28.832Z"
     }
   ]
 }
