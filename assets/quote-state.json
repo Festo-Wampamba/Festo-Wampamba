@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-28T02:00:27.318Z",
+  "updatedAt": "2026-11-28T03:00:23.657Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "The way you welcome a basic question can shape how safe another person feels about learning beside you.",
-    "fingerprint": "4fb27099bac46cda9bab65277d36eca474cc5d7acaf72b83f3b928b7e1785a19",
+    "text": "A new direction does not have to disown the years that helped you recognize it.",
+    "fingerprint": "dfe5f2a1cc0d3a4794dc2ae92e2e8f2367a01ca483bdc35881aa4dc4e3990fd2",
     "source": "ai",
-    "slot": 498842,
-    "at": "2026-11-28T02:00:27.318Z"
+    "slot": 498843,
+    "at": "2026-11-28T03:00:23.657Z"
   },
   "pending": [
-    {
-      "text": "A new direction does not have to disown the years that helped you recognize it.",
-      "fingerprint": "dfe5f2a1cc0d3a4794dc2ae92e2e8f2367a01ca483bdc35881aa4dc4e3990fd2",
-      "source": "ai"
-    },
     {
       "text": "Being thorough can include checking whether the extra detail makes the result easier for someone to understand.",
       "fingerprint": "acc2da19a1fab2323593b294ae2dc981cf44b8e1eec5540f8044a76e7e1139b2",
@@ -1364,20 +1359,6 @@
   ],
   "recent": [
     {
-      "text": "Your reasons for choosing a path can grow more precise as you learn what traveling it actually requires.",
-      "fingerprint": "34e5a7cc01a812611ba073daf5e3ee1354a40c543d7449422e9bc7de7e5e3b60",
-      "source": "ai",
-      "slot": 498674,
-      "at": "2026-11-21T02:15:51.322Z"
-    },
-    {
-      "text": "The tools on your desk need not be perfect for you to make something careful with them.",
-      "fingerprint": "b7accf56f59b2cac969c56a7a672ec6c52c0ad00e43d0dfca611336977c073e9",
-      "source": "ai",
-      "slot": 498675,
-      "at": "2026-11-21T03:00:00.000Z"
-    },
-    {
       "text": "A project may ask you to become more patient with details, with other people, and with your own uneven attention.",
       "fingerprint": "7f5aa2109bb2e0e9ce5068a023b96f4a1798c6cca01aa005388a43fb18738e5d",
       "source": "ai",
@@ -2069,6 +2050,13 @@
       "source": "ai",
       "slot": 498842,
       "at": "2026-11-28T02:00:27.318Z"
+    },
+    {
+      "text": "A new direction does not have to disown the years that helped you recognize it.",
+      "fingerprint": "dfe5f2a1cc0d3a4794dc2ae92e2e8f2367a01ca483bdc35881aa4dc4e3990fd2",
+      "source": "ai",
+      "slot": 498843,
+      "at": "2026-11-28T03:00:23.657Z"
     }
   ],
   "used": [
@@ -3127,6 +3115,10 @@
     {
       "fingerprint": "4fb27099bac46cda9bab65277d36eca474cc5d7acaf72b83f3b928b7e1785a19",
       "at": "2026-11-28T02:00:27.318Z"
+    },
+    {
+      "fingerprint": "dfe5f2a1cc0d3a4794dc2ae92e2e8f2367a01ca483bdc35881aa4dc4e3990fd2",
+      "at": "2026-11-28T03:00:23.657Z"
     }
   ]
 }
