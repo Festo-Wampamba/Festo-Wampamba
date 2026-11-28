@@ -5,11 +5,11 @@
 <!-- QUOTE:START -->
 <div align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=498844&amp;layout=compact" />
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=light&amp;style=quiet&amp;v=498844&amp;layout=compact" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=498844" />
-    <source media="(prefers-color-scheme: light)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=light&amp;style=quiet&amp;v=498844" />
-    <img src="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=498844" alt="Being thorough can include checking whether the extra detail makes the result easier for someone to understand." width="100%" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=498845&amp;layout=compact" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=light&amp;style=quiet&amp;v=498845&amp;layout=compact" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=498845" />
+    <source media="(prefers-color-scheme: light)" srcset="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=light&amp;style=quiet&amp;v=498845" />
+    <img src="https://festo-contribution-journal.vercel.app/api/quote?format=svg&amp;theme=dark&amp;style=quiet&amp;v=498845" alt="You can begin a new subject by learning its questions before trying to master its answers." width="100%" />
   </picture>
   <p><a href="https://festo-contribution-journal.vercel.app/quotes/">Explore more inspiration ↗</a></p>
 </div>
