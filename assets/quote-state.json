@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-28T06:00:34.485Z",
+  "updatedAt": "2026-11-28T07:00:19.905Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "You do not have to save every good idea for the most ambitious version of the project.",
-    "fingerprint": "546763eae8039844561ed221cf8db09d5e9ec6849277e921b0c090e9b3318856",
+    "text": "A limit stated early gives a shared plan more honest material to work with.",
+    "fingerprint": "a668484d6fb7f4551a4e13851c82eb262eb31d04adcd48ae25af4f2d40a83281",
     "source": "ai",
-    "slot": 498846,
-    "at": "2026-11-28T06:00:34.485Z"
+    "slot": 498847,
+    "at": "2026-11-28T07:00:19.905Z"
   },
   "pending": [
-    {
-      "text": "A limit stated early gives a shared plan more honest material to work with.",
-      "fingerprint": "a668484d6fb7f4551a4e13851c82eb262eb31d04adcd48ae25af4f2d40a83281",
-      "source": "ai"
-    },
     {
       "text": "The task may feel different after you remove the requirement to impress anyone with your first attempt.",
       "fingerprint": "f6c10ba60aed1445f247c2d0afc728130a77cc27f0785fa31062d38b9c4d532d",
@@ -2056,6 +2051,13 @@
       "source": "ai",
       "slot": 498846,
       "at": "2026-11-28T06:00:34.485Z"
+    },
+    {
+      "text": "A limit stated early gives a shared plan more honest material to work with.",
+      "fingerprint": "a668484d6fb7f4551a4e13851c82eb262eb31d04adcd48ae25af4f2d40a83281",
+      "source": "ai",
+      "slot": 498847,
+      "at": "2026-11-28T07:00:19.905Z"
     }
   ],
   "used": [
@@ -3130,6 +3132,10 @@
     {
       "fingerprint": "546763eae8039844561ed221cf8db09d5e9ec6849277e921b0c090e9b3318856",
       "at": "2026-11-28T06:00:34.485Z"
+    },
+    {
+      "fingerprint": "a668484d6fb7f4551a4e13851c82eb262eb31d04adcd48ae25af4f2d40a83281",
+      "at": "2026-11-28T07:00:19.905Z"
     }
   ]
 }
