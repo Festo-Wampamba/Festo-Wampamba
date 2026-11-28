@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-28T05:00:22.944Z",
+  "updatedAt": "2026-11-28T06:00:34.485Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "You can begin a new subject by learning its questions before trying to master its answers.",
-    "fingerprint": "7ee42889f13760b8d93f95e6d04cfeb1b9e89921028ec5fda41923b909aa2e53",
+    "text": "You do not have to save every good idea for the most ambitious version of the project.",
+    "fingerprint": "546763eae8039844561ed221cf8db09d5e9ec6849277e921b0c090e9b3318856",
     "source": "ai",
-    "slot": 498845,
-    "at": "2026-11-28T05:00:22.944Z"
+    "slot": 498846,
+    "at": "2026-11-28T06:00:34.485Z"
   },
   "pending": [
-    {
-      "text": "You do not have to save every good idea for the most ambitious version of the project.",
-      "fingerprint": "546763eae8039844561ed221cf8db09d5e9ec6849277e921b0c090e9b3318856",
-      "source": "ai"
-    },
     {
       "text": "A limit stated early gives a shared plan more honest material to work with.",
       "fingerprint": "a668484d6fb7f4551a4e13851c82eb262eb31d04adcd48ae25af4f2d40a83281",
@@ -1349,13 +1344,6 @@
   ],
   "recent": [
     {
-      "text": "A project may ask you to become more patient with details, with other people, and with your own uneven attention.",
-      "fingerprint": "7f5aa2109bb2e0e9ce5068a023b96f4a1798c6cca01aa005388a43fb18738e5d",
-      "source": "ai",
-      "slot": 498678,
-      "at": "2026-11-21T06:00:00.000Z"
-    },
-    {
       "text": "Work that feels simple to you may reflect years of learning that you no longer notice.",
       "fingerprint": "6a3eb599499d473103a68441a34745e99d351d01fa825d413953e1ff7d91580e",
       "source": "ai",
@@ -2061,6 +2049,13 @@
       "source": "ai",
       "slot": 498845,
       "at": "2026-11-28T05:00:22.944Z"
+    },
+    {
+      "text": "You do not have to save every good idea for the most ambitious version of the project.",
+      "fingerprint": "546763eae8039844561ed221cf8db09d5e9ec6849277e921b0c090e9b3318856",
+      "source": "ai",
+      "slot": 498846,
+      "at": "2026-11-28T06:00:34.485Z"
     }
   ],
   "used": [
@@ -3131,6 +3126,10 @@
     {
       "fingerprint": "7ee42889f13760b8d93f95e6d04cfeb1b9e89921028ec5fda41923b909aa2e53",
       "at": "2026-11-28T05:00:22.944Z"
+    },
+    {
+      "fingerprint": "546763eae8039844561ed221cf8db09d5e9ec6849277e921b0c090e9b3318856",
+      "at": "2026-11-28T06:00:34.485Z"
     }
   ]
 }
