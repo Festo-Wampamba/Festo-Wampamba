@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-28T10:00:24.602Z",
+  "updatedAt": "2026-11-28T11:00:34.488Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "A careful choice about what to leave out can give the rest of your work more room to breathe.",
-    "fingerprint": "22505bdb9131d7a5b2062d008abbe87d5ef148c24a3c89959bec1078c78ad238",
+    "text": "When you review a busy season, include the moments of kindness you would want to bring into the next one.",
+    "fingerprint": "9eedf4a3bafc9af1914810b743ab3cd67430b862f8b7d3eece8854f86d6d9d92",
     "source": "ai",
-    "slot": 498850,
-    "at": "2026-11-28T10:00:24.602Z"
+    "slot": 498851,
+    "at": "2026-11-28T11:00:34.488Z"
   },
   "pending": [
-    {
-      "text": "When you review a busy season, include the moments of kindness you would want to bring into the next one.",
-      "fingerprint": "9eedf4a3bafc9af1914810b743ab3cd67430b862f8b7d3eece8854f86d6d9d92",
-      "source": "ai"
-    },
     {
       "text": "You can enjoy making something without needing to decide today how far it will go.",
       "fingerprint": "ed1e9fccaf53d4791e12846f24254025b55ba87713c48945bee8ff3cb125d60d",
@@ -2064,6 +2059,13 @@
       "source": "ai",
       "slot": 498850,
       "at": "2026-11-28T10:00:24.602Z"
+    },
+    {
+      "text": "When you review a busy season, include the moments of kindness you would want to bring into the next one.",
+      "fingerprint": "9eedf4a3bafc9af1914810b743ab3cd67430b862f8b7d3eece8854f86d6d9d92",
+      "source": "ai",
+      "slot": 498851,
+      "at": "2026-11-28T11:00:34.488Z"
     }
   ],
   "used": [
@@ -3154,6 +3156,10 @@
     {
       "fingerprint": "22505bdb9131d7a5b2062d008abbe87d5ef148c24a3c89959bec1078c78ad238",
       "at": "2026-11-28T10:00:24.602Z"
+    },
+    {
+      "fingerprint": "9eedf4a3bafc9af1914810b743ab3cd67430b862f8b7d3eece8854f86d6d9d92",
+      "at": "2026-11-28T11:00:34.488Z"
     }
   ]
 }
