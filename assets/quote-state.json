@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-28T12:00:26.008Z",
+  "updatedAt": "2026-11-28T13:00:28.499Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "You can enjoy making something without needing to decide today how far it will go.",
-    "fingerprint": "ed1e9fccaf53d4791e12846f24254025b55ba87713c48945bee8ff3cb125d60d",
+    "text": "There is room to be proud of learning something that other people happened to learn earlier.",
+    "fingerprint": "c88c422384639e7a430f3a5ecb95b8c9f0ed403e0ea547df775fc1713b30e9dc",
     "source": "ai",
-    "slot": 498852,
-    "at": "2026-11-28T12:00:26.008Z"
+    "slot": 498853,
+    "at": "2026-11-28T13:00:28.499Z"
   },
   "pending": [
-    {
-      "text": "There is room to be proud of learning something that other people happened to learn earlier.",
-      "fingerprint": "c88c422384639e7a430f3a5ecb95b8c9f0ed403e0ea547df775fc1713b30e9dc",
-      "source": "ai"
-    },
     {
       "text": "You can build trust in a shared task by making your next action visible and your uncertainty speakable.",
       "fingerprint": "9bc3b82b499af62473611905dbeb2fb823059ba1280d105c1d712eb061648468",
@@ -2054,6 +2049,13 @@
       "source": "ai",
       "slot": 498852,
       "at": "2026-11-28T12:00:26.008Z"
+    },
+    {
+      "text": "There is room to be proud of learning something that other people happened to learn earlier.",
+      "fingerprint": "c88c422384639e7a430f3a5ecb95b8c9f0ed403e0ea547df775fc1713b30e9dc",
+      "source": "ai",
+      "slot": 498853,
+      "at": "2026-11-28T13:00:28.499Z"
     }
   ],
   "used": [
@@ -3152,6 +3154,10 @@
     {
       "fingerprint": "ed1e9fccaf53d4791e12846f24254025b55ba87713c48945bee8ff3cb125d60d",
       "at": "2026-11-28T12:00:26.008Z"
+    },
+    {
+      "fingerprint": "c88c422384639e7a430f3a5ecb95b8c9f0ed403e0ea547df775fc1713b30e9dc",
+      "at": "2026-11-28T13:00:28.499Z"
     }
   ]
 }
