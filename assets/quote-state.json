@@ -1,21 +1,16 @@
 {
   "version": 1,
   "intervalMs": 3600000,
-  "updatedAt": "2026-11-28T03:00:23.657Z",
+  "updatedAt": "2026-11-28T04:00:25.733Z",
   "lastRefillAt": "2026-11-25T11:03:56.240Z",
   "current": {
-    "text": "A new direction does not have to disown the years that helped you recognize it.",
-    "fingerprint": "dfe5f2a1cc0d3a4794dc2ae92e2e8f2367a01ca483bdc35881aa4dc4e3990fd2",
+    "text": "Being thorough can include checking whether the extra detail makes the result easier for someone to understand.",
+    "fingerprint": "acc2da19a1fab2323593b294ae2dc981cf44b8e1eec5540f8044a76e7e1139b2",
     "source": "ai",
-    "slot": 498843,
-    "at": "2026-11-28T03:00:23.657Z"
+    "slot": 498844,
+    "at": "2026-11-28T04:00:25.733Z"
   },
   "pending": [
-    {
-      "text": "Being thorough can include checking whether the extra detail makes the result easier for someone to understand.",
-      "fingerprint": "acc2da19a1fab2323593b294ae2dc981cf44b8e1eec5540f8044a76e7e1139b2",
-      "source": "ai"
-    },
     {
       "text": "You can begin a new subject by learning its questions before trying to master its answers.",
       "fingerprint": "7ee42889f13760b8d93f95e6d04cfeb1b9e89921028ec5fda41923b909aa2e53",
@@ -2057,6 +2052,13 @@
       "source": "ai",
       "slot": 498843,
       "at": "2026-11-28T03:00:23.657Z"
+    },
+    {
+      "text": "Being thorough can include checking whether the extra detail makes the result easier for someone to understand.",
+      "fingerprint": "acc2da19a1fab2323593b294ae2dc981cf44b8e1eec5540f8044a76e7e1139b2",
+      "source": "ai",
+      "slot": 498844,
+      "at": "2026-11-28T04:00:25.733Z"
     }
   ],
   "used": [
@@ -3119,6 +3121,10 @@
     {
       "fingerprint": "dfe5f2a1cc0d3a4794dc2ae92e2e8f2367a01ca483bdc35881aa4dc4e3990fd2",
       "at": "2026-11-28T03:00:23.657Z"
+    },
+    {
+      "fingerprint": "acc2da19a1fab2323593b294ae2dc981cf44b8e1eec5540f8044a76e7e1139b2",
+      "at": "2026-11-28T04:00:25.733Z"
     }
   ]
 }
