@@ -30,7 +30,7 @@ All eight repository workflows run in GitHub Actions even when your PC is turned
 
 | Workflow file | Nominal schedule (Africa/Kampala) | Concurrency group | Secrets / vars used | Failure safety |
 | --- | --- | --- | --- | --- |
-| `.github/workflows/quotes.yml` | Primary: `cron-job.org` hourly at `:05` (`5 * * * *`) via `workflow_dispatch`; Backup: GitHub `schedule:` (`17 * * * *`) | `motivation-publication` | `github.token` (external trigger uses repo-scoped PAT `cron-hourly-quotes`) | Idempotent per slot; push retry backoff (`5s`/`10s`/`15s`); `/api/quote` projects forward on time even if triggers are delayed |
+| `.github/workflows/quotes.yml` | Primary: `cron-job.org` every 30 minutes (`*/30 * * * *`) via `workflow_dispatch` (`:00` publishes, `:30` auto-retries if needed); Backup: GitHub `schedule:` (`17 * * * *`) | `motivation-publication` | `github.token` (external trigger uses repo-scoped PAT `cron-hourly-quotes`) | Idempotent per slot; push retry backoff (`5s`/`10s`/`15s`); `/api/quote` projects forward on time even if triggers are delayed |
 | `.github/workflows/refill-quotes.yml` | Daily at `06:17` (`17 3 * * *`) | `motivation-publication` | `GEMINI_API_KEY`, optional var `GEMINI_MODEL` | Only calls Gemini when `< 120` future quotes remain; 3-model free-tier fallback; 4,704-entry reserve underneath |
 | `.github/workflows/quote-review.yml` | 31 May & 30 Nov at `09:00` | — | `github.token` (`issues: write`) | Opens a semi-annual review Issue checklist (idempotent; skips if already open) |
 | `.github/workflows/profile-badges.yml` | Daily at `01:47` (`47 22 * * *`) | `profile-badges-refresh` | `github.token`, `YOUTUBE_API_KEY` | Validates response before overwriting; retains last good badges on failure |
@@ -88,7 +88,7 @@ Configure under **GitHub Repo → Settings → Secrets and variables → Actions
 | `GEMINI_MODEL` | Variable *(optional)* | Override preferred first model in the fallback chain (default: `gemini-4-hydrogen`) |
 
 External trigger credential (stored only in `cron-job.org`, never in Git):
-- Fine-grained PAT `cron-hourly-quotes`: scoped **only** to `Festo-Wampamba/Festo-Wampamba` with **only** `Actions: Read and write` (plus required `Metadata: Read-only`), used to `POST /repos/Festo-Wampamba/Festo-Wampamba/actions/workflows/quotes.yml/dispatches` with body `{"ref":"main"}` every hour at `:05` (`5 * * * *`). Note: GitHub API header `X-GitHub-Api-Version: 2022-11-28` is deprecated with sunset on **10 March 2028** — update before then.
+- Fine-grained PAT `cron-hourly-quotes`: scoped **only** to `Festo-Wampamba/Festo-Wampamba` with **only** `Actions: Read and write` (plus required `Metadata: Read-only`), used to `POST /repos/Festo-Wampamba/Festo-Wampamba/actions/workflows/quotes.yml/dispatches` with body `{"ref":"main"}` every 30 minutes (`*/30 * * * *`). Note: GitHub API header `X-GitHub-Api-Version: 2022-11-28` is deprecated with sunset on **10 March 2028** — update before then.
 
 *(Never commit keys, paste keys into chat/issues, or pass `GEMINI_API_KEY` in a URL query string.)*
 
@@ -114,7 +114,7 @@ External trigger credential (stored only in `cron-job.org`, never in Git):
 4. **If the key itself expired/revoked (HTTP 401/403)**: Generate a new key at `https://aistudio.google.com/apikey`, update the `GEMINI_API_KEY` secret in GitHub, and re-run `verify_api=true`. Meanwhile, the existing queue + 4,704-entry reserve keep production running with zero downtime.
 
 ### B. Hourly quote commit delayed or skipped
-- Primary hourly commits are triggered at `:05` past each hour by `cron-job.org` (`Festo Hourly GitHub Quote`, `5 * * * *`), bypassing GitHub Actions' throttled `schedule:` queue. GitHub's native `schedule:` stays enabled as an automatic backup.
+- Primary hourly commits are triggered every 30 minutes by `cron-job.org` (`Festo Hourly GitHub Quote`, `*/30 * * * *`, publishing at `:00` with an automatic in-hour retry at `:30`), bypassing GitHub Actions' throttled `schedule:` queue. GitHub's native `schedule:` stays enabled as an automatic backup.
 - If `cron-job.org` emails a failure alert (e.g., HTTP 401/403 from a revoked PAT, or HTTP 404 from a renamed workflow), check the job history on `cron-job.org` and rotate the `cron-hourly-quotes` fine-grained PAT if needed.
 - `/api/quote` and `/quotes/` automatically project the current hourly slot forward on time; `rotate()` catches up missed slots cleanly on the next run.
 - To publish immediately:
@@ -134,7 +134,7 @@ External trigger credential (stored only in `cron-job.org`, never in Git):
    ```
 3. Confirm Vercel's GitHub App still has access to `Festo-Wampamba/Festo-Wampamba` in Vercel Project Settings → Git. Remember that commits touching *only* `README.md` and `assets/quote-state.json` intentionally report `Canceled by Ignored Build Step`.
 
-### D. Stats, Contribution Graph, Pac-Man, Badges, or YouTube Videos failed
+### D. Stats, Contribution Calendar, Pac-Man, Badges, or YouTube Videos failed
 - All five refresh workflows validate upstream responses **before** overwriting committed snapshots, so a failed run never wipes live visuals.
 - Inspect the failed step:
   ```sh

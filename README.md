@@ -151,7 +151,7 @@
 
 ---
 
-## 📈 Contribution Graph
+## 📅 Contribution Calendar
 
 <div align="center">
   <picture>
